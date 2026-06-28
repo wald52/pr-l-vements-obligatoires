@@ -1,0 +1,70 @@
+nom;sigle;categorie;secteur;base_legale;montant_mdeur;statut;critere_echec;notes
+Taxe sur la valeur ajoutée;TVA;impôt d'État;APUC;CGI art. 256 s.;200;PRIS;;Premier impôt par le rendement — fractions affectées ASSO/APUL.
+Impôt sur le revenu;IR;impôt d'État;APUC;CGI art. 1 A s.;90;PRIS;;Prélevé à la source — inclut le PFU (flat tax).
+Contribution exceptionnelle sur les hauts revenus;CEHR;impôt d'État;APUC;CGI art. 223 sexies;;PRIS;;
+Impôt sur les sociétés;IS;impôt d'État;APUC;CGI art. 205 s.;60;PRIS;;Inclut contributions sociale et exceptionnelles sur l'IS.
+Accise sur les énergies (ex-TICPE);TICPE;impôt d'État;APUC;CIBS;30;PRIS;;
+Accises sur les alcools, tabacs et boissons;;impôt d'État;APUC;CIBS;18;PRIS;;
+Taxe générale sur les activités polluantes;TGAP;impôt d'État;APUC;CIBS;;PRIS;;
+Impôt sur la fortune immobilière;IFI;impôt d'État;APUC;CGI art. 964 s.;2;PRIS;;
+Droits d'enregistrement et de mutation à titre gratuit;;impôt d'État;APUC;CGI;18;PRIS;;Successions et donations.
+Droits de timbre;;impôt d'État;APUC;CGI;;PRIS;;Passeports, cartes, etc.
+Taxe sur les transactions financières;TTF;impôt d'État;APUC;CGI art. 235 ter ZD;2.5;PRIS;;
+Taxe spéciale sur les conventions d'assurance;TSCA;impôt d'État;APUC;CGI art. 991 s.;8;PRIS;;
+Taxe sur les services numériques;;impôt d'État;APUC;CGI art. 299 s.;0.7;PRIS;;Dite « taxe GAFA ».
+Taxe sur l'affectation des véhicules à des fins économiques;ex-TVS;impôt d'État;APUC;CIBS;;PRIS;;
+Malus automobile (CO2 et masse);;impôt d'État;APUC;CIBS;;PRIS;;
+Taxe sur les bureaux et locaux en Île-de-France;;impôt d'État;APUC;CGI;;PRIS;;
+Taxe sur les surfaces de stationnement;;impôt d'État;APUC;CGI;;PRIS;;
+Taxe foncière sur les propriétés bâties;TFPB;impôt local;APUL;CGI art. 1380 s.;35;PRIS;;
+Taxe foncière sur les propriétés non bâties;TFPNB;impôt local;APUL;CGI art. 1393 s.;1;PRIS;;
+Taxe d'habitation sur les résidences secondaires;THRS;impôt local;APUL;CGI art. 1407 s.;2.5;PRIS;;TH résidence principale supprimée.
+Taxe sur les logements vacants;TLV;impôt local;APUL;CGI art. 232;;PRIS;;
+Cotisation foncière des entreprises;CFE;impôt local;APUL;CGI art. 1447 s.;8;PRIS;;
+Cotisation sur la valeur ajoutée des entreprises;CVAE;impôt local;APUL;CGI art. 1586 ter;5;PRIS;;En extinction progressive.
+Impositions forfaitaires sur les entreprises de réseaux;IFER;impôt local;APUL;CGI art. 1635-0 quinquies;;PRIS;;
+Taxe sur les surfaces commerciales;TASCOM;impôt local;APUL;CGI;;PRIS;;
+Droits de mutation à titre onéreux;DMTO;impôt local;APUL;CGI art. 1594 A s.;15;PRIS;;Part fiscale des « frais de notaire ».
+Taxe d'enlèvement des ordures ménagères;TEOM;impôt local;APUL;CGI art. 1520 s.;8;PRIS;;Adossée au foncier, sans lien avec le service rendu (≠ REOM).
+Versement mobilité;;impôt local;APUL;Code des transports L2333-64;9;PRIS;;Dû par les employeurs (ex-versement transport).
+Taxe de séjour;;impôt local;APUL;CGCT L2333-26 s.;;PRIS;;
+Taxe d'aménagement;;impôt local;APUL;CGI art. 1635 quater A;;PRIS;;
+Taxe locale sur la publicité extérieure;TLPE;impôt local;APUL;CGCT L2333-6 s.;;PRIS;;
+Taxe GEMAPI;;impôt local;APUL;CGI art. 1530 bis;;PRIS;;Gestion des milieux aquatiques et prévention des inondations.
+Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA);;cotisation sociale;ASSO;Code de la sécurité sociale;420;PRIS;;Recouvrées par les URSSAF (part salariale et patronale).
+Cotisations d'assurance chômage (part employeur);;cotisation sociale;ASSO;Code du travail;40;PRIS;;Régime Unédic.
+Cotisations de retraite complémentaire obligatoire;AGIRC-ARRCO;cotisation sociale;ASSO;ANI / Code de la sécurité sociale;90;PRIS;;Inclut IRCANTEC, RAFP.
+Cotisations des travailleurs indépendants;;cotisation sociale;ASSO;Code de la sécurité sociale;15;PRIS;;Recouvrées par les URSSAF (ex-RSI).
+Cotisations agricoles;;cotisation sociale;ASSO;Code rural;5;PRIS;;Recouvrées par la MSA.
+Cotisations des régimes spéciaux;;cotisation sociale;ASSO;Code de la sécurité sociale;;PRIS;;CNRACL, SNCF, RATP, marins, etc.
+Contribution sociale généralisée;CSG;fiscalité sociale;ASSO;CSS art. L136-1 s.;140;PRIS;;
+Contribution au remboursement de la dette sociale;CRDS;fiscalité sociale;ASSO;Ordonnance 96-50;8;PRIS;;
+Prélèvement de solidarité sur les revenus du capital;;fiscalité sociale;ASSO;CSS;5;PRIS;;Taux 7,5 %.
+Taxe sur les salaires;;fiscalité sociale;ASSO;CGI art. 231;16;PRIS;;Employeurs non assujettis à la TVA.
+Contribution sociale de solidarité des sociétés;C3S;fiscalité sociale;ASSO;CSS art. L651-1;4;PRIS;;
+Forfait social;;fiscalité sociale;ASSO;CSS art. L137-15;;PRIS;;
+Taxe de solidarité additionnelle (complémentaire santé);TSA;fiscalité sociale;ASSO;CSS art. L862-4;5;PRIS;;
+Contributions de l'industrie pharmaceutique (clause de sauvegarde M);;fiscalité sociale;ASSO;CSS;;PRIS;;
+Contribution unique à la formation professionnelle et à l'alternance;CUFPA;taxe affectée;ODAC;Code du travail L6131-1;9.5;PRIS;;Ex-taxe d'apprentissage + contribution formation.
+Redevances des agences de l'eau;;taxe affectée;ODAC;Code de l'environnement L213-10;2.2;PRIS;;Impositions de toutes natures (Conseil constitutionnel).
+Taxe de solidarité sur les billets d'avion;;taxe affectée;ODAC;CGI art. 302 bis K;;PRIS;;Dite « taxe Chirac » — inclut la taxe de l'aviation civile.
+Taxes affectées au CNC;;taxe affectée;ODAC;Code du cinéma;;PRIS;;Entrées en salles, éditeurs/distributeurs TV, vidéo.
+Taxes pour frais de chambres consulaires;;taxe affectée;ODAC;CGI;;PRIS;;CCI, chambres de métiers et d'agriculture.
+Contribution de vie étudiante et de campus;CVEC;taxe affectée;ODAC;Code de l'éducation L841-5;0.17;PRIS;;
+Droits de douane;;ressource UE;UE;Code des douanes de l'Union;2;PRIS;;Ressources propres traditionnelles, perçus pour l'UE.
+Ressource propre fondée sur la TVA;;ressource UE;UE;Décision ressources propres UE;3;PRIS;;
+Contribution sur les emballages plastiques non recyclés;;ressource UE;UE;Décision ressources propres UE;1.2;PRIS;;
+Amendes, pénalités et majorations;;indéterminée;;;;REJET;sanction;Sanctions, pas un prélèvement (README §5).
+Forfait de post-stationnement;FPS;indéterminée;;;;REJET;C3;Contrepartie : occupation du domaine public (depuis 2018).
+Péages autoroutiers et d'ouvrages d'art;;indéterminée;;;;REJET;C3;Paiement d'un service rendu.
+Redevance d'enlèvement des ordures ménagères;REOM;indéterminée;;;;REJET;C3;Tarifée selon le service rendu (≠ TEOM).
+Factures d'eau et d'assainissement (part exploitant);;indéterminée;;;;REJET;C3;Contrepartie directe.
+Redevances domaniales;;indéterminée;;;;REJET;C3;Contrepartie : droit d'occupation du domaine public.
+Cotisations sociales imputées (fonctionnaires d'État);;cotisation sociale imputée;;;;REJET;C1;Pas de versement effectif (employeur fictif).
+Cotisations facultatives (PER, assurance-vie, prévoyance facultative);;indéterminée;;;;REJET;C3;Versement non obligatoire.
+Cotisations aux ordres professionnels et syndicats;;indéterminée;;;;REJET;C2;Bénéficiaire hors périmètre APU.
+Part salariale de l'assurance chômage;;indéterminée;;;;REJET;supprime;Supprimée en 2018, remplacée par de la CSG.
+Revenus du domaine, dividendes, loyers;;indéterminée;;;;REJET;C3;Recettes patrimoniales avec contrepartie.
+Emprunts et produits de la dette;;indéterminée;;;;REJET;C3;Ressource remboursable, librement souscrite.
+Dons et legs aux administrations;;indéterminée;;;;REJET;C3;Volontaires.
+Contribution à l'audiovisuel public (ex-redevance TV);;indéterminée;;;;REJET;supprime;Supprimée en 2022, remplacée par une fraction de TVA.

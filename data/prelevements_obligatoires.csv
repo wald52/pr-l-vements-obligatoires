@@ -1,0 +1,70 @@
+id,nom,sigle,categorie,esa_code,beneficiaire,secteur,base_legale,montant_eur,annee,statut,critere_echec,notes,source_ids
+seed-cotisations-du-regime-general-maladie-vieillesse-famille-at-mp-csa,"Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA)",,cotisation sociale,,,ASSO,Code de la sécurité sociale,420000000000.0,2024,PRIS,,Recouvrées par les URSSAF (part salariale et patronale).,readme_seed
+seed-taxe-sur-la-valeur-ajoutee,Taxe sur la valeur ajoutée,TVA,impôt d'État,,,APUC,CGI art. 256 s.,200000000000.0,2024,PRIS,,Premier impôt par le rendement — fractions affectées ASSO/APUL.,readme_seed
+seed-contribution-sociale-generalisee,Contribution sociale généralisée,CSG,fiscalité sociale,,,ASSO,CSS art. L136-1 s.,140000000000.0,2024,PRIS,,,readme_seed
+seed-cotisations-de-retraite-complementaire-obligatoire,Cotisations de retraite complémentaire obligatoire,AGIRC-ARRCO,cotisation sociale,,,ASSO,ANI / Code de la sécurité sociale,90000000000.0,2024,PRIS,,"Inclut IRCANTEC, RAFP.",readme_seed
+seed-impot-sur-le-revenu,Impôt sur le revenu,IR,impôt d'État,,,APUC,CGI art. 1 A s.,90000000000.0,2024,PRIS,,Prélevé à la source — inclut le PFU (flat tax).,readme_seed
+seed-impot-sur-les-societes,Impôt sur les sociétés,IS,impôt d'État,,,APUC,CGI art. 205 s.,60000000000.0,2024,PRIS,,Inclut contributions sociale et exceptionnelles sur l'IS.,readme_seed
+seed-cotisations-d-assurance-chomage-part-employeur,Cotisations d'assurance chômage (part employeur),,cotisation sociale,,,ASSO,Code du travail,40000000000.0,2024,PRIS,,Régime Unédic.,readme_seed
+seed-taxe-fonciere-sur-les-proprietes-baties,Taxe foncière sur les propriétés bâties,TFPB,impôt local,,,APUL,CGI art. 1380 s.,35000000000.0,2024,PRIS,,,readme_seed
+seed-accise-sur-les-energies-ex-ticpe,Accise sur les énergies (ex-TICPE),TICPE,impôt d'État,,,APUC,CIBS,30000000000.0,2024,PRIS,,,readme_seed
+seed-accises-sur-les-alcools-tabacs-et-boissons,"Accises sur les alcools, tabacs et boissons",,impôt d'État,,,APUC,CIBS,18000000000.0,2024,PRIS,,,readme_seed
+seed-droits-d-enregistrement-et-de-mutation-a-titre-gratuit,Droits d'enregistrement et de mutation à titre gratuit,,impôt d'État,,,APUC,CGI,18000000000.0,2024,PRIS,,Successions et donations.,readme_seed
+seed-taxe-sur-les-salaires,Taxe sur les salaires,,fiscalité sociale,,,ASSO,CGI art. 231,16000000000.0,2024,PRIS,,Employeurs non assujettis à la TVA.,readme_seed
+seed-cotisations-des-travailleurs-independants,Cotisations des travailleurs indépendants,,cotisation sociale,,,ASSO,Code de la sécurité sociale,15000000000.0,2024,PRIS,,Recouvrées par les URSSAF (ex-RSI).,readme_seed
+seed-droits-de-mutation-a-titre-onereux,Droits de mutation à titre onéreux,DMTO,impôt local,,,APUL,CGI art. 1594 A s.,15000000000.0,2024,PRIS,,Part fiscale des « frais de notaire ».,readme_seed
+seed-contribution-unique-a-la-formation-professionnelle-et-a-l-alternance,Contribution unique à la formation professionnelle et à l'alternance,CUFPA,taxe affectée,,,ODAC,Code du travail L6131-1,9500000000.0,2024,PRIS,,Ex-taxe d'apprentissage + contribution formation.,readme_seed
+seed-versement-mobilite,Versement mobilité,,impôt local,,,APUL,Code des transports L2333-64,9000000000.0,2024,PRIS,,Dû par les employeurs (ex-versement transport).,readme_seed
+seed-contribution-au-remboursement-de-la-dette-sociale,Contribution au remboursement de la dette sociale,CRDS,fiscalité sociale,,,ASSO,Ordonnance 96-50,8000000000.0,2024,PRIS,,,readme_seed
+seed-cotisation-fonciere-des-entreprises,Cotisation foncière des entreprises,CFE,impôt local,,,APUL,CGI art. 1447 s.,8000000000.0,2024,PRIS,,,readme_seed
+seed-taxe-d-enlevement-des-ordures-menageres,Taxe d'enlèvement des ordures ménagères,TEOM,impôt local,,,APUL,CGI art. 1520 s.,8000000000.0,2024,PRIS,,"TEOM adossée au foncier, sans lien avec le service rendu => PO (cf. README §4.2).",readme_seed
+seed-taxe-speciale-sur-les-conventions-d-assurance,Taxe spéciale sur les conventions d'assurance,TSCA,impôt d'État,,,APUC,CGI art. 991 s.,8000000000.0,2024,PRIS,,,readme_seed
+seed-cotisation-sur-la-valeur-ajoutee-des-entreprises,Cotisation sur la valeur ajoutée des entreprises,CVAE,impôt local,,,APUL,CGI art. 1586 ter,5000000000.0,2024,PRIS,,En extinction progressive.,readme_seed
+seed-cotisations-agricoles,Cotisations agricoles,,cotisation sociale,,,ASSO,Code rural,5000000000.0,2024,PRIS,,Recouvrées par la MSA.,readme_seed
+seed-prelevement-de-solidarite-sur-les-revenus-du-capital,Prélèvement de solidarité sur les revenus du capital,,fiscalité sociale,,,ASSO,CSS,5000000000.0,2024,PRIS,,"Taux 7,5 %.",readme_seed
+seed-taxe-de-solidarite-additionnelle-complementaire-sante,Taxe de solidarité additionnelle (complémentaire santé),TSA,fiscalité sociale,,,ASSO,CSS art. L862-4,5000000000.0,2024,PRIS,,,readme_seed
+seed-contribution-sociale-de-solidarite-des-societes,Contribution sociale de solidarité des sociétés,C3S,fiscalité sociale,,,ASSO,CSS art. L651-1,4000000000.0,2024,PRIS,,,readme_seed
+seed-ressource-propre-fondee-sur-la-tva,Ressource propre fondée sur la TVA,,ressource UE,,,UE,Décision ressources propres UE,3000000000.0,2024,PRIS,,,readme_seed
+seed-taxe-d-habitation-sur-les-residences-secondaires,Taxe d'habitation sur les résidences secondaires,THRS,impôt local,,,APUL,CGI art. 1407 s.,2500000000.0,2024,PRIS,,TH résidence principale supprimée.,readme_seed
+seed-taxe-sur-les-transactions-financieres,Taxe sur les transactions financières,TTF,impôt d'État,,,APUC,CGI art. 235 ter ZD,2500000000.0,2024,PRIS,,,readme_seed
+seed-redevances-des-agences-de-l-eau,Redevances des agences de l'eau,,taxe affectée,,,ODAC,Code de l'environnement L213-10,2200000000.0,2024,PRIS,,Qualifiées d'impositions de toutes natures par le Conseil constitutionnel => PO (README §4.5).,readme_seed
+seed-droits-de-douane,Droits de douane,,ressource UE,,,UE,Code des douanes de l'Union,2000000000.0,2024,PRIS,,"Ressources propres traditionnelles, perçus pour l'UE.",readme_seed
+seed-impot-sur-la-fortune-immobiliere,Impôt sur la fortune immobilière,IFI,impôt d'État,,,APUC,CGI art. 964 s.,2000000000.0,2024,PRIS,,,readme_seed
+seed-contribution-sur-les-emballages-plastiques-non-recycles,Contribution sur les emballages plastiques non recyclés,,ressource UE,,,UE,Décision ressources propres UE,1200000000.0,2024,PRIS,,,readme_seed
+seed-taxe-fonciere-sur-les-proprietes-non-baties,Taxe foncière sur les propriétés non bâties,TFPNB,impôt local,,,APUL,CGI art. 1393 s.,1000000000.0,2024,PRIS,,,readme_seed
+seed-taxe-sur-les-services-numeriques,Taxe sur les services numériques,,impôt d'État,,,APUC,CGI art. 299 s.,700000000.0,2024,PRIS,,Dite « taxe GAFA ».,readme_seed
+seed-contribution-de-vie-etudiante-et-de-campus,Contribution de vie étudiante et de campus,CVEC,taxe affectée,,,ODAC,Code de l'éducation L841-5,170000000.0,2024,PRIS,,,readme_seed
+seed-contribution-exceptionnelle-sur-les-hauts-revenus,Contribution exceptionnelle sur les hauts revenus,CEHR,impôt d'État,,,APUC,CGI art. 223 sexies,,,PRIS,,,readme_seed
+seed-contributions-de-l-industrie-pharmaceutique-clause-de-sauvegarde-m,Contributions de l'industrie pharmaceutique (clause de sauvegarde M),,fiscalité sociale,,,ASSO,CSS,,,PRIS,,,readme_seed
+seed-cotisations-des-regimes-speciaux,Cotisations des régimes spéciaux,,cotisation sociale,,,ASSO,Code de la sécurité sociale,,,PRIS,,"CNRACL, SNCF, RATP, marins, etc.",readme_seed
+seed-droits-de-timbre,Droits de timbre,,impôt d'État,,,APUC,CGI,,,PRIS,,"Passeports, cartes, etc.",readme_seed
+seed-forfait-social,Forfait social,,fiscalité sociale,,,ASSO,CSS art. L137-15,,,PRIS,,,readme_seed
+seed-impositions-forfaitaires-sur-les-entreprises-de-reseaux,Impositions forfaitaires sur les entreprises de réseaux,IFER,impôt local,,,APUL,CGI art. 1635-0 quinquies,,,PRIS,,,readme_seed
+seed-malus-automobile-co2-et-masse,Malus automobile (CO2 et masse),,impôt d'État,,,APUC,CIBS,,,PRIS,,,readme_seed
+seed-taxe-gemapi,Taxe GEMAPI,,impôt local,,,APUL,CGI art. 1530 bis,,,PRIS,,Gestion des milieux aquatiques et prévention des inondations.,readme_seed
+seed-taxe-d-amenagement,Taxe d'aménagement,,impôt local,,,APUL,CGI art. 1635 quater A,,,PRIS,,,readme_seed
+seed-taxe-de-solidarite-sur-les-billets-d-avion,Taxe de solidarité sur les billets d'avion,,taxe affectée,,,ODAC,CGI art. 302 bis K,,,PRIS,,Dite « taxe Chirac » — inclut la taxe de l'aviation civile.,readme_seed
+seed-taxe-de-sejour,Taxe de séjour,,impôt local,,,APUL,CGCT L2333-26 s.,,,PRIS,,,readme_seed
+seed-taxe-generale-sur-les-activites-polluantes,Taxe générale sur les activités polluantes,TGAP,impôt d'État,,,APUC,CIBS,,,PRIS,,,readme_seed
+seed-taxe-locale-sur-la-publicite-exterieure,Taxe locale sur la publicité extérieure,TLPE,impôt local,,,APUL,CGCT L2333-6 s.,,,PRIS,,,readme_seed
+seed-taxe-sur-l-affectation-des-vehicules-a-des-fins-economiques,Taxe sur l'affectation des véhicules à des fins économiques,ex-TVS,impôt d'État,,,APUC,CIBS,,,PRIS,,,readme_seed
+seed-taxe-sur-les-bureaux-et-locaux-en-ile-de-france,Taxe sur les bureaux et locaux en Île-de-France,,impôt d'État,,,APUC,CGI,,,PRIS,,,readme_seed
+seed-taxe-sur-les-logements-vacants,Taxe sur les logements vacants,TLV,impôt local,,,APUL,CGI art. 232,,,PRIS,,,readme_seed
+seed-taxe-sur-les-surfaces-commerciales,Taxe sur les surfaces commerciales,TASCOM,impôt local,,,APUL,CGI,,,PRIS,,,readme_seed
+seed-taxe-sur-les-surfaces-de-stationnement,Taxe sur les surfaces de stationnement,,impôt d'État,,,APUC,CGI,,,PRIS,,,readme_seed
+seed-taxes-affectees-au-cnc,Taxes affectées au CNC,,taxe affectée,,,ODAC,Code du cinéma,,,PRIS,,"Entrées en salles, éditeurs/distributeurs TV, vidéo.",readme_seed
+seed-taxes-pour-frais-de-chambres-consulaires,Taxes pour frais de chambres consulaires,,taxe affectée,,,ODAC,CGI,,,PRIS,,"CCI, chambres de métiers et d'agriculture.",readme_seed
+seed-amendes-penalites-et-majorations,"Amendes, pénalités et majorations",,indéterminée,,,,,,,REJET,sanction,"Sanction, hors champ des prélèvements (README §5).",readme_seed
+seed-contribution-a-l-audiovisuel-public-ex-redevance-tv,Contribution à l'audiovisuel public (ex-redevance TV),,indéterminée,,,,,,,REJET,supprime,"Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5).",readme_seed
+seed-cotisations-aux-ordres-professionnels-et-syndicats,Cotisations aux ordres professionnels et syndicats,,indéterminée,,,,,,,REJET,C2,Bénéficiaire hors périmètre APU (organisme privé).,readme_seed
+seed-cotisations-facultatives-per-assurance-vie-prevoyance-facultative,"Cotisations facultatives (PER, assurance-vie, prévoyance facultative)",,indéterminée,,,,,,,REJET,C3,Versement non obligatoire (libre choix).,readme_seed
+seed-cotisations-sociales-imputees-fonctionnaires-d-etat,Cotisations sociales imputées (fonctionnaires d'État),,cotisation sociale imputée,,,,,,,REJET,C1,Pas de versement effectif (employeur fictif).,readme_seed
+seed-dons-et-legs-aux-administrations,Dons et legs aux administrations,,indéterminée,,,,,,,REJET,C3,Volontaires.,readme_seed
+seed-emprunts-et-produits-de-la-dette,Emprunts et produits de la dette,,indéterminée,,,,,,,REJET,C3,"Ressource remboursable, librement souscrite.",readme_seed
+seed-factures-d-eau-et-d-assainissement-part-exploitant,Factures d'eau et d'assainissement (part exploitant),,indéterminée,,,,,,,REJET,C3,Contrepartie directe.,readme_seed
+seed-forfait-de-post-stationnement,Forfait de post-stationnement,FPS,indéterminée,,,,,,,REJET,C3,Contrepartie directe (occupation du domaine public) depuis 2018.,readme_seed
+seed-part-salariale-de-l-assurance-chomage,Part salariale de l'assurance chômage,,indéterminée,,,,,,,REJET,supprime,"Supprimée en 2018, remplacée par de la CSG.",readme_seed
+seed-peages-autoroutiers-et-d-ouvrages-d-art,Péages autoroutiers et d'ouvrages d'art,,indéterminée,,,,,,,REJET,C3,Paiement d'un service rendu (usage de l'infrastructure).,readme_seed
+seed-redevance-d-enlevement-des-ordures-menageres,Redevance d'enlèvement des ordures ménagères,REOM,indéterminée,,,,,,,REJET,C3,Tarifée selon le service rendu => contrepartie directe (README §5).,readme_seed
+seed-redevances-domaniales,Redevances domaniales,,indéterminée,,,,,,,REJET,C3,Contrepartie : droit d'occupation du domaine public.,readme_seed
+seed-revenus-du-domaine-dividendes-loyers,"Revenus du domaine, dividendes, loyers",,indéterminée,,,,,,,REJET,C3,Recettes patrimoniales avec contrepartie.,readme_seed

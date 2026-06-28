@@ -1,0 +1,104 @@
+# =============================================================================
+# Registre des sources officielles du pipeline.
+#
+# Chaque entrée décrit une source, son rôle et son mode d'accès. Le module
+# fetch.py télécharge chaque source activée vers pipeline/data/raw/<id>.<ext>,
+# calcule un sha256 et écrit un manifeste. Les parsers lisent ensuite ces
+# fichiers bruts.
+#
+# NB exhaustivité : `eurostat_ntl` (liste détaillée impôt par impôt) et
+# `vm_tome1` (énumération des impositions de toutes natures) sont les deux
+# sources « épine dorsale ». Les autres affinent (taxes affectées, local) ou
+# servent d'enveloppe de contrôle (insee_*, eurostat_taxag).
+#
+# IMPORTANT : certaines URLs de fichiers (notamment l'Excel « National Tax
+# List » d'Eurostat et le PDF V&M qui change de numéro à chaque PLF) doivent
+# être confirmées au moment de l'exécution. Elles n'ont pas pu être testées
+# en direct dans l'environnement de build (egress bloqué vers ec.europa.eu et
+# data.economie.gouv.fr). Mettre `enabled: false` pour ignorer une source.
+# =============================================================================
+
+# Année de référence des montants (dernière année complète disponible).
+reference_year: 2024
+
+sources:
+
+  # --- ÉPINE DORSALE 1 : liste détaillée Eurostat (impôt par impôt) ----------
+  - id: eurostat_ntl
+    enabled: true
+    role: backbone
+    title: "Eurostat — National Tax List (liste détaillée des impôts et cotisations, FR)"
+    # La NTL détaillée est diffusée en annexe Excel de gov_10a_taxag.
+    # Page de référence : https://ec.europa.eu/eurostat/web/government-finance-statistics/data/main-tables
+    # Renseigner ci-dessous l'URL du fichier Excel « National tax list » (toutes
+    # années, tous pays) ou la version filtrée FR.
+    url: "https://ec.europa.eu/eurostat/databrowser/product/page/gov_10a_taxag"
+    type: xlsx
+    geo: FR
+    license: "Eurostat — réutilisation autorisée avec mention de la source"
+    notes: >
+      Confirmer l'URL du fichier .xlsx de la National Tax List. Le parser
+      parse_eurostat.py accepte un Excel dont les colonnes contiennent un code
+      ESA (D2/D5/D91/D61), un libellé de taxe, un secteur bénéficiaire et un
+      montant par année.
+
+  # --- ÉPINE DORSALE 2 : énumération française (Voies & Moyens Tome I) --------
+  - id: vm_tome1
+    enabled: true
+    role: backbone
+    title: "Évaluation des Voies et Moyens, Tome I — annexe au PLF 2026"
+    url: "https://www.budget.gouv.fr/documentation/file-download/30583"
+    type: pdf
+    license: "Licence Ouverte / Open Licence (Etalab)"
+    notes: >
+      Énumération la plus fine des impositions de toutes natures (plusieurs
+      centaines de lignes). Le numéro file-download change à chaque PLF :
+      PLF 2024 = .../21081 ; PLF 2026 = .../30583.
+
+  # --- AFFINAGE : taxes affectées (OpenDataSoft) -----------------------------
+  - id: taxes_affectees
+    enabled: true
+    role: enrich
+    title: "V&M Tome I — liste des taxes affectées (data.economie.gouv.fr)"
+    url: "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf2023_voies_et_moyens_t1_liste_taxes_affectees/exports/json"
+    type: json
+    license: "Licence Ouverte / Open Licence (Etalab)"
+    notes: >
+      Remplacer 'plf2023' par le millésime le plus récent disponible dans le
+      catalogue OpenDataSoft si présent.
+
+  # --- CONTRÔLE : périmètre fiscalité affectée (CPO) -------------------------
+  - id: cpo_fiscalite_affectee
+    enabled: false
+    role: control
+    title: "CPO — cartographie de la fiscalité affectée"
+    url: "https://www.data.gouv.fr/api/1/datasets/cartographie-de-la-fiscalite-affectee-selon-le-perimetre-retenu-pour-le-rapport-du-conseil-des-prele/"
+    type: datagouv_dataset
+    license: "Licence Ouverte / Open Licence (Etalab)"
+
+  # --- AFFINAGE : impôts directs locaux (REI) --------------------------------
+  - id: rei_local
+    enabled: false
+    role: enrich
+    title: "REI — recensement des éléments d'imposition à la fiscalité directe locale"
+    url: "https://www.data.gouv.fr/api/1/datasets/impots-locaux-fichier-de-recensement-des-elements-dimposition-a-la-fiscalite-directe-locale-rei-4/"
+    type: datagouv_dataset
+    license: "Licence Ouverte / Open Licence (Etalab)"
+
+  # --- ENVELOPPE DE CONTRÔLE : agrégats Eurostat (D2/D5/D91/D61) -------------
+  - id: eurostat_taxag
+    enabled: true
+    role: control
+    title: "Eurostat — Main national accounts tax aggregates (gov_10a_taxag)"
+    url: "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10a_taxag?format=JSON&lang=EN&geo=FR&unit=MIO_EUR&sector=S13&na_item=D2&na_item=D5&na_item=D91&na_item=D61"
+    type: json
+    license: "Eurostat — réutilisation autorisée avec mention de la source"
+    notes: "Sert uniquement au sanity-check agrégé du total des PO."
+
+# Enveloppe de référence (sanity-check), source INSEE 2024.
+# https://www.insee.fr/fr/statistiques/2381412
+control_envelope:
+  year: 2024
+  total_po_mdeur: 1254.0          # 1 254 Md€
+  taux_po_pib_insee_pct: 42.7
+  source: "INSEE — comptes nationaux 2024"

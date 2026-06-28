@@ -266,7 +266,40 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 
 ---
 
-## 6. Sources
+## 6. Du raisonnement au pipeline reproductible
+
+Les §2–§3 décrivent la *méthode de décision* ; les §4–§5 l'appliquent à la main.
+Pour produire la liste **ligne à ligne** de façon **reproductible et tracée**, le
+dépôt fournit un pipeline (dossier [`pipeline/`](pipeline/)) qui automatise
+exactement ce raisonnement :
+
+```
+fetch ──▶ normalize ──▶ classify ──▶ reconcile ──▶ report
+sources    parsing       règle         dédup +       data/*.csv|json
+officielles canonique    C1–C3         couverture    docs/RAPPORT.md
+```
+
+- **Sources** (cf. `pipeline/config/sources.yaml`) : la **National Tax List
+  d'Eurostat** (`gov_10a_taxag`, liste détaillée impôt par impôt, classée
+  D.2/D.5/D.91/D.61 avec montants) comme épine dorsale, le **Voies & Moyens
+  Tome I** (PDF, énumération des *impositions de toutes natures*), la liste
+  **OpenDataSoft des taxes affectées**, et un **socle curé** reprenant les §4–§5
+  ci-dessus (garantit un résultat même hors-ligne).
+- **Règle de décision** : les critères C1–C3 et les cas-limites (TEOM≠REOM,
+  cotisations imputées, amendes, redevances…) sont encodés dans
+  `pipeline/config/decision_rules.yaml`.
+- **Preuve d'exhaustivité** : la couverture (Σ des PO retenus rapportée à
+  l'enveloppe INSEE de 1 254 Md€) est calculée et publiée dans
+  [`docs/RAPPORT.md`](docs/RAPPORT.md) ; les lignes non classables apparaissent
+  explicitement en « à arbitrer ».
+
+Lancement : `cd pipeline && make install && make all` (ou `make offline`).
+Détails dans [`pipeline/README.md`](pipeline/README.md). Sorties versionnées
+dans [`data/`](data/).
+
+---
+
+## 7. Sources
 
 - **INSEE — Définition des prélèvements obligatoires** :
   <https://www.insee.fr/fr/metadonnees/definition/c1571>

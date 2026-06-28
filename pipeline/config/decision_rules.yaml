@@ -1,0 +1,98 @@
+# =============================================================================
+# Règle de décision « prendre / rejeter » d'un prélèvement obligatoire.
+#
+# Traduction machine de la méthodologie du README (§2 critères, §3 arbre,
+# §4 PRIS, §5 REJET). classify.py applique :
+#   1) un classement par défaut selon le code ESA et le secteur bénéficiaire ;
+#   2) puis les `overrides` ci-dessous pour les cas-limites documentés, par
+#      correspondance sur le libellé (mots-clés, insensibles à la casse/accents).
+#
+# Critères (échec de l'un => REJET) :
+#   C1 = versement effectif        (exclut les cotisations imputées)
+#   C2 = bénéficiaire APU ou UE     (exclut les organismes privés hors APU)
+#   C3 = obligatoire & sans contrepartie directe
+#        (exclut facultatif et redevance pour service rendu)
+#   sanction = hors champ (amende/pénalité)
+# =============================================================================
+
+# --- Classement par défaut selon le code ESA (comptabilité nationale) --------
+# Eurostat NTL : ces flux sont par construction des prélèvements obligatoires.
+esa_defaults:
+  D2:   {statut: PRIS, categorie: "impôt sur la production/importation"}
+  D5:   {statut: PRIS, categorie: "impôt courant sur le revenu/patrimoine"}
+  D91:  {statut: PRIS, categorie: "impôt en capital"}
+  D61:  {statut: PRIS, categorie: "cotisation sociale"}
+  # Cotisations sociales imputées : pas de versement effectif => échec C1.
+  D612: {statut: REJET, critere_echec: C1, categorie: "cotisation sociale imputée"}
+
+# Secteurs bénéficiaires reconnus comme APU/UE (satisfait C2).
+secteurs_apu: [S13, S1311, S1312, S1313, S1314, APUC, ODAC, APUL, ASSO, S212, UE]
+
+# --- Overrides : cas-limites du README (priorité sur le défaut) --------------
+# `match` = mots-clés cherchés dans le libellé normalisé (ET logique si liste).
+# `any` = au moins un des libellés. Le premier override qui matche gagne.
+overrides:
+
+  # ---- Pris explicitement (le nom pourrait faire douter) ----
+  - id: teom
+    any: ["taxe d'enlevement des ordures menageres", "teom"]
+    not_match: ["redevance"]
+    statut: PRIS
+    note: "TEOM adossée au foncier, sans lien avec le service rendu => PO (cf. README §4.2)."
+
+  - id: redevances_agences_eau
+    match: ["redevance", "agence", "eau"]
+    statut: PRIS
+    note: "Qualifiées d'impositions de toutes natures par le Conseil constitutionnel => PO (README §4.5)."
+
+  # ---- Rejetés (échec d'un critère) ----
+  - id: reom
+    any: ["redevance d'enlevement des ordures menageres", "reom"]
+    statut: REJET
+    critere_echec: C3
+    note: "Tarifée selon le service rendu => contrepartie directe (README §5)."
+
+  - id: amendes
+    any: ["amende", "penalite", "majoration", "sanction"]
+    statut: REJET
+    critere_echec: sanction
+    note: "Sanction, hors champ des prélèvements (README §5)."
+
+  - id: peages
+    any: ["peage"]
+    statut: REJET
+    critere_echec: C3
+    note: "Paiement d'un service rendu (usage de l'infrastructure)."
+
+  - id: redevances_domaniales
+    match: ["redevance", "domaine public"]
+    statut: REJET
+    critere_echec: C3
+    note: "Contrepartie : droit d'occupation du domaine public."
+
+  - id: stationnement
+    any: ["forfait de post-stationnement", "post-stationnement", "stationnement payant"]
+    statut: REJET
+    critere_echec: C3
+    note: "Contrepartie directe (occupation du domaine public) depuis 2018."
+
+  - id: facultatif
+    any: ["facultatif", "facultative", "epargne retraite", "assurance-vie", "perp", "plan d'epargne retraite"]
+    statut: REJET
+    critere_echec: C3
+    note: "Versement non obligatoire (libre choix)."
+
+  - id: ordres_syndicats
+    any: ["ordre professionnel", "cotisation ordinale", "cotisation syndicale", "syndicat"]
+    statut: REJET
+    critere_echec: C2
+    note: "Bénéficiaire hors périmètre APU (organisme privé)."
+
+  - id: audiovisuel
+    any: ["redevance audiovisuel", "contribution a l'audiovisuel public", "redevance tv"]
+    statut: REJET
+    critere_echec: supprime
+    note: "Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5)."
+
+# Seuil de similarité (0-100) pour le rapprochement flou des libellés.
+fuzzy_match_threshold: 88

@@ -1,0 +1,1520 @@
+[
+  {
+    "id": "seed-cotisations-du-regime-general-maladie-vieillesse-famille-at-mp-csa",
+    "nom": "Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA)",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Code de la sécurité sociale",
+    "montant_eur": 420000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Recouvrées par les URSSAF (part salariale et patronale)."
+  },
+  {
+    "id": "seed-taxe-sur-la-valeur-ajoutee",
+    "nom": "Taxe sur la valeur ajoutée",
+    "sigle": "TVA",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 256 s.",
+    "montant_eur": 200000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Premier impôt par le rendement — fractions affectées ASSO/APUL."
+  },
+  {
+    "id": "seed-contribution-sociale-generalisee",
+    "nom": "Contribution sociale généralisée",
+    "sigle": "CSG",
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L136-1 s.",
+    "montant_eur": 140000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-cotisations-de-retraite-complementaire-obligatoire",
+    "nom": "Cotisations de retraite complémentaire obligatoire",
+    "sigle": "AGIRC-ARRCO",
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "ANI / Code de la sécurité sociale",
+    "montant_eur": 90000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Inclut IRCANTEC, RAFP."
+  },
+  {
+    "id": "seed-impot-sur-le-revenu",
+    "nom": "Impôt sur le revenu",
+    "sigle": "IR",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 1 A s.",
+    "montant_eur": 90000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Prélevé à la source — inclut le PFU (flat tax)."
+  },
+  {
+    "id": "seed-impot-sur-les-societes",
+    "nom": "Impôt sur les sociétés",
+    "sigle": "IS",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 205 s.",
+    "montant_eur": 60000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Inclut contributions sociale et exceptionnelles sur l'IS."
+  },
+  {
+    "id": "seed-cotisations-d-assurance-chomage-part-employeur",
+    "nom": "Cotisations d'assurance chômage (part employeur)",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Code du travail",
+    "montant_eur": 40000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Régime Unédic."
+  },
+  {
+    "id": "seed-taxe-fonciere-sur-les-proprietes-baties",
+    "nom": "Taxe foncière sur les propriétés bâties",
+    "sigle": "TFPB",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1380 s.",
+    "montant_eur": 35000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-accise-sur-les-energies-ex-ticpe",
+    "nom": "Accise sur les énergies (ex-TICPE)",
+    "sigle": "TICPE",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": 30000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-accises-sur-les-alcools-tabacs-et-boissons",
+    "nom": "Accises sur les alcools, tabacs et boissons",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": 18000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-droits-d-enregistrement-et-de-mutation-a-titre-gratuit",
+    "nom": "Droits d'enregistrement et de mutation à titre gratuit",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": 18000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Successions et donations."
+  },
+  {
+    "id": "seed-taxe-sur-les-salaires",
+    "nom": "Taxe sur les salaires",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CGI art. 231",
+    "montant_eur": 16000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Employeurs non assujettis à la TVA."
+  },
+  {
+    "id": "seed-cotisations-des-travailleurs-independants",
+    "nom": "Cotisations des travailleurs indépendants",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Code de la sécurité sociale",
+    "montant_eur": 15000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Recouvrées par les URSSAF (ex-RSI)."
+  },
+  {
+    "id": "seed-droits-de-mutation-a-titre-onereux",
+    "nom": "Droits de mutation à titre onéreux",
+    "sigle": "DMTO",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1594 A s.",
+    "montant_eur": 15000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Part fiscale des « frais de notaire »."
+  },
+  {
+    "id": "seed-contribution-unique-a-la-formation-professionnelle-et-a-l-alternance",
+    "nom": "Contribution unique à la formation professionnelle et à l'alternance",
+    "sigle": "CUFPA",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code du travail L6131-1",
+    "montant_eur": 9500000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Ex-taxe d'apprentissage + contribution formation."
+  },
+  {
+    "id": "seed-versement-mobilite",
+    "nom": "Versement mobilité",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "Code des transports L2333-64",
+    "montant_eur": 9000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Dû par les employeurs (ex-versement transport)."
+  },
+  {
+    "id": "seed-contribution-au-remboursement-de-la-dette-sociale",
+    "nom": "Contribution au remboursement de la dette sociale",
+    "sigle": "CRDS",
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Ordonnance 96-50",
+    "montant_eur": 8000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-cotisation-fonciere-des-entreprises",
+    "nom": "Cotisation foncière des entreprises",
+    "sigle": "CFE",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1447 s.",
+    "montant_eur": 8000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-d-enlevement-des-ordures-menageres",
+    "nom": "Taxe d'enlèvement des ordures ménagères",
+    "sigle": "TEOM",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1520 s.",
+    "montant_eur": 8000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "TEOM adossée au foncier, sans lien avec le service rendu => PO (cf. README §4.2)."
+  },
+  {
+    "id": "seed-taxe-speciale-sur-les-conventions-d-assurance",
+    "nom": "Taxe spéciale sur les conventions d'assurance",
+    "sigle": "TSCA",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 991 s.",
+    "montant_eur": 8000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-cotisation-sur-la-valeur-ajoutee-des-entreprises",
+    "nom": "Cotisation sur la valeur ajoutée des entreprises",
+    "sigle": "CVAE",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1586 ter",
+    "montant_eur": 5000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "En extinction progressive."
+  },
+  {
+    "id": "seed-cotisations-agricoles",
+    "nom": "Cotisations agricoles",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Code rural",
+    "montant_eur": 5000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Recouvrées par la MSA."
+  },
+  {
+    "id": "seed-prelevement-de-solidarite-sur-les-revenus-du-capital",
+    "nom": "Prélèvement de solidarité sur les revenus du capital",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS",
+    "montant_eur": 5000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Taux 7,5 %."
+  },
+  {
+    "id": "seed-taxe-de-solidarite-additionnelle-complementaire-sante",
+    "nom": "Taxe de solidarité additionnelle (complémentaire santé)",
+    "sigle": "TSA",
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L862-4",
+    "montant_eur": 5000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-contribution-sociale-de-solidarite-des-societes",
+    "nom": "Contribution sociale de solidarité des sociétés",
+    "sigle": "C3S",
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L651-1",
+    "montant_eur": 4000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-ressource-propre-fondee-sur-la-tva",
+    "nom": "Ressource propre fondée sur la TVA",
+    "sigle": null,
+    "categorie": "ressource UE",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "UE",
+    "base_legale": "Décision ressources propres UE",
+    "montant_eur": 3000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-d-habitation-sur-les-residences-secondaires",
+    "nom": "Taxe d'habitation sur les résidences secondaires",
+    "sigle": "THRS",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1407 s.",
+    "montant_eur": 2500000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "TH résidence principale supprimée."
+  },
+  {
+    "id": "seed-taxe-sur-les-transactions-financieres",
+    "nom": "Taxe sur les transactions financières",
+    "sigle": "TTF",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 235 ter ZD",
+    "montant_eur": 2500000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-redevances-des-agences-de-l-eau",
+    "nom": "Redevances des agences de l'eau",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code de l'environnement L213-10",
+    "montant_eur": 2200000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Qualifiées d'impositions de toutes natures par le Conseil constitutionnel => PO (README §4.5)."
+  },
+  {
+    "id": "seed-droits-de-douane",
+    "nom": "Droits de douane",
+    "sigle": null,
+    "categorie": "ressource UE",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "UE",
+    "base_legale": "Code des douanes de l'Union",
+    "montant_eur": 2000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Ressources propres traditionnelles, perçus pour l'UE."
+  },
+  {
+    "id": "seed-impot-sur-la-fortune-immobiliere",
+    "nom": "Impôt sur la fortune immobilière",
+    "sigle": "IFI",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 964 s.",
+    "montant_eur": 2000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-contribution-sur-les-emballages-plastiques-non-recycles",
+    "nom": "Contribution sur les emballages plastiques non recyclés",
+    "sigle": null,
+    "categorie": "ressource UE",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "UE",
+    "base_legale": "Décision ressources propres UE",
+    "montant_eur": 1200000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-fonciere-sur-les-proprietes-non-baties",
+    "nom": "Taxe foncière sur les propriétés non bâties",
+    "sigle": "TFPNB",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1393 s.",
+    "montant_eur": 1000000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-sur-les-services-numeriques",
+    "nom": "Taxe sur les services numériques",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 299 s.",
+    "montant_eur": 700000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Dite « taxe GAFA »."
+  },
+  {
+    "id": "seed-contribution-de-vie-etudiante-et-de-campus",
+    "nom": "Contribution de vie étudiante et de campus",
+    "sigle": "CVEC",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code de l'éducation L841-5",
+    "montant_eur": 170000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-contribution-exceptionnelle-sur-les-hauts-revenus",
+    "nom": "Contribution exceptionnelle sur les hauts revenus",
+    "sigle": "CEHR",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 223 sexies",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-contributions-de-l-industrie-pharmaceutique-clause-de-sauvegarde-m",
+    "nom": "Contributions de l'industrie pharmaceutique (clause de sauvegarde M)",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-cotisations-des-regimes-speciaux",
+    "nom": "Cotisations des régimes spéciaux",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Code de la sécurité sociale",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "CNRACL, SNCF, RATP, marins, etc."
+  },
+  {
+    "id": "seed-droits-de-timbre",
+    "nom": "Droits de timbre",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Passeports, cartes, etc."
+  },
+  {
+    "id": "seed-forfait-social",
+    "nom": "Forfait social",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L137-15",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-impositions-forfaitaires-sur-les-entreprises-de-reseaux",
+    "nom": "Impositions forfaitaires sur les entreprises de réseaux",
+    "sigle": "IFER",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1635-0 quinquies",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-malus-automobile-co2-et-masse",
+    "nom": "Malus automobile (CO2 et masse)",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-gemapi",
+    "nom": "Taxe GEMAPI",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1530 bis",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Gestion des milieux aquatiques et prévention des inondations."
+  },
+  {
+    "id": "seed-taxe-d-amenagement",
+    "nom": "Taxe d'aménagement",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1635 quater A",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-de-solidarite-sur-les-billets-d-avion",
+    "nom": "Taxe de solidarité sur les billets d'avion",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CGI art. 302 bis K",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Dite « taxe Chirac » — inclut la taxe de l'aviation civile."
+  },
+  {
+    "id": "seed-taxe-de-sejour",
+    "nom": "Taxe de séjour",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT L2333-26 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-generale-sur-les-activites-polluantes",
+    "nom": "Taxe générale sur les activités polluantes",
+    "sigle": "TGAP",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-locale-sur-la-publicite-exterieure",
+    "nom": "Taxe locale sur la publicité extérieure",
+    "sigle": "TLPE",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT L2333-6 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-sur-l-affectation-des-vehicules-a-des-fins-economiques",
+    "nom": "Taxe sur l'affectation des véhicules à des fins économiques",
+    "sigle": "ex-TVS",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-sur-les-bureaux-et-locaux-en-ile-de-france",
+    "nom": "Taxe sur les bureaux et locaux en Île-de-France",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-sur-les-logements-vacants",
+    "nom": "Taxe sur les logements vacants",
+    "sigle": "TLV",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 232",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-sur-les-surfaces-commerciales",
+    "nom": "Taxe sur les surfaces commerciales",
+    "sigle": "TASCOM",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxe-sur-les-surfaces-de-stationnement",
+    "nom": "Taxe sur les surfaces de stationnement",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "seed-taxes-affectees-au-cnc",
+    "nom": "Taxes affectées au CNC",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code du cinéma",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Entrées en salles, éditeurs/distributeurs TV, vidéo."
+  },
+  {
+    "id": "seed-taxes-pour-frais-de-chambres-consulaires",
+    "nom": "Taxes pour frais de chambres consulaires",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CGI",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "CCI, chambres de métiers et d'agriculture."
+  },
+  {
+    "id": "seed-amendes-penalites-et-majorations",
+    "nom": "Amendes, pénalités et majorations",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "sanction",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Sanction, hors champ des prélèvements (README §5)."
+  },
+  {
+    "id": "seed-contribution-a-l-audiovisuel-public-ex-redevance-tv",
+    "nom": "Contribution à l'audiovisuel public (ex-redevance TV)",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5)."
+  },
+  {
+    "id": "seed-cotisations-aux-ordres-professionnels-et-syndicats",
+    "nom": "Cotisations aux ordres professionnels et syndicats",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Bénéficiaire hors périmètre APU (organisme privé)."
+  },
+  {
+    "id": "seed-cotisations-facultatives-per-assurance-vie-prevoyance-facultative",
+    "nom": "Cotisations facultatives (PER, assurance-vie, prévoyance facultative)",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Versement non obligatoire (libre choix)."
+  },
+  {
+    "id": "seed-cotisations-sociales-imputees-fonctionnaires-d-etat",
+    "nom": "Cotisations sociales imputées (fonctionnaires d'État)",
+    "sigle": null,
+    "categorie": "cotisation sociale imputée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C1",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Pas de versement effectif (employeur fictif)."
+  },
+  {
+    "id": "seed-dons-et-legs-aux-administrations",
+    "nom": "Dons et legs aux administrations",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Volontaires."
+  },
+  {
+    "id": "seed-emprunts-et-produits-de-la-dette",
+    "nom": "Emprunts et produits de la dette",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Ressource remboursable, librement souscrite."
+  },
+  {
+    "id": "seed-factures-d-eau-et-d-assainissement-part-exploitant",
+    "nom": "Factures d'eau et d'assainissement (part exploitant)",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Contrepartie directe."
+  },
+  {
+    "id": "seed-forfait-de-post-stationnement",
+    "nom": "Forfait de post-stationnement",
+    "sigle": "FPS",
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Contrepartie directe (occupation du domaine public) depuis 2018."
+  },
+  {
+    "id": "seed-part-salariale-de-l-assurance-chomage",
+    "nom": "Part salariale de l'assurance chômage",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Supprimée en 2018, remplacée par de la CSG."
+  },
+  {
+    "id": "seed-peages-autoroutiers-et-d-ouvrages-d-art",
+    "nom": "Péages autoroutiers et d'ouvrages d'art",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Paiement d'un service rendu (usage de l'infrastructure)."
+  },
+  {
+    "id": "seed-redevance-d-enlevement-des-ordures-menageres",
+    "nom": "Redevance d'enlèvement des ordures ménagères",
+    "sigle": "REOM",
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Tarifée selon le service rendu => contrepartie directe (README §5)."
+  },
+  {
+    "id": "seed-redevances-domaniales",
+    "nom": "Redevances domaniales",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Contrepartie : droit d'occupation du domaine public."
+  },
+  {
+    "id": "seed-revenus-du-domaine-dividendes-loyers",
+    "nom": "Revenus du domaine, dividendes, loyers",
+    "sigle": null,
+    "categorie": "indéterminée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Recettes patrimoniales avec contrepartie."
+  }
+]

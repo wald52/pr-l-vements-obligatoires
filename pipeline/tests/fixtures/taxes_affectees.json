@@ -1,0 +1,20 @@
+[
+  {
+    "intitule_de_la_taxe": "Contribution de vie étudiante et de campus (CVEC)",
+    "affectataire": "CROUS",
+    "rendement_2022": "165",
+    "texte_de_reference": "art. L841-5 code de l'éducation"
+  },
+  {
+    "intitule_de_la_taxe": "Redevances des agences de l'eau",
+    "affectataire": "Agences de l'eau",
+    "rendement_2022": "2200",
+    "texte_de_reference": "art. L213-10 code de l'environnement"
+  },
+  {
+    "intitule_de_la_taxe": "Taxe d'apprentissage (CUFPA)",
+    "affectataire": "France compétences",
+    "rendement_2022": "9500",
+    "texte_de_reference": "art. L6241-1 code du travail"
+  }
+]
