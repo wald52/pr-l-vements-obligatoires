@@ -25,7 +25,9 @@ sources:
 
   # --- ÉPINE DORSALE 1 : liste détaillée Eurostat (impôt par impôt) ----------
   - id: eurostat_ntl
-    enabled: true
+    enabled: false   # désactivé : l'URL databrowser renvoie une page HTML, pas
+                     # le fichier .xlsx de la National Tax List. À réactiver
+                     # quand l'URL directe du fichier NTL aura été confirmée.
     role: backbone
     title: "Eurostat — National Tax List (liste détaillée des impôts et cotisations, FR)"
     # La NTL détaillée est diffusée en annexe Excel de gov_10a_taxag.
@@ -44,28 +46,36 @@ sources:
 
   # --- ÉPINE DORSALE 2 : énumération française (Voies & Moyens Tome I) --------
   - id: vm_tome1
-    enabled: true
+    enabled: false   # désactivé : ce volume « Évaluations des recettes » est
+                     # narratif ; l'énumération ligne à ligne (État A) y est en
+                     # tableaux multi-colonnes que pdfplumber n'extrait pas
+                     # proprement (montants concaténés entre colonnes/années).
+                     # L'URL ci-dessous est valide et téléchargeable (cf. UA
+                     # navigateur dans fetch.py) ; le besoin restant est un
+                     # parser dédié de l'État A, pas l'accès réseau.
     role: backbone
     title: "Évaluation des Voies et Moyens, Tome I — annexe au PLF 2026"
-    url: "https://www.budget.gouv.fr/documentation/file-download/30583"
+    url: "https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087930/file/PLF%202026%20-%20V&M%20TI%20-%20Evaluations%20des%20recettes.pdf"
     type: pdf
     license: "Licence Ouverte / Open Licence (Etalab)"
     notes: >
       Énumération la plus fine des impositions de toutes natures (plusieurs
-      centaines de lignes). Le numéro file-download change à chaque PLF :
-      PLF 2024 = .../21081 ; PLF 2026 = .../30583.
+      centaines de lignes). La liste structurée des taxes affectées qui en est
+      tirée est exploitée via la source `taxes_affectees` (OpenDataSoft).
 
   # --- AFFINAGE : taxes affectées (OpenDataSoft) -----------------------------
   - id: taxes_affectees
     enabled: true
     role: enrich
     title: "V&M Tome I — liste des taxes affectées (data.economie.gouv.fr)"
-    url: "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf2023_voies_et_moyens_t1_liste_taxes_affectees/exports/json"
+    url: "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf2024-v-and-m-t1-liste-des-taxes-affectees/exports/json"
     type: json
     license: "Licence Ouverte / Open Licence (Etalab)"
     notes: >
-      Remplacer 'plf2023' par le millésime le plus récent disponible dans le
-      catalogue OpenDataSoft si présent.
+      Millésime PLF 2024 (268 lignes). L'export OpenDataSoft a des colonnes
+      désalignées (intitulé en `empty4`, bénéficiaire en `empty3`, montants en
+      euros) : parse_taxes_affectees.py détecte et gère cette structure.
+      Vérifier le catalogue pour un millésime plus récent à chaque PLF.
 
   # --- CONTRÔLE : périmètre fiscalité affectée (CPO) -------------------------
   - id: cpo_fiscalite_affectee

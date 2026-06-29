@@ -20,6 +20,38 @@ def test_parse_taxes_affectees():
     assert cvec.base_legale and "éducation" in cvec.base_legale
 
 
+def test_parse_taxes_affectees_misaligned(tmp_path):
+    """Structure OpenDataSoft désalignée (plf2024) : intitulé en empty4, € bruts."""
+    import json
+
+    rows = [
+        {  # ligne valide : taxe nommée en empty4, montant en euros
+            "nature_juridique_du_beneficiaire": "Secteur social",
+            "empty3": "Régime général de la Sécurité Sociale",
+            "empty4": "Redevance due par les titulaires de titres d'exploitation de mines",
+            "empty5": 3600000.0,
+            "empty8": 3600000.0,
+            "reference_juridique": "code minier",
+        },
+        {  # ligne à ignorer : empty4 non textuel / non fiscal
+            "empty3": "Total",
+            "empty4": 99.0,
+            "empty8": 57000000000.0,
+        },
+    ]
+    path = tmp_path / "ta_misaligned.json"
+    path.write_text(json.dumps(rows), encoding="utf-8")
+
+    recs = parse_taxes_affectees.parse(path, 2024)
+    assert len(recs) == 1
+    rec = recs[0]
+    assert rec.nom.startswith("Redevance due par les titulaires")
+    assert rec.categorie == "taxe affectée"
+    assert rec.beneficiaire == "Régime général de la Sécurité Sociale"
+    assert rec.montant_eur == 3_600_000  # euros bruts, pas de conversion M€
+    assert rec.base_legale == "code minier"
+
+
 def test_parse_eurostat_xlsx(tmp_path):
     wb = openpyxl.Workbook()
     ws = wb.active

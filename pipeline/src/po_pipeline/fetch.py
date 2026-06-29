@@ -22,6 +22,16 @@ from .paths import RAW_DIR, ensure_dirs
 MANIFEST = "_manifest.json"
 _RETRY_DELAYS = (2, 4, 8, 16)  # backoff exponentiel (secondes)
 
+# Certains serveurs publics (budget.gouv.fr, assemblee-nationale.fr…) renvoient
+# 403/HTML à l'agent par défaut « python-requests ». On se présente en navigateur.
+_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+    ),
+    "Accept": "*/*",
+}
+
 
 def _sha256(path) -> str:
     h = hashlib.sha256()
@@ -45,7 +55,7 @@ def _download(url: str, dest, timeout: int = 60) -> None:
         if delay:
             time.sleep(delay)
         try:
-            resp = requests.get(url, timeout=timeout, stream=True)
+            resp = requests.get(url, timeout=timeout, stream=True, headers=_HEADERS)
             if resp.status_code in (403, 407):
                 raise PermissionError(
                     f"HTTP {resp.status_code} (déni de politique d'egress) sur {url}"

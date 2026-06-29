@@ -44,28 +44,6 @@
     "notes": "Premier impôt par le rendement — fractions affectées ASSO/APUL."
   },
   {
-    "id": "seed-contribution-sociale-generalisee",
-    "nom": "Contribution sociale généralisée",
-    "sigle": "CSG",
-    "categorie": "fiscalité sociale",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ASSO",
-    "base_legale": "CSS art. L136-1 s.",
-    "montant_eur": 140000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null
-  },
-  {
     "id": "seed-cotisations-de-retraite-complementaire-obligatoire",
     "nom": "Cotisations de retraite complémentaire obligatoire",
     "sigle": "AGIRC-ARRCO",
@@ -130,6 +108,33 @@
       }
     ],
     "notes": "Inclut contributions sociale et exceptionnelles sur l'IS."
+  },
+  {
+    "id": "ta-contribution-sociale-generalisee-csg",
+    "nom": "Contribution sociale généralisée (CSG)",
+    "sigle": "CSG",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS",
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L136-1 s.",
+    "montant_eur": 52987000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
   },
   {
     "id": "seed-cotisations-d-assurance-chomage-part-employeur",
@@ -242,19 +247,24 @@
     "notes": "Successions et donations."
   },
   {
-    "id": "seed-taxe-sur-les-salaires",
+    "id": "ta-taxe-sur-les-salaires",
     "nom": "Taxe sur les salaires",
     "sigle": null,
-    "categorie": "fiscalité sociale",
+    "categorie": "taxe affectée",
     "esa_code": null,
-    "beneficiaire": null,
+    "beneficiaire": "CNAVTS, CNAF, FSV, CNAMTS en 2016; CNAVTS, CNAF, CNAMTS dès 2017",
     "secteur": "ASSO",
     "base_legale": "CGI art. 231",
-    "montant_eur": 16000000000.0,
+    "montant_eur": 17261584620.0,
     "annee": 2024,
     "statut": "PRIS",
     "critere_echec": null,
     "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
       {
         "source_id": "readme_seed",
         "url": "",
@@ -308,19 +318,24 @@
     "notes": "Part fiscale des « frais de notaire »."
   },
   {
-    "id": "seed-contribution-unique-a-la-formation-professionnelle-et-a-l-alternance",
+    "id": "ta-contribution-unique-a-la-formation-professionnelle-et-a-l-alternance",
     "nom": "Contribution unique à la formation professionnelle et à l'alternance",
     "sigle": "CUFPA",
     "categorie": "taxe affectée",
     "esa_code": null,
-    "beneficiaire": null,
+    "beneficiaire": "France Compétences",
     "secteur": "ODAC",
-    "base_legale": "Code du travail L6131-1",
-    "montant_eur": 9500000000.0,
+    "base_legale": "LFI 2020",
+    "montant_eur": 9830000000.0,
     "annee": 2024,
     "statut": "PRIS",
     "critere_echec": null,
     "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
       {
         "source_id": "readme_seed",
         "url": "",
@@ -350,6 +365,33 @@
       }
     ],
     "notes": "Dû par les employeurs (ex-versement transport)."
+  },
+  {
+    "id": "ta-taxe-sur-les-conventions-d-assurance",
+    "nom": "Taxe sur les conventions d'assurance",
+    "sigle": "TSCA",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements (part départementale)",
+    "secteur": "APUC",
+    "base_legale": "CGI art. 991 s.",
+    "montant_eur": 8760005999.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
   },
   {
     "id": "seed-contribution-au-remboursement-de-la-dette-sociale",
@@ -382,50 +424,6 @@
     "beneficiaire": null,
     "secteur": "APUL",
     "base_legale": "CGI art. 1447 s.",
-    "montant_eur": 8000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "seed-taxe-d-enlevement-des-ordures-menageres",
-    "nom": "Taxe d'enlèvement des ordures ménagères",
-    "sigle": "TEOM",
-    "categorie": "impôt local",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUL",
-    "base_legale": "CGI art. 1520 s.",
-    "montant_eur": 8000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "TEOM adossée au foncier, sans lien avec le service rendu => PO (cf. README §4.2)."
-  },
-  {
-    "id": "seed-taxe-speciale-sur-les-conventions-d-assurance",
-    "nom": "Taxe spéciale sur les conventions d'assurance",
-    "sigle": "TSCA",
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CGI art. 991 s.",
     "montant_eur": 8000000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -528,19 +526,24 @@
     "notes": null
   },
   {
-    "id": "seed-contribution-sociale-de-solidarite-des-societes",
-    "nom": "Contribution sociale de solidarité des sociétés",
+    "id": "ta-contribution-sociale-de-solidarite-des-societes-c3s",
+    "nom": "Contribution sociale de solidarité des sociétés (C3S)",
     "sigle": "C3S",
-    "categorie": "fiscalité sociale",
+    "categorie": "taxe affectée",
     "esa_code": null,
-    "beneficiaire": null,
+    "beneficiaire": "CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",
     "secteur": "ASSO",
     "base_legale": "CSS art. L651-1",
-    "montant_eur": 4000000000.0,
+    "montant_eur": 4613026419.0,
     "annee": 2024,
     "statut": "PRIS",
     "critere_echec": null,
     "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
       {
         "source_id": "readme_seed",
         "url": "",
@@ -748,19 +751,159 @@
     "notes": "Dite « taxe GAFA »."
   },
   {
-    "id": "seed-contribution-de-vie-etudiante-et-de-campus",
-    "nom": "Contribution de vie étudiante et de campus",
-    "sigle": "CVEC",
+    "id": "ta-taxes-d-enlevement-des-ordures-menageres",
+    "nom": "Taxes d'enlèvement des ordures ménagères",
+    "sigle": "TEOM",
     "categorie": "taxe affectée",
     "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ODAC",
-    "base_legale": "Code de l'éducation L841-5",
-    "montant_eur": 170000000.0,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale à fiscalité propre) - part communale",
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1520 s.",
+    "montant_eur": 627333482.0,
     "annee": 2024,
     "statut": "PRIS",
     "critere_echec": null,
     "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "TEOM adossée au foncier, sans lien avec le service rendu => PO (cf. README §4.2)."
+  },
+  {
+    "id": "ta-taxe-d-amenagement",
+    "nom": "Taxe d’aménagement",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements (part départementale)",
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1635 quater A",
+    "montant_eur": 583836246.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-de-solidarite-sur-les-billets-d-avion",
+    "nom": "Taxe de solidarité sur les billets d'avion",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FSD - Fonds de solidarité pour le développement géré par l'Agence française de développement (AFD) - suivi MAED",
+    "secteur": "ODAC",
+    "base_legale": "LFI 2014",
+    "montant_eur": 210000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Dite « taxe Chirac » — inclut la taxe de l'aviation civile."
+  },
+  {
+    "id": "ta-taxe-locale-sur-la-publicite-exterieure",
+    "nom": "Taxe locale sur la publicité extérieure",
+    "sigle": "TLPE",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes",
+    "secteur": "APUL",
+    "base_legale": "CGCT L2333-6 s.",
+    "montant_eur": 193917022.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-vie-etudiante-et-campus",
+    "nom": "Contribution vie étudiante et campus",
+    "sigle": "CVEC",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Etablissements publics d'enseignement supérieur, établissements mentionnés aux articles L. 443-1 et L. 753-1 du code de l’éducation ou à l'article L. 1431-1 du code général des collectivités territoriales dispensant des formations initiales d'enseignement supérieur, établissements d'enseignement supérieur privés d'intérêt général et centres régionaux des œuvres universitaires et scolaires",
+    "secteur": "ODAC",
+    "base_legale": "LFI 2019",
+    "montant_eur": 174700000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-surfaces-de-stationnement",
+    "nom": "Taxe sur les surfaces de stationnement",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "SGP - Société du Grand Paris",
+    "secteur": "APUC",
+    "base_legale": "LFI 2019",
+    "montant_eur": 14600000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
       {
         "source_id": "readme_seed",
         "url": "",
@@ -946,50 +1089,6 @@
     "notes": "Gestion des milieux aquatiques et prévention des inondations."
   },
   {
-    "id": "seed-taxe-d-amenagement",
-    "nom": "Taxe d'aménagement",
-    "sigle": null,
-    "categorie": "impôt local",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUL",
-    "base_legale": "CGI art. 1635 quater A",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "seed-taxe-de-solidarite-sur-les-billets-d-avion",
-    "nom": "Taxe de solidarité sur les billets d'avion",
-    "sigle": null,
-    "categorie": "taxe affectée",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ODAC",
-    "base_legale": "CGI art. 302 bis K",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Dite « taxe Chirac » — inclut la taxe de l'aviation civile."
-  },
-  {
     "id": "seed-taxe-de-sejour",
     "nom": "Taxe de séjour",
     "sigle": null,
@@ -1020,28 +1119,6 @@
     "beneficiaire": null,
     "secteur": "APUC",
     "base_legale": "CIBS",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "seed-taxe-locale-sur-la-publicite-exterieure",
-    "nom": "Taxe locale sur la publicité extérieure",
-    "sigle": "TLPE",
-    "categorie": "impôt local",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUL",
-    "base_legale": "CGCT L2333-6 s.",
     "montant_eur": null,
     "annee": null,
     "statut": "PRIS",
@@ -1144,28 +1221,6 @@
     "notes": null
   },
   {
-    "id": "seed-taxe-sur-les-surfaces-de-stationnement",
-    "nom": "Taxe sur les surfaces de stationnement",
-    "sigle": null,
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CGI",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null
-  },
-  {
     "id": "seed-taxes-affectees-au-cnc",
     "nom": "Taxes affectées au CNC",
     "sigle": null,
@@ -1210,6 +1265,3438 @@
     "notes": "CCI, chambres de métiers et d'agriculture."
   },
   {
+    "id": "ta-taxe-departementale-de-publicite-fonciere-sur-les-mutations-a-titres-onereux",
+    "nom": "Taxe départementale de publicité foncière sur les mutations à titres onéreux",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements (part départementale)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 14566202627.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droits-de-consommation-sur-les-tabacs",
+    "nom": "Droits de consommation sur les tabacs",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CCMSA (non salariés-maladie, non salariés-RCO et salariés), CNAMTS, CNAF, autres régimes de sécurité sociale, CNSA, FCAATA, Fonds CMU-C jusqu'en 2016; CNAMTS et RAVGDT en 2017",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 13558609069.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contributions-pour-le-remboursement-de-la-dette-sociale-crds",
+    "nom": "Contributions pour le remboursement de la dette sociale (CRDS)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Caisse d'amortissement de la dette sociale (CADES)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 8716000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-interieure-de-consommation-sur-les-produits-energetique-ticpe-fractions-",
+    "nom": "Taxe intérieure de consommation sur les produits énergétique (TICPE) - Fractions transférées en compensation du transfert du RMI/RSA et dans le cadre de l'acte II de la décentralisation",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements (part départementale)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 5102000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-interieure-de-consommation-sur-les-produits-energetique-ticpe-dont-part-",
+    "nom": "Taxe intérieure de consommation sur les produits énergétique (TICPE dont part modulable)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Régions",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 4659437639.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-communale-additionnelle-a-certains-droits-d-enregistrement",
+    "nom": "Taxe communale additionnelle à certains droits d'enregistrement",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes de plus de 5.000 hbts",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 3089122668.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-cotisation-des-employeurs",
+    "nom": "Cotisation des employeurs",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FNAL - Fonds national d'aide au logement",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2887000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-certificats-d-immatriculation-des-vehicules-cartes-grises",
+    "nom": "Taxe sur les certificats d'immatriculation des véhicules (cartes grises)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Régions",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2440103298.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-solidarite-autonomie-csa",
+    "nom": "Contribution solidarité autonomie (CSA)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNSA",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2376000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droits-de-consommation-sur-les-alcools",
+    "nom": "Droits de consommation sur les alcools",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CCMSA (non salariés-vieillesse et maladie) jusqu'en 2016; CCMSA (non salariés-vieillesse, maladie et RCO) en 2017",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2288636556.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevance-pour-obstacle-sur-les-cours-d-eau-redevance-pour-stockage-d-eau-en-",
+    "nom": "Redevance pour obstacle sur les cours d’eau, redevance pour stockage d’eau en période d’étiage, redevance pour la protection du milieu aquatique, redevance pour pollutions diffuses, redevances pour prélèvement sur la ressource en eau, redevances pour pollution de l’eau, redevances pour modernisation des réseaux de collecte, redevances cynégétiques, droit de validation du permis de chasse",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Agences de l'eau",
+    "secteur": null,
+    "base_legale": "LFR 2015 et de la LFI 2016",
+    "montant_eur": 2197620000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-fraction-affectee-du-produit-du-relevement-du-tarif-de-taxe-interieure-de-con",
+    "nom": "Fraction affectée du produit du relèvement du tarif de taxe intérieure de consommation sur les produits énergétiques (TICPE) sur le carburant gazole",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "AFITF - Agence de financement des infrastructures de transport de France",
+    "secteur": null,
+    "base_legale": "LFR-I 2014 et de la LFI 2015",
+    "montant_eur": 1908403082.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-tarifaire-d-acheminement-cta",
+    "nom": "Contribution tarifaire d'acheminement (CTA)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Caisse nationale de retraite des industries électriques et gazières",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1702180000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-d-octroi-de-mer-et-droit-d-octroi-de-mer-regional",
+    "nom": "Droit d'octroi de mer et droit d'octroi de mer régional",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Collectivités territoriales des DOM",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1373812346.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-sur-les-bieres-et-les-boissons-non-alcoolisees",
+    "nom": "Droit sur les bières et les boissons non alcoolisées",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CCMSA - non salariés branche vieillesse",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1179329637.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-d-aeroport",
+    "nom": "Taxe d'aéroport",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Personnes publiques ou privées exploitant des aérodromes dont le trafic embarqué ou débarqué s'élève au cours de la dernière année civile connue à plus de 5000 unités de trafic (UDT)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 933000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contributions-patronales-et-salariales-sur-les-attributions-d-options-stock-o",
+    "nom": "Contributions patronales et salariales sur les attributions d’options (stock-options) de souscription ou d’achat des actions et sur les attributions gratuites",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAF",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 921251122.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-des-employeurs-a-l-association-pour-la-gestion-du-regime-d-assur",
+    "nom": "Contribution des employeurs à l'association pour la gestion du régime d'assurance des créances des salariés (AGS)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "AGS - Association pour la gestion du régime d'assurance des créances des salariés",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 907395885.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-additionnelle-de-solidarite-autonomie-casa",
+    "nom": "Contribution additionnelle de solidarité autonomie (CASA)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNSA",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 864000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-cotisation-speciale-sur-les-boissons-alcooliques",
+    "nom": "Cotisation spéciale sur les boissons alcooliques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CCMSA - non salariés branche vieillesse",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 762244125.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-vehicules-de-societe-tvs",
+    "nom": "Taxe sur les véhicules de société (TVS)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAF",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 759818763.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-departementale-sur-la-consommation-finale-d-electricite-tcfe",
+    "nom": "Taxe départementale sur la consommation finale d'électricité (TCFE)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements et métropole de Lyon",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 722971545.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-due-par-les-concessionnaires-d-autoroutes",
+    "nom": "Taxe due par les concessionnaires d'autoroutes",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "AFITF - Agence de financement des infrastructures de transport de France",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 680000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-annuelle-sur-les-locaux-a-usage-de-bureaux-les-locaux-commerciaux-les-lo",
+    "nom": "Taxe annuelle sur les locaux à usage de bureaux, les locaux commerciaux, les locaux de stockage et les surfaces de stationnement annexées à ces catégories de locaux perçue dans la région Ile-de-France",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "SGP - Société du Grand Paris",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 655100000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-exploitants-d-infrastructures-de-transports",
+    "nom": "Taxe sur les exploitants d'infrastructures de transports",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "AFITF - Agence de financement des infrastructures de transport de France",
+    "secteur": null,
+    "base_legale": "LFI 2024",
+    "montant_eur": 600000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-prelevement-sur-les-contrats-d-assurance-de-biens",
+    "nom": "Prélèvement sur les contrats d'assurance de biens",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FGTI - Fonds de garantie des victimes d'actes terroristes et autres infractions",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 582121000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-interieure-de-consommation-sur-les-produits-energetiques-ticpe-part-gren",
+    "nom": "Taxe intérieure de consommation sur les produits énergétiques (TICPE) - part Grenelle",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Régions",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 563891796.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-speciale-de-consommation-sur-les-carburants",
+    "nom": "Taxe spéciale de consommation sur les carburants",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Régions de la Guadeloupe, de la Martinique, de la Guyane et de la Réunion",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 548967195.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-solde-de-la-taxe-d-apprentissage-apres-prise-en-compte-des-versements-directs",
+    "nom": "Solde de la taxe d'apprentissage après prise en compte des versements directs des entreprises mentionnés au II de l'article L. 6241-2",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Caisse des dépôts et des consignations",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 515000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-due-par-les-entreprises-exploitant-des-medicaments-beneficiant-d",
+    "nom": "Contribution due par les entreprises exploitant des médicaments bénéficiant d'une AMM / Contribution sur le chiffre d'affaires des entreprises exploitant une ou plusieurs spécialités pharmaceutiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 507100849.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droits-departementaux-d-enregistrement-sur-les-mutations-a-titre-onereux-d-im",
+    "nom": "Droits départementaux d'enregistrement sur les mutations à titre onéreux d'immeubles",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements (part départementale)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 499596734.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-cotisation-obligatoire",
+    "nom": "Cotisation obligatoire",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Centre national de la fonction publique territoriale (CNFPT)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 493635074.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-annuelle-au-fonds-de-developpement-pour-l-insertion-professionne",
+    "nom": "Contribution annuelle au fonds de développement pour l'insertion professionnelle des handicapés (FIPH)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Association de gestion du fonds de développement pour l'insertion professionnelle des handicapés (AGEFIPH)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 442400000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-boissons-sucrees",
+    "nom": "Taxe sur les boissons sucrées",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CCMSA (non salariés-maladie)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 437841092.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-de-licence-sur-la-remuneration-des-debitants-de-tabacs",
+    "nom": "Droit de licence sur la rémunération des débitants de tabacs",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 369330712.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-cotisation-versee-par-les-organismes-hlm-et-les-sem",
+    "nom": "Cotisation versée par les organismes HLM et les SEM",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CGLLS - Caisse de garantie du logement locatif social",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 342622000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-fraction-des-droits-de-timbre-sur-les-passeports-securises",
+    "nom": "Fraction des droits de timbre sur les passeports sécurisés",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANTS - Agence nationale des titres sécurisés",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 297900000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-additionnelle-a-la-taxe-fonciere-sur-les-proprietes-non-baties-pour-frai",
+    "nom": "Taxe additionnelle à la taxe foncière sur les propriétés non baties, pour frais de chambres d'agriculture (TCA-TFPNB)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Chambres départementales d'agriculture",
+    "secteur": null,
+    "base_legale": "LFI 2013 et de la LFR-III 2012",
+    "montant_eur": 292000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-ta-cfe-fraction-cci-r-de-la-taxe-additionnelle-a-la-cotisation-fonciere-des-e",
+    "nom": "TA-CFE - fraction CCI-R de la Taxe additionnelle à la cotisation foncière des entreprises pour frais de chambres de commerce et d’industrie de région",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Chambres de commerce et d'industrie de région (CCI-R)",
+    "secteur": null,
+    "base_legale": "LFI 2013 et de la LFR-III 2012",
+    "montant_eur": 280000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-ta-cvae-taxe-additionnelle-a-la-cotisation-sur-la-valeur-ajoutee-des-entrepri",
+    "nom": "TA-CVAE - Taxe additionnelle à la cotisation sur la valeur ajoutée des entreprises pour frais de chambres de commerce et d'industrie de région",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Chambres de commerce et d'industrie de région (CCI-R)",
+    "secteur": null,
+    "base_legale": "LFI 2013 et de la LFR-III 2012",
+    "montant_eur": 272000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-prelevement-progressif-sur-le-produit-des-jeux-dans-les-casinos-au-profit-des",
+    "nom": "Prélèvement progressif sur le produit des jeux dans les casinos au profit des communes",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale à fiscalité propre) - part communale",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 263310000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-transactions-financieres-fraction-affectee-de-la-ressource-etat",
+    "nom": "Taxe sur les transactions financières - fraction affectée de la ressource État",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FSD - Fonds de solidarité pour le développement géré par l'Agence française de développement (AFD) - suivi MEF",
+    "secteur": null,
+    "base_legale": "LFI 2013 et de la LFR-III 2012",
+    "montant_eur": 251000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-due-par-les-laboratoires-et-les-grossistes-repartiteurs-sur-les-",
+    "nom": "Contribution due par les laboratoires et les grossistes répartiteurs sur les ventes en gros aux officines pharmaceutiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 247188404.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-prelevement-sur-les-jeux-exploites-par-la-fdj-hors-paris-sportifs",
+    "nom": "Prélèvement sur les jeux exploités par la FdJ hors paris sportifs",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANS - Agence nationale du sport",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 246087951.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-tst-taxe-sur-les-editeurs-et-distributeurs-de-services-de-television-fraction",
+    "nom": "TST - Taxe sur les éditeurs et distributeurs de services de télévision - Fraction Editeurs",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNC - Centre national du cinéma et de l'image animée",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 245270000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-ta-cfe-fraction-crma-de-la-taxe-additionnelle-a-la-cotisation-fonciere-des-en",
+    "nom": "TA-CFE - fraction CRMA de la Taxe additionnelle à la cotisation foncière des entreprises pour frais de chambre régionale de métiers et d'artisanat",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CRMA (incl. Alsace et Moselle)",
+    "secteur": null,
+    "base_legale": "LFR 2017 et LFI 2018",
+    "montant_eur": 236747858.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-supplementaire-a-l-apprentissage",
+    "nom": "Contribution supplémentaire à l'apprentissage",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "France Compétences",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 235000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contributions-pour-frais-de-controle",
+    "nom": "Contributions pour frais de contrôle",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ACPR - Autorité de contrôle prudentiel et de résolution",
+    "secteur": null,
+    "base_legale": "LFI 2014",
+    "montant_eur": 223100000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-sur-les-regimes-de-retraite-conditionnant-la-constitution-de-dro",
+    "nom": "Contribution sur les régimes de retraite conditionnant la constitution de droits à prestations à l’achèvement de la carrière du bénéficiaire dans l’entreprise",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 221012503.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-tst-taxe-sur-les-editeurs-et-distributeurs-de-services-de-television-fraction",
+    "nom": "TST - Taxe sur les éditeurs et distributeurs de services de télévision - Fraction Distributeurs",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNC - Centre national du cinéma et de l'image animée",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 201601000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevances-percues-a-l-occasion-des-procedures-et-formalites-en-matiere-de-pr",
+    "nom": "Redevances perçues à l'occasion des procédures et formalités en matière de propriété industrielle ainsi que de registre du commerce et des sociétés, établies par divers textes",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "INPI - Institut national de la propriété industrielle",
+    "secteur": null,
+    "base_legale": "LFI 2021",
+    "montant_eur": 182220000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-prelevement-sur-les-paris-sportifs-en-ligne-de-la-fdj-et-des-nouveaux-operate",
+    "nom": "Prélèvement sur les paris sportifs en ligne de la FdJ et des nouveaux opérateurs agréés",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANS - Agence nationale du sport",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 181700607.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-impot-sur-les-spectacles-jeux-et-divertissements",
+    "nom": "Impôt sur les spectacles, jeux et divertissements",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 157914466.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-de-sejour-taxe-de-sejour-forfaitaire",
+    "nom": "Taxe de séjour, taxe de séjour forfaitaire",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale à fiscalité propre) - part communale",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 156557950.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-departementale-additionnelle-a-certains-droits-d-enregistrement",
+    "nom": "Taxe départementale additionnelle à certains droits d'enregistrement",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements (part départementale)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 148350136.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-de-consommation-sur-les-tabacs-dans-les-dom",
+    "nom": "Droit de consommation sur les tabacs dans les DOM",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Collectivité territoriale de Corse et Conservatoire de l'espace littoral, de 2007 à 2011",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 143845400.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droits-de-consommation-sur-les-tabacs-dom",
+    "nom": "Droits de consommation sur les tabacs (DOM)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements d'Outre-mer",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 143845400.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-tsa-taxe-sur-le-prix-des-entrees-aux-seances-organisees-par-les-exploitants-d",
+    "nom": "TSA - Taxe sur le prix des entrées aux séances organisées par les exploitants d’établissements de spectacles cinématographiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNC - Centre national du cinéma et de l'image animée",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 135793000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-due-par-les-laboratoires-sur-leurs-depenses-de-publicite",
+    "nom": "Contribution due par les laboratoires sur leurs dépenses de publicité",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 132055481.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-ventes-et-les-locations-de-videogrammes-destines-a-l-usage-prive",
+    "nom": "Taxe sur les ventes et les locations de vidéogrammes destinés à l'usage privé du public (taxe vidéo et VOD )",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNC - Centre national du cinéma et de l'image animée",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 130000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-cotisation-btp-intemperies",
+    "nom": "Cotisation BTP intempéries",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "UCF CIBTP - Union des caisses de France",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 128325577.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevance-hydraulique",
+    "nom": "Redevance hydraulique",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "VNF - Voies navigables de France",
+    "secteur": null,
+    "base_legale": "LFI 2020",
+    "montant_eur": 127500000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contributions-additionnelles-aux-primes-ou-cotisations-afferentes-a-certaines",
+    "nom": "Contributions additionnelles aux primes ou cotisations afférentes à certaines conventions d'assurance",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FNGRA - Fonds national de gestion des risques en agriculture et fonds de calamités agricoles dans les départements d'outre-mer",
+    "secteur": null,
+    "base_legale": "LFR 2015 et de la LFI 2016",
+    "montant_eur": 120000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droits-et-contributions-pour-frais-de-controle",
+    "nom": "Droits et contributions pour frais de contrôle",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "AMF - Autorité des marchés financiers",
+    "secteur": null,
+    "base_legale": "LFI 2014",
+    "montant_eur": 118600000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-de-balayage",
+    "nom": "Taxe de balayage",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 113461601.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-equivalente-aux-droits-de-plaidoirie",
+    "nom": "Contribution équivalente aux droits de plaidoirie",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNBF - Caisse nationale des barreaux français",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 110597000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-de-circulation-sur-les-vins-cidres-poires-et-hydromels",
+    "nom": "Droit de circulation sur les vins, cidres, poirés et hydromels",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CCMSA - non salariés branche vieillesse",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 105557986.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-des-assures",
+    "nom": "Contribution des assurés",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FGAO - Fonds de garantie des assurances obligatoires de dommages",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 101100000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-fraction-des-produits-annuels-de-la-vente-de-biens-confisques",
+    "nom": "Fraction des produits annuels de la vente de biens confisqués",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "AGRASC - Agence de gestion et de recouvrement des avoirs saisis et confisqués",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 100000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-patronale-au-dialogue-social-0-016",
+    "nom": "Contribution patronale au dialogue social (0,016%)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "AGFPN - Association de Gestion du Fonds Paritaire National – AGFPN.",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 98045343.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-le-developpement-des-industries-de-la-mecanique-et-de-la-constructi",
+    "nom": "Taxe pour le développement des industries de la mécanique et de la construction métallique, des matériels et consommables de soudage et produits du décolletage, de construction métallique et des matériels aérauliques et thermiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CTI de l'Industrie : CT des indus. mécaniques (CETIM), CT de l'industrie du décolletage (CTDEC), CTI de la construction métallique (CTICM), CT des indus. aérauliques et thermiques (CETIAT), et Institut de Soudure",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 96715378.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droits-percus-au-profit-de-la-caisse-nationale-de-l-assurance-maladie-des-tra",
+    "nom": "Droits perçus au profit de la Caisse nationale de l'assurance maladie des travailleurs salariés (CNAMTS) en matière de produits de santé, taxe annuelle due par les laboratoires de biologie médicale",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 86038605.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevances-sur-les-paris-hippiques",
+    "nom": "Redevances sur les paris hippiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "France Galop et la société d’encouragement à l’élevage du cheval français (SECF)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 84677756.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-speciale-pour-la-gestion-des-dechets-radioactifs-conception",
+    "nom": "Contribution spéciale pour la gestion des déchets radioactifs - Conception",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANDRA - Agence nationale pour la gestion des déchets radioactifs",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 80700000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-conventionnelle-a-la-formation-pour-les-entreprises-de-travail-t",
+    "nom": "Contribution conventionnelle à la formation pour les entreprises de travail temporaire",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Fonds pour l'emploi du travail temporaire",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 67405000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-speciale-d-equipement-au-profit-de-l-etablissement-public-societe-du-gra",
+    "nom": "Taxe spéciale d'équipement au profit de l'établissement public Société du Grand Paris",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "SGP - Société du Grand Paris",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 67100000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-additionnelle-a-la-taxe-sur-les-installations-nucleaires-de-base-recherc",
+    "nom": "Taxe additionnelle à la taxe sur les installations nucléaires de base - Recherche",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANDRA - Agence nationale pour la gestion des déchets radioactifs",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 65072400.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-destinee-a-financer-le-developpement-des-actions-de-formation-profession",
+    "nom": "Taxe destinée à financer le développement des actions de formation professionnelle dans les transports routiers",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "AFT - Association pour le développement de la formation professionnelle dans les transports",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 63426000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-annuelle-au-profit-de-l-institut-de-radioprotection-et-de-surete",
+    "nom": "Contribution annuelle au profit de l'Institut de radioprotection et de sûreté nucléaire",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "IRSN - Institut de radioprotection et de sûreté nucléaire",
+    "secteur": null,
+    "base_legale": "LFR 2015 et de la LFI 2016",
+    "montant_eur": 61087750.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-de-consommation-sur-les-produits-intermediaires",
+    "nom": "Droit de consommation sur les produits intermédiaires",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CCMSA - non salariés branche vieillesse",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 60649900.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-sur-la-cession-a-un-service-de-television-des-droits-de-diffusio",
+    "nom": "Contribution sur la cession à un service de télévision des droits de diffusion de manifestations ou de compétitions sportives",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANS - Agence nationale du sport",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 59665398.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-due-par-les-entreprises-fabriquant-ou-exploitant-des-dispositifs",
+    "nom": "Contribution due par les entreprises fabriquant ou exploitant des dispositifs médicaux sur leurs dépenses de publicité",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 53747476.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-specifique-pour-le-developpement-de-la-formation-professionnelle",
+    "nom": "Contribution spécifique pour le développement de la formation professionnelle initiale et continue dans les métiers des professions du bâtiment et des travaux publics.",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "3CABTP et OPCO Constructys",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 51534400.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-sur-les-avantages-de-preretraite-d-entreprise",
+    "nom": "Contribution sur les avantages de préretraite d’entreprise",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 48462524.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-nuisances-sonores-aeriennes",
+    "nom": "Taxe sur les nuisances sonores aériennes",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Personnes publiques ou privées exploitant des aérodromes pour lesquels : - le nombre annuel des mouvements d'aéronefs de masse maximale au décollage supérieure ou égale à 20 tonnes a dépassé 20 000 lors de l'une des cinq années civiles précédentes, - ou le nombre annuel des mouvements d'aéronef de masse maximale au décollage supérieure ou égale à 2 tonnes a dépassé 50 000 lors de l'une des 5 années civiles précédentes, si les plans d'exposition au bruit ou de gêne sonore de cet aérodrome possèdent un domaine d'intersection avec les plans d'exposition au bruit ou de gêne sonore d'un aérodrome présentant les caractéristiques définies au tiret précédent.",
+    "secteur": null,
+    "base_legale": "LFI 2014",
+    "montant_eur": 44000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-la-gestion-des-certificats-d-immatriculation-des-vehicules",
+    "nom": "Taxe pour la gestion des certificats d'immatriculation des véhicules",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANTS - Agence nationale des titres sécurisés",
+    "secteur": null,
+    "base_legale": "LFR-I 2014 et de la LFI 2015",
+    "montant_eur": 40000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-boissons-edulcorees",
+    "nom": "Taxe sur les boissons édulcorées",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CCMSA (non salariés-maladie)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 38598427.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-departemental-de-passage-sur-les-ouvrages-d-art-reliant-le-continent-au",
+    "nom": "Droit départemental de passage sur les ouvrages d'art reliant le continent aux îles maritimes",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements (part départementale)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 34174937.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-le-developpement-de-la-formation-professionnelle-dans-les-metiers-d",
+    "nom": "Taxe pour le développement de la formation professionnelle dans les métiers de la réparation de l'automobile, du cycle et du motocycle",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANFA - Association nationale pour la formation automobile",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 32656722.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-due-par-les-entreprises-de-transport-public-aerien-et-maritime-sur-les-p",
+    "nom": "Taxe due par les entreprises de transport public aérien et maritime sur les passagers embarqués",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Régions de la Guadeloupe, de la Martinique, de la Guyane et de la Réunion",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 31870573.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-fraction-du-prelevement-sur-les-jeux-de-loterie-correspondant-aux-jeux-dedies",
+    "nom": "Fraction du prélèvement sur les jeux de loterie correspondant aux jeux dédiés au patrimoine",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Fondation du patrimoine",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 31264516.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-participation-au-financement-de-la-formation-fraction-affectee-aux-cma-pour-l",
+    "nom": "Participation au financement de la formation- Fraction affectée aux CMA pour leurs actions de formation",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CRMA (incl. Alsace et Moselle)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 31000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-spectacles-de-varietes",
+    "nom": "Taxe sur les spectacles de variétés",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNM - Centre national de la musique",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 30000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-sur-les-indemnites-de-mise-a-la-retraite",
+    "nom": "Contribution sur les indemnités de mise à la retraite",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 29770006.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-due-par-les-entreprises-de-transport-public-aerien-et-maritime",
+    "nom": "Taxe due par les entreprises de transport public aérien et maritime",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Collectivité territoriale de Corse et Conservatoire de l'espace littoral, de 2007 à 2011",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 29508540.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevances-pour-prelevement-sur-la-ressource-en-eau-pour-pollution-de-l-eau-p",
+    "nom": "Redevances pour prélèvement sur la ressource en eau, pour pollution de l'eau, pour modernisation des réseaux de collecte, pour pollutions diffuses, pour stockage d'eau en période d'étiage, pour obstacle sur les cours d'eau et pour protection du milieu aquatique dans les DOM",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Offices de l'eau (dans les DOM)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 28000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-affecte-au-fonds-d-indemnisation-de-la-profession-d-avoues-pres-les-cou",
+    "nom": "Droit affecté au fonds d’indemnisation de la profession d’avoués près les cours d’appel",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Fonds d'indemnisation de la profession d'avoués près les cours d'appel",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 26983448.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxes-locales-d-equipement",
+    "nom": "Taxes locales d'équipement",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou Groupements de communes (parts communale et intercommunale)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 25255629.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-fraction-des-droits-de-timbre-sur-les-cartes-nationales-d-identite",
+    "nom": "Fraction des droits de timbre sur les cartes nationales d'identité",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANTS - Agence nationale des titres sécurisés",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 24855000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-la-cession-a-titre-onereux-des-terrains-nus-ou-des-droits-relatifs-a",
+    "nom": "Taxe sur la cession à titre onéreux des terrains nus ou des droits relatifs à des terrains nus rendus constructibles du fait de leur classement",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ASP - Agence de services et de paiement",
+    "secteur": null,
+    "base_legale": "LFI 2013 et de la LFR-III 2012",
+    "montant_eur": 24000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-surtaxe-sur-les-eaux-minerales",
+    "nom": "Surtaxe sur les eaux minérales",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 21663438.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-additionnelle-regionale-de-15-a-la-taxe-de-sejour-idf",
+    "nom": "Taxe additionnelle régionale de 15% à la taxe de séjour IDF",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "SGP - Société du Grand Paris",
+    "secteur": null,
+    "base_legale": "LFI 2019",
+    "montant_eur": 20000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-communale-sur-la-consommation-finale-d-electricite-tcfe",
+    "nom": "Taxe communale sur la consommation finale d'électricité (TCFE)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale) à fiscalité propre et Départements - part intercommunale",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 19211201.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-additionnelle-departementale-a-la-taxe-de-sejour",
+    "nom": "Taxe additionnelle départementale à la taxe de séjour",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements (part départementale)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 18668885.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-dechets-receptionnes-dans-une-installation-de-stockage-ou-un-inc",
+    "nom": "Taxe sur les déchets réceptionnés dans une installation de stockage ou un incinérateur de déchets ménagers",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 17313784.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-prelevement-sur-les-contrats-d-assurance-vie-en-desherence-prelevement-sur-le",
+    "nom": "Prélèvement sur les contrats d'assurance-vie en deshérence; 'Prélèvement sur les contrats participation et intéressement en déshérence",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 17183302.0,
+    "annee": 2024,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": "Versement non obligatoire (libre choix)."
+  },
+  {
+    "id": "ta-taxe-pour-le-developpement-des-industries-du-cuir-de-la-maroquinerie-de-la-ga",
+    "nom": "Taxe pour le développement des industries du cuir, de la maroquinerie, de la ganterie et de la chaussure",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CTC - Comité professionnel de développement Cuir, Chaussure, Maroquinerie",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 16500000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-annuelle-acquittee-par-les-personnes-inscrites-comme-commissaire",
+    "nom": "Contribution annuelle acquittée par les personnes inscrites comme commissaires aux comptes, et droit fixe sur chaque rapport de certification des comptes, et contribution de la compagnie nationale des commissaires aux comptes",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "H3C - Haut conseil du commissariat aux comptes",
+    "secteur": null,
+    "base_legale": "LFR 2017 et LFI 2018",
+    "montant_eur": 16120000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-titres-de-sejour-et-de-voyage-electroniques",
+    "nom": "Taxe sur les Titres de séjour et de voyage electroniques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANTS - Agence nationale des titres sécurisés",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 16000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-le-developpement-des-industries-de-l-ameublement-ainsi-que-des-indu",
+    "nom": "Taxe pour le développement des industries de l'ameublement ainsi que des industries du bois",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CTI de la filière Bois - Comité professionnel de développement des industries françaises de l'ameublement et du bois (CODIFAB); Institut technologique FCBA (Filière cellulose, bois, ameublement); Centre technique de la mécanique (CETIM)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 15100000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-le-developpement-des-industries-des-materiaux-de-construction-regro",
+    "nom": "Taxe pour le développement des industries des matériaux de construction regroupant les industries du béton, de la terre cuite et des roches ornementales et de construction",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CTI des matériaux : Centre d'étude et de recherche de l'industrie du béton (CERIB); Centre technique de matériaux naturels de construction (CTMNC)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 13079542.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevances-umts-2g-et-3g",
+    "nom": "Redevances UMTS 2G et 3G",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 12835871.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-le-developpement-des-industries-de-l-horlogerie-bijouterie-joailler",
+    "nom": "Taxe pour le développement des industries de l'horlogerie, bijouterie, joaillerie, orfèvrerie et arts de la table",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Francéclat",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 12700000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-cotisation-versee-par-les-organismes-hlm",
+    "nom": "Cotisation versée par les organismes HLM",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANCOLS - Agence nationale de contrôle du logement social",
+    "secteur": null,
+    "base_legale": "LFR-I 2014 et de la LFI 2015",
+    "montant_eur": 11334000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-fraction-du-prelevement-sur-les-mises-de-jeux-de-cercle-en-ligne-affectee-aux",
+    "nom": "Fraction du Prélèvement sur les mises de jeux de cercle en ligne affectée aux communes dans le ressort territorial desquelles sont ouverts au public un ou plusieurs casinos",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes concernées",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 11000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-fraction-du-prelevement-sur-les-paris-hippiques-affectee-aux-epci-sur-le-terr",
+    "nom": "Fraction du Prélèvement sur les paris hippiques affectée aux EPCI sur le territoire desquelles sont ouverts au public un ou plusieurs hippodromes (affectée jusqu'aux mises 2012 versées en 2013 aux Communes concernées)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "EPCI concernés - Etablissements publics de coopération intercommunale à fiscalité propre (Communes concernées jusqu'en 2012)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 11000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-le-developpement-des-industries-de-l-habillement",
+    "nom": "Taxe pour le développement des industries de l'habillement",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Comité de développement et de promotion de l'habillement - DEFI",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 11000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevances-communale-et-departementale-des-mines",
+    "nom": "Redevances communale et départementale des mines",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale) à fiscalité propre et Départements - part départementale",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 10674603.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-cotisations-normale-et-supplementaire-des-entreprises-cinematographiques",
+    "nom": "Cotisations (normale et supplémentaire) des entreprises cinématographiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNC - Centre national du cinéma et de l'image animée",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 10102000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-de-timbre-pour-la-delivrance-du-permis-de-conduire-en-cas-de-perte-ou-d",
+    "nom": "Droit de timbre pour la délivrance du permis de conduire en cas de perte ou de vol",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANTS - Agence nationale des titres sécurisés",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 9604000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-relative-a-la-mise-sur-le-marche-des-produits-phytopharmaceutiques-et-de",
+    "nom": "Taxe relative à la mise sur le marché des produits phytopharmaceutiques et de leurs adjuvants, des matières fertilisantes et de leurs adjuvants et des supports de culture",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
+    "secteur": null,
+    "base_legale": "LFR 2016 et LFI 2017",
+    "montant_eur": 8700000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-prelevement-sur-la-participation-des-employeurs-a-l-effort-de-construction-pe",
+    "nom": "Prélèvement sur la participation des employeurs à l'effort de construction (PEEC)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANCOLS - Agence nationale de contrôle du logement social",
+    "secteur": null,
+    "base_legale": "LFR-I 2014 et de la LFI 2015",
+    "montant_eur": 6450000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-affectee-au-financement-d-un-nouveau-centre-technique-industriel-de-la-p",
+    "nom": "Taxe affectée au financement d’un nouveau Centre Technique Industriel de la plasturgie et des composites",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Centres techniques industriels de la plasturgie et des composites",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 6400000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-sur-les-produits-beneficiant-d-une-appellation-d-origine-ou-d-une-indic",
+    "nom": "Droit sur les produits bénéficiant d'une appellation d'origine ou d'une indication géographique protégée (INAO)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "INAO - Institut national de l'origine et de la qualité",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 6100000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-spectacles-percue-au-profit-de-l-association-pour-le-soutien-du-",
+    "nom": "Taxe sur les spectacles perçue au profit de l'Association pour le soutien du théâtre privé",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Association pour le soutien du théâtre privé",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 6000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-produits-de-la-fonderie",
+    "nom": "Taxe sur les produits de la fonderie",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CTIF - Centre technique des industries de la fonderie",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 5450000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-remontees-mecaniques",
+    "nom": "Taxe sur les remontées mécaniques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale) à fiscalité propre et Départements - part communale",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 5271117.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-fraction-des-prelevements-sociaux-sur-les-jeux-prevus-aux-art-l137-20-a-l137-",
+    "nom": "Fraction des Prélèvements sociaux sur les jeux prévus aux art. L137-20 à L137-22 du Code de la sécurité sociale",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANSP - Agence nationale de santé publique",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 5000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droits-de-plaidoirie",
+    "nom": "Droits de plaidoirie",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNBF - Caisse nationale des barreaux français",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 4802000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-annuel-de-francisation-et-de-navigation-en-corse-droit-de-passeport-en-",
+    "nom": "Droit annuel de francisation et de navigation en Corse; droit de passeport en Corse",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Collectivité territoriale de Corse et Conservatoire de l'espace littoral, de 2007 à 2011",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 4694040.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-liee-aux-dossiers-de-demande-concernant-les-medicaments-veterinaires-ou-",
+    "nom": "Taxe liée aux dossiers de demande concernant les médicaments vétérinaires ou leur publicité",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
+    "secteur": null,
+    "base_legale": "LFR 2016 et LFI 2017",
+    "montant_eur": 4300000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-annuelle-sur-la-vente-des-produits-phytopharmaceutiques",
+    "nom": "Taxe annuelle sur la vente des produits phytopharmaceutiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
+    "secteur": null,
+    "base_legale": "LFR-I 2014 et de la LFI 2015",
+    "montant_eur": 4179000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-annuelle-portant-sur-les-autorisations-de-medicaments-veterinaires-et-le",
+    "nom": "Taxe annuelle portant sur les autorisations de médicaments vétérinaires et les autorisations d’établissements pharmaceutiques vétérinaires",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
+    "secteur": null,
+    "base_legale": "LFR 2016 et LFI 2017",
+    "montant_eur": 4000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-annuelle-sur-les-engins-maritimes-a-usage-personnel-taemup",
+    "nom": "Taxe annuelle sur les engins maritimes à usage personnel (TAEMUP)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Organismes de secours et de sauvetage en mer agréés (art. L742-9 code de la sécurité intérieure)",
+    "secteur": null,
+    "base_legale": "LFR 2017 et LFI 2018",
+    "montant_eur": 4000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droits-assimiles-au-droit-d-octroi-de-mer-sur-les-rhums-et-spiritueux-a-base-",
+    "nom": "Droits assimilés au droit d'octroi de mer sur les rhums et spiritueux à base d'alcool de cru",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Régions de la Guadeloupe, de la Martinique, de la Guyane et de la Réunion",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 3802982.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-forfaitaire-des-organismes-assureurs-et-contribution-forfaitaire",
+    "nom": "Contribution forfaitaire des organismes assureurs et contribution forfaitaire des organismes participant à la gestion du régime prévu par la loi n° 2001-1128 du 30 novembre 2001",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FCATA (Fonds commun des accidents du travail agricole) jusqu'en 2016; CCMSA en 2017",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 3800000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevance-due-par-les-titulaires-de-titres-d-exploitation-de-mines-d-hydrocar",
+    "nom": "Redevance due par les titulaires de titres d'exploitation de mines d'hydrocarbures liquides ou gazeux",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 3600000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-passagers-maritimes-embarques-a-destination-d-espaces-naturels-p",
+    "nom": "Taxe sur les passagers maritimes embarqués à destination d'espaces naturels protégés",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Personne publique assurant la gestion de l'espace naturel protégé concerné ou la commune d'implantation de l'espace naturel protégé",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 3600000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-ta-tinb-taxe-additionnelle-a-la-taxe-sur-les-installations-nucleaires-de-base",
+    "nom": "TA-TINB - Taxe additionnelle à la taxe sur les installations nucléaires de base dite \"de stockage\"",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes et EPCI (établissements publics de coopération intercommunale) situés dans un rayon maximal autour de l'accès principal aux installations de stockage",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 3300000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-le-developpement-de-l-industrie-de-la-conservation-des-produits-agr",
+    "nom": "Taxe pour le développement de l'industrie de la conservation des produits agricoles (CTCPA)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CTCPA - Centre technique de la conservation des produits agricoles",
+    "secteur": null,
+    "base_legale": "LFI 2012",
+    "montant_eur": 2750000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-le-developpement-des-industries-de-fabrication-du-papier-du-carton-",
+    "nom": "Taxe pour le développement des industries de fabrication du papier, du carton et de la pâte de cellulose.",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Centre technique de l’industrie des papiers, cartons et celluloses",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2346000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-de-ski-de-fond",
+    "nom": "Taxe de ski de fond",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale à fiscalité propre) - part intercommunale",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2175955.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-exploitants-de-plateformes-de-mises-en-relation-par-voie-electro",
+    "nom": "Taxe sur les exploitants de plateformes de mises en relation par voie électronique en vue de fournir certaines prestations de transport",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ARPE - Autorité des relations sociales des plateformes d'emploi",
+    "secteur": null,
+    "base_legale": "LFI 2022",
+    "montant_eur": 2000000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxes-speciales-d-equipement",
+    "nom": "Taxes spéciales d'équipement",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Etablissement public foncier de Mayotte",
+    "secteur": null,
+    "base_legale": "LFR 2016 et LFI 2017",
+    "montant_eur": 1807000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxes-dans-le-domaine-funeraire",
+    "nom": "Taxes dans le domaine funéraire",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale) à fiscalité propre",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 969277.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevance-pour-delivrance-initiale-du-permis-de-chasse",
+    "nom": "Redevance pour délivrance initiale du permis de chasse",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "OFB - Office français de la biodiversité",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 900000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevance-percue-a-l-occasion-de-l-introduction-des-familles-etrangeres-en-fr",
+    "nom": "Redevance perçue à l’occasion de l’introduction des familles étrangères en France",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "OFII - Office français de l'immigration et de l'intégration",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 800000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-redevance-proportionnelle-sur-l-energie-hydraulique",
+    "nom": "Redevance proportionnelle sur l'énergie hydraulique",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes et départements (part départementale)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 782584.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-affectee-au-financement-de-l-institut-des-corps-gras",
+    "nom": "Taxe affectée au financement de l'institut des corps gras",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ITERG - Institut des corps gras",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 650000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-due-par-les-concessionnaires-de-mines-d-or-les-amodiataires-des-concessi",
+    "nom": "Taxe due par les concessionnaires de mines d'or, les amodiataires des concessions de mines d'or et les titulaires de permis et d'autorisations d'exploitation de mines d'or exploitées en Guyane (taxe additionnelle aurifère)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Région de la Guyane",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 606216.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-droit-d-examen-du-permis-de-chasse",
+    "nom": "Droit d'examen du permis de chasse",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "OFB - Office français de la biodiversité",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 600000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-pour-non-raccordement-a-l-egout-participation-pour-le-financement-de-l-a",
+    "nom": "Taxe pour non-raccordement à l'égout - Participation pour le financement de l'assainissement collectif (PAC)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 472229.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-specifique-a-la-formation-professionnelle-pour-saint-pierre-et-m",
+    "nom": "Contribution spécifique à la formation professionnelle pour Saint Pierre et Miquelon",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "France Compétences",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 281286.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-versement-pour-sous-densite",
+    "nom": "Versement pour sous-densité",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale) à fiscalité propre et Départements",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 208840.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-annuelle-sur-les-engins-maritimes-a-usage-personnel-taemup-fraction-perc",
+    "nom": "Taxe annuelle sur les engins maritimes à usage personnel (TAEMUP) – Fraction perçue sur les engins ne battant pas pavillon français",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Organismes de secours et de sauvetage en mer agréés (art. L742-9 code de la sécurité intérieure)",
+    "secteur": null,
+    "base_legale": "LFR 2017 et LFI 2018",
+    "montant_eur": 160000.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-permis-de-conduire",
+    "nom": "Taxe sur les permis de conduire",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Régions",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 50376.0,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
     "id": "seed-amendes-penalites-et-majorations",
     "nom": "Amendes, pénalités et majorations",
     "sigle": null,
@@ -1232,6 +4719,50 @@
     "notes": "Sanction, hors champ des prélèvements (README §5)."
   },
   {
+    "id": "ta-contribution-exceptionnelle-des-organismes-complementaires-en-sante-aux-depen",
+    "nom": "Contribution exceptionnelle des organismes complémentaires en santé aux dépenses liées à la gestion de l'épidémie de Covid-19",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-contribution-sociale-a-la-charge-des-fournisseurs-agrees-de-produits-de-tabac",
+    "nom": "Contribution sociale à la charge des fournisseurs agréés de produits de tabac",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAMTS - Fonds tabacs",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
     "id": "seed-contribution-a-l-audiovisuel-public-ex-redevance-tv",
     "nom": "Contribution à l'audiovisuel public (ex-redevance TV)",
     "sigle": null,
@@ -1252,6 +4783,50 @@
       }
     ],
     "notes": "Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5)."
+  },
+  {
+    "id": "ta-cotisation-additionnelle-versee-par-les-organismes-hlm-et-les-sem",
+    "nom": "Cotisation additionnelle versée par les organismes HLM et les SEM",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FNAVDL - Fonds national d’accompagnement vers et dans le logement",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-cotisation-au-profit-des-caisses-d-assurances-d-accidents-agricoles-d-alsace-",
+    "nom": "Cotisation au profit des caisses d’assurances d’accidents agricoles d’Alsace-Moselle",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CAAA - Caisses d'assurances d'accidents agricoles d'Alsace-Moselle",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
   },
   {
     "id": "seed-cotisations-aux-ordres-professionnels-et-syndicats",
@@ -1408,6 +4983,50 @@
     "notes": "Contrepartie directe (occupation du domaine public) depuis 2018."
   },
   {
+    "id": "ta-fraction-de-taxe-de-solidarite-additionnelle-tsa",
+    "nom": "Fraction de Taxe de solidarité additionnelle (TSA)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Fonds CMU - Fonds de financement de la protection complémentaire de la couverture universelle du risque maladie",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-fraction-du-produit-des-successions-en-desherence",
+    "nom": "Fraction du produit des successions en déshérence",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Fondation du patrimoine",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
     "id": "seed-part-salariale-de-l-assurance-chomage",
     "nom": "Part salariale de l'assurance chômage",
     "sigle": null,
@@ -1474,6 +5093,28 @@
     "notes": "Tarifée selon le service rendu => contrepartie directe (README §5)."
   },
   {
+    "id": "ta-redevance-pour-creation-de-bureaux-ou-de-locaux-de-recherche-en-region-ile-de",
+    "nom": "Redevance pour création de bureaux ou de locaux de recherche en région Ile-de-France",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Région Ile-de-France",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
     "id": "seed-redevances-domaniales",
     "nom": "Redevances domaniales",
     "sigle": null,
@@ -1516,5 +5157,203 @@
       }
     ],
     "notes": "Recettes patrimoniales avec contrepartie."
+  },
+  {
+    "id": "ta-taxe-annuelle-sur-les-logements-vacants",
+    "nom": "Taxe annuelle sur les logements vacants",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANAH - Agence nationale de l'habitat",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-departementale-des-espaces-naturels-sensibles",
+    "nom": "Taxe départementale des espaces naturels sensibles",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Départements (part départementale)",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-exceptionnelle-sur-la-reserve-de-capitalisation-exit-tax",
+    "nom": "Taxe exceptionnelle sur la réserve de capitalisation (exit-tax)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAF",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-declarations-et-notifications-de-produit-du-tabac",
+    "nom": "Taxe sur les déclarations et notifications de produit du tabac",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-installations-de-production-d-electricite-utilisant-l-energie-me",
+    "nom": "Taxe sur les installations de production d'électricité utilisant l'énergie mécanique du vent situées dans les eaux intérieures ou la mer territoriale",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Comités départementaux et interdépartementaux des pêches maritimes et des élevages marins",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-plus-values-immobilieres-pvi-autres-que-terrains-a-batir",
+    "nom": "Taxe sur les plus-values immobilières (PVI) autres que terrains à bâtir",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FNAL - Fonds national d'aide au logement",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxe-sur-les-produits-de-tabac",
+    "nom": "Taxe sur les produits de tabac",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-taxes-sur-les-friches-commerciales",
+    "nom": "Taxes sur les friches commerciales",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale à fiscalité propre) - part communale",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "ta-versement-transport-du-par-les-entreprises-de-plus-de-9-salaries-implantees-e",
+    "nom": "Versement transport dû par les entreprises de plus de 9 salariés implantées en province",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Autorités organisatrices des transports urbains",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": 2024,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null
   }
 ]
