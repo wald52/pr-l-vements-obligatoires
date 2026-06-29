@@ -8,7 +8,7 @@
 |---|---:|
 | Prélèvements retenus (PRIS) | 56 |
 | Candidats rejetés (REJET) | 19 |
-| Lignes à arbitrer | 251 |
+| Lignes à arbitrer | 266 |
 | Somme des PRIS | 1337.2 Md€ |
 | Enveloppe INSEE (2024) | 1254.0 Md€ |
 | **Couverture** | **106.6 %** |
@@ -21,9 +21,10 @@
 | Categorie | Nombre | Montant (Md€) |
 |---|---:|---:|
 | cotisation sociale | 6 | 570.0 |
-| impôt d'État | 15 | 433.1 |
+| impôt d'État | 10 | 398.5 |
 | taxe affectée | 14 | 199.5 |
-| impôt local | 12 | 82.1 |
+| impôt local | 11 | 77.1 |
+| recette fiscale (État) | 6 | 39.6 |
 | fiscalité sociale | 5 | 25.4 |
 | impôt en capital | 1 | 20.8 |
 | ressource UE | 3 | 6.2 |
@@ -51,7 +52,7 @@
 | Impôt sur les sociétés | impôt d'État | 60.0 | readme_seed |
 | Cotisations d'assurance chômage (part employeur) | cotisation sociale | 40.0 | readme_seed |
 | Taxe foncière sur les propriétés bâties | impôt local | 35.0 | readme_seed |
-| Accise sur les énergies (ex-TICPE) | impôt d'État | 30.0 | readme_seed |
+| Accises sur les énergies (ex-TICPE) | recette fiscale (État) | 30.0 | readme_seed, vm_tome1 |
 | Mutations à titre gratuit | impôt en capital | 20.8 | eurostat_ntl |
 | Accises sur les alcools, tabacs et boissons | impôt d'État | 18.0 | readme_seed |
 | Droits d'enregistrement et de mutation à titre gratuit | impôt d'État | 18.0 | readme_seed |
@@ -65,7 +66,7 @@
 | Cotisation foncière des entreprises | impôt local | 7.7 | eurostat_ntl, readme_seed |
 | Forfait social | fiscalité sociale | 6.3 | eurostat_ntl, readme_seed |
 | Contribution sociale de solidarité des sociétés | taxe affectée | 5.2 | eurostat_ntl, readme_seed, taxes_affectees |
-| Cotisation sur la valeur ajoutée des entreprises | impôt local | 5.0 | eurostat_ntl, readme_seed |
+| Cotisation sur la valeur ajoutée des entreprises | recette fiscale (État) | 5.0 | eurostat_ntl, readme_seed, vm_tome1 |
 | Cotisations agricoles | cotisation sociale | 5.0 | readme_seed |
 | Prélèvement de solidarité sur les revenus du capital | fiscalité sociale | 5.0 | readme_seed |
 | Taxe de solidarité additionnelle (complémentaire santé) | fiscalité sociale | 5.0 | readme_seed |
@@ -73,13 +74,13 @@
 | Taxe d'habitation sur les résidences secondaires | impôt local | 2.5 | readme_seed |
 | Redevances des agences de l'eau | taxe affectée | 2.2 | readme_seed |
 | Droits de douane | ressource UE | 2.0 | readme_seed |
-| Impôt sur la fortune immobilière | impôt d'État | 2.0 | readme_seed |
+| Impôt sur la fortune immobilière | recette fiscale (État) | 2.0 | readme_seed, vm_tome1 |
 | Impositions forfaitaires sur les entreprises de réseaux | impôt local | 1.9 | eurostat_ntl, readme_seed |
-| Taxe sur les transactions financières | impôt d'État | 1.9 | eurostat_ntl, readme_seed |
+| Taxe sur les transactions financières | recette fiscale (État) | 1.9 | eurostat_ntl, readme_seed, vm_tome1 |
 | Taxe sur les surfaces commerciales | impôt local | 1.3 | eurostat_ntl, readme_seed |
 | Contribution sur les emballages plastiques non recyclés | ressource UE | 1.2 | readme_seed |
 | Taxe foncière sur les propriétés non bâties | impôt local | 1.0 | readme_seed |
-| Taxe sur les services numériques | impôt d'État | 0.8 | eurostat_ntl, readme_seed |
+| Taxe sur les services numériques | recette fiscale (État) | 0.8 | eurostat_ntl, readme_seed, vm_tome1 |
 | Taxes d'enlèvement des ordures ménagères | taxe affectée | 0.6 | readme_seed, taxes_affectees |
 | Taxe d’aménagement | taxe affectée | 0.6 | readme_seed, taxes_affectees |
 | Taxe GEMAPI | impôt local | 0.5 | eurostat_ntl, readme_seed |

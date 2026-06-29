@@ -7,7 +7,7 @@ seed-cotisations-de-retraite-complementaire-obligatoire,Cotisations de retraite 
 seed-impot-sur-les-societes,Impôt sur les sociétés,IS,impôt d'État,,,APUC,CGI art. 205 s.,60000000000.0,2024,PRIS,,Inclut contributions sociale et exceptionnelles sur l'IS.,readme_seed
 seed-cotisations-d-assurance-chomage-part-employeur,Cotisations d'assurance chômage (part employeur),,cotisation sociale,,,ASSO,Code du travail,40000000000.0,2024,PRIS,,Régime Unédic.,readme_seed
 seed-taxe-fonciere-sur-les-proprietes-baties,Taxe foncière sur les propriétés bâties,TFPB,impôt local,,,APUL,CGI art. 1380 s.,35000000000.0,2024,PRIS,,,readme_seed
-seed-accise-sur-les-energies-ex-ticpe,Accise sur les énergies (ex-TICPE),TICPE,impôt d'État,,,APUC,CIBS,30000000000.0,2024,PRIS,,,readme_seed
+vm-1501-accises-sur-les-energies-ex-ticpe,Accises sur les énergies (ex-TICPE),TICPE,recette fiscale (État),,,APUC,CIBS,30000000000.0,2024,PRIS,,,vm_tome1;vm_tome1;vm_tome1;readme_seed
 eurostat-mutations-a-titre-gratuit,Mutations à titre gratuit,,impôt en capital,D91,,,,20819000000.0,2024,PRIS,,,eurostat_ntl
 seed-accises-sur-les-alcools-tabacs-et-boissons,"Accises sur les alcools, tabacs et boissons",,impôt d'État,,,APUC,CIBS,18000000000.0,2024,PRIS,,,readme_seed
 seed-droits-d-enregistrement-et-de-mutation-a-titre-gratuit,Droits d'enregistrement et de mutation à titre gratuit,,impôt d'État,,,APUC,CGI,18000000000.0,2024,PRIS,,Successions et donations.,readme_seed
@@ -21,7 +21,7 @@ eurostat-contribution-au-remboursement-de-la-dette-sociale,Contribution au rembo
 eurostat-cotisation-fonciere-des-entreprises,Cotisation foncière des entreprises,CFE,impôt local,D29,,APUL,CGI art. 1447 s.,7708000000.0,2024,PRIS,,,eurostat_ntl;readme_seed
 eurostat-forfait-social,Forfait social,,fiscalité sociale,D29,,ASSO,CSS art. L137-15,6300000000.0,2024,PRIS,,,eurostat_ntl;readme_seed
 eurostat-contribution-sociale-de-solidarite-des-societes,Contribution sociale de solidarité des sociétés,C3S,taxe affectée,D29,"CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",ASSO,CSS art. L651-1,5228000000.0,2024,PRIS,,,eurostat_ntl;taxes_affectees;readme_seed
-eurostat-cotisation-sur-la-valeur-ajoutee-des-entreprises,Cotisation sur la valeur ajoutée des entreprises,CVAE,impôt local,D29,,APUL,CGI art. 1586 ter,5000000000.0,2024,PRIS,,En extinction progressive.,eurostat_ntl;readme_seed
+eurostat-cotisation-sur-la-valeur-ajoutee-des-entreprises,Cotisation sur la valeur ajoutée des entreprises,CVAE,recette fiscale (État),D29,,APUL,CGI art. 1586 ter,5000000000.0,2024,PRIS,,En extinction progressive.,eurostat_ntl;vm_tome1;readme_seed
 seed-cotisations-agricoles,Cotisations agricoles,,cotisation sociale,,,ASSO,Code rural,5000000000.0,2024,PRIS,,Recouvrées par la MSA.,readme_seed
 seed-prelevement-de-solidarite-sur-les-revenus-du-capital,Prélèvement de solidarité sur les revenus du capital,,fiscalité sociale,,,ASSO,CSS,5000000000.0,2024,PRIS,,"Taux 7,5 %.",readme_seed
 seed-taxe-de-solidarite-additionnelle-complementaire-sante,Taxe de solidarité additionnelle (complémentaire santé),TSA,fiscalité sociale,,,ASSO,CSS art. L862-4,5000000000.0,2024,PRIS,,,readme_seed
@@ -29,13 +29,13 @@ seed-ressource-propre-fondee-sur-la-tva,Ressource propre fondée sur la TVA,,res
 seed-taxe-d-habitation-sur-les-residences-secondaires,Taxe d'habitation sur les résidences secondaires,THRS,impôt local,,,APUL,CGI art. 1407 s.,2500000000.0,2024,PRIS,,TH résidence principale supprimée.,readme_seed
 seed-redevances-des-agences-de-l-eau,Redevances des agences de l'eau,,taxe affectée,,,ODAC,Code de l'environnement L213-10,2200000000.0,2024,PRIS,,Qualifiées d'impositions de toutes natures par le Conseil constitutionnel => PO (README §4.5).,readme_seed
 seed-droits-de-douane,Droits de douane,,ressource UE,,,UE,Code des douanes de l'Union,2000000000.0,2024,PRIS,,"Ressources propres traditionnelles, perçus pour l'UE.",readme_seed
-seed-impot-sur-la-fortune-immobiliere,Impôt sur la fortune immobilière,IFI,impôt d'État,,,APUC,CGI art. 964 s.,2000000000.0,2024,PRIS,,,readme_seed
+vm-1406-impot-sur-la-fortune-immobiliere,Impôt sur la fortune immobilière,IFI,recette fiscale (État),,,APUC,CGI art. 964 s.,2000000000.0,2024,PRIS,,,vm_tome1;readme_seed
 eurostat-impositions-forfaitaires-sur-les-entreprises-de-reseaux,Impositions forfaitaires sur les entreprises de réseaux,IFER,impôt local,D29,,APUL,CGI art. 1635-0 quinquies,1864000000.0,2024,PRIS,,,eurostat_ntl;readme_seed
-eurostat-taxe-sur-les-transactions-financieres,Taxe sur les transactions financières,TTF,impôt d'État,D214,,APUC,CGI art. 235 ter ZD,1851000000.0,2024,PRIS,,,eurostat_ntl;readme_seed
+eurostat-taxe-sur-les-transactions-financieres,Taxe sur les transactions financières,TTF,recette fiscale (État),D214,,APUC,CGI art. 235 ter ZD,1851000000.0,2024,PRIS,,,eurostat_ntl;vm_tome1;readme_seed
 eurostat-taxe-sur-les-surfaces-commerciales,Taxe sur les surfaces commerciales,TASCOM,impôt local,D29,,APUL,CGI,1268000000.0,2024,PRIS,,,eurostat_ntl;readme_seed
 seed-contribution-sur-les-emballages-plastiques-non-recycles,Contribution sur les emballages plastiques non recyclés,,ressource UE,,,UE,Décision ressources propres UE,1200000000.0,2024,PRIS,,,readme_seed
 seed-taxe-fonciere-sur-les-proprietes-non-baties,Taxe foncière sur les propriétés non bâties,TFPNB,impôt local,,,APUL,CGI art. 1393 s.,1000000000.0,2024,PRIS,,,readme_seed
-eurostat-taxe-sur-les-services-numeriques,Taxe sur les services numériques,,impôt d'État,D214,,APUC,CGI art. 299 s.,785000000.0,2024,PRIS,,Dite « taxe GAFA ».,eurostat_ntl;readme_seed
+eurostat-taxe-sur-les-services-numeriques,Taxe sur les services numériques,,recette fiscale (État),D214,,APUC,CGI art. 299 s.,785000000.0,2024,PRIS,,Dite « taxe GAFA ».,eurostat_ntl;vm_tome1;readme_seed
 ta-taxes-d-enlevement-des-ordures-menageres,Taxes d'enlèvement des ordures ménagères,TEOM,taxe affectée,,Communes ou EPCI (établissements publics de coopération intercommunale à fiscalité propre) - part communale,APUL,CGI art. 1520 s.,627333482.0,2024,PRIS,,"TEOM adossée au foncier, sans lien avec le service rendu => PO (cf. README §4.2).",taxes_affectees;readme_seed
 ta-taxe-d-amenagement,Taxe d’aménagement,,taxe affectée,,Départements (part départementale),APUL,CGI art. 1635 quater A,583836246.0,2024,PRIS,,,taxes_affectees;readme_seed
 eurostat-taxe-gemapi,Taxe GEMAPI,,impôt local,D29,,APUL,CGI art. 1530 bis,532000000.0,2024,PRIS,,Gestion des milieux aquatiques et prévention des inondations.,eurostat_ntl;readme_seed
@@ -49,7 +49,7 @@ seed-cotisations-des-regimes-speciaux,Cotisations des régimes spéciaux,,cotisa
 seed-droits-de-timbre,Droits de timbre,,impôt d'État,,,APUC,CGI,,,PRIS,,"Passeports, cartes, etc.",readme_seed
 seed-malus-automobile-co2-et-masse,Malus automobile (CO2 et masse),,impôt d'État,,,APUC,CIBS,,,PRIS,,,readme_seed
 seed-taxe-de-sejour,Taxe de séjour,,impôt local,,,APUL,CGCT L2333-26 s.,,,PRIS,,,readme_seed
-seed-taxe-generale-sur-les-activites-polluantes,Taxe générale sur les activités polluantes,TGAP,impôt d'État,,,APUC,CIBS,,,PRIS,,,readme_seed
+vm-1756-taxe-generale-sur-les-activites-polluantes,Taxe générale sur les activités polluantes,TGAP,recette fiscale (État),,,APUC,CIBS,,,PRIS,,,vm_tome1;readme_seed
 seed-taxe-sur-l-affectation-des-vehicules-a-des-fins-economiques,Taxe sur l'affectation des véhicules à des fins économiques,ex-TVS,impôt d'État,,,APUC,CIBS,,,PRIS,,,readme_seed
 seed-taxe-sur-les-bureaux-et-locaux-en-ile-de-france,Taxe sur les bureaux et locaux en Île-de-France,,impôt d'État,,,APUC,CGI,,,PRIS,,,readme_seed
 seed-taxe-sur-les-logements-vacants,Taxe sur les logements vacants,TLV,impôt local,,,APUL,CGI art. 232,,,PRIS,,,readme_seed
@@ -236,7 +236,7 @@ ta-taxe-pour-le-developpement-des-industries-de-l-habillement,Taxe pour le déve
 ta-redevances-communale-et-departementale-des-mines,Redevances communale et départementale des mines,,taxe affectée,,Communes ou EPCI (établissements publics de coopération intercommunale) à fiscalité propre et Départements - part départementale,,,10674603.0,2024,A_ARBITRER,,,taxes_affectees
 ta-cotisations-normale-et-supplementaire-des-entreprises-cinematographiques,Cotisations (normale et supplémentaire) des entreprises cinématographiques,,taxe affectée,,CNC - Centre national du cinéma et de l'image animée,,,10102000.0,2024,A_ARBITRER,,,taxes_affectees
 ta-droit-de-timbre-pour-la-delivrance-du-permis-de-conduire-en-cas-de-perte-ou-d,Droit de timbre pour la délivrance du permis de conduire en cas de perte ou de vol,,taxe affectée,,ANTS - Agence nationale des titres sécurisés,,LFI 2012,9604000.0,2024,A_ARBITRER,,,taxes_affectees
-eurostat-autres-taxes,Autres taxes,,indéterminée,D212,,,,9000000.0,2024,A_ARBITRER,,,eurostat_ntl
+eurostat-autres-taxes,Autres taxes,,recette fiscale (État),D212,,,,9000000.0,2024,A_ARBITRER,,,eurostat_ntl;vm_tome1
 ta-taxe-relative-a-la-mise-sur-le-marche-des-produits-phytopharmaceutiques-et-de,"Taxe relative à la mise sur le marché des produits phytopharmaceutiques et de leurs adjuvants, des matières fertilisantes et de leurs adjuvants et des supports de culture",,taxe affectée,,"ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",,LFR 2016 et LFI 2017,8700000.0,2024,A_ARBITRER,,,taxes_affectees
 ta-prelevement-sur-la-participation-des-employeurs-a-l-effort-de-construction-pe,Prélèvement sur la participation des employeurs à l'effort de construction (PEEC),,taxe affectée,,ANCOLS - Agence nationale de contrôle du logement social,,LFR-I 2014 et de la LFI 2015,6450000.0,2024,A_ARBITRER,,,taxes_affectees
 ta-taxe-affectee-au-financement-d-un-nouveau-centre-technique-industriel-de-la-p,Taxe affectée au financement d’un nouveau Centre Technique Industriel de la plasturgie et des composites,,taxe affectée,,Centres techniques industriels de la plasturgie et des composites,,,6400000.0,2024,A_ARBITRER,,,taxes_affectees
@@ -280,8 +280,11 @@ seed-amendes-penalites-et-majorations,"Amendes, pénalités et majorations",,ind
 eurostat-avoir-fiscal-distribue-negatif,Avoir fiscal distribué (négatif),,indéterminée,D51,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-avoir-fiscal-utilise-positif,Avoir fiscal utilisé (positif),,indéterminée,D51,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-contribution-au-srf-single-resolution-fund,Contribution au SRF (single resolution fund),,indéterminée,D29,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
+vm-1440-contribution-differentielle-applicable-a-certains-contribuables-titulair,Contribution différentielle applicable à certains contribuables titulaires de très hauts reve- nus,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 ta-contribution-exceptionnelle-des-organismes-complementaires-en-sante-aux-depen,Contribution exceptionnelle des organismes complémentaires en santé aux dépenses liées à la gestion de l'épidémie de Covid-19,,taxe affectée,,CNAMTS,,,,2024,A_ARBITRER,,,taxes_affectees
+vm-1441-contribution-exceptionnelle-sur-les-benefices-des-grandes-entreprises,Contribution exceptionnelle sur les bénéfices des grandes entreprises,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 ta-contribution-sociale-a-la-charge-des-fournisseurs-agrees-de-produits-de-tabac,Contribution sociale à la charge des fournisseurs agréés de produits de tabac,,taxe affectée,,CNAMTS - Fonds tabacs,,,,2024,A_ARBITRER,,,taxes_affectees
+vm-1752-contribution-sur-la-rente-infra-marginale-de-la-production-d-electricite,Contribution sur la rente infra-marginale de la production d'électricité,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 eurostat-contribution-temporaire-de-solidarite,Contribution temporaire de solidarité,,indéterminée,D51,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-contribution-a-l-audiovisuel-public,Contribution à l'audiovisuel public,,indéterminée,D59,,,,0.0,2024,REJET,supprime,"Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5).",eurostat_ntl
 seed-contribution-a-l-audiovisuel-public-ex-redevance-tv,Contribution à l'audiovisuel public (ex-redevance TV),,indéterminée,,,,,,,REJET,supprime,"Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5).",readme_seed
@@ -301,11 +304,20 @@ ta-fraction-du-produit-des-successions-en-desherence,Fraction du produit des suc
 eurostat-impot-forfaitaire-annuel,Impôt forfaitaire annuel,,indéterminée,D51,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-impot-sur-les-operations-traitees-dans-les-bourses-de-valeurs,Impôt sur les opérations traitées dans les bourses de valeurs,,indéterminée,D214,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 seed-part-salariale-de-l-assurance-chomage,Part salariale de l'assurance chômage,,indéterminée,,,,,,,REJET,supprime,"Supprimée en 2018, remplacée par de la CSG.",readme_seed
+vm-1785-produits-des-jeux-exploites-par-la-francaise-des-jeux-hors-paris-sportif,Produits des jeux exploités par la Française des jeux (hors paris sportifs),,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
+vm-1787-prelevement-sur-le-produit-brut-des-paris-hippiques,Prélèvement sur le produit brut des paris hippiques,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
+vm-1789-prelevement-sur-les-jeux-de-cercle-en-ligne,Prélèvement sur les jeux de cercle en ligne,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
+vm-1788-prelevement-sur-les-paris-sportifs,Prélèvement sur les paris sportifs,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
+vm-1427-prelevements-de-solidarite,Prélèvements de solidarité,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 eurostat-prelevements-et-taxes-compensatoires-a-l-importation,Prélèvements et taxes compensatoires à l'importation,,indéterminée,D212,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
+vm-1786-prelevements-sur-le-produit-des-jeux-dans-les-casinos,Prélèvements sur le produit des jeux dans les casinos,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 seed-peages-autoroutiers-et-d-ouvrages-d-art,Péages autoroutiers et d'ouvrages d'art,,indéterminée,,,,,,,REJET,C3,Paiement d'un service rendu (usage de l'infrastructure).,readme_seed
+vm-1499-recettes-diverses,Recettes diverses,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 seed-redevance-d-enlevement-des-ordures-menageres,Redevance d'enlèvement des ordures ménagères,REOM,indéterminée,,,,,,,REJET,C3,Tarifée selon le service rendu => contrepartie directe (README §5).,readme_seed
 ta-redevance-pour-creation-de-bureaux-ou-de-locaux-de-recherche-en-region-ile-de,Redevance pour création de bureaux ou de locaux de recherche en région Ile-de-France,,taxe affectée,,Région Ile-de-France,,,,2024,A_ARBITRER,,,taxes_affectees
 seed-redevances-domaniales,Redevances domaniales,,indéterminée,,,,,,,REJET,C3,Contrepartie : droit d'occupation du domaine public.,readme_seed
+vm-1402-retenues-a-la-source-et-prelevements-sur-les-revenus-de-capitaux-mobilie,Retenues à la source et prélèvements sur les revenus de capitaux mobiliers et le prélèvement sur les bons anonymes,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
+vm-1401-retenues-a-la-source-sur-certains-benefices-non-commerciaux-et-de-l-impo,Retenues à la source sur certains bénéfices non commerciaux et de l'impôt sur le revenu,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 seed-revenus-du-domaine-dividendes-loyers,"Revenus du domaine, dividendes, loyers",,indéterminée,,,,,,,REJET,C3,Recettes patrimoniales avec contrepartie.,readme_seed
 eurostat-tva-sur-subventions,TVA sur subventions,,indéterminée,D29,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-taxe-additionnelle-sur-les-assurances-automobile,Taxe additionnelle sur les assurances automobile,,indéterminée,D214,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
@@ -315,10 +327,13 @@ ta-taxe-departementale-des-espaces-naturels-sensibles,Taxe départementale des e
 ta-taxe-exceptionnelle-sur-la-reserve-de-capitalisation-exit-tax,Taxe exceptionnelle sur la réserve de capitalisation (exit-tax),,taxe affectée,,CNAF,,,,2024,A_ARBITRER,,,taxes_affectees
 eurostat-taxe-professionnelle,Taxe professionnelle,,indéterminée,D29,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-taxe-sur-l-utilisation-des-voies-navigables-dont-taxe-hydraulique,Taxe sur l'utilisation des voies navigables (dont taxe hydraulique),,indéterminée,D29,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
+vm-1439-taxe-sur-le-patrimoine-financier,Taxe sur le patrimoine financier,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 ta-taxe-sur-les-declarations-et-notifications-de-produit-du-tabac,Taxe sur les déclarations et notifications de produit du tabac,,taxe affectée,,"ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",,,,2024,A_ARBITRER,,,taxes_affectees
 ta-taxe-sur-les-installations-de-production-d-electricite-utilisant-l-energie-me,Taxe sur les installations de production d'électricité utilisant l'énergie mécanique du vent situées dans les eaux intérieures ou la mer territoriale,,taxe affectée,,Comités départementaux et interdépartementaux des pêches maritimes et des élevages marins,,,,2024,A_ARBITRER,,,taxes_affectees
+vm-1442-taxe-sur-les-petits-colis,Taxe sur les petits colis,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 ta-taxe-sur-les-plus-values-immobilieres-pvi-autres-que-terrains-a-batir,Taxe sur les plus-values immobilières (PVI) autres que terrains à bâtir,,taxe affectée,,FNAL - Fonds national d'aide au logement,,,,2024,A_ARBITRER,,,taxes_affectees
 ta-taxe-sur-les-produits-de-tabac,Taxe sur les produits de tabac,,taxe affectée,,"ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",,,,2024,A_ARBITRER,,,taxes_affectees
+vm-1796-taxe-sur-les-rachats-d-actions,Taxe sur les rachats d'actions,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 eurostat-taxe-sur-les-vehicules-partie-menages,Taxe sur les véhicules (partie ménages),,indéterminée,D59,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-taxes-au-profit-de-l-ademe-agence-de-l-environnement-et-de-la-maitrise-,Taxes au profit de l'ADEME (Agence de l'environnement et de la maîtrise de l'énergie),,indéterminée,D214,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-taxes-au-profit-du-fndma-financement-national-de-developpement-et-de-mo,Taxes au profit du FNDMA (Financement National de Développement et de Modernisation de l'Apprentissage),,indéterminée,D29,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl

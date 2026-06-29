@@ -1,9 +1,9 @@
 {
   "year": 2024,
-  "n_records_total": 326,
+  "n_records_total": 341,
   "n_pris": 56,
   "n_rejet": 19,
-  "n_a_arbitrer": 251,
+  "n_a_arbitrer": 266,
   "n_pris_sans_montant": 12,
   "somme_pris_mdeur": 1337.2,
   "enveloppe_insee_mdeur": 1254.0,

@@ -99,3 +99,23 @@ def test_vm_amount_and_interpret():
     assert nom == "Taxe sur la valeur ajoutée"
     assert lineno == "1101"
     assert montant == 204000 * 1_000_000
+
+
+def test_vm_reconstruct_name():
+    # Titre tenant sur une seule ligne.
+    lines = ["Taxe sur les petits colis (ligne 1442)"]
+    start = lines[0].index("(ligne")
+    assert parse_vm_tome1._reconstruct_name(lines, 0, start) == "Taxe sur les petits colis"
+
+    # Titre réparti sur deux lignes : on remonte la ligne précédente.
+    lines = [
+        "RETOUR SUR 2024",
+        "Retenues à la source et prélèvements sur les revenus de capitaux mobiliers et le prélèvement",
+        "sur les bons anonymes (ligne 1402)",
+    ]
+    start = lines[2].index("(ligne")
+    nom = parse_vm_tome1._reconstruct_name(lines, 2, start)
+    assert nom.startswith("Retenues à la source et prélèvements")
+    assert nom.endswith("sur les bons anonymes")
+    # L'intertitre en capitales ne doit pas être agrégé.
+    assert "RETOUR" not in nom

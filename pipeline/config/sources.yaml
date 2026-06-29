@@ -43,22 +43,18 @@ sources:
 
   # --- ÉPINE DORSALE 2 : énumération française (Voies & Moyens Tome I) --------
   - id: vm_tome1
-    enabled: false   # désactivé : ce volume « Évaluations des recettes » est
-                     # narratif ; l'énumération ligne à ligne (État A) y est en
-                     # tableaux multi-colonnes que pdfplumber n'extrait pas
-                     # proprement (montants concaténés entre colonnes/années).
-                     # L'URL ci-dessous est valide et téléchargeable (cf. UA
-                     # navigateur dans fetch.py) ; le besoin restant est un
-                     # parser dédié de l'État A, pas l'accès réseau.
+    enabled: true
     role: backbone
     title: "Évaluation des Voies et Moyens, Tome I — annexe au PLF 2026"
     url: "https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087930/file/PLF%202026%20-%20V&M%20TI%20-%20Evaluations%20des%20recettes.pdf"
     type: pdf
     license: "Licence Ouverte / Open Licence (Etalab)"
     notes: >
-      Énumération la plus fine des impositions de toutes natures (plusieurs
-      centaines de lignes). La liste structurée des taxes affectées qui en est
-      tirée est exploitée via la source `taxes_affectees` (OpenDataSoft).
+      Volume « Évaluation des recettes » : chaque recette est titrée avec son
+      numéro de ligne budgétaire — « … (ligne 1497) ». parse_vm_tome1.py extrait
+      ces titres et ne retient que les recettes fiscales (lignes 1xxx), soit les
+      impositions d'État détaillées dans le rapport. Les montants ne sont pas
+      tirés du PDF (prose ambiguë) : ils proviennent de la NTL et du socle.
 
   # --- AFFINAGE : taxes affectées (OpenDataSoft) -----------------------------
   - id: taxes_affectees

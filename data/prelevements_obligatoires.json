@@ -196,10 +196,10 @@
     "notes": null
   },
   {
-    "id": "seed-accise-sur-les-energies-ex-ticpe",
-    "nom": "Accise sur les énergies (ex-TICPE)",
+    "id": "vm-1501-accises-sur-les-energies-ex-ticpe",
+    "nom": "Accises sur les énergies (ex-TICPE)",
     "sigle": "TICPE",
-    "categorie": "impôt d'État",
+    "categorie": "recette fiscale (État)",
     "esa_code": null,
     "beneficiaire": null,
     "secteur": "APUC",
@@ -209,6 +209,21 @@
     "statut": "PRIS",
     "critere_echec": null,
     "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1501"
+      },
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1502"
+      },
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1503"
+      },
       {
         "source_id": "readme_seed",
         "url": "",
@@ -562,7 +577,7 @@
     "id": "eurostat-cotisation-sur-la-valeur-ajoutee-des-entreprises",
     "nom": "Cotisation sur la valeur ajoutée des entreprises",
     "sigle": "CVAE",
-    "categorie": "impôt local",
+    "categorie": "recette fiscale (État)",
     "esa_code": "D29",
     "beneficiaire": null,
     "secteur": "APUL",
@@ -576,6 +591,11 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D29A/C07"
+      },
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1497"
       },
       {
         "source_id": "readme_seed",
@@ -740,10 +760,10 @@
     "notes": "Ressources propres traditionnelles, perçus pour l'UE."
   },
   {
-    "id": "seed-impot-sur-la-fortune-immobiliere",
+    "id": "vm-1406-impot-sur-la-fortune-immobiliere",
     "nom": "Impôt sur la fortune immobilière",
     "sigle": "IFI",
-    "categorie": "impôt d'État",
+    "categorie": "recette fiscale (État)",
     "esa_code": null,
     "beneficiaire": null,
     "secteur": "APUC",
@@ -753,6 +773,11 @@
     "statut": "PRIS",
     "critere_echec": null,
     "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1406"
+      },
       {
         "source_id": "readme_seed",
         "url": "",
@@ -792,7 +817,7 @@
     "id": "eurostat-taxe-sur-les-transactions-financieres",
     "nom": "Taxe sur les transactions financières",
     "sigle": "TTF",
-    "categorie": "impôt d'État",
+    "categorie": "recette fiscale (État)",
     "esa_code": "D214",
     "beneficiaire": null,
     "secteur": "APUC",
@@ -806,6 +831,11 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D214C/C03"
+      },
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1797"
       },
       {
         "source_id": "readme_seed",
@@ -890,7 +920,7 @@
     "id": "eurostat-taxe-sur-les-services-numeriques",
     "nom": "Taxe sur les services numériques",
     "sigle": null,
-    "categorie": "impôt d'État",
+    "categorie": "recette fiscale (État)",
     "esa_code": "D214",
     "beneficiaire": null,
     "secteur": "APUC",
@@ -904,6 +934,11 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D214I/C02"
+      },
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1430"
       },
       {
         "source_id": "readme_seed",
@@ -1235,10 +1270,10 @@
     "notes": null
   },
   {
-    "id": "seed-taxe-generale-sur-les-activites-polluantes",
+    "id": "vm-1756-taxe-generale-sur-les-activites-polluantes",
     "nom": "Taxe générale sur les activités polluantes",
     "sigle": "TGAP",
-    "categorie": "impôt d'État",
+    "categorie": "recette fiscale (État)",
     "esa_code": null,
     "beneficiaire": null,
     "secteur": "APUC",
@@ -1248,6 +1283,11 @@
     "statut": "PRIS",
     "critere_echec": null,
     "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1756"
+      },
       {
         "source_id": "readme_seed",
         "url": "",
@@ -5362,7 +5402,7 @@
     "id": "eurostat-autres-taxes",
     "nom": "Autres taxes",
     "sigle": null,
-    "categorie": "indéterminée",
+    "categorie": "recette fiscale (État)",
     "esa_code": "D212",
     "beneficiaire": null,
     "secteur": null,
@@ -5376,6 +5416,11 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D2122C/C01"
+      },
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1799"
       }
     ],
     "notes": null
@@ -6327,6 +6372,28 @@
     "notes": null
   },
   {
+    "id": "vm-1440-contribution-differentielle-applicable-a-certains-contribuables-titulair",
+    "nom": "Contribution différentielle applicable à certains contribuables titulaires de très hauts reve- nus",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1440"
+      }
+    ],
+    "notes": null
+  },
+  {
     "id": "ta-contribution-exceptionnelle-des-organismes-complementaires-en-sante-aux-depen",
     "nom": "Contribution exceptionnelle des organismes complémentaires en santé aux dépenses liées à la gestion de l'épidémie de Covid-19",
     "sigle": null,
@@ -6349,6 +6416,28 @@
     "notes": null
   },
   {
+    "id": "vm-1441-contribution-exceptionnelle-sur-les-benefices-des-grandes-entreprises",
+    "nom": "Contribution exceptionnelle sur les bénéfices des grandes entreprises",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1441"
+      }
+    ],
+    "notes": null
+  },
+  {
     "id": "ta-contribution-sociale-a-la-charge-des-fournisseurs-agrees-de-produits-de-tabac",
     "nom": "Contribution sociale à la charge des fournisseurs agréés de produits de tabac",
     "sigle": null,
@@ -6366,6 +6455,28 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "vm-1752-contribution-sur-la-rente-infra-marginale-de-la-production-d-electricite",
+    "nom": "Contribution sur la rente infra-marginale de la production d'électricité",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1752"
       }
     ],
     "notes": null
@@ -6789,6 +6900,116 @@
     "notes": "Supprimée en 2018, remplacée par de la CSG."
   },
   {
+    "id": "vm-1785-produits-des-jeux-exploites-par-la-francaise-des-jeux-hors-paris-sportif",
+    "nom": "Produits des jeux exploités par la Française des jeux (hors paris sportifs)",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1785"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "vm-1787-prelevement-sur-le-produit-brut-des-paris-hippiques",
+    "nom": "Prélèvement sur le produit brut des paris hippiques",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1787"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "vm-1789-prelevement-sur-les-jeux-de-cercle-en-ligne",
+    "nom": "Prélèvement sur les jeux de cercle en ligne",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1789"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "vm-1788-prelevement-sur-les-paris-sportifs",
+    "nom": "Prélèvement sur les paris sportifs",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1788"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "vm-1427-prelevements-de-solidarite",
+    "nom": "Prélèvements de solidarité",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1427"
+      }
+    ],
+    "notes": null
+  },
+  {
     "id": "eurostat-prelevements-et-taxes-compensatoires-a-l-importation",
     "nom": "Prélèvements et taxes compensatoires à l'importation",
     "sigle": null,
@@ -6806,6 +7027,28 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D2122B/C01"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "vm-1786-prelevements-sur-le-produit-des-jeux-dans-les-casinos",
+    "nom": "Prélèvements sur le produit des jeux dans les casinos",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1786"
       }
     ],
     "notes": null
@@ -6831,6 +7074,28 @@
       }
     ],
     "notes": "Paiement d'un service rendu (usage de l'infrastructure)."
+  },
+  {
+    "id": "vm-1499-recettes-diverses",
+    "nom": "Recettes diverses",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1499"
+      }
+    ],
+    "notes": null
   },
   {
     "id": "seed-redevance-d-enlevement-des-ordures-menageres",
@@ -6897,6 +7162,50 @@
       }
     ],
     "notes": "Contrepartie : droit d'occupation du domaine public."
+  },
+  {
+    "id": "vm-1402-retenues-a-la-source-et-prelevements-sur-les-revenus-de-capitaux-mobilie",
+    "nom": "Retenues à la source et prélèvements sur les revenus de capitaux mobiliers et le prélèvement sur les bons anonymes",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1402"
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "vm-1401-retenues-a-la-source-sur-certains-benefices-non-commerciaux-et-de-l-impo",
+    "nom": "Retenues à la source sur certains bénéfices non commerciaux et de l'impôt sur le revenu",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1401"
+      }
+    ],
+    "notes": null
   },
   {
     "id": "seed-revenus-du-domaine-dividendes-loyers",
@@ -7097,6 +7406,28 @@
     "notes": null
   },
   {
+    "id": "vm-1439-taxe-sur-le-patrimoine-financier",
+    "nom": "Taxe sur le patrimoine financier",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1439"
+      }
+    ],
+    "notes": null
+  },
+  {
     "id": "ta-taxe-sur-les-declarations-et-notifications-de-produit-du-tabac",
     "nom": "Taxe sur les déclarations et notifications de produit du tabac",
     "sigle": null,
@@ -7141,6 +7472,28 @@
     "notes": null
   },
   {
+    "id": "vm-1442-taxe-sur-les-petits-colis",
+    "nom": "Taxe sur les petits colis",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1442"
+      }
+    ],
+    "notes": null
+  },
+  {
     "id": "ta-taxe-sur-les-plus-values-immobilieres-pvi-autres-que-terrains-a-batir",
     "nom": "Taxe sur les plus-values immobilières (PVI) autres que terrains à bâtir",
     "sigle": null,
@@ -7180,6 +7533,28 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      }
+    ],
+    "notes": null
+  },
+  {
+    "id": "vm-1796-taxe-sur-les-rachats-d-actions",
+    "nom": "Taxe sur les rachats d'actions",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1796"
       }
     ],
     "notes": null

@@ -24,6 +24,7 @@ CATEGORIES = {
     "impôt d'État",
     "impôt local",
     "taxe affectée",
+    "recette fiscale (État)",
     "ressource UE",
     "indéterminée",
 }
