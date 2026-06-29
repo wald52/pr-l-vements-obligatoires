@@ -42,21 +42,40 @@ def _compatible(a: Prelevement, b: Prelevement) -> bool:
     return True
 
 
+def _match_labels(rec: Prelevement) -> list[str]:
+    """Libellés normalisés servant au rapprochement : intitulé ET sigle.
+
+    Une source peut nommer un prélèvement par son sigle (NTL Eurostat : « TVA »)
+    et une autre par son intitulé complet (« Taxe sur la valeur ajoutée ») ;
+    rapprocher aussi sur le sigle évite de double-compter ces lignes.
+    """
+    labels = [normalize_label(rec.nom)]
+    if rec.sigle:
+        sig = normalize_label(rec.sigle)
+        if len(sig) >= 2:
+            labels.append(sig)
+    return [l for l in labels if l]
+
+
 def reconcile_records(records: list[Prelevement], threshold: int) -> list[Prelevement]:
     clusters: list[list[Prelevement]] = []
-    keys: list[str] = []  # libellé normalisé du représentant de chaque cluster
+    cluster_labels: list[list[str]] = []  # libellés (intitulé+sigle) du cluster
 
     for rec in records:
-        label = normalize_label(rec.nom)
+        labels = _match_labels(rec)
         placed = False
-        for i, key in enumerate(keys):
-            if fuzz.token_sort_ratio(label, key) >= threshold and _compatible(rec, clusters[i][0]):
+        for i, keys in enumerate(cluster_labels):
+            if _compatible(rec, clusters[i][0]) and any(
+                fuzz.token_sort_ratio(la, lb) >= threshold
+                for la in labels for lb in keys
+            ):
                 clusters[i].append(rec)
+                cluster_labels[i] = keys + [l for l in labels if l not in keys]
                 placed = True
                 break
         if not placed:
             clusters.append([rec])
-            keys.append(label)
+            cluster_labels.append(labels)
 
     return [_merge(cluster) for cluster in clusters]
 

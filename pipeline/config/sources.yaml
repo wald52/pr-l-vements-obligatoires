@@ -25,24 +25,21 @@ sources:
 
   # --- ÉPINE DORSALE 1 : liste détaillée Eurostat (impôt par impôt) ----------
   - id: eurostat_ntl
-    enabled: false   # désactivé : l'URL databrowser renvoie une page HTML, pas
-                     # le fichier .xlsx de la National Tax List. À réactiver
-                     # quand l'URL directe du fichier NTL aura été confirmée.
+    enabled: true
     role: backbone
     title: "Eurostat — National Tax List (liste détaillée des impôts et cotisations, FR)"
-    # La NTL détaillée est diffusée en annexe Excel de gov_10a_taxag.
-    # Page de référence : https://ec.europa.eu/eurostat/web/government-finance-statistics/data/main-tables
-    # Renseigner ci-dessous l'URL du fichier Excel « National tax list » (toutes
-    # années, tous pays) ou la version filtrée FR.
-    url: "https://ec.europa.eu/eurostat/databrowser/product/page/gov_10a_taxag"
+    # Fichier Excel officiel « National tax lists » (un onglet par pays), publié
+    # dans l'article Statistics Explained « Tax revenue statistics ». Mettre à
+    # jour le nom de fichier à chaque édition annuelle (millésime dans l'URL).
+    url: "https://ec.europa.eu/eurostat/statistics-explained/images/e/ef/National_tax_lists_2025_2026-04-22.xlsx"
     type: xlsx
     geo: FR
     license: "Eurostat — réutilisation autorisée avec mention de la source"
     notes: >
-      Confirmer l'URL du fichier .xlsx de la National Tax List. Le parser
-      parse_eurostat.py accepte un Excel dont les colonnes contiennent un code
-      ESA (D2/D5/D91/D61), un libellé de taxe, un secteur bénéficiaire et un
-      montant par année.
+      Onglet FR : colonnes STO (code ESA D2/D5/D91/D61), DETAILS (composante),
+      libellé, et un montant par année (M€). parse_eurostat.py ne retient que
+      les lignes-feuilles (DETAILS ≠ _T) pour ne pas double-compter les
+      sous-totaux. Édition vérifiée : NTL 2025 (données au 22/04/2026).
 
   # --- ÉPINE DORSALE 2 : énumération française (Voies & Moyens Tome I) --------
   - id: vm_tome1
@@ -109,6 +106,10 @@ sources:
 # https://www.insee.fr/fr/statistiques/2381412
 control_envelope:
   year: 2024
-  total_po_mdeur: 1254.0          # 1 254 Md€
+  total_po_mdeur: 1254.0          # 1 254 Md€ (base INSEE, 42,7 % du PIB)
   taux_po_pib_insee_pct: 42.7
+  # Repère Eurostat (≈ 45,3 % du PIB ≈ 1 330 Md€) : les montants de la NTL sont
+  # exprimés sur cette base, légèrement supérieure à l'enveloppe INSEE ; une
+  # couverture un peu > 100 % vis-à-vis de l'enveloppe INSEE est donc attendue.
+  taux_po_pib_eurostat_pct: 45.3
   source: "INSEE — comptes nationaux 2024"

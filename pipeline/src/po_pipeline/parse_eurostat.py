@@ -56,13 +56,26 @@ def _year_columns(header: list[Any]) -> dict[int, int]:
     return out
 
 
-def parse(path, reference_year: int | None = None) -> list[Prelevement]:
-    """Parse l'Excel NTL. Tolérant : ignore les lignes non exploitables."""
+def parse(path, reference_year: int | None = None, geo: str = "FR") -> list[Prelevement]:
+    """Parse l'Excel NTL. Tolérant : ignore les lignes non exploitables.
+
+    Deux mises en forme sont gérées :
+      * **NTL officielle Eurostat** (un onglet par pays : BE, FR, …), où chaque
+        onglet a un en-tête « STO | DETAILS | Tax name… » et des colonnes
+        annuelles. On ne lit que l'onglet `geo` (France par défaut).
+      * **table à plat** (un seul onglet code ESA / libellé / secteur / années),
+        utilisée par les fixtures de test.
+    """
     import openpyxl
 
     wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
-    records: list[Prelevement] = []
 
+    if geo in wb.sheetnames and _is_country_sheet(wb[geo]):
+        records = _parse_country_sheet(wb[geo], reference_year, geo)
+        wb.close()
+        return records
+
+    records: list[Prelevement] = []
     for ws in wb.worksheets:
         rows = list(ws.iter_rows(values_only=True))
         if not rows:
@@ -95,6 +108,74 @@ def parse(path, reference_year: int | None = None) -> list[Prelevement]:
             ))
     wb.close()
     return records
+
+
+def _is_country_sheet(ws) -> bool:
+    """Détecte l'onglet-pays NTL : un en-tête commençant par STO puis DETAILS."""
+    for row in ws.iter_rows(min_row=1, max_row=15, max_col=3, values_only=True):
+        cells = [_norm(c).replace("▼", "").strip() for c in row]
+        if "sto" in cells and "details" in cells:
+            return True
+    return False
+
+
+def _parse_country_sheet(ws, reference_year: int | None, geo: str) -> list[Prelevement]:
+    """Parse un onglet-pays NTL : colonnes STO (code ESA), DETAILS, libellé, années.
+
+    On ne retient que les lignes « feuilles » (DETAILS = code de composante, p.
+    ex. C01, C02), qui sont les impôts/cotisations individuels ; les lignes
+    DETAILS = `_T` sont des sous-totaux par code ESA et sont écartées pour ne
+    pas double-compter.
+    """
+    rows = list(ws.iter_rows(values_only=True))
+    header_idx = next(
+        (i for i, r in enumerate(rows)
+         if "sto" in [_norm(c).replace("▼", "").strip() for c in r]),
+        None,
+    )
+    if header_idx is None:
+        return []
+    header = list(rows[header_idx])
+    years = _year_columns_numeric(header)
+    year_col = _pick_year_col(years, reference_year)
+
+    records: list[Prelevement] = []
+    seen: set[str] = set()
+    for raw in rows[header_idx + 1:]:
+        if len(raw) < 3:
+            continue
+        esa_raw, details, nom = raw[0], raw[1], raw[2]
+        if not nom or not str(nom).strip():
+            continue
+        det = str(details).strip() if details is not None else ""
+        if det in ("", "_T"):  # sous-total/agrégat : écarté
+            continue
+        nom = str(nom).strip()
+        key = slugify(nom)
+        if key in seen:
+            continue
+        seen.add(key)
+        montant = _to_eur(raw[year_col]) if year_col is not None and year_col < len(raw) else None
+        records.append(Prelevement(
+            id=slugify(f"eurostat-{nom}"),
+            nom=nom,
+            esa_code=_canon_esa(esa_raw),
+            montant_eur=montant,
+            annee=(reference_year if montant is not None else None),
+            sources=[Source("eurostat_ntl", ref=f"{geo}:{esa_raw}/{det}")],
+        ))
+    return records
+
+
+def _year_columns_numeric(header: list[Any]) -> dict[int, int]:
+    """Comme _year_columns mais accepte aussi des en-têtes d'année numériques."""
+    out: dict[int, int] = {}
+    for idx, cell in enumerate(header):
+        if isinstance(cell, (int, float)) and 1990 <= int(cell) <= 2035:
+            out[int(cell)] = idx
+        elif re.fullmatch(r"(19|20)\d{2}", str(cell).strip()):
+            out[int(str(cell).strip())] = idx
+    return out
 
 
 def _best_header(rows: list[tuple]) -> tuple[int, dict[str, int]]:
