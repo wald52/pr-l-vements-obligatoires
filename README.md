@@ -143,6 +143,31 @@ impositions sur les biens et services – CIBS)
 - **Taxe sur les surfaces de stationnement**.
 - Diverses taxes affectées à des fonds ou opérateurs (cf. §4.5).
 
+**Prélèvements sur les jeux et paris**
+- **Prélèvements sur les jeux de la Française des Jeux** (loterie et paris
+  sportifs en réseau physique et en ligne).
+- **Prélèvements sur les paris hippiques** (PMU).
+- **Prélèvement sur le produit brut des jeux des casinos** (et prélèvements des
+  communes sur ce produit).
+- **Prélèvements sur les jeux en ligne** (paris sportifs, paris hippiques,
+  poker) sous l'égide de l'Autorité nationale des jeux.
+- **Impôt sur les cercles et maisons de jeux**.
+
+**Finance, assurance, immobilier**
+- **Contribution sur les revenus locatifs (CRL)** — sur les loyers d'immeubles
+  achevés depuis plus de 15 ans perçus par certaines personnes morales.
+- **Taxe sur les excédents de provisions** des entreprises d'assurances de
+  dommages.
+- Les deux volets complémentaires de la **TTF** : taxe sur les **ordres annulés**
+  (trading haute fréquence) et taxe sur les **contrats d'échange sur défaut
+  (CDS) souverains** « à nu ».
+
+**Énergie, nucléaire et environnement (au-delà des accises et de la TGAP)**
+- **Taxe sur les installations nucléaires de base (INB)** et ses taxes
+  additionnelles (« recherche », « accompagnement », « conception »/« stockage »
+  liées notamment au projet Cigéo).
+- **Taxe sur les huiles** (alimentaires) et **taxe sur les farines**, affectées.
+
 ### 4.2 Impôts locaux (APUL)
 
 Versés aux communes, EPCI, départements et régions ; obligatoires ; sans
@@ -167,9 +192,23 @@ contrepartie individualisée.
 - **Taxe d'aménagement** (urbanisme).
 - **Taxe locale sur la publicité extérieure (TLPE)**.
 - **Taxe GEMAPI** (gestion des milieux aquatiques et prévention des inondations).
+- **Taxe régionale sur les certificats d'immatriculation des véhicules**
+  (« carte grise »).
+- **Taxe sur les friches commerciales**.
+- **Taxe forfaitaire sur la cession à titre onéreux de terrains nus devenus
+  constructibles**.
+- **Redevances communale et départementale des mines**.
 - **Taxe de balayage**, **taxe sur les pylônes électriques**, **taxes spéciales
   d'équipement**, et autres taxes locales facultatives instituées par
   délibération.
+
+**Fiscalité spécifique d'outre-mer**
+- **Octroi de mer** et **octroi de mer régional** (Guadeloupe, Guyane,
+  Martinique, Mayotte, La Réunion) — taxes sur les importations et les
+  livraisons de biens, affectées aux collectivités ultramarines.
+- **Taxe spéciale de consommation sur les carburants** (outre-mer).
+- **Taxe sur le transport public aérien et maritime** (outre-mer ; un dispositif
+  analogue existe en Corse).
 
 ### 4.3 Cotisations sociales effectives (ASSO)
 
@@ -212,6 +251,12 @@ Recettes fiscales fléchées vers les ASSO ; ce sont des PO comme les autres.
 - **Accises affectées** sur les tabacs, alcools et boissons sucrées.
 - **Contributions de l'industrie pharmaceutique** (clause de sauvegarde « M »,
   taxes sur le chiffre d'affaires et la promotion des laboratoires).
+- **Contribution additionnelle de solidarité pour l'autonomie (CASA)** — 0,3 %
+  sur les pensions de retraite et d'invalidité, affectée à la CNSA.
+- **Contributions patronales spécifiques** : sur les **attributions d'actions
+  gratuites** et **stock-options**, sur les **« retraites chapeau »**, sur les
+  **indemnités de rupture conventionnelle** et de **mise à la retraite**, et sur
+  les **avantages de préretraite**.
 
 ### 4.5 Taxes affectées à des opérateurs, agences et ODAC
 
@@ -234,6 +279,18 @@ obligatoires. Principaux exemples :
 - **Taxes pour frais de chambres** (CCI, chambres de métiers et de
   l'agriculture).
 - **Contribution de vie étudiante et de campus (CVEC)**.
+- **Taxe d'aéroport** et **taxe sur les nuisances sonores aériennes (TNSA)**,
+  affectées au financement de la sûreté/sécurité et de l'aide à l'insonorisation
+  des riverains.
+- **Redevance d'archéologie préventive (RAP)** — qualifiée d'imposition de
+  toutes natures ⇒ **PO**.
+- **Taxe sur les spectacles** de variétés et de musique (affectée au **Centre
+  national de la musique**) et sur la billetterie des spectacles dramatiques et
+  lyriques (ASTP).
+- **Taxes affectées aux centres techniques industriels (CTI)** et aux comités
+  professionnels de développement économique.
+- **Redevances sanitaires** (abattage, découpage, contrôle) affectées aux
+  services vétérinaires.
 - **Taxe sur les éoliennes en mer**, **taxes affectées à divers fonds et
   établissements publics** (ADEME, agences sanitaires, etc.).
 
@@ -268,6 +325,8 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 | **Cotisations sociales imputées** (employeur fictif, pensions des fonctionnaires d'État) | REJET | C1 — **pas de versement effectif**. |
 | **Cotisations facultatives** : épargne retraite individuelle (PER, ex-PERP), assurance-vie, mutuelles et prévoyance facultatives | REJET | C3 — versement **non obligatoire** (libre choix). |
 | **Cotisations aux ordres professionnels** (médecins, avocats, experts-comptables…), **cotisations syndicales** | REJET | C2 — bénéficiaire **hors périmètre APU** (organismes privés). |
+| **Redevance pour copie privée** | REJET | C2 — perçue par des **sociétés de gestion privées** (SACEM, Copie France…) au profit des ayants droit, non d'une APU. |
+| **Participation des employeurs à l'effort de construction (PEEC, « 1 % logement »)** | REJET | Investissement obligatoire, **non un versement définitif sans contrepartie** : classé hors PO en comptabilité nationale. |
 | **Part salariale de l'assurance chômage** | REJET (depuis 2018) | N'existe plus : supprimée et remplacée par de la CSG (incluse, elle). |
 | **Revenus du domaine, dividendes d'entreprises publiques, produits de cessions, loyers** | REJET | C3 — recettes patrimoniales **avec contrepartie**, non des prélèvements. |
 | **Emprunts et produits de la dette** | REJET | Non un prélèvement : ressource remboursable, librement souscrite. |
