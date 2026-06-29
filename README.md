@@ -6,8 +6,10 @@
 > en tire une **règle de décision** (prendre / rejeter), puis applique cette
 > règle à chaque candidat (impôt, taxe, cotisation, redevance, amende…).
 >
-> **Année de référence.** Montants 2024 (derniers comptes nationaux INSEE) ;
-> liste des dispositifs reflétant le droit en vigueur fin 2025 / PLF 2026.
+> **Année de référence.** Montants 2024 (comptes nationaux INSEE
+> semi-définitifs) ; liste des dispositifs reflétant le droit en vigueur fin
+> 2025 / PLF 2026. À titre indicatif, l'INSEE estime le taux **2025 (provisoire)
+> à 43,6 % du PIB**.
 
 ---
 
@@ -30,6 +32,12 @@ Répartition par sous-secteur d'administration bénéficiaire (en points de PIB,
 
 > La Sécurité sociale capte donc plus de la moitié des prélèvements obligatoires,
 > l'État un petit tiers, les collectivités le reste.
+
+> *Lecture du tableau.* La somme des poids par bénéficiaire (≈ 45 pts) dépasse
+> légèrement le taux INSEE (42,7 %) : la ventilation est présentée **avant
+> déduction des crédits d'impôt restituables**, sur une base proche de la mesure
+> Eurostat (cf. §5, dernière ligne). L'ordre de grandeur et la hiérarchie des
+> bénéficiaires restent inchangés.
 
 ---
 
@@ -208,8 +216,11 @@ Recettes fiscales fléchées vers les ASSO ; ce sont des PO comme les autres.
 ### 4.5 Taxes affectées à des opérateurs, agences et ODAC
 
 Le Conseil des prélèvements obligatoires recense de l'ordre de **238 ressources
-affectées** (≈ 352 Md€ en 2022) à des tiers autres que l'État ; la grande
-majorité sont des prélèvements obligatoires. Principaux exemples :
+affectées** (≈ 352 Md€ en 2022) à des tiers autres que l'État — un montant
+supérieur aux recettes fiscales nettes du budget général ; elles bénéficient
+surtout aux administrations de sécurité sociale (≈ 57 %) et aux administrations
+publiques locales (≈ 36 %). La grande majorité sont des prélèvements
+obligatoires. Principaux exemples :
 
 - **Contribution unique à la formation professionnelle et à l'alternance
   (CUFPA)** = ex-**taxe d'apprentissage** + contribution à la formation
@@ -303,8 +314,12 @@ dans [`data/`](data/).
 
 - **INSEE — Définition des prélèvements obligatoires** :
   <https://www.insee.fr/fr/metadonnees/definition/c1571>
-- **INSEE — Taux de prélèvements obligatoires rapporté au PIB** :
+- **INSEE — Taux de prélèvements obligatoires rapporté au PIB** (42,7 % en 2024 ;
+  43,6 % en 2025 provisoire) :
   <https://www.insee.fr/fr/statistiques/2381412>
+- **INSEE — Le compte des administrations publiques en 2024** (Insee Première
+  n° 2054) :
+  <https://www.insee.fr/fr/statistiques/8574492>
 - **OCDE — Statistiques des recettes publiques (brochure 2025, 3 critères)** :
   <https://www.oecd.org/content/dam/oecd/fr/topics/policy-sub-issues/recettes-fiscales-mondiales/brochure-statistiques-des-recettes-publiques.pdf>
 - **FIPECO — La définition, le niveau et la répartition des prélèvements obligatoires** :
