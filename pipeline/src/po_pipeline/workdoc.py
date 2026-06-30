@@ -319,7 +319,10 @@ def _sources_registre(cfg: dict[str, Any]) -> list[str]:
         out.append(f"| {_esc(s.get('title', s.get('id')))} | {_esc(s.get('role'))} "
                    f"| {'✅' if s.get('enabled') else '—'} | {_esc(s.get('url'))} |")
     out += ["", "**Socle curé** : `pipeline/seed/readme_inventory.csv` (issu du "
-            "README racine, toujours intégré).", "",
+            "README racine, toujours intégré).",
+            "**Supplément curé** : `pipeline/seed/supplement.csv` — long tail de "
+            "PO non détaillés par le README (composantes IFER/TGAP, taxes "
+            "récentes du PLF 2026…), attestés par le CGI/CIBS et le V&M.", "",
             "**Régénérer ce document :**", "", "```bash",
             "cd pipeline && make all      # fetch → … → report → workdoc", "```", ""]
     return out

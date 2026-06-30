@@ -14,9 +14,11 @@ from .paths import PIPELINE_DIR
 from .schema import Prelevement, Source, slugify
 
 SEED_PATH = PIPELINE_DIR / "seed" / "readme_inventory.csv"
+SUPPLEMENT_PATH = PIPELINE_DIR / "seed" / "supplement.csv"
 
 
-def parse(path=None, reference_year: int | None = None) -> list[Prelevement]:
+def parse(path=None, reference_year: int | None = None,
+          source_id: str = "readme_seed", ref: str = "README §4-§5") -> list[Prelevement]:
     path = path or SEED_PATH
     if not path.exists():
         return []
@@ -28,7 +30,7 @@ def parse(path=None, reference_year: int | None = None) -> list[Prelevement]:
             if not nom:
                 continue
             records.append(Prelevement(
-                id=slugify(f"seed-{nom}"),
+                id=slugify(f"{source_id}-{nom}"),
                 nom=nom,
                 sigle=_clean(row.get("sigle")),
                 categorie=(row.get("categorie") or "indéterminée").strip() or "indéterminée",
@@ -40,7 +42,7 @@ def parse(path=None, reference_year: int | None = None) -> list[Prelevement]:
                 critere_echec=_clean(row.get("critere_echec")),
                 notes=_clean(row.get("notes")),
                 aliases=_aliases(row.get("alias")),
-                sources=[Source("readme_seed", ref="README §4-§5")],
+                sources=[Source(source_id, ref=ref)],
             ))
     return records
 

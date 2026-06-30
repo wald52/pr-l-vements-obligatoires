@@ -1,0 +1,19 @@
+nom;sigle;categorie;secteur;base_legale;montant_mdeur;statut;critere_echec;notes;alias
+Imposition forfaitaire sur les éoliennes terrestres et hydroliennes;IFER éolien;impôt local;APUL;CGI art. 1519 D;;PRIS;;Composante de l'IFER.;IFER éoliennes
+Imposition forfaitaire sur les installations de production d'électricité nucléaire ou thermique à flamme;IFER nucléaire;impôt local;APUL;CGI art. 1519 E;;PRIS;;Composante de l'IFER.;
+Imposition forfaitaire sur les centrales photovoltaïques et hydrauliques;IFER photovoltaïque;impôt local;APUL;CGI art. 1519 F;;PRIS;;Composante de l'IFER.;
+Imposition forfaitaire sur les transformateurs électriques;IFER transformateurs;impôt local;APUL;CGI art. 1519 G;;PRIS;;Composante de l'IFER.;
+Imposition forfaitaire sur les stations radioélectriques;IFER antennes;impôt local;APUL;CGI art. 1519 H;;PRIS;;Composante de l'IFER (antennes-relais).;
+Imposition forfaitaire sur les installations gazières et canalisations de transport;IFER gaz;impôt local;APUL;CGI art. 1519 HA;;PRIS;;Composante de l'IFER (gaz, GNL, stockage).;
+Imposition forfaitaire sur le matériel ferroviaire roulant;IFER ferroviaire;impôt local;APUL;CGI art. 1599 quater A;;PRIS;;Composante de l'IFER (transport de voyageurs).;
+Imposition forfaitaire sur les répartiteurs principaux et équipements de boucle locale cuivre;IFER cuivre;impôt local;APUL;CGI art. 1599 quater B;;PRIS;;Composante de l'IFER (téléphonie cuivre).;
+Taxe générale sur les activités polluantes — composante déchets;TGAP déchets;impôt d'État;APUC;CIBS (ex-CGI 266 sexies);;PRIS;;Composante de la TGAP.;
+Taxe générale sur les activités polluantes — composante émissions polluantes;TGAP émissions;impôt d'État;APUC;CIBS;;PRIS;;Composante de la TGAP.;
+Taxe générale sur les activités polluantes — composante lessives;TGAP lessives;impôt d'État;APUC;CIBS;;PRIS;;Composante de la TGAP.;
+Taxe générale sur les activités polluantes — composante matériaux d'extraction;TGAP matériaux;impôt d'État;APUC;CIBS;;PRIS;;Composante de la TGAP.;
+Taxe sur le transport aérien de passagers — tarif de solidarité;TSBA solidarité;impôt d'État;APUC;CIBS (ex-taxe de solidarité « Chirac »);;PRIS;;Réformée et relevée en LFI 2025.;Taxe sur le transport aérien de passagers, tarif de solidarité (TAP, TS)
+Droit de timbre sur les procédures civiles en première instance et prud'homales;;impôt d'État;APUC;CGI;;PRIS;;Rétabli en LFI 2024.;
+Taxe sur l'exploitation des infrastructures de transport de longue distance;TEILD;impôt d'État;APUC;CGI art. 235 ter ZE bis;;PRIS;;Concessions autoroutières et grands aéroports (depuis 2024).;Taxe sur les concessions autoroutières
+Taxe d'habitation sur les logements vacants;THLV;impôt local;APUL;CGI art. 1407 bis;;PRIS;;Instituée par les communes (distincte de la TLV nationale).;
+Taxe pour la gestion des eaux pluviales urbaines;;impôt local;APUL;CGCT art. L2333-97;;A_ARBITRER;;Facultative ; périmètre PO à confirmer.;
+Contribution spéciale et taxe additionnelle d'accompagnement (stockage de déchets radioactifs, Cigéo);;taxe affectée;ODAC;Loi de finances 2000 art. 43;;PRIS;;Additionnelles à la taxe INB, affectées aux collectivités/ANDRA.;

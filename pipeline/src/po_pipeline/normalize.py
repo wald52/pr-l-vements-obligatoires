@@ -44,6 +44,16 @@ def normalize() -> dict[str, int]:
         counts["readme_seed"] = write_interim("readme_seed", seed_records)
         print(f"[normalize] readme_seed: {counts['readme_seed']} enregistrements")
 
+    # Supplément curé : long tail de PO (composantes IFER/TGAP, taxes récentes…)
+    # non détaillées par le README, attestées par le CGI/CIBS et le V&M PLF 2026.
+    supp_records = parse_seed.parse(
+        path=parse_seed.SUPPLEMENT_PATH, reference_year=ref_year,
+        source_id="supplement_cure", ref="supplément curé (CGI/CIBS, V&M PLF 2026)",
+    )
+    if supp_records:
+        counts["supplement_cure"] = write_interim("supplement_cure", supp_records)
+        print(f"[normalize] supplement_cure: {counts['supplement_cure']} enregistrements")
+
     for src in enabled_sources(cfg):
         sid = src["id"]
         parser = PARSERS.get(sid)

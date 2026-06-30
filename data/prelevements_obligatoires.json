@@ -1,6 +1,6 @@
 [
   {
-    "id": "seed-cotisations-du-regime-general-maladie-vieillesse-famille-at-mp-csa",
+    "id": "readme-seed-cotisations-du-regime-general-maladie-vieillesse-famille-at-mp-csa",
     "nom": "Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA)",
     "sigle": null,
     "categorie": "cotisation sociale",
@@ -23,7 +23,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-sur-la-valeur-ajoutee",
+    "id": "readme-seed-taxe-sur-la-valeur-ajoutee",
     "nom": "Taxe sur la valeur ajoutée",
     "sigle": "TVA",
     "categorie": "impôt d'État",
@@ -51,7 +51,7 @@
     "aliases": []
   },
   {
-    "id": "seed-contribution-sociale-generalisee",
+    "id": "readme-seed-contribution-sociale-generalisee",
     "nom": "Contribution sociale généralisée",
     "sigle": "CSG",
     "categorie": "fiscalité sociale",
@@ -84,7 +84,7 @@
     "aliases": []
   },
   {
-    "id": "seed-impot-sur-le-revenu",
+    "id": "readme-seed-impot-sur-le-revenu",
     "nom": "Impôt sur le revenu",
     "sigle": "IR",
     "categorie": "impôt d'État",
@@ -112,7 +112,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisations-de-retraite-complementaire-obligatoire",
+    "id": "readme-seed-cotisations-de-retraite-complementaire-obligatoire",
     "nom": "Cotisations de retraite complémentaire obligatoire",
     "sigle": "AGIRC-ARRCO",
     "categorie": "cotisation sociale",
@@ -135,7 +135,7 @@
     "aliases": []
   },
   {
-    "id": "seed-impot-sur-les-societes",
+    "id": "readme-seed-impot-sur-les-societes",
     "nom": "Impôt sur les sociétés",
     "sigle": "IS",
     "categorie": "impôt d'État",
@@ -158,7 +158,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-fonciere-sur-les-proprietes-baties",
+    "id": "readme-seed-taxe-fonciere-sur-les-proprietes-baties",
     "nom": "Taxe foncière sur les propriétés bâties",
     "sigle": "TFPB",
     "categorie": "impôt local",
@@ -186,7 +186,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisations-d-assurance-chomage-part-employeur",
+    "id": "readme-seed-cotisations-d-assurance-chomage-part-employeur",
     "nom": "Cotisations d'assurance chômage (part employeur)",
     "sigle": null,
     "categorie": "cotisation sociale",
@@ -209,7 +209,7 @@
     "aliases": []
   },
   {
-    "id": "seed-accise-sur-les-energies-ex-ticpe",
+    "id": "readme-seed-accise-sur-les-energies-ex-ticpe",
     "nom": "Accise sur les énergies (ex-TICPE)",
     "sigle": "TICPE",
     "categorie": "impôt d'État",
@@ -260,7 +260,7 @@
     "aliases": []
   },
   {
-    "id": "seed-droits-d-enregistrement-et-de-mutation-a-titre-gratuit",
+    "id": "readme-seed-droits-d-enregistrement-et-de-mutation-a-titre-gratuit",
     "nom": "Droits d'enregistrement et de mutation à titre gratuit",
     "sigle": null,
     "categorie": "impôt d'État",
@@ -288,7 +288,7 @@
     "aliases": []
   },
   {
-    "id": "seed-accises-sur-les-alcools-tabacs-et-boissons",
+    "id": "readme-seed-accises-sur-les-alcools-tabacs-et-boissons",
     "nom": "Accises sur les alcools, tabacs et boissons",
     "sigle": null,
     "categorie": "impôt d'État",
@@ -311,7 +311,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-sur-les-salaires",
+    "id": "readme-seed-taxe-sur-les-salaires",
     "nom": "Taxe sur les salaires",
     "sigle": null,
     "categorie": "fiscalité sociale",
@@ -344,7 +344,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisations-des-travailleurs-independants",
+    "id": "readme-seed-cotisations-des-travailleurs-independants",
     "nom": "Cotisations des travailleurs indépendants",
     "sigle": null,
     "categorie": "cotisation sociale",
@@ -367,7 +367,7 @@
     "aliases": []
   },
   {
-    "id": "seed-droits-de-mutation-a-titre-onereux",
+    "id": "readme-seed-droits-de-mutation-a-titre-onereux",
     "nom": "Droits de mutation à titre onéreux",
     "sigle": "DMTO",
     "categorie": "impôt local",
@@ -459,7 +459,7 @@
     "aliases": []
   },
   {
-    "id": "seed-versement-mobilite",
+    "id": "readme-seed-versement-mobilite",
     "nom": "Versement mobilité",
     "sigle": null,
     "categorie": "impôt local",
@@ -510,7 +510,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-speciale-sur-les-conventions-d-assurance",
+    "id": "readme-seed-taxe-speciale-sur-les-conventions-d-assurance",
     "nom": "Taxe spéciale sur les conventions d'assurance",
     "sigle": "TSCA",
     "categorie": "impôt d'État",
@@ -543,7 +543,7 @@
     "aliases": []
   },
   {
-    "id": "seed-contribution-unique-a-la-formation-professionnelle-et-a-l-alternance",
+    "id": "readme-seed-contribution-unique-a-la-formation-professionnelle-et-a-l-alternance",
     "nom": "Contribution unique à la formation professionnelle et à l'alternance",
     "sigle": "CUFPA",
     "categorie": "taxe affectée",
@@ -571,7 +571,7 @@
     "aliases": []
   },
   {
-    "id": "seed-contribution-au-remboursement-de-la-dette-sociale",
+    "id": "readme-seed-contribution-au-remboursement-de-la-dette-sociale",
     "nom": "Contribution au remboursement de la dette sociale",
     "sigle": "CRDS",
     "categorie": "fiscalité sociale",
@@ -599,7 +599,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisation-fonciere-des-entreprises",
+    "id": "readme-seed-cotisation-fonciere-des-entreprises",
     "nom": "Cotisation foncière des entreprises",
     "sigle": "CFE",
     "categorie": "impôt local",
@@ -627,7 +627,7 @@
     "aliases": []
   },
   {
-    "id": "seed-forfait-social",
+    "id": "readme-seed-forfait-social",
     "nom": "Forfait social",
     "sigle": null,
     "categorie": "fiscalité sociale",
@@ -678,7 +678,7 @@
     "aliases": []
   },
   {
-    "id": "seed-contribution-sociale-de-solidarite-des-societes",
+    "id": "readme-seed-contribution-sociale-de-solidarite-des-societes",
     "nom": "Contribution sociale de solidarité des sociétés",
     "sigle": "C3S",
     "categorie": "fiscalité sociale",
@@ -711,7 +711,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisation-sur-la-valeur-ajoutee-des-entreprises",
+    "id": "readme-seed-cotisation-sur-la-valeur-ajoutee-des-entreprises",
     "nom": "Cotisation sur la valeur ajoutée des entreprises",
     "sigle": "CVAE",
     "categorie": "impôt local",
@@ -744,7 +744,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisations-agricoles",
+    "id": "readme-seed-cotisations-agricoles",
     "nom": "Cotisations agricoles",
     "sigle": null,
     "categorie": "cotisation sociale",
@@ -767,7 +767,7 @@
     "aliases": []
   },
   {
-    "id": "seed-prelevement-de-solidarite-sur-les-revenus-du-capital",
+    "id": "readme-seed-prelevement-de-solidarite-sur-les-revenus-du-capital",
     "nom": "Prélèvement de solidarité sur les revenus du capital",
     "sigle": null,
     "categorie": "fiscalité sociale",
@@ -790,7 +790,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-de-solidarite-additionnelle-complementaire-sante",
+    "id": "readme-seed-taxe-de-solidarite-additionnelle-complementaire-sante",
     "nom": "Taxe de solidarité additionnelle (complémentaire santé)",
     "sigle": "TSA",
     "categorie": "fiscalité sociale",
@@ -933,7 +933,7 @@
     "aliases": []
   },
   {
-    "id": "seed-ressource-propre-fondee-sur-la-tva",
+    "id": "readme-seed-ressource-propre-fondee-sur-la-tva",
     "nom": "Ressource propre fondée sur la TVA",
     "sigle": null,
     "categorie": "ressource UE",
@@ -1048,7 +1048,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-d-habitation-sur-les-residences-secondaires",
+    "id": "readme-seed-taxe-d-habitation-sur-les-residences-secondaires",
     "nom": "Taxe d'habitation sur les résidences secondaires",
     "sigle": "THRS",
     "categorie": "impôt local",
@@ -1094,7 +1094,7 @@
     "aliases": []
   },
   {
-    "id": "seed-redevances-des-agences-de-l-eau",
+    "id": "readme-seed-redevances-des-agences-de-l-eau",
     "nom": "Redevances des agences de l'eau",
     "sigle": null,
     "categorie": "taxe affectée",
@@ -1140,7 +1140,7 @@
     "aliases": []
   },
   {
-    "id": "seed-droits-de-douane",
+    "id": "readme-seed-droits-de-douane",
     "nom": "Droits de douane",
     "sigle": null,
     "categorie": "ressource UE",
@@ -1163,7 +1163,7 @@
     "aliases": []
   },
   {
-    "id": "seed-impot-sur-la-fortune-immobiliere",
+    "id": "readme-seed-impot-sur-la-fortune-immobiliere",
     "nom": "Impôt sur la fortune immobilière",
     "sigle": "IFI",
     "categorie": "impôt d'État",
@@ -1191,7 +1191,7 @@
     "aliases": []
   },
   {
-    "id": "seed-impositions-forfaitaires-sur-les-entreprises-de-reseaux",
+    "id": "readme-seed-impositions-forfaitaires-sur-les-entreprises-de-reseaux",
     "nom": "Impositions forfaitaires sur les entreprises de réseaux",
     "sigle": "IFER",
     "categorie": "impôt local",
@@ -1242,7 +1242,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-sur-les-transactions-financieres",
+    "id": "readme-seed-taxe-sur-les-transactions-financieres",
     "nom": "Taxe sur les transactions financières",
     "sigle": "TTF",
     "categorie": "impôt d'État",
@@ -1436,7 +1436,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-sur-les-surfaces-commerciales",
+    "id": "readme-seed-taxe-sur-les-surfaces-commerciales",
     "nom": "Taxe sur les surfaces commerciales",
     "sigle": "TASCOM",
     "categorie": "impôt local",
@@ -1510,7 +1510,7 @@
     "aliases": []
   },
   {
-    "id": "seed-contribution-sur-les-emballages-plastiques-non-recycles",
+    "id": "readme-seed-contribution-sur-les-emballages-plastiques-non-recycles",
     "nom": "Contribution sur les emballages plastiques non recyclés",
     "sigle": null,
     "categorie": "ressource UE",
@@ -1717,7 +1717,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-fonciere-sur-les-proprietes-non-baties",
+    "id": "readme-seed-taxe-fonciere-sur-les-proprietes-non-baties",
     "nom": "Taxe foncière sur les propriétés non bâties",
     "sigle": "TFPNB",
     "categorie": "impôt local",
@@ -1768,7 +1768,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-sur-les-services-numeriques",
+    "id": "readme-seed-taxe-sur-les-services-numeriques",
     "nom": "Taxe sur les services numériques",
     "sigle": null,
     "categorie": "impôt d'État",
@@ -1893,7 +1893,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-d-enlevement-des-ordures-menageres",
+    "id": "readme-seed-taxe-d-enlevement-des-ordures-menageres",
     "nom": "Taxe d'enlèvement des ordures ménagères",
     "sigle": "TEOM",
     "categorie": "impôt local",
@@ -1967,7 +1967,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-d-amenagement",
+    "id": "readme-seed-taxe-d-amenagement",
     "nom": "Taxe d'aménagement",
     "sigle": null,
     "categorie": "impôt local",
@@ -2018,7 +2018,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-gemapi",
+    "id": "readme-seed-taxe-gemapi",
     "nom": "Taxe GEMAPI",
     "sigle": null,
     "categorie": "impôt local",
@@ -2207,7 +2207,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-de-solidarite-sur-les-billets-d-avion",
+    "id": "readme-seed-taxe-de-solidarite-sur-les-billets-d-avion",
     "nom": "Taxe de solidarité sur les billets d'avion",
     "sigle": null,
     "categorie": "taxe affectée",
@@ -2235,7 +2235,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-locale-sur-la-publicite-exterieure",
+    "id": "readme-seed-taxe-locale-sur-la-publicite-exterieure",
     "nom": "Taxe locale sur la publicité extérieure",
     "sigle": "TLPE",
     "categorie": "impôt local",
@@ -2263,7 +2263,7 @@
     "aliases": []
   },
   {
-    "id": "seed-contribution-de-vie-etudiante-et-de-campus",
+    "id": "readme-seed-contribution-de-vie-etudiante-et-de-campus",
     "nom": "Contribution de vie étudiante et de campus",
     "sigle": "CVEC",
     "categorie": "taxe affectée",
@@ -2480,7 +2480,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-sur-les-surfaces-de-stationnement",
+    "id": "readme-seed-taxe-sur-les-surfaces-de-stationnement",
     "nom": "Taxe sur les surfaces de stationnement",
     "sigle": null,
     "categorie": "impôt d'État",
@@ -2674,7 +2674,7 @@
     "aliases": []
   },
   {
-    "id": "seed-contribution-exceptionnelle-sur-les-hauts-revenus",
+    "id": "readme-seed-contribution-exceptionnelle-sur-les-hauts-revenus",
     "nom": "Contribution exceptionnelle sur les hauts revenus",
     "sigle": "CEHR",
     "categorie": "impôt d'État",
@@ -2694,6 +2694,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-speciale-et-taxe-additionnelle-d-accompagnement-sto",
+    "nom": "Contribution spéciale et taxe additionnelle d'accompagnement (stockage de déchets radioactifs, Cigéo)",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Loi de finances 2000 art. 43",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Additionnelles à la taxe INB, affectées aux collectivités/ANDRA.",
     "aliases": []
   },
   {
@@ -2720,7 +2743,7 @@
     "aliases": []
   },
   {
-    "id": "seed-contributions-de-l-industrie-pharmaceutique-clause-de-sauvegarde-m",
+    "id": "readme-seed-contributions-de-l-industrie-pharmaceutique-clause-de-sauvegarde-m",
     "nom": "Contributions de l'industrie pharmaceutique (clause de sauvegarde M)",
     "sigle": null,
     "categorie": "fiscalité sociale",
@@ -2766,7 +2789,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisations-des-regimes-speciaux",
+    "id": "readme-seed-cotisations-des-regimes-speciaux",
     "nom": "Cotisations des régimes spéciaux",
     "sigle": null,
     "categorie": "cotisation sociale",
@@ -2789,7 +2812,30 @@
     "aliases": []
   },
   {
-    "id": "seed-droits-de-timbre",
+    "id": "supplement-cure-droit-de-timbre-sur-les-procedures-civiles-en-premiere-instance-",
+    "nom": "Droit de timbre sur les procédures civiles en première instance et prud'homales",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Rétabli en LFI 2024.",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-droits-de-timbre",
     "nom": "Droits de timbre",
     "sigle": null,
     "categorie": "impôt d'État",
@@ -2832,6 +2878,190 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-imposition-forfaitaire-sur-le-materiel-ferroviaire-roulant",
+    "nom": "Imposition forfaitaire sur le matériel ferroviaire roulant",
+    "sigle": "IFER ferroviaire",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1599 quater A",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de l'IFER (transport de voyageurs).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-imposition-forfaitaire-sur-les-centrales-photovoltaiques-et-hydr",
+    "nom": "Imposition forfaitaire sur les centrales photovoltaïques et hydrauliques",
+    "sigle": "IFER photovoltaïque",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1519 F",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de l'IFER.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-imposition-forfaitaire-sur-les-installations-de-production-d-ele",
+    "nom": "Imposition forfaitaire sur les installations de production d'électricité nucléaire ou thermique à flamme",
+    "sigle": "IFER nucléaire",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1519 E",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de l'IFER.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-imposition-forfaitaire-sur-les-installations-gazieres-et-canalis",
+    "nom": "Imposition forfaitaire sur les installations gazières et canalisations de transport",
+    "sigle": "IFER gaz",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1519 HA",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de l'IFER (gaz, GNL, stockage).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-imposition-forfaitaire-sur-les-repartiteurs-principaux-et-equipe",
+    "nom": "Imposition forfaitaire sur les répartiteurs principaux et équipements de boucle locale cuivre",
+    "sigle": "IFER cuivre",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1599 quater B",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de l'IFER (téléphonie cuivre).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-imposition-forfaitaire-sur-les-stations-radioelectriques",
+    "nom": "Imposition forfaitaire sur les stations radioélectriques",
+    "sigle": "IFER antennes",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1519 H",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de l'IFER (antennes-relais).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-imposition-forfaitaire-sur-les-transformateurs-electriques",
+    "nom": "Imposition forfaitaire sur les transformateurs électriques",
+    "sigle": "IFER transformateurs",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1519 G",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de l'IFER.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-imposition-forfaitaire-sur-les-eoliennes-terrestres-et-hydrolien",
+    "nom": "Imposition forfaitaire sur les éoliennes terrestres et hydroliennes",
+    "sigle": "IFER éolien",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1519 D",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de l'IFER.",
     "aliases": []
   },
   {
@@ -2881,7 +3111,7 @@
     "aliases": []
   },
   {
-    "id": "seed-malus-automobile-co2-et-masse",
+    "id": "readme-seed-malus-automobile-co2-et-masse",
     "nom": "Malus automobile (CO2 et masse)",
     "sigle": null,
     "categorie": "impôt d'État",
@@ -2996,7 +3226,30 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-de-sejour",
+    "id": "supplement-cure-taxe-d-habitation-sur-les-logements-vacants",
+    "nom": "Taxe d'habitation sur les logements vacants",
+    "sigle": "THLV",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1407 bis",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Instituée par les communes (distincte de la TLV nationale).",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-taxe-de-sejour",
     "nom": "Taxe de séjour",
     "sigle": null,
     "categorie": "impôt local",
@@ -3019,7 +3272,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-generale-sur-les-activites-polluantes",
+    "id": "readme-seed-taxe-generale-sur-les-activites-polluantes",
     "nom": "Taxe générale sur les activités polluantes",
     "sigle": "TGAP",
     "categorie": "impôt d'État",
@@ -3047,6 +3300,98 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-generale-sur-les-activites-polluantes-composante-dechets",
+    "nom": "Taxe générale sur les activités polluantes — composante déchets",
+    "sigle": "TGAP déchets",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS (ex-CGI 266 sexies)",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de la TGAP.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-generale-sur-les-activites-polluantes-composante-lessives",
+    "nom": "Taxe générale sur les activités polluantes — composante lessives",
+    "sigle": "TGAP lessives",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de la TGAP.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-generale-sur-les-activites-polluantes-composante-materiaux-",
+    "nom": "Taxe générale sur les activités polluantes — composante matériaux d'extraction",
+    "sigle": "TGAP matériaux",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de la TGAP.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-generale-sur-les-activites-polluantes-composante-emissions-",
+    "nom": "Taxe générale sur les activités polluantes — composante émissions polluantes",
+    "sigle": "TGAP émissions",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante de la TGAP.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-taxe-professionnelle",
     "nom": "Taxe professionnelle",
     "sigle": null,
@@ -3070,7 +3415,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-sur-l-affectation-des-vehicules-a-des-fins-economiques",
+    "id": "readme-seed-taxe-sur-l-affectation-des-vehicules-a-des-fins-economiques",
     "nom": "Taxe sur l'affectation des véhicules à des fins économiques",
     "sigle": "ex-TVS",
     "categorie": "impôt d'État",
@@ -3090,6 +3435,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-l-exploitation-des-infrastructures-de-transport-de-long",
+    "nom": "Taxe sur l'exploitation des infrastructures de transport de longue distance",
+    "sigle": "TEILD",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 235 ter ZE bis",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Concessions autoroutières et grands aéroports (depuis 2024).",
     "aliases": []
   },
   {
@@ -3116,7 +3484,30 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-sur-les-bureaux-et-locaux-en-ile-de-france",
+    "id": "supplement-cure-taxe-sur-le-transport-aerien-de-passagers-tarif-de-solidarite",
+    "nom": "Taxe sur le transport aérien de passagers — tarif de solidarité",
+    "sigle": "TSBA solidarité",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS (ex-taxe de solidarité « Chirac »)",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Réformée et relevée en LFI 2025.",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-taxe-sur-les-bureaux-et-locaux-en-ile-de-france",
     "nom": "Taxe sur les bureaux et locaux en Île-de-France",
     "sigle": null,
     "categorie": "impôt d'État",
@@ -3139,7 +3530,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxe-sur-les-logements-vacants",
+    "id": "readme-seed-taxe-sur-les-logements-vacants",
     "nom": "Taxe sur les logements vacants",
     "sigle": "TLV",
     "categorie": "impôt local",
@@ -3185,7 +3576,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxes-affectees-au-cnc",
+    "id": "readme-seed-taxes-affectees-au-cnc",
     "nom": "Taxes affectées au CNC",
     "sigle": null,
     "categorie": "taxe affectée",
@@ -3254,7 +3645,7 @@
     "aliases": []
   },
   {
-    "id": "seed-taxes-pour-frais-de-chambres-consulaires",
+    "id": "readme-seed-taxes-pour-frais-de-chambres-consulaires",
     "nom": "Taxes pour frais de chambres consulaires",
     "sigle": null,
     "categorie": "taxe affectée",
@@ -6980,7 +7371,7 @@
     "aliases": []
   },
   {
-    "id": "seed-amendes-penalites-et-majorations",
+    "id": "readme-seed-amendes-penalites-et-majorations",
     "nom": "Amendes, pénalités et majorations",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7141,7 +7532,7 @@
     "aliases": []
   },
   {
-    "id": "seed-contribution-a-l-audiovisuel-public-ex-redevance-tv",
+    "id": "readme-seed-contribution-a-l-audiovisuel-public-ex-redevance-tv",
     "nom": "Contribution à l'audiovisuel public (ex-redevance TV)",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7210,7 +7601,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisations-aux-ordres-professionnels-et-syndicats",
+    "id": "readme-seed-cotisations-aux-ordres-professionnels-et-syndicats",
     "nom": "Cotisations aux ordres professionnels et syndicats",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7233,7 +7624,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisations-facultatives-per-assurance-vie-prevoyance-facultative",
+    "id": "readme-seed-cotisations-facultatives-per-assurance-vie-prevoyance-facultative",
     "nom": "Cotisations facultatives (PER, assurance-vie, prévoyance facultative)",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7256,7 +7647,7 @@
     "aliases": []
   },
   {
-    "id": "seed-cotisations-sociales-imputees-fonctionnaires-d-etat",
+    "id": "readme-seed-cotisations-sociales-imputees-fonctionnaires-d-etat",
     "nom": "Cotisations sociales imputées (fonctionnaires d'État)",
     "sigle": null,
     "categorie": "cotisation sociale imputée",
@@ -7279,7 +7670,7 @@
     "aliases": []
   },
   {
-    "id": "seed-dons-et-legs-aux-administrations",
+    "id": "readme-seed-dons-et-legs-aux-administrations",
     "nom": "Dons et legs aux administrations",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7302,7 +7693,7 @@
     "aliases": []
   },
   {
-    "id": "seed-emprunts-et-produits-de-la-dette",
+    "id": "readme-seed-emprunts-et-produits-de-la-dette",
     "nom": "Emprunts et produits de la dette",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7325,7 +7716,7 @@
     "aliases": []
   },
   {
-    "id": "seed-factures-d-eau-et-d-assainissement-part-exploitant",
+    "id": "readme-seed-factures-d-eau-et-d-assainissement-part-exploitant",
     "nom": "Factures d'eau et d'assainissement (part exploitant)",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7348,7 +7739,7 @@
     "aliases": []
   },
   {
-    "id": "seed-forfait-de-post-stationnement",
+    "id": "readme-seed-forfait-de-post-stationnement",
     "nom": "Forfait de post-stationnement",
     "sigle": "FPS",
     "categorie": "indéterminée",
@@ -7417,7 +7808,7 @@
     "aliases": []
   },
   {
-    "id": "seed-part-salariale-de-l-assurance-chomage",
+    "id": "readme-seed-part-salariale-de-l-assurance-chomage",
     "nom": "Part salariale de l'assurance chômage",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7578,7 +7969,7 @@
     "aliases": []
   },
   {
-    "id": "seed-peages-autoroutiers-et-d-ouvrages-d-art",
+    "id": "readme-seed-peages-autoroutiers-et-d-ouvrages-d-art",
     "nom": "Péages autoroutiers et d'ouvrages d'art",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7624,7 +8015,7 @@
     "aliases": []
   },
   {
-    "id": "seed-redevance-d-enlevement-des-ordures-menageres",
+    "id": "readme-seed-redevance-d-enlevement-des-ordures-menageres",
     "nom": "Redevance d'enlèvement des ordures ménagères",
     "sigle": "REOM",
     "categorie": "indéterminée",
@@ -7670,7 +8061,7 @@
     "aliases": []
   },
   {
-    "id": "seed-redevances-domaniales",
+    "id": "readme-seed-redevances-domaniales",
     "nom": "Redevances domaniales",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7739,7 +8130,7 @@
     "aliases": []
   },
   {
-    "id": "seed-revenus-du-domaine-dividendes-loyers",
+    "id": "readme-seed-revenus-du-domaine-dividendes-loyers",
     "nom": "Revenus du domaine, dividendes, loyers",
     "sigle": null,
     "categorie": "indéterminée",
@@ -7828,6 +8219,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-pour-la-gestion-des-eaux-pluviales-urbaines",
+    "nom": "Taxe pour la gestion des eaux pluviales urbaines",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT art. L2333-97",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Facultative",
     "aliases": []
   },
   {
