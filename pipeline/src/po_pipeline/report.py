@@ -53,7 +53,12 @@ def _table_by(records: list[Prelevement], attr: str, title: str) -> str:
 
 def build_markdown(records: list[Prelevement], cov: dict[str, Any]) -> str:
     pris = [r for r in records if r.statut == "PRIS"]
-    a_arbitrer = [r for r in records if r.statut == "A_ARBITRER"]
+    # Lignes à arbitrer triées par enjeu financier décroissant (montant), puis
+    # par libellé : on expertise d'abord les plus gros montants.
+    a_arbitrer = sorted(
+        (r for r in records if r.statut == "A_ARBITRER"),
+        key=lambda r: (-(r.montant_eur or 0), r.nom),
+    )
 
     out: list[str] = []
     out.append("# Rapport — inventaire des prélèvements obligatoires en France\n")
@@ -96,12 +101,13 @@ def build_markdown(records: list[Prelevement], cov: dict[str, Any]) -> str:
     if a_arbitrer:
         out.append("## Lignes à arbitrer (classement incertain)\n")
         out.append("Ces lignes n'ont pu être classées automatiquement "
-                   "(ni code ESA, ni règle). À expertiser manuellement.\n")
-        out.append("| Libellé | Sources |")
-        out.append("|---|---|")
-        for r in a_arbitrer[:50]:
+                   "(ni code ESA, ni règle). À expertiser manuellement, "
+                   "triées par montant décroissant (enjeu financier).\n")
+        out.append("| Libellé | Montant (Md€) | Sources |")
+        out.append("|---|---:|---|")
+        for r in a_arbitrer:
             src = ", ".join(sorted({s.source_id for s in r.sources}))
-            out.append(f"| {r.nom} | {src} |")
+            out.append(f"| {r.nom} | {_mdeur(r.montant_eur)} | {src} |")
         out.append("")
 
     out.append("## Méthodologie\n")
