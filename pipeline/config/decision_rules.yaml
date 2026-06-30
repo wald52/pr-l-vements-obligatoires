@@ -28,6 +28,36 @@ esa_defaults:
 # Secteurs bénéficiaires reconnus comme APU/UE (satisfait C2).
 secteurs_apu: [S13, S1311, S1312, S1313, S1314, APUC, ODAC, APUL, ASSO, S212, UE]
 
+# --- Classement par défaut selon la catégorie (lignes sans code ESA) ----------
+# Les taxes affectées et autres impositions de toutes natures sont, par
+# construction, des prélèvements obligatoires (README §4.5 : « la grande
+# majorité sont des PO »). Ce défaut ne s'applique qu'aux lignes restées
+# « à arbitrer » (ni code ESA, ni override) ; il est ensuite tempéré par le
+# test C2 sur le bénéficiaire ci-dessous et par les overrides.
+categorie_defaults:
+  "taxe affectée":          {statut: PRIS}
+  "recette fiscale (État)": {statut: PRIS}
+  "impôt local":            {statut: PRIS}
+
+# Bénéficiaires hors périmètre APU (organismes de droit privé) : échec C2.
+# Recherchés (sous-chaîne, insensible casse/accents) dans le champ bénéficiaire.
+# Couvre les associations, fondations, comités professionnels de développement
+# et centres techniques industriels (CTI), qui perçoivent des taxes affectées
+# mais ne sont pas des administrations publiques (cf. README §5, logique des
+# ordres/organismes privés hors APU).
+beneficiaires_prives:
+  - "association"
+  - "fondation"
+  - "comite professionnel de developpement"
+  - "comite de developpement"
+  - "centre technique"
+  - "centres techniques"
+  - "cti de"
+  - "franceclat"
+  - "iterg"
+  - "france galop"
+  - "societe d'encouragement"
+
 # --- Overrides : cas-limites du README (priorité sur le défaut) --------------
 # `match` = mots-clés cherchés dans le libellé normalisé (ET logique si liste).
 # `any` = au moins un des libellés. Le premier override qui matche gagne.

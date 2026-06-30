@@ -58,6 +58,24 @@ def _apply_esa_default(rec: Prelevement, defaults: dict[str, Any]) -> None:
             rec.categorie = rule["categorie"]
 
 
+def _apply_categorie_default(rec: Prelevement, defaults: dict[str, Any]) -> None:
+    """Classe par défaut une ligne restée « à arbitrer » selon sa catégorie.
+
+    Les taxes affectées et autres impositions de toutes natures sans code ESA
+    sont, par construction, des PO (README §4.5). On ne touche que les lignes
+    encore `A_ARBITRER` pour ne pas écraser une décision ESA/override.
+    """
+    if rec.statut != "A_ARBITRER":
+        return
+    rule = defaults.get(rec.categorie)
+    if rule:
+        rec.statut = rule.get("statut", rec.statut)
+        rec.critere_echec = rule.get("critere_echec")
+        if not rec.notes:
+            rec.notes = ("Imposition de toutes natures affectée — prélèvement "
+                         "obligatoire (README §4.5).")
+
+
 def _apply_sector_c2(rec: Prelevement, secteurs_apu: list[str]) -> None:
     """Si un secteur est renseigné et hors APU/UE => échec C2."""
     if not rec.secteur:
@@ -70,14 +88,29 @@ def _apply_sector_c2(rec: Prelevement, secteurs_apu: list[str]) -> None:
             rec.statut, rec.critere_echec = "REJET", "C2"
 
 
+def _apply_beneficiaire_c2(rec: Prelevement, prives: list[str]) -> None:
+    """Échec C2 si le bénéficiaire est un organisme de droit privé hors APU."""
+    if rec.statut != "PRIS" or not rec.beneficiaire:
+        return
+    benef = normalize_label(rec.beneficiaire)
+    if any(normalize_label(p) in benef for p in prives):
+        rec.statut, rec.critere_echec = "REJET", "C2"
+        rec.notes = ("Bénéficiaire hors périmètre APU (organisme de droit "
+                     "privé) — échec C2 (README §5).")
+
+
 def classify_records(records: list[Prelevement], rules: dict[str, Any]) -> list[Prelevement]:
     defaults = rules.get("esa_defaults", {})
+    categorie_defaults = rules.get("categorie_defaults", {})
     secteurs_apu = rules.get("secteurs_apu", [])
+    beneficiaires_prives = rules.get("beneficiaires_prives", [])
     overrides = rules.get("overrides", [])
 
     for rec in records:
         _apply_esa_default(rec, defaults)
+        _apply_categorie_default(rec, categorie_defaults)
         _apply_sector_c2(rec, secteurs_apu)
+        _apply_beneficiaire_c2(rec, beneficiaires_prives)
 
         label = normalize_label(rec.nom)
         for rule in overrides:
