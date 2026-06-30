@@ -1,12 +1,13 @@
 {
   "year": 2024,
   "n_records_total": 341,
-  "n_pris": 56,
+  "n_pris": 135,
   "n_rejet": 19,
-  "n_a_arbitrer": 266,
-  "n_pris_sans_montant": 12,
-  "somme_pris_mdeur": 1337.2,
+  "n_a_arbitrer": 187,
+  "n_pris_sans_montant": 13,
+  "somme_pris_socle_mdeur": 1326.1,
+  "somme_pris_itemise_mdeur": 1483.6,
   "enveloppe_insee_mdeur": 1254.0,
-  "couverture_pct": 106.6,
+  "couverture_pct": 105.8,
   "source_enveloppe": "INSEE — comptes nationaux 2024"
 }

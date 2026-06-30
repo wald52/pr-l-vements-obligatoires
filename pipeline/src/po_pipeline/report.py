@@ -66,15 +66,17 @@ def build_markdown(records: list[Prelevement], cov: dict[str, Any]) -> str:
     out.append(f"| Prélèvements retenus (PRIS) | {cov.get('n_pris', len(pris))} |")
     out.append(f"| Candidats rejetés (REJET) | {cov.get('n_rejet', 0)} |")
     out.append(f"| Lignes à arbitrer | {cov.get('n_a_arbitrer', len(a_arbitrer))} |")
-    out.append(f"| Somme des PRIS | {cov.get('somme_pris_mdeur', '—')} Md€ |")
+    out.append(f"| Somme des PRIS (socle curé) | {cov.get('somme_pris_socle_mdeur', '—')} Md€ |")
+    out.append(f"| Somme des PRIS (itemisé, indicatif) | {cov.get('somme_pris_itemise_mdeur', '—')} Md€ |")
     out.append(f"| Enveloppe INSEE ({cov.get('year', '—')}) | "
                f"{cov.get('enveloppe_insee_mdeur', '—')} Md€ |")
-    out.append(f"| **Couverture** | **{cov.get('couverture_pct', '—')} %** |")
+    out.append(f"| **Couverture (socle)** | **{cov.get('couverture_pct', '—')} %** |")
     out.append(f"| PRIS sans montant | {cov.get('n_pris_sans_montant', '—')} |\n")
-    out.append("> La couverture rapporte la somme des montants retenus à "
-               "l'enveloppe INSEE des prélèvements obligatoires. Un écart "
-               "s'explique par les lignes sans montant, les écarts de "
-               "périmètre/millésime entre sources et les doublons résiduels.\n")
+    out.append("> La couverture rapporte la somme des PRIS du **socle curé** "
+               "(non chevauchant) à l'enveloppe INSEE. La somme « itemisée » "
+               "ajoute les composantes fines de la NTL et des taxes affectées : "
+               "indicative, elle mêle agrégats et composantes et n'est pas une "
+               "mesure de couverture.\n")
 
     by_cat = _table_by(records, "categorie", "Montants par catégorie")
     if by_cat:

@@ -30,11 +30,26 @@ def _matches(label: str, rule: dict[str, Any]) -> bool:
     return "any" in rule or "match" in rule
 
 
+def _esa_rule(code: str | None, defaults: dict[str, Any]) -> dict[str, Any] | None:
+    """Règle ESA par correspondance de préfixe la plus longue.
+
+    Les libellés NTL portent des codes fins (D211, D214, D29, D51, D59, D611,
+    D613…) ; on retient la clé d'`esa_defaults` la plus spécifique qui préfixe
+    le code. Ainsi D612* (cotisations imputées) -> REJET prime sur D61* -> PRIS.
+    """
+    if not code:
+        return None
+    norm = code.replace(".", "").upper()
+    best_key = None
+    for key in defaults:
+        k = key.replace(".", "").upper()
+        if norm.startswith(k) and (best_key is None or len(k) > len(best_key)):
+            best_key = k
+    return defaults.get(best_key) if best_key else None
+
+
 def _apply_esa_default(rec: Prelevement, defaults: dict[str, Any]) -> None:
-    code = rec.esa_code
-    rule = defaults.get(code) if code else None
-    if rule is None and code and code.startswith("D612"):
-        rule = defaults.get("D612")
+    rule = _esa_rule(rec.esa_code, defaults)
     if rule:
         rec.statut = rule.get("statut", rec.statut)
         if rule.get("critere_echec"):

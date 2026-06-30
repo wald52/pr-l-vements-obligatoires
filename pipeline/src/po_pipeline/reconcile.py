@@ -35,6 +35,10 @@ def _compatible(a: Prelevement, b: Prelevement) -> bool:
     """
     if a.esa_code and b.esa_code and a.esa_code != b.esa_code:
         return False
+    # Deux sigles distincts => prélèvements distincts (ex. TFPB vs TFPNB, dont
+    # les libellés sont quasi identiques et tromperaient le rapprochement flou).
+    if a.sigle and b.sigle and normalize_label(a.sigle) != normalize_label(b.sigle):
+        return False
     sa = {s.source_id for s in a.sources}
     sb = {s.source_id for s in b.sources}
     if len(sa) == 1 and sa == sb:
@@ -54,6 +58,10 @@ def _match_labels(rec: Prelevement) -> list[str]:
         sig = normalize_label(rec.sigle)
         if len(sig) >= 2:
             labels.append(sig)
+    for al in rec.aliases:
+        a = normalize_label(al)
+        if a:
+            labels.append(a)
     return [l for l in labels if l]
 
 
@@ -65,7 +73,7 @@ def reconcile_records(records: list[Prelevement], threshold: int) -> list[Prelev
         labels = _match_labels(rec)
         placed = False
         for i, keys in enumerate(cluster_labels):
-            if _compatible(rec, clusters[i][0]) and any(
+            if all(_compatible(rec, m) for m in clusters[i]) and any(
                 fuzz.token_sort_ratio(la, lb) >= threshold
                 for la in labels for lb in keys
             ):
@@ -85,12 +93,19 @@ def _source_rank(sid: str) -> int:
 
 
 def _merge(cluster: list[Prelevement]) -> Prelevement:
-    # Représentant : la source la plus prioritaire fournit l'ossature.
+    # Ossature « technique » (montant, code ESA) : la source la plus prioritaire.
     cluster = sorted(
         cluster,
         key=lambda r: _source_rank(r.sources[0].source_id if r.sources else "zzz"),
     )
     base = cluster[0]
+    # Champs descriptifs : le socle curé prime s'il est présent (libellés
+    # lisibles et canoniques) ; sinon la source prioritaire.
+    desc = next(
+        (r for r in cluster if any(s.source_id == "readme_seed" for s in r.sources)),
+        base,
+    )
+
     sources: list[Source] = []
     seen_src: set[tuple[str, str]] = set()
     for rec in cluster:
@@ -100,32 +115,33 @@ def _merge(cluster: list[Prelevement]) -> Prelevement:
                 seen_src.add(tag)
                 sources.append(s)
 
-    def first(attr: str) -> Any:
-        for rec in cluster:
+    def first(attr: str, prefer: Prelevement | None = None) -> Any:
+        order = ([prefer] if prefer else []) + cluster
+        for rec in order:
             val = getattr(rec, attr)
-            if val not in (None, "", "indéterminée"):
+            if val not in (None, "", "indéterminée", []):
                 return val
         return getattr(base, attr)
 
-    # Montant : celui de la source la plus prioritaire qui en fournit un.
     montant = next((r.montant_eur for r in cluster if r.montant_eur is not None), None)
     annee = next((r.annee for r in cluster if r.annee is not None), None)
+    statut = _merge_statut(cluster)
 
     return Prelevement(
-        id=base.id,
-        nom=base.nom,
-        sigle=first("sigle"),
-        categorie=first("categorie"),
-        esa_code=first("esa_code"),
-        beneficiaire=first("beneficiaire"),
-        secteur=first("secteur"),
-        base_legale=first("base_legale"),
+        id=desc.id,
+        nom=desc.nom,
+        sigle=first("sigle", prefer=desc),
+        categorie=first("categorie", prefer=desc),
+        esa_code=first("esa_code"),  # technique : source prioritaire
+        beneficiaire=first("beneficiaire", prefer=desc),
+        secteur=first("secteur", prefer=desc),
+        base_legale=first("base_legale", prefer=desc),
         montant_eur=montant,
         annee=annee,
-        statut=_merge_statut(cluster),
-        critere_echec=first("critere_echec") if _merge_statut(cluster) == "REJET" else None,
+        statut=statut,
+        critere_echec=first("critere_echec") if statut == "REJET" else None,
         sources=sources,
-        notes=first("notes"),
+        notes=first("notes", prefer=desc),
     )
 
 
@@ -140,10 +156,18 @@ def _merge_statut(cluster: list[Prelevement]) -> str:
 
 def coverage(records: list[Prelevement], envelope: dict[str, Any]) -> dict[str, Any]:
     pris = [r for r in records if r.statut == "PRIS"]
-    total_eur = sum(r.montant_eur or 0 for r in pris)
-    total_mdeur = total_eur / 1e9
+    # La couverture se mesure sur le **socle curé** (readme_seed), non chevauchant
+    # par construction : chaque prélèvement n'y est compté qu'une fois. Les lignes
+    # NTL/affectées enrichissent l'inventaire (libellés, code ESA, granularité fine)
+    # mais leur somme brute, qui mélange agrégats et composantes, double-compterait.
+    def _from_seed(r: Prelevement) -> bool:
+        return any(s.source_id == "readme_seed" for s in r.sources)
+
+    pris_seed = [r for r in pris if _from_seed(r)]
+    socle_mdeur = sum(r.montant_eur or 0 for r in pris_seed) / 1e9
+    itemise_mdeur = sum(r.montant_eur or 0 for r in pris) / 1e9
     target = envelope.get("total_po_mdeur")
-    pct = (100 * total_mdeur / target) if target else None
+    pct = (100 * socle_mdeur / target) if target else None
     return {
         "year": envelope.get("year"),
         "n_records_total": len(records),
@@ -151,7 +175,8 @@ def coverage(records: list[Prelevement], envelope: dict[str, Any]) -> dict[str, 
         "n_rejet": sum(1 for r in records if r.statut == "REJET"),
         "n_a_arbitrer": sum(1 for r in records if r.statut == "A_ARBITRER"),
         "n_pris_sans_montant": sum(1 for r in pris if r.montant_eur is None),
-        "somme_pris_mdeur": round(total_mdeur, 1),
+        "somme_pris_socle_mdeur": round(socle_mdeur, 1),
+        "somme_pris_itemise_mdeur": round(itemise_mdeur, 1),
         "enveloppe_insee_mdeur": target,
         "couverture_pct": round(pct, 1) if pct is not None else None,
         "source_enveloppe": envelope.get("source"),

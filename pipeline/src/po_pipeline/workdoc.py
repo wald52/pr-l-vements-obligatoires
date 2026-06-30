@@ -130,9 +130,10 @@ def _synthese(records: list[Prelevement], cov: dict[str, Any]) -> list[str]:
            f"| Retenus (PRIS) | {by_stat['PRIS']} |",
            f"| Rejetés (REJET) | {by_stat['REJET']} |",
            f"| À arbitrer | {by_stat['A_ARBITRER']} |",
-           f"| Somme des PRIS | {cov.get('somme_pris_mdeur', '—')} Md€ |",
+           f"| Somme des PRIS (socle curé) | {cov.get('somme_pris_socle_mdeur', '—')} Md€ |",
+           f"| Somme des PRIS (itemisé, indicatif) | {cov.get('somme_pris_itemise_mdeur', '—')} Md€ |",
            f"| Enveloppe INSEE {cov.get('year', '')} | {cov.get('enveloppe_insee_mdeur', '—')} Md€ |",
-           f"| Couverture | {cov.get('couverture_pct', '—')} % |", ""]
+           f"| Couverture (socle / INSEE) | {cov.get('couverture_pct', '—')} % |", ""]
     # Répartition par catégorie et par source.
     cat = defaultdict(int)
     src = defaultdict(int)
@@ -286,13 +287,15 @@ def _pistes(records: list[Prelevement], cov: dict[str, Any]) -> list[str]:
     return [
         "## 5. Pistes et questions ouvertes", "",
         "Chantiers identifiés pour la suite des recherches :", "",
-        f"1. **Fusionner les doublons** repérés au §4.1 (ex. « Foncier bâti » de la "
-        "NTL ↔ taxe foncière du socle, « Mutations à titre gratuit » ↔ DMTG). "
-        "Un libellé/alias suffit dans la plupart des cas.",
-        "2. **Étendre la classification** : de nombreuses lignes NTL portent un code "
-        "ESA fin (D29, D211, D214, D59…) non couvert par `decision_rules.yaml` ; "
-        "compléter `esa_defaults` reclasserait automatiquement une bonne partie du "
-        "§4.2 en PRIS/REJET.",
+        "1. **Doublons** : les correspondances de même périmètre (« Foncier bâti » "
+        "↔ taxe foncière, « Mutations à titre gratuit » ↔ DMTG) sont désormais "
+        "fusionnées via la colonne `alias` du socle. Les candidats résiduels du "
+        "§4.1 sont des **composantes plus fines** (ex. accises ex-TICGN/TICFE) : à "
+        "fusionner au cas par cas ou à conserver comme détail.",
+        "2. **Classification ESA** : la correspondance par préfixe (D29→D2, "
+        "D51→D5…) reclasse désormais automatiquement les lignes NTL ; les codes "
+        "encore non couverts (cf. catégorie « indéterminée » au §1) restent à "
+        "compléter dans `esa_defaults`.",
         f"3. **Montants manquants** : {n_sans_montant} PRIS sont sans montant ; les "
         "renseigner depuis la NTL fiabiliserait la couverture.",
         "4. **Base de mesure** : la couverture "

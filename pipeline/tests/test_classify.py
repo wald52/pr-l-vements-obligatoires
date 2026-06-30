@@ -22,6 +22,16 @@ def test_cotisation_imputee_rejetee_c1():
     assert r.statut == "REJET" and r.critere_echec == "C1"
 
 
+def test_esa_prefixe_fin_classe_comme_le_parent():
+    # Codes ESA fins de la NTL : doivent hériter du défaut du préfixe.
+    assert _classify_one(_rec("Foncier bâti", esa="D29")).statut == "PRIS"          # D2
+    assert _classify_one(_rec("Mutations à titre gratuit", esa="D91A")).statut == "PRIS"  # D91
+    assert _classify_one(_rec("CSG", esa="D51M")).statut == "PRIS"                  # D5
+    # D612* (imputées) prime sur D61* : REJET malgré le préfixe D61.
+    r = _classify_one(_rec("Cotisations imputées", esa="D6121"))
+    assert r.statut == "REJET" and r.critere_echec == "C1"
+
+
 def test_teom_prise_mais_reom_rejetee():
     teom = _classify_one(_rec("Taxe d'enlèvement des ordures ménagères", esa="D2"))
     reom = _classify_one(_rec("Redevance d'enlèvement des ordures ménagères"))

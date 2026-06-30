@@ -62,6 +62,7 @@ class Prelevement:
     critere_echec: str | None = None  # None / C1 / C2 / C3 / sanction / supprime
     sources: list[Source] = field(default_factory=list)
     notes: str | None = None
+    aliases: list[str] = field(default_factory=list)  # libellés alternatifs (rapprochement)
 
     def to_dict(self) -> dict[str, Any]:
         d = asdict(self)
@@ -126,6 +127,7 @@ JSON_SCHEMA: dict[str, Any] = {
                 },
             },
             "notes": {"type": ["string", "null"]},
+            "aliases": {"type": "array", "items": {"type": "string"}},
         },
     },
 }

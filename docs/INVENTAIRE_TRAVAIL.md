@@ -20,40 +20,43 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 | Indicateur | Valeur |
 |---|---:|
 | Prélèvements au total | 341 |
-| Retenus (PRIS) | 56 |
+| Retenus (PRIS) | 135 |
 | Rejetés (REJET) | 19 |
-| À arbitrer | 266 |
-| Somme des PRIS | 1337.2 Md€ |
+| À arbitrer | 187 |
+| Somme des PRIS (socle curé) | 1326.1 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1483.6 Md€ |
 | Enveloppe INSEE 2024 | 1254.0 Md€ |
-| Couverture | 106.6 % |
+| Couverture (socle / INSEE) | 105.8 % |
 
 ### Répartition par catégorie
 
 | Catégorie | Nombre |
 |---|---:|
-| taxe affectée | 186 |
-| indéterminée | 95 |
-| recette fiscale (État) | 22 |
-| impôt local | 11 |
-| impôt d'État | 10 |
+| taxe affectée | 177 |
+| impôt sur la production/importation | 62 |
+| impôt courant sur le revenu/patrimoine | 21 |
+| impôt d'État | 17 |
+| recette fiscale (État) | 17 |
+| impôt local | 15 |
+| indéterminée | 13 |
+| fiscalité sociale | 8 |
 | cotisation sociale | 6 |
-| fiscalité sociale | 5 |
 | ressource UE | 3 |
-| impôt en capital | 2 |
+| impôt en capital | 1 |
 | cotisation sociale imputée | 1 |
 
 ### Présence par source (une ligne peut avoir plusieurs sources)
 
 | Source | Lignes |
 |---|---:|
-| taxes_affectees | 183 |
+| taxes_affectees | 184 |
 | eurostat_ntl | 103 |
 | readme_seed | 69 |
 | vm_tome1 | 24 |
 
 ## 2. Prélèvements retenus (PRIS)
 
-56 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
+135 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
 
 ### Administrations de sécurité sociale (ASSO) — 14 lignes, 771.06 Md€
 
@@ -63,7 +66,7 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 | Contribution sociale généralisée | CSG | 153.13 | CSS art. L136-1 s. | eurostat_ntl (FR:D51M/C04); taxes_affectees; readme_seed (README §4-§5) |
 | Cotisations de retraite complémentaire obligatoire | AGIRC-ARRCO | 90.00 | ANI / Code de la sécurité sociale | readme_seed (README §4-§5) |
 | Cotisations d'assurance chômage (part employeur) |  | 40.00 | Code du travail | readme_seed (README §4-§5) |
-| Taxes sur les salaires |  | 17.32 | CGI art. 231 | eurostat_ntl (FR:D29C/C03); taxes_affectees; readme_seed (README §4-§5) |
+| Taxe sur les salaires |  | 17.32 | CGI art. 231 | eurostat_ntl (FR:D29C/C03); taxes_affectees; readme_seed (README §4-§5) |
 | Cotisations des travailleurs indépendants |  | 15.00 | Code de la sécurité sociale | readme_seed (README §4-§5) |
 | Contribution au remboursement de la dette sociale | CRDS | 9.08 | Ordonnance 96-50 | eurostat_ntl (FR:D51M/C03); readme_seed (README §4-§5) |
 | Forfait social |  | 6.30 | CSS art. L137-15 | eurostat_ntl (FR:D29C/C09); readme_seed (README §4-§5) |
@@ -74,21 +77,21 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 | Contributions de l'industrie pharmaceutique (clause de sauvegarde M) |  | — | CSS | readme_seed (README §4-§5) |
 | Cotisations des régimes spéciaux |  | — | Code de la sécurité sociale | readme_seed (README §4-§5) |
 
-### État et administrations centrales (APUC) — 17 lignes, 443.18 Md€
+### État et administrations centrales (APUC) — 17 lignes, 446.00 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
-| TVA | TVA | 206.33 | CGI art. 256 s. | eurostat_ntl (FR:D211/C01); readme_seed (README §4-§5) |
+| Taxe sur la valeur ajoutée | TVA | 206.33 | CGI art. 256 s. | eurostat_ntl (FR:D211/C01); readme_seed (README §4-§5) |
 | Impôt sur le revenu | IR | 96.16 | CGI art. 1 A s. | eurostat_ntl (FR:D51M/C07); readme_seed (README §4-§5) |
 | Impôt sur les sociétés | IS | 60.00 | CGI art. 205 s. | readme_seed (README §4-§5) |
-| Accises sur les énergies (ex-TICPE) | TICPE | 30.00 | CIBS | vm_tome1 (ligne 1501); vm_tome1 (ligne 1502); vm_tome1 (ligne 1503); readme_seed (README §4-§5) |
+| Accise sur les énergies (ex-TICPE) | TICPE | 30.00 | CIBS | vm_tome1 (ligne 1501); readme_seed (README §4-§5) |
+| Droits d'enregistrement et de mutation à titre gratuit |  | 20.82 | CGI | eurostat_ntl (FR:D91A/C01); readme_seed (README §4-§5) |
 | Accises sur les alcools, tabacs et boissons |  | 18.00 | CIBS | readme_seed (README §4-§5) |
-| Droits d'enregistrement et de mutation à titre gratuit |  | 18.00 | CGI | readme_seed (README §4-§5) |
 | Taxe spéciale sur les conventions d'assurance | TSCA | 10.03 | CGI art. 991 s. | eurostat_ntl (FR:D214G/C04); taxes_affectees; readme_seed (README §4-§5) |
 | Impôt sur la fortune immobilière | IFI | 2.00 | CGI art. 964 s. | vm_tome1 (ligne 1406); readme_seed (README §4-§5) |
 | Taxe sur les transactions financières | TTF | 1.85 | CGI art. 235 ter ZD | eurostat_ntl (FR:D214C/C03); vm_tome1 (ligne 1797); readme_seed (README §4-§5) |
 | Taxe sur les services numériques |  | 0.79 | CGI art. 299 s. | eurostat_ntl (FR:D214I/C02); vm_tome1 (ligne 1430); readme_seed (README §4-§5) |
-| Taxe sur les surfaces de stationnement |  | 0.01 | LFI 2019 | taxes_affectees; readme_seed (README §4-§5) |
+| Taxe sur les surfaces de stationnement |  | 0.01 | CGI | taxes_affectees; readme_seed (README §4-§5) |
 | Contribution exceptionnelle sur les hauts revenus | CEHR | — | CGI art. 223 sexies | readme_seed (README §4-§5) |
 | Droits de timbre |  | — | CGI | readme_seed (README §4-§5) |
 | Malus automobile (CO2 et masse) |  | — | CIBS | readme_seed (README §4-§5) |
@@ -100,18 +103,18 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
-| Contribution unique à la formation professionnelle et à l'alternance | CUFPA | 9.83 | LFI 2020 | taxes_affectees; readme_seed (README §4-§5) |
+| Contribution unique à la formation professionnelle et à l'alternance | CUFPA | 9.83 | Code du travail L6131-1 | taxes_affectees; readme_seed (README §4-§5) |
 | Redevances des agences de l'eau |  | 2.20 | Code de l'environnement L213-10 | readme_seed (README §4-§5) |
-| Taxe de solidarité sur les billets d'avion |  | 0.21 | LFI 2014 | taxes_affectees; readme_seed (README §4-§5) |
-| Contribution vie étudiante et campus | CVEC | 0.17 | LFI 2019 | taxes_affectees; readme_seed (README §4-§5) |
+| Taxe de solidarité sur les billets d'avion |  | 0.21 | CGI art. 302 bis K | taxes_affectees; readme_seed (README §4-§5) |
+| Contribution de vie étudiante et de campus | CVEC | 0.17 | Code de l'éducation L841-5 | taxes_affectees; readme_seed (README §4-§5) |
 | Taxes affectées au CNC |  | — | Code du cinéma | readme_seed (README §4-§5) |
 | Taxes pour frais de chambres consulaires |  | — | CGI | readme_seed (README §4-§5) |
 
-### Administrations publiques locales (APUL) — 15 lignes, 83.51 Md€
+### Administrations publiques locales (APUL) — 15 lignes, 90.45 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
-| Taxe foncière sur les propriétés bâties | TFPB | 35.00 | CGI art. 1380 s. | readme_seed (README §4-§5) |
+| Taxe foncière sur les propriétés bâties | TFPB | 42.06 | CGI art. 1380 s. | eurostat_ntl (FR:D29A/C03); readme_seed (README §4-§5) |
 | Droits de mutation à titre onéreux | DMTO | 15.00 | CGI art. 1594 A s. | readme_seed (README §4-§5) |
 | Versement mobilité |  | 12.23 | Code des transports L2333-64 | eurostat_ntl (FR:D29C/C07); readme_seed (README §4-§5) |
 | Cotisation foncière des entreprises | CFE | 7.71 | CGI art. 1447 s. | eurostat_ntl (FR:D29A/C06); readme_seed (README §4-§5) |
@@ -119,9 +122,9 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 | Taxe d'habitation sur les résidences secondaires | THRS | 2.50 | CGI art. 1407 s. | readme_seed (README §4-§5) |
 | Impositions forfaitaires sur les entreprises de réseaux | IFER | 1.86 | CGI art. 1635-0 quinquies | eurostat_ntl (FR:D29A/C10); readme_seed (README §4-§5) |
 | Taxe sur les surfaces commerciales | TASCOM | 1.27 | CGI | eurostat_ntl (FR:D29A/C12); readme_seed (README §4-§5) |
-| Taxe foncière sur les propriétés non bâties | TFPNB | 1.00 | CGI art. 1393 s. | readme_seed (README §4-§5) |
-| Taxes d'enlèvement des ordures ménagères | TEOM | 0.63 | CGI art. 1520 s. | taxes_affectees; readme_seed (README §4-§5) |
-| Taxe d’aménagement |  | 0.58 | CGI art. 1635 quater A | taxes_affectees; readme_seed (README §4-§5) |
+| Taxe foncière sur les propriétés non bâties | TFPNB | 0.88 | CGI art. 1393 s. | eurostat_ntl (FR:D29A/C04); readme_seed (README §4-§5) |
+| Taxe d'enlèvement des ordures ménagères | TEOM | 0.63 | CGI art. 1520 s. | taxes_affectees; readme_seed (README §4-§5) |
+| Taxe d'aménagement |  | 0.58 | CGI art. 1635 quater A | taxes_affectees; readme_seed (README §4-§5) |
 | Taxe GEMAPI |  | 0.53 | CGI art. 1530 bis | eurostat_ntl (FR:D29A/C18); readme_seed (README §4-§5) |
 | Taxe locale sur la publicité extérieure | TLPE | 0.19 | CGCT L2333-6 s. | taxes_affectees; readme_seed (README §4-§5) |
 | Taxe de séjour |  | — | CGCT L2333-26 s. | readme_seed (README §4-§5) |
@@ -135,11 +138,90 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 | Droits de douane |  | 2.00 | Code des douanes de l'Union | readme_seed (README §4-§5) |
 | Contribution sur les emballages plastiques non recyclés |  | 1.20 | Décision ressources propres UE | readme_seed (README §4-§5) |
 
-### Secteur à préciser — 1 lignes, 20.82 Md€
+### Secteur à préciser — 80 lignes, 157.50 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
-| Mutations à titre gratuit |  | 20.82 |  | eurostat_ntl (FR:D91A/C01) |
+| Taxe intérieure de consommation des produits énergétiques |  | 29.55 |  | eurostat_ntl (FR:D214A/C06) |
+| Droits d'enregistrement (y compris taxe additionnelle) |  | 14.66 |  | eurostat_ntl (FR:D214C/C01) |
+| Autres prélèvements sociaux |  | 14.65 |  | eurostat_ntl (FR:D51M/C06) |
+| Taxes sur les tabacs |  | 13.61 |  | eurostat_ntl (FR:D214A/C10) |
+| Contributions des entreprises à la formation professionnelle et à l'apprentissage |  | 11.36 |  | eurostat_ntl (FR:D29C/C02) |
+| Taxe de solidarité additionnelle |  | 6.21 |  | eurostat_ntl (FR:D214G/C01) |
+| Accise sur l'électricité |  | 4.80 |  | eurostat_ntl (FR:D214A/C07) |
+| Taxes sur les boissons |  | 4.75 |  | eurostat_ntl (FR:D214A/C09) |
+| Produits de la loterie nationale et du loto |  | 3.99 |  | eurostat_ntl (FR:D214F/C01) |
+| Taxe intérieure sur la consommation de gaz naturel |  | 3.18 |  | eurostat_ntl (FR:D214A/C02) |
+| Taxe sur les certificats d'immatriculation des véhicules |  | 3.12 | LFR-I 2014 et de la LFI 2015 | eurostat_ntl (FR:D214D/C01); taxes_affectees |
+| Cotisation patronale pour le FNAL (Fonds national d'aide au logement) |  | 2.94 |  | eurostat_ntl (FR:D29C/C06) |
+| Impôt de solidarité sur la fortune (jusque 2017) / Impôt sur la fortune immobilière (à partir de 2018) |  | 2.68 |  | eurostat_ntl (FR:D59A/C02) |
+| Part sur les salaires |  | 2.63 |  | eurostat_ntl (FR:D29A/C08) |
+| Droits d'importation |  | 2.60 |  | eurostat_ntl (FR:D2121/C02) |
+| Contribution de solidarité pour l'autonomie |  | 2.47 |  | eurostat_ntl (FR:D29C/C05) |
+| Taxe sur les émissions de CO2 |  | 2.11 |  | eurostat_ntl (FR:D29F/C02) |
+| Taxes sur les transports |  | 1.86 |  | eurostat_ntl (FR:D214H/C10) |
+| Taxes sur les paris hippiques |  | 1.80 |  | eurostat_ntl (FR:D214F/C03) |
+| Taxes sur les services professionnels hors droits de mutations |  | 1.76 |  | eurostat_ntl (FR:D214H/C09) |
+| Cotisations sur primes d'assurance |  | 1.73 |  | eurostat_ntl (FR:D214G/C02) |
+| Participation des employeurs à l'effort de construction |  | 1.50 |  | eurostat_ntl (FR:D29C/C13) |
+| Taxes au profit de l'Association sur la garantie des salaires |  | 1.47 |  | eurostat_ntl (FR:D29C/C04) |
+| Taxes sur les jeux des casinos |  | 1.44 |  | eurostat_ntl (FR:D214F/C02) |
+| Part sur la consommation |  | 1.33 |  | eurostat_ntl (FR:D59A/C05) |
+| Taxe sur primes d'assurance automobile |  | 1.25 |  | eurostat_ntl (FR:D214G/C05) |
+| Part sur le capital |  | 1.24 |  | eurostat_ntl (FR:D29A/C09) |
+| Taxes sur la construction |  | 1.19 |  | eurostat_ntl (FR:D214H/C08) |
+| Contribution sociale sur les bénéfices des sociétés |  | 1.17 |  | eurostat_ntl (FR:D51O/C06) |
+| Taxe sur construction de bureaux et sur les locaux à usage de bureaux |  | 1.05 |  | eurostat_ntl (FR:D29A/C16) |
+| Contribution patronale sur stock-options |  | 1.03 |  | eurostat_ntl (FR:D29C/C10) |
+| Autres taxes sur la pollution |  | 1.01 |  | eurostat_ntl (FR:D214A/C03) |
+| Taxe sur les véhicules de tourisme des sociétés |  | 0.99 |  | eurostat_ntl (FR:D29B/C04) |
+| Prélèvements sur les revenus des capitaux mobiliers |  | 0.97 |  | eurostat_ntl (FR:D51M/C08) |
+| Taxes pharmaceutiques (contribution grossistes répartiteurs, taxe sur les ventes de médicaments et de cosmétiques) |  | 0.96 |  | eurostat_ntl (FR:D214I/C01) |
+| Redevances sur les prélèvements de l'eau |  | 0.83 |  | eurostat_ntl (FR:D214H/C07) |
+| Cotisation des entreprises cinématographiques au profit du CNC (Centre national du cinéma) |  | 0.71 |  | eurostat_ntl (FR:D214E/C03) |
+| Contribution de sécurité immobilière |  | 0.69 |  | eurostat_ntl (FR:D214B/C01) |
+| Retenue sur les bénéfices non commerciaux |  | 0.66 |  | eurostat_ntl (FR:D51O/C07) |
+| Octroi de mer |  | 0.65 |  | eurostat_ntl (FR:D2121/C03) |
+| Autres taxes sur l'énergie |  | 0.62 |  | eurostat_ntl (FR:D214A/C04) |
+| Taxe sur les mises à disposition de produits pétroliers pour le stockage stratégique |  | 0.60 |  | eurostat_ntl (FR:D214A/C11) |
+| Taxe sur infrastructures de transport longues distances |  | 0.55 |  | eurostat_ntl (FR:D51O/C10) |
+| Produit de l'imposition chambre de commerce |  | 0.53 |  | eurostat_ntl (FR:D29A/C13) |
+| Contributions sur les loyers immobiliers |  | 0.51 |  | eurostat_ntl (FR:D214H/C04) |
+| Contribution des distributeurs d'énergie électrique basse tension |  | 0.38 |  | eurostat_ntl (FR:D214L/C02) |
+| Imposition sur les pylônes |  | 0.35 |  | eurostat_ntl (FR:D29A/C15) |
+| Taxe due par les opérateurs de communications électroniques |  | 0.24 |  | eurostat_ntl (FR:D214H/C11) |
+| Chambre d'agriculture |  | 0.23 |  | eurostat_ntl (FR:D29A/C17) |
+| Taxe chambre métier |  | 0.21 |  | eurostat_ntl (FR:D29A/C14) |
+| Taxe spéciale sur les véhicules routiers (taxe à l'essieu) |  | 0.15 |  | eurostat_ntl (FR:D29B/C02) |
+| Autres taxes sur le revenu |  | 0.14 |  | eurostat_ntl (FR:D51E/C01) |
+| Contribution sur les rentes infra marginales (électricité) |  | 0.13 |  | eurostat_ntl (FR:D29H/C05) |
+| Taxes sur les spectacles |  | 0.10 |  | eurostat_ntl (FR:D214E/C02) |
+| Redevance cynégétique (permis de chasse) |  | 0.06 |  | eurostat_ntl (FR:D59D/C04) |
+| Taxe due par les entreprises de transport public aérien et maritime (Corse, DOM) |  | 0.05 |  | eurostat_ntl (FR:D29B/C05); taxes_affectees |
+| Droit annuel de francisation et de navigation |  | 0.04 |  | eurostat_ntl (FR:D59D/C02) |
+| Taxe de risque systémique |  | 0.03 |  | eurostat_ntl (FR:D59F/C02) |
+| Autres taxes |  | 0.01 |  | eurostat_ntl (FR:D2122C/C01); vm_tome1 (ligne 1799) |
+| Taxe exceptionnelle de solidarité sur les hautes rémunérations |  | 0.00 |  | eurostat_ntl (FR:D29C/C11) |
+| 3% dividendes |  | — |  | eurostat_ntl (FR:D51O/C08) |
+| Achats d'énergies renouvelables à prix contractuels |  | — |  | eurostat_ntl (FR:D29H/C06) |
+| Avoir fiscal distribué (négatif) |  | — |  | eurostat_ntl (FR:D51O/C02) |
+| Avoir fiscal utilisé (positif) |  | — |  | eurostat_ntl (FR:D51M/C02) |
+| Contribution au SRF (single resolution fund) |  | — |  | eurostat_ntl (FR:D29H/C04) |
+| Contribution temporaire de solidarité |  | — |  | eurostat_ntl (FR:D51O/C09) |
+| Cotisation minimale de taxe professionnelle |  | — |  | eurostat_ntl (FR:D29A/C02) |
+| Fonds de solidarité contribution des fonctionnaires |  | — |  | eurostat_ntl (FR:D51M/C05) |
+| Impôt forfaitaire annuel |  | — |  | eurostat_ntl (FR:D51O/C05) |
+| Impôt sur les opérations traitées dans les bourses de valeurs |  | — |  | eurostat_ntl (FR:D214C/C02) |
+| Prélèvements et taxes compensatoires à l'importation |  | — |  | eurostat_ntl (FR:D2122B/C01) |
+| TVA sur subventions |  | — |  | eurostat_ntl (FR:D29H/C03) |
+| Taxe additionnelle sur les assurances automobile |  | — |  | eurostat_ntl (FR:D214G/C03) |
+| Taxe d'habitation |  | — |  | eurostat_ntl (FR:D59A/C03) |
+| Taxe professionnelle |  | — |  | eurostat_ntl (FR:D29A/C05) |
+| Taxe sur l'utilisation des voies navigables (dont taxe hydraulique) |  | — |  | eurostat_ntl (FR:D29A/C11) |
+| Taxe sur les véhicules (partie ménages) |  | — |  | eurostat_ntl (FR:D59D/C01) |
+| Taxes au profit de l'ADEME (Agence de l'environnement et de la maîtrise de l'énergie) |  | — |  | eurostat_ntl (FR:D214A/C08) |
+| Taxes au profit du FNDMA (Financement National de Développement et de Modernisation de l'Apprentissage) |  | — |  | eurostat_ntl (FR:D29C/C08) |
+| Taxes sur les véhicules à moteur payées par les producteurs |  | — |  | eurostat_ntl (FR:D29B/C03) |
 
 ## 3. Candidats rejetés (REJET)
 
@@ -169,108 +251,33 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 
 ## 4. À arbitrer — front de recherche
 
-266 lignes restent à classer. Elles sont pré-triées ci-dessous pour faciliter l'instruction.
+187 lignes restent à classer. Elles sont pré-triées ci-dessous pour faciliter l'instruction.
 
 ### 4.1 Doublons probables d'un prélèvement déjà retenu
 
-3 lignes ressemblent fortement à un PRIS existant (rapprochement automatique) : à **fusionner** (ajuster un libellé dans le socle, ou un alias dans `reconcile`).
+8 lignes ressemblent fortement à un PRIS existant (rapprochement automatique) : à **fusionner** (ajuster un libellé dans le socle, ou un alias dans `reconcile`).
 
 | Ligne à arbitrer | Montant (Md€) | Ressemble au PRIS | Score | Source |
 |---|---:|---|---:|---|
+| Accises sur les énergies (ex-TICFE) | — | Accise sur les énergies (ex-TICPE) | 95 | vm_tome1 (ligne 1503) |
+| Accises sur les énergies (ex-TICGN) | — | Accise sur les énergies (ex-TICPE) | 92 | vm_tome1 (ligne 1502) |
+| Taxe spéciale sur les conventions d'assurance automobile | 1.14 | Taxe spéciale sur les conventions d'assurance | 89 | taxes_affectees |
+| Taxe sur les certificats d'immatriculation des véhicules (cartes grises) | 2.44 | Taxe sur les certificats d'immatriculation des véhicules | 87 | taxes_affectees |
 | Taxe annuelle sur les logements vacants | — | Taxe sur les logements vacants | 86 | taxes_affectees |
 | Contributions pour le remboursement de la dette sociale (CRDS) | 8.72 | Contribution au remboursement de la dette sociale | 84 | taxes_affectees |
-| Taxes sur les spectacles | 0.10 | Taxes sur les salaires | 82 | eurostat_ntl (FR:D214E/C02) |
+| Taxe communale additionnelle à certains droits d'enregistrement | 3.09 | Droits d'enregistrement (y compris taxe additionnelle) | 82 | taxes_affectees |
+| Taxe sur les boissons sucrées | 0.44 | Taxes sur les boissons | 82 | taxes_affectees |
 
 ### 4.2 Lignes Eurostat NTL à rattacher ou classer
 
-80 taxes/contributions individuelles de la NTL (code ESA + montant officiel) sans correspondance directe : confirmer le statut et, le cas échéant, l'affecter à une rubrique.
+0 taxes/contributions individuelles de la NTL (code ESA + montant officiel) sans correspondance directe : confirmer le statut et, le cas échéant, l'affecter à une rubrique.
 
 | Ligne | ESA | Montant (Md€) | Réf. | 
 |---|---|---:|---|
-| Foncier bâti | D29 | 42.06 | FR:D29A/C03 |
-| Taxe intérieure de consommation des produits énergétiques | D214 | 29.55 | FR:D214A/C06 |
-| Droits d'enregistrement (y compris taxe additionnelle) | D214 | 14.66 | FR:D214C/C01 |
-| Autres prélèvements sociaux | D51 | 14.65 | FR:D51M/C06 |
-| Taxes sur les tabacs | D214 | 13.61 | FR:D214A/C10 |
-| Contributions des entreprises à la formation professionnelle et à l'apprentissage | D29 | 11.36 | FR:D29C/C02 |
-| Taxe de solidarité additionnelle | D214 | 6.21 | FR:D214G/C01 |
-| Accise sur l'électricité | D214 | 4.80 | FR:D214A/C07 |
-| Taxes sur les boissons | D214 | 4.75 | FR:D214A/C09 |
-| Produits de la loterie nationale et du loto | D214 | 3.99 | FR:D214F/C01 |
-| Taxe intérieure sur la consommation de gaz naturel | D214 | 3.18 | FR:D214A/C02 |
-| Taxe sur les certificats d'immatriculation des véhicules | D214 | 3.12 | FR:D214D/C01 |
-| Cotisation patronale pour le FNAL (Fonds national d'aide au logement) | D29 | 2.94 | FR:D29C/C06 |
-| Impôt de solidarité sur la fortune (jusque 2017) / Impôt sur la fortune immobilière (à partir de 2018) | D59 | 2.68 | FR:D59A/C02 |
-| Part sur les salaires | D29 | 2.63 | FR:D29A/C08 |
-| Droits d'importation | D212 | 2.60 | FR:D2121/C02 |
-| Contribution de solidarité pour l'autonomie | D29 | 2.47 | FR:D29C/C05 |
-| Taxe sur les émissions de CO2 | D29 | 2.11 | FR:D29F/C02 |
-| Taxes sur les transports | D214 | 1.86 | FR:D214H/C10 |
-| Taxes sur les paris hippiques | D214 | 1.80 | FR:D214F/C03 |
-| Taxes sur les services professionnels hors droits de mutations | D214 | 1.76 | FR:D214H/C09 |
-| Cotisations sur primes d'assurance | D214 | 1.73 | FR:D214G/C02 |
-| Participation des employeurs à l'effort de construction | D29 | 1.50 | FR:D29C/C13 |
-| Taxes au profit de l'Association sur la garantie des salaires | D29 | 1.47 | FR:D29C/C04 |
-| Taxes sur les jeux des casinos | D214 | 1.44 | FR:D214F/C02 |
-| Part sur la consommation | D59 | 1.33 | FR:D59A/C05 |
-| Taxe sur primes d'assurance automobile | D214 | 1.25 | FR:D214G/C05 |
-| Part sur le capital | D29 | 1.24 | FR:D29A/C09 |
-| Taxes sur la construction | D214 | 1.19 | FR:D214H/C08 |
-| Contribution sociale sur les bénéfices des sociétés | D51 | 1.17 | FR:D51O/C06 |
-| Taxe sur construction de bureaux et sur les locaux à usage de bureaux | D29 | 1.05 | FR:D29A/C16 |
-| Contribution patronale sur stock-options | D29 | 1.03 | FR:D29C/C10 |
-| Autres taxes sur la pollution | D214 | 1.01 | FR:D214A/C03 |
-| Taxe sur les véhicules de tourisme des sociétés | D29 | 0.99 | FR:D29B/C04 |
-| Prélèvements sur les revenus des capitaux mobiliers | D51 | 0.97 | FR:D51M/C08 |
-| Taxes pharmaceutiques (contribution grossistes répartiteurs, taxe sur les ventes de médicaments et de cosmétiques) | D214 | 0.96 | FR:D214I/C01 |
-| Foncier non-bâti (partie) | D29 | 0.88 | FR:D29A/C04 |
-| Redevances sur les prélèvements de l'eau | D214 | 0.83 | FR:D214H/C07 |
-| Cotisation des entreprises cinématographiques au profit du CNC (Centre national du cinéma) | D214 | 0.71 | FR:D214E/C03 |
-| Contribution de sécurité immobilière | D214 | 0.69 | FR:D214B/C01 |
-| Retenue sur les bénéfices non commerciaux | D51 | 0.66 | FR:D51O/C07 |
-| Octroi de mer | D212 | 0.65 | FR:D2121/C03 |
-| Autres taxes sur l'énergie | D214 | 0.62 | FR:D214A/C04 |
-| Taxe sur les mises à disposition de produits pétroliers pour le stockage stratégique | D214 | 0.60 | FR:D214A/C11 |
-| Taxe sur infrastructures de transport longues distances | D51 | 0.55 | FR:D51O/C10 |
-| Produit de l'imposition chambre de commerce | D29 | 0.53 | FR:D29A/C13 |
-| Contributions sur les loyers immobiliers | D214 | 0.51 | FR:D214H/C04 |
-| Contribution des distributeurs d'énergie électrique basse tension | D214 | 0.38 | FR:D214L/C02 |
-| Imposition sur les pylônes | D29 | 0.35 | FR:D29A/C15 |
-| Taxe due par les opérateurs de communications électroniques | D214 | 0.24 | FR:D214H/C11 |
-| Chambre d'agriculture | D29 | 0.23 | FR:D29A/C17 |
-| Taxe chambre métier | D29 | 0.21 | FR:D29A/C14 |
-| Taxe spéciale sur les véhicules routiers (taxe à l'essieu) | D29 | 0.15 | FR:D29B/C02 |
-| Autres taxes sur le revenu | D51 | 0.14 | FR:D51E/C01 |
-| Contribution sur les rentes infra marginales (électricité) | D29 | 0.13 | FR:D29H/C05 |
-| Redevance cynégétique (permis de chasse) | D59 | 0.06 | FR:D59D/C04 |
-| Taxe due par les entreprises de transport public aérien et maritime (Corse, DOM) | D29 | 0.05 | FR:D29B/C05 |
-| Droit annuel de francisation et de navigation | D59 | 0.04 | FR:D59D/C02 |
-| Taxe de risque systémique | D59 | 0.03 | FR:D59F/C02 |
-| Taxe exceptionnelle de solidarité sur les hautes rémunérations | D29 | 0.00 | FR:D29C/C11 |
-| 3% dividendes | D51 | — | FR:D51O/C08 |
-| Achats d'énergies renouvelables à prix contractuels | D29 | — | FR:D29H/C06 |
-| Avoir fiscal distribué (négatif) | D51 | — | FR:D51O/C02 |
-| Avoir fiscal utilisé (positif) | D51 | — | FR:D51M/C02 |
-| Contribution au SRF (single resolution fund) | D29 | — | FR:D29H/C04 |
-| Contribution temporaire de solidarité | D51 | — | FR:D51O/C09 |
-| Cotisation minimale de taxe professionnelle | D29 | — | FR:D29A/C02 |
-| Fonds de solidarité contribution des fonctionnaires | D51 | — | FR:D51M/C05 |
-| Impôt forfaitaire annuel | D51 | — | FR:D51O/C05 |
-| Impôt sur les opérations traitées dans les bourses de valeurs | D214 | — | FR:D214C/C02 |
-| Prélèvements et taxes compensatoires à l'importation | D212 | — | FR:D2122B/C01 |
-| TVA sur subventions | D29 | — | FR:D29H/C03 |
-| Taxe additionnelle sur les assurances automobile | D214 | — | FR:D214G/C03 |
-| Taxe d'habitation | D59 | — | FR:D59A/C03 |
-| Taxe professionnelle | D29 | — | FR:D29A/C05 |
-| Taxe sur l'utilisation des voies navigables (dont taxe hydraulique) | D29 | — | FR:D29A/C11 |
-| Taxe sur les véhicules (partie ménages) | D59 | — | FR:D59D/C01 |
-| Taxes au profit de l'ADEME (Agence de l'environnement et de la maîtrise de l'énergie) | D214 | — | FR:D214A/C08 |
-| Taxes au profit du FNDMA (Financement National de Développement et de Modernisation de l'Apprentissage) | D29 | — | FR:D29C/C08 |
-| Taxes sur les véhicules à moteur payées par les producteurs | D29 | — | FR:D29B/C03 |
 
 ### 4.3 Taxes affectées à instruire
 
-167 taxes affectées (V&M Tome I) à confirmer comme PO et rattacher à un bénéficiaire. Triées par bénéficiaire.
+164 taxes affectées (V&M Tome I) à confirmer comme PO et rattacher à un bénéficiaire. Triées par bénéficiaire.
 
 | Taxe affectée | Bénéficiaire | Montant (Md€) | Base légale |
 |---|---|---:|---|
@@ -312,7 +319,6 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 | Cotisation au profit des caisses d’assurances d’accidents agricoles d’Alsace-Moselle | CAAA - Caisses d'assurances d'accidents agricoles d'Alsace-Moselle | — |  |
 | Solde de la taxe d'apprentissage après prise en compte des versements directs des entreprises mentionnés au II de l'article L. 6241-2 | Caisse des dépôts et des consignations | 0.52 |  |
 | Contribution tarifaire d'acheminement (CTA) | Caisse nationale de retraite des industries électriques et gazières | 1.70 |  |
-| Taxe sur les boissons sucrées | CCMSA (non salariés-maladie) | 0.44 |  |
 | Taxe sur les boissons édulcorées | CCMSA (non salariés-maladie) | 0.04 |  |
 | Droits de consommation sur les tabacs | CCMSA (non salariés-maladie, non salariés-RCO et salariés), CNAMTS, CNAF, autres régimes de sécurité sociale, CNSA, FCAATA, Fonds CMU-C jusqu'en 2016; CNAMTS et RAVGDT en 2017 | 13.56 |  |
 | Droits de consommation sur les alcools | CCMSA (non salariés-vieillesse et maladie) jusqu'en 2016; CCMSA (non salariés-vieillesse, maladie et RCO) en 2017 | 2.29 |  |
@@ -364,7 +370,6 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 | Taxe sur les déchets réceptionnés dans une installation de stockage ou un incinérateur de déchets ménagers | Communes | 0.02 |  |
 | Taxe pour non-raccordement à l'égout - Participation pour le financement de l'assainissement collectif (PAC) | Communes | 0.00 |  |
 | Fraction du Prélèvement sur les mises de jeux de cercle en ligne affectée aux communes dans le ressort territorial desquelles sont ouverts au public un ou plusieurs casinos | Communes concernées | 0.01 |  |
-| Taxe communale additionnelle à certains droits d'enregistrement | Communes de plus de 5.000 hbts | 3.09 |  |
 | Redevance proportionnelle sur l'énergie hydraulique | Communes et départements (part départementale) | 0.00 |  |
 | TA-TINB - Taxe additionnelle à la taxe sur les installations nucléaires de base dite "de stockage" | Communes et EPCI (établissements publics de coopération intercommunale) situés dans un rayon maximal autour de l'accès principal aux installations de stockage | 0.00 |  |
 | Prélèvement progressif sur le produit des jeux dans les casinos au profit des communes | Communes ou EPCI (établissements publics de coopération intercommunale à fiscalité propre) - part communale | 0.26 |  |
@@ -430,7 +435,6 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 | Taxe due par les concessionnaires de mines d'or, les amodiataires des concessions de mines d'or et les titulaires de permis et d'autorisations d'exploitation de mines d'or exploitées en Guyane (taxe additionnelle aurifère) | Région de la Guyane | 0.00 |  |
 | Redevance pour création de bureaux ou de locaux de recherche en région Ile-de-France | Région Ile-de-France | — |  |
 | Taxe intérieure de consommation sur les produits énergétique (TICPE dont part modulable) | Régions | 4.66 |  |
-| Taxe sur les certificats d'immatriculation des véhicules (cartes grises) | Régions | 2.44 |  |
 | Taxe intérieure de consommation sur les produits énergétiques (TICPE) - part Grenelle | Régions | 0.56 |  |
 | Taxe sur les permis de conduire | Régions | 0.00 |  |
 | Taxe spéciale de consommation sur les carburants | Régions de la Guadeloupe, de la Martinique, de la Guyane et de la Réunion | 0.55 |  |
@@ -444,11 +448,10 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 
 ### 4.4 Nouvelles impositions du V&M Tome I (lignes 1xxx) à classer
 
-16 impositions d'État détaillées au V&M, non encore présentes ailleurs : à qualifier (la plupart sont des PO d'État récents).
+15 impositions d'État détaillées au V&M, non encore présentes ailleurs : à qualifier (la plupart sont des PO d'État récents).
 
 | Imposition | Ligne budgétaire |
 |---|---|
-| Autres taxes | FR:D2122C/C01 |
 | Retenues à la source sur certains bénéfices non commerciaux et de l'impôt sur le revenu | ligne 1401 |
 | Retenues à la source et prélèvements sur les revenus de capitaux mobiliers et le prélèvement sur les bons anonymes | ligne 1402 |
 | Prélèvements de solidarité | ligne 1427 |
@@ -469,10 +472,10 @@ Ce document regroupe les **341 prélèvements** de l'inventaire réconcilié (an
 
 Chantiers identifiés pour la suite des recherches :
 
-1. **Fusionner les doublons** repérés au §4.1 (ex. « Foncier bâti » de la NTL ↔ taxe foncière du socle, « Mutations à titre gratuit » ↔ DMTG). Un libellé/alias suffit dans la plupart des cas.
-2. **Étendre la classification** : de nombreuses lignes NTL portent un code ESA fin (D29, D211, D214, D59…) non couvert par `decision_rules.yaml` ; compléter `esa_defaults` reclasserait automatiquement une bonne partie du §4.2 en PRIS/REJET.
-3. **Montants manquants** : 12 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
-4. **Base de mesure** : la couverture (106.6 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
+1. **Doublons** : les correspondances de même périmètre (« Foncier bâti » ↔ taxe foncière, « Mutations à titre gratuit » ↔ DMTG) sont désormais fusionnées via la colonne `alias` du socle. Les candidats résiduels du §4.1 sont des **composantes plus fines** (ex. accises ex-TICGN/TICFE) : à fusionner au cas par cas ou à conserver comme détail.
+2. **Classification ESA** : la correspondance par préfixe (D29→D2, D51→D5…) reclasse désormais automatiquement les lignes NTL ; les codes encore non couverts (cf. catégorie « indéterminée » au §1) restent à compléter dans `esa_defaults`.
+3. **Montants manquants** : 32 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
+4. **Base de mesure** : la couverture (105.8 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
 5. **Exhaustivité de l'État A** : le volume narratif du V&M ne détaille que les ~24 principaux impôts d'État ; les lignes mineures (1101→1799) sont agrégées (« Autres taxes », « Recettes diverses »). Si besoin, parser la table récapitulative formelle (État A) pour les ~300 lignes complètes.
 6. **Taxes affectées** (§4.3) : confirmer le périmètre PO de chacune (certaines redevances pour service rendu sont à exclure au titre de C3).
 

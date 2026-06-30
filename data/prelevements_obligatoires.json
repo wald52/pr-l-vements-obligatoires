@@ -19,11 +19,12 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Recouvrées par les URSSAF (part salariale et patronale)."
+    "notes": "Recouvrées par les URSSAF (part salariale et patronale).",
+    "aliases": []
   },
   {
-    "id": "eurostat-tva",
-    "nom": "TVA",
+    "id": "seed-taxe-sur-la-valeur-ajoutee",
+    "nom": "Taxe sur la valeur ajoutée",
     "sigle": "TVA",
     "categorie": "impôt d'État",
     "esa_code": "D211",
@@ -46,13 +47,14 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Premier impôt par le rendement — fractions affectées ASSO/APUL."
+    "notes": "Premier impôt par le rendement — fractions affectées ASSO/APUL.",
+    "aliases": []
   },
   {
-    "id": "eurostat-contribution-sociale-generalisee",
+    "id": "seed-contribution-sociale-generalisee",
     "nom": "Contribution sociale généralisée",
     "sigle": "CSG",
-    "categorie": "taxe affectée",
+    "categorie": "fiscalité sociale",
     "esa_code": "D51",
     "beneficiaire": "CNAMTS",
     "secteur": "ASSO",
@@ -78,10 +80,11 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-impot-sur-le-revenu",
+    "id": "seed-impot-sur-le-revenu",
     "nom": "Impôt sur le revenu",
     "sigle": "IR",
     "categorie": "impôt d'État",
@@ -105,7 +108,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Prélevé à la source — inclut le PFU (flat tax)."
+    "notes": "Prélevé à la source — inclut le PFU (flat tax).",
+    "aliases": []
   },
   {
     "id": "seed-cotisations-de-retraite-complementaire-obligatoire",
@@ -127,7 +131,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Inclut IRCANTEC, RAFP."
+    "notes": "Inclut IRCANTEC, RAFP.",
+    "aliases": []
   },
   {
     "id": "seed-impot-sur-les-societes",
@@ -149,7 +154,36 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Inclut contributions sociale et exceptionnelles sur l'IS."
+    "notes": "Inclut contributions sociale et exceptionnelles sur l'IS.",
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-fonciere-sur-les-proprietes-baties",
+    "nom": "Taxe foncière sur les propriétés bâties",
+    "sigle": "TFPB",
+    "categorie": "impôt local",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1380 s.",
+    "montant_eur": 42059000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C03"
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-cotisations-d-assurance-chomage-part-employeur",
@@ -171,35 +205,14 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Régime Unédic."
+    "notes": "Régime Unédic.",
+    "aliases": []
   },
   {
-    "id": "seed-taxe-fonciere-sur-les-proprietes-baties",
-    "nom": "Taxe foncière sur les propriétés bâties",
-    "sigle": "TFPB",
-    "categorie": "impôt local",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUL",
-    "base_legale": "CGI art. 1380 s.",
-    "montant_eur": 35000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "vm-1501-accises-sur-les-energies-ex-ticpe",
-    "nom": "Accises sur les énergies (ex-TICPE)",
+    "id": "seed-accise-sur-les-energies-ex-ticpe",
+    "nom": "Accise sur les énergies (ex-TICPE)",
     "sigle": "TICPE",
-    "categorie": "recette fiscale (État)",
+    "categorie": "impôt d'État",
     "esa_code": null,
     "beneficiaire": null,
     "secteur": "APUC",
@@ -215,32 +228,46 @@
         "ref": "ligne 1501"
       },
       {
-        "source_id": "vm_tome1",
-        "url": "",
-        "ref": "ligne 1502"
-      },
-      {
-        "source_id": "vm_tome1",
-        "url": "",
-        "ref": "ligne 1503"
-      },
-      {
         "source_id": "readme_seed",
         "url": "",
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-mutations-a-titre-gratuit",
-    "nom": "Mutations à titre gratuit",
+    "id": "eurostat-taxe-interieure-de-consommation-des-produits-energetiques",
+    "nom": "Taxe intérieure de consommation des produits énergétiques",
     "sigle": null,
-    "categorie": "impôt en capital",
-    "esa_code": "D91",
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
     "beneficiaire": null,
     "secteur": null,
     "base_legale": null,
+    "montant_eur": 29554000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214A/C06"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-droits-d-enregistrement-et-de-mutation-a-titre-gratuit",
+    "nom": "Droits d'enregistrement et de mutation à titre gratuit",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": "D91",
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
     "montant_eur": 20819000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -250,9 +277,15 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D91A/C01"
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": "Successions et donations.",
+    "aliases": []
   },
   {
     "id": "seed-accises-sur-les-alcools-tabacs-et-boissons",
@@ -274,35 +307,14 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "seed-droits-d-enregistrement-et-de-mutation-a-titre-gratuit",
-    "nom": "Droits d'enregistrement et de mutation à titre gratuit",
+    "id": "seed-taxe-sur-les-salaires",
+    "nom": "Taxe sur les salaires",
     "sigle": null,
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CGI",
-    "montant_eur": 18000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Successions et donations."
-  },
-  {
-    "id": "eurostat-taxes-sur-les-salaires",
-    "nom": "Taxes sur les salaires",
-    "sigle": null,
-    "categorie": "taxe affectée",
+    "categorie": "fiscalité sociale",
     "esa_code": "D29",
     "beneficiaire": "CNAVTS, CNAF, FSV, CNAMTS en 2016; CNAVTS, CNAF, CNAMTS dès 2017",
     "secteur": "ASSO",
@@ -328,7 +340,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Employeurs non assujettis à la TVA."
+    "notes": "Employeurs non assujettis à la TVA.",
+    "aliases": []
   },
   {
     "id": "seed-cotisations-des-travailleurs-independants",
@@ -350,7 +363,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Recouvrées par les URSSAF (ex-RSI)."
+    "notes": "Recouvrées par les URSSAF (ex-RSI).",
+    "aliases": []
   },
   {
     "id": "seed-droits-de-mutation-a-titre-onereux",
@@ -372,10 +386,80 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Part fiscale des « frais de notaire »."
+    "notes": "Part fiscale des « frais de notaire ».",
+    "aliases": []
   },
   {
-    "id": "eurostat-versement-mobilite",
+    "id": "eurostat-droits-d-enregistrement-y-compris-taxe-additionnelle",
+    "nom": "Droits d'enregistrement (y compris taxe additionnelle)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 14663000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214C/C01"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-autres-prelevements-sociaux",
+    "nom": "Autres prélèvements sociaux",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 14646000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51M/C06"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-sur-les-tabacs",
+    "nom": "Taxes sur les tabacs",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 13606000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214A/C10"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-versement-mobilite",
     "nom": "Versement mobilité",
     "sigle": null,
     "categorie": "impôt local",
@@ -399,13 +483,37 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Dû par les employeurs (ex-versement transport)."
+    "notes": "Dû par les employeurs (ex-versement transport).",
+    "aliases": []
   },
   {
-    "id": "eurostat-taxe-speciale-sur-les-conventions-d-assurance",
+    "id": "eurostat-contributions-des-entreprises-a-la-formation-professionnelle-et-a-l-app",
+    "nom": "Contributions des entreprises à la formation professionnelle et à l'apprentissage",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 11359000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29C/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-speciale-sur-les-conventions-d-assurance",
     "nom": "Taxe spéciale sur les conventions d'assurance",
     "sigle": "TSCA",
-    "categorie": "taxe affectée",
+    "categorie": "impôt d'État",
     "esa_code": "D214",
     "beneficiaire": "Départements (part départementale)",
     "secteur": "APUC",
@@ -431,17 +539,18 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "ta-contribution-unique-a-la-formation-professionnelle-et-a-l-alternance",
+    "id": "seed-contribution-unique-a-la-formation-professionnelle-et-a-l-alternance",
     "nom": "Contribution unique à la formation professionnelle et à l'alternance",
     "sigle": "CUFPA",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "France Compétences",
     "secteur": "ODAC",
-    "base_legale": "LFI 2020",
+    "base_legale": "Code du travail L6131-1",
     "montant_eur": 9830000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -458,10 +567,11 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Ex-taxe d'apprentissage + contribution formation."
+    "notes": "Ex-taxe d'apprentissage + contribution formation.",
+    "aliases": []
   },
   {
-    "id": "eurostat-contribution-au-remboursement-de-la-dette-sociale",
+    "id": "seed-contribution-au-remboursement-de-la-dette-sociale",
     "nom": "Contribution au remboursement de la dette sociale",
     "sigle": "CRDS",
     "categorie": "fiscalité sociale",
@@ -485,10 +595,11 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-cotisation-fonciere-des-entreprises",
+    "id": "seed-cotisation-fonciere-des-entreprises",
     "nom": "Cotisation foncière des entreprises",
     "sigle": "CFE",
     "categorie": "impôt local",
@@ -512,10 +623,11 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-forfait-social",
+    "id": "seed-forfait-social",
     "nom": "Forfait social",
     "sigle": null,
     "categorie": "fiscalité sociale",
@@ -539,13 +651,37 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-contribution-sociale-de-solidarite-des-societes",
+    "id": "eurostat-taxe-de-solidarite-additionnelle",
+    "nom": "Taxe de solidarité additionnelle",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 6211000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214G/C01"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-contribution-sociale-de-solidarite-des-societes",
     "nom": "Contribution sociale de solidarité des sociétés",
     "sigle": "C3S",
-    "categorie": "taxe affectée",
+    "categorie": "fiscalité sociale",
     "esa_code": "D29",
     "beneficiaire": "CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",
     "secteur": "ASSO",
@@ -571,13 +707,14 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-cotisation-sur-la-valeur-ajoutee-des-entreprises",
+    "id": "seed-cotisation-sur-la-valeur-ajoutee-des-entreprises",
     "nom": "Cotisation sur la valeur ajoutée des entreprises",
     "sigle": "CVAE",
-    "categorie": "recette fiscale (État)",
+    "categorie": "impôt local",
     "esa_code": "D29",
     "beneficiaire": null,
     "secteur": "APUL",
@@ -603,7 +740,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "En extinction progressive."
+    "notes": "En extinction progressive.",
+    "aliases": []
   },
   {
     "id": "seed-cotisations-agricoles",
@@ -625,7 +763,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Recouvrées par la MSA."
+    "notes": "Recouvrées par la MSA.",
+    "aliases": []
   },
   {
     "id": "seed-prelevement-de-solidarite-sur-les-revenus-du-capital",
@@ -647,7 +786,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Taux 7,5 %."
+    "notes": "Taux 7,5 %.",
+    "aliases": []
   },
   {
     "id": "seed-taxe-de-solidarite-additionnelle-complementaire-sante",
@@ -669,7 +809,128 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-accise-sur-l-electricite",
+    "nom": "Accise sur l'électricité",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 4803000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214A/C07"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-sur-les-boissons",
+    "nom": "Taxes sur les boissons",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 4749000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214A/C09"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-produits-de-la-loterie-nationale-et-du-loto",
+    "nom": "Produits de la loterie nationale et du loto",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 3988000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214F/C01"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-interieure-sur-la-consommation-de-gaz-naturel",
+    "nom": "Taxe intérieure sur la consommation de gaz naturel",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 3183000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214A/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-sur-les-certificats-d-immatriculation-des-vehicules",
+    "nom": "Taxe sur les certificats d'immatriculation des véhicules",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": "ANTS - Agence nationale des titres sécurisés",
+    "secteur": null,
+    "base_legale": "LFR-I 2014 et de la LFI 2015",
+    "montant_eur": 3122000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214D/C01"
+      },
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-ressource-propre-fondee-sur-la-tva",
@@ -691,7 +952,100 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-cotisation-patronale-pour-le-fnal-fonds-national-d-aide-au-logement",
+    "nom": "Cotisation patronale pour le FNAL (Fonds national d'aide au logement)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2935000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29C/C06"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-impot-de-solidarite-sur-la-fortune-jusque-2017-impot-sur-la-fortune-imm",
+    "nom": "Impôt de solidarité sur la fortune (jusque 2017) / Impôt sur la fortune immobilière (à partir de 2018)",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D59",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2678000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D59A/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-part-sur-les-salaires",
+    "nom": "Part sur les salaires",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2630000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C08"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-droits-d-importation",
+    "nom": "Droits d'importation",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D212",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2600000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D2121/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-taxe-d-habitation-sur-les-residences-secondaires",
@@ -713,7 +1067,31 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "TH résidence principale supprimée."
+    "notes": "TH résidence principale supprimée.",
+    "aliases": []
+  },
+  {
+    "id": "eurostat-contribution-de-solidarite-pour-l-autonomie",
+    "nom": "Contribution de solidarité pour l'autonomie",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2468000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29C/C05"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-redevances-des-agences-de-l-eau",
@@ -735,7 +1113,31 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Qualifiées d'impositions de toutes natures par le Conseil constitutionnel => PO (README §4.5)."
+    "notes": "Qualifiées d'impositions de toutes natures par le Conseil constitutionnel => PO (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-sur-les-emissions-de-co2",
+    "nom": "Taxe sur les émissions de CO2",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2113000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29F/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-droits-de-douane",
@@ -757,13 +1159,14 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Ressources propres traditionnelles, perçus pour l'UE."
+    "notes": "Ressources propres traditionnelles, perçus pour l'UE.",
+    "aliases": []
   },
   {
-    "id": "vm-1406-impot-sur-la-fortune-immobiliere",
+    "id": "seed-impot-sur-la-fortune-immobiliere",
     "nom": "Impôt sur la fortune immobilière",
     "sigle": "IFI",
-    "categorie": "recette fiscale (État)",
+    "categorie": "impôt d'État",
     "esa_code": null,
     "beneficiaire": null,
     "secteur": "APUC",
@@ -784,10 +1187,11 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-impositions-forfaitaires-sur-les-entreprises-de-reseaux",
+    "id": "seed-impositions-forfaitaires-sur-les-entreprises-de-reseaux",
     "nom": "Impositions forfaitaires sur les entreprises de réseaux",
     "sigle": "IFER",
     "categorie": "impôt local",
@@ -811,13 +1215,37 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-taxe-sur-les-transactions-financieres",
+    "id": "eurostat-taxes-sur-les-transports",
+    "nom": "Taxes sur les transports",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1859000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214H/C10"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-sur-les-transactions-financieres",
     "nom": "Taxe sur les transactions financières",
     "sigle": "TTF",
-    "categorie": "recette fiscale (État)",
+    "categorie": "impôt d'État",
     "esa_code": "D214",
     "beneficiaire": null,
     "secteur": "APUC",
@@ -843,10 +1271,172 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-taxe-sur-les-surfaces-commerciales",
+    "id": "eurostat-taxes-sur-les-paris-hippiques",
+    "nom": "Taxes sur les paris hippiques",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1797000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214F/C03"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-sur-les-services-professionnels-hors-droits-de-mutations",
+    "nom": "Taxes sur les services professionnels hors droits de mutations",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1763000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214H/C09"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-cotisations-sur-primes-d-assurance",
+    "nom": "Cotisations sur primes d'assurance",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1728000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214G/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-participation-des-employeurs-a-l-effort-de-construction",
+    "nom": "Participation des employeurs à l'effort de construction",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1497000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29C/C13"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-au-profit-de-l-association-sur-la-garantie-des-salaires",
+    "nom": "Taxes au profit de l'Association sur la garantie des salaires",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1468000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29C/C04"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-sur-les-jeux-des-casinos",
+    "nom": "Taxes sur les jeux des casinos",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1436000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214F/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-part-sur-la-consommation",
+    "nom": "Part sur la consommation",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D59",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1327000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D59A/C05"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-sur-les-surfaces-commerciales",
     "nom": "Taxe sur les surfaces commerciales",
     "sigle": "TASCOM",
     "categorie": "impôt local",
@@ -870,7 +1460,54 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-sur-primes-d-assurance-automobile",
+    "nom": "Taxe sur primes d'assurance automobile",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1255000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214G/C05"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-part-sur-le-capital",
+    "nom": "Part sur le capital",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1237000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C09"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-contribution-sur-les-emballages-plastiques-non-recycles",
@@ -892,35 +1529,249 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-sur-la-construction",
+    "nom": "Taxes sur la construction",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1194000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214H/C08"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-contribution-sociale-sur-les-benefices-des-societes",
+    "nom": "Contribution sociale sur les bénéfices des sociétés",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1166000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51O/C06"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-sur-construction-de-bureaux-et-sur-les-locaux-a-usage-de-bureaux",
+    "nom": "Taxe sur construction de bureaux et sur les locaux à usage de bureaux",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1055000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C16"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-contribution-patronale-sur-stock-options",
+    "nom": "Contribution patronale sur stock-options",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1033000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29C/C10"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-autres-taxes-sur-la-pollution",
+    "nom": "Autres taxes sur la pollution",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 1011000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214A/C03"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-sur-les-vehicules-de-tourisme-des-societes",
+    "nom": "Taxe sur les véhicules de tourisme des sociétés",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 991000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29B/C04"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-prelevements-sur-les-revenus-des-capitaux-mobiliers",
+    "nom": "Prélèvements sur les revenus des capitaux mobiliers",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 971000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51M/C08"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-pharmaceutiques-contribution-grossistes-repartiteurs-taxe-sur-les",
+    "nom": "Taxes pharmaceutiques (contribution grossistes répartiteurs, taxe sur les ventes de médicaments et de cosmétiques)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 957000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214I/C01"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-taxe-fonciere-sur-les-proprietes-non-baties",
     "nom": "Taxe foncière sur les propriétés non bâties",
     "sigle": "TFPNB",
     "categorie": "impôt local",
-    "esa_code": null,
+    "esa_code": "D29",
     "beneficiaire": null,
     "secteur": "APUL",
     "base_legale": "CGI art. 1393 s.",
-    "montant_eur": 1000000000.0,
+    "montant_eur": 883000000.0,
     "annee": 2024,
     "statut": "PRIS",
     "critere_echec": null,
     "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C04"
+      },
       {
         "source_id": "readme_seed",
         "url": "",
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-taxe-sur-les-services-numeriques",
+    "id": "eurostat-redevances-sur-les-prelevements-de-l-eau",
+    "nom": "Redevances sur les prélèvements de l'eau",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 826000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214H/C07"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-sur-les-services-numeriques",
     "nom": "Taxe sur les services numériques",
     "sigle": null,
-    "categorie": "recette fiscale (État)",
+    "categorie": "impôt d'État",
     "esa_code": "D214",
     "beneficiaire": null,
     "secteur": "APUC",
@@ -946,13 +1797,106 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Dite « taxe GAFA »."
+    "notes": "Dite « taxe GAFA ».",
+    "aliases": []
   },
   {
-    "id": "ta-taxes-d-enlevement-des-ordures-menageres",
-    "nom": "Taxes d'enlèvement des ordures ménagères",
+    "id": "eurostat-cotisation-des-entreprises-cinematographiques-au-profit-du-cnc-centre-n",
+    "nom": "Cotisation des entreprises cinématographiques au profit du CNC (Centre national du cinéma)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 708000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214E/C03"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-contribution-de-securite-immobiliere",
+    "nom": "Contribution de sécurité immobilière",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 692000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214B/C01"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-retenue-sur-les-benefices-non-commerciaux",
+    "nom": "Retenue sur les bénéfices non commerciaux",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 660000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51O/C07"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-octroi-de-mer",
+    "nom": "Octroi de mer",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D212",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 648000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D2121/C03"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-d-enlevement-des-ordures-menageres",
+    "nom": "Taxe d'enlèvement des ordures ménagères",
     "sigle": "TEOM",
-    "categorie": "taxe affectée",
+    "categorie": "impôt local",
     "esa_code": null,
     "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale à fiscalité propre) - part communale",
     "secteur": "APUL",
@@ -973,13 +1917,60 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "TEOM adossée au foncier, sans lien avec le service rendu => PO (cf. README §4.2)."
+    "notes": "TEOM adossée au foncier, sans lien avec le service rendu => PO (cf. README §4.2).",
+    "aliases": []
   },
   {
-    "id": "ta-taxe-d-amenagement",
-    "nom": "Taxe d’aménagement",
+    "id": "eurostat-autres-taxes-sur-l-energie",
+    "nom": "Autres taxes sur l'énergie",
     "sigle": null,
-    "categorie": "taxe affectée",
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 622000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214A/C04"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-sur-les-mises-a-disposition-de-produits-petroliers-pour-le-stockag",
+    "nom": "Taxe sur les mises à disposition de produits pétroliers pour le stockage stratégique",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 599000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214A/C11"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-d-amenagement",
+    "nom": "Taxe d'aménagement",
+    "sigle": null,
+    "categorie": "impôt local",
     "esa_code": null,
     "beneficiaire": "Départements (part départementale)",
     "secteur": "APUL",
@@ -1000,10 +1991,34 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-taxe-gemapi",
+    "id": "eurostat-taxe-sur-infrastructures-de-transport-longues-distances",
+    "nom": "Taxe sur infrastructures de transport longues distances",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 549000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51O/C10"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-gemapi",
     "nom": "Taxe GEMAPI",
     "sigle": null,
     "categorie": "impôt local",
@@ -1027,17 +2042,179 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Gestion des milieux aquatiques et prévention des inondations."
+    "notes": "Gestion des milieux aquatiques et prévention des inondations.",
+    "aliases": []
   },
   {
-    "id": "ta-taxe-de-solidarite-sur-les-billets-d-avion",
+    "id": "eurostat-produit-de-l-imposition-chambre-de-commerce",
+    "nom": "Produit de l'imposition chambre de commerce",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 525000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C13"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-contributions-sur-les-loyers-immobiliers",
+    "nom": "Contributions sur les loyers immobiliers",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 511000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214H/C04"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-contribution-des-distributeurs-d-energie-electrique-basse-tension",
+    "nom": "Contribution des distributeurs d'énergie électrique basse tension",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 378000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214L/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-imposition-sur-les-pylones",
+    "nom": "Imposition sur les pylônes",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 348000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C15"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-due-par-les-operateurs-de-communications-electroniques",
+    "nom": "Taxe due par les opérateurs de communications électroniques",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 236000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214H/C11"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-chambre-d-agriculture",
+    "nom": "Chambre d'agriculture",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 227000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C17"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-chambre-metier",
+    "nom": "Taxe chambre métier",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 214000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C14"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-de-solidarite-sur-les-billets-d-avion",
     "nom": "Taxe de solidarité sur les billets d'avion",
     "sigle": null,
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "FSD - Fonds de solidarité pour le développement géré par l'Agence française de développement (AFD) - suivi MAED",
     "secteur": "ODAC",
-    "base_legale": "LFI 2014",
+    "base_legale": "CGI art. 302 bis K",
     "montant_eur": 210000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1054,13 +2231,14 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Dite « taxe Chirac » — inclut la taxe de l'aviation civile."
+    "notes": "Dite « taxe Chirac » — inclut la taxe de l'aviation civile.",
+    "aliases": []
   },
   {
-    "id": "ta-taxe-locale-sur-la-publicite-exterieure",
+    "id": "seed-taxe-locale-sur-la-publicite-exterieure",
     "nom": "Taxe locale sur la publicité extérieure",
     "sigle": "TLPE",
-    "categorie": "taxe affectée",
+    "categorie": "impôt local",
     "esa_code": null,
     "beneficiaire": "Communes",
     "secteur": "APUL",
@@ -1081,17 +2259,18 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "ta-contribution-vie-etudiante-et-campus",
-    "nom": "Contribution vie étudiante et campus",
+    "id": "seed-contribution-de-vie-etudiante-et-de-campus",
+    "nom": "Contribution de vie étudiante et de campus",
     "sigle": "CVEC",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Etablissements publics d'enseignement supérieur, établissements mentionnés aux articles L. 443-1 et L. 753-1 du code de l’éducation ou à l'article L. 1431-1 du code général des collectivités territoriales dispensant des formations initiales d'enseignement supérieur, établissements d'enseignement supérieur privés d'intérêt général et centres régionaux des œuvres universitaires et scolaires",
     "secteur": "ODAC",
-    "base_legale": "LFI 2019",
+    "base_legale": "Code de l'éducation L841-5",
     "montant_eur": 174700000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1108,17 +2287,207 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "ta-taxe-sur-les-surfaces-de-stationnement",
+    "id": "eurostat-taxe-speciale-sur-les-vehicules-routiers-taxe-a-l-essieu",
+    "nom": "Taxe spéciale sur les véhicules routiers (taxe à l'essieu)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 154000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29B/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-autres-taxes-sur-le-revenu",
+    "nom": "Autres taxes sur le revenu",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 144000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51E/C01"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-contribution-sur-les-rentes-infra-marginales-electricite",
+    "nom": "Contribution sur les rentes infra marginales (électricité)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 127000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29H/C05"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-sur-les-spectacles",
+    "nom": "Taxes sur les spectacles",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 96000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214E/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-redevance-cynegetique-permis-de-chasse",
+    "nom": "Redevance cynégétique (permis de chasse)",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D59",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 57000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D59D/C04"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-due-par-les-entreprises-de-transport-public-aerien-et-maritime-cor",
+    "nom": "Taxe due par les entreprises de transport public aérien et maritime (Corse, DOM)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": "Collectivité territoriale de Corse et Conservatoire de l'espace littoral, de 2007 à 2011",
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 47000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29B/C05"
+      },
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-droit-annuel-de-francisation-et-de-navigation",
+    "nom": "Droit annuel de francisation et de navigation",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D59",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 44000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D59D/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-de-risque-systemique",
+    "nom": "Taxe de risque systémique",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D59",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 28000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D59F/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "seed-taxe-sur-les-surfaces-de-stationnement",
     "nom": "Taxe sur les surfaces de stationnement",
     "sigle": null,
-    "categorie": "taxe affectée",
+    "categorie": "impôt d'État",
     "esa_code": null,
     "beneficiaire": "SGP - Société du Grand Paris",
     "secteur": "APUC",
-    "base_legale": "LFI 2019",
+    "base_legale": "CGI",
     "montant_eur": 14600000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1135,7 +2504,174 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-autres-taxes",
+    "nom": "Autres taxes",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D212",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 9000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D2122C/C01"
+      },
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1799"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-exceptionnelle-de-solidarite-sur-les-hautes-remunerations",
+    "nom": "Taxe exceptionnelle de solidarité sur les hautes rémunérations",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 2000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29C/C11"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-3-dividendes",
+    "nom": "3% dividendes",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51O/C08"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-achats-d-energies-renouvelables-a-prix-contractuels",
+    "nom": "Achats d'énergies renouvelables à prix contractuels",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29H/C06"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-avoir-fiscal-distribue-negatif",
+    "nom": "Avoir fiscal distribué (négatif)",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51O/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-avoir-fiscal-utilise-positif",
+    "nom": "Avoir fiscal utilisé (positif)",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51M/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-contribution-au-srf-single-resolution-fund",
+    "nom": "Contribution au SRF (single resolution fund)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29H/C04"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-contribution-exceptionnelle-sur-les-hauts-revenus",
@@ -1157,7 +2693,31 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-contribution-temporaire-de-solidarite",
+    "nom": "Contribution temporaire de solidarité",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51O/C09"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-contributions-de-l-industrie-pharmaceutique-clause-de-sauvegarde-m",
@@ -1179,7 +2739,31 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-cotisation-minimale-de-taxe-professionnelle",
+    "nom": "Cotisation minimale de taxe professionnelle",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-cotisations-des-regimes-speciaux",
@@ -1201,7 +2785,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "CNRACL, SNCF, RATP, marins, etc."
+    "notes": "CNRACL, SNCF, RATP, marins, etc.",
+    "aliases": []
   },
   {
     "id": "seed-droits-de-timbre",
@@ -1223,7 +2808,77 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Passeports, cartes, etc."
+    "notes": "Passeports, cartes, etc.",
+    "aliases": []
+  },
+  {
+    "id": "eurostat-fonds-de-solidarite-contribution-des-fonctionnaires",
+    "nom": "Fonds de solidarité contribution des fonctionnaires",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51M/C05"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-impot-forfaitaire-annuel",
+    "nom": "Impôt forfaitaire annuel",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D51",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D51O/C05"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-impot-sur-les-operations-traitees-dans-les-bourses-de-valeurs",
+    "nom": "Impôt sur les opérations traitées dans les bourses de valeurs",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214C/C02"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-malus-automobile-co2-et-masse",
@@ -1245,7 +2900,100 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-prelevements-et-taxes-compensatoires-a-l-importation",
+    "nom": "Prélèvements et taxes compensatoires à l'importation",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D212",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D2122B/C01"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-tva-sur-subventions",
+    "nom": "TVA sur subventions",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29H/C03"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-additionnelle-sur-les-assurances-automobile",
+    "nom": "Taxe additionnelle sur les assurances automobile",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214G/C03"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-d-habitation",
+    "nom": "Taxe d'habitation",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D59",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D59A/C03"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-taxe-de-sejour",
@@ -1267,13 +3015,14 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "vm-1756-taxe-generale-sur-les-activites-polluantes",
+    "id": "seed-taxe-generale-sur-les-activites-polluantes",
     "nom": "Taxe générale sur les activités polluantes",
     "sigle": "TGAP",
-    "categorie": "recette fiscale (État)",
+    "categorie": "impôt d'État",
     "esa_code": null,
     "beneficiaire": null,
     "secteur": "APUC",
@@ -1294,7 +3043,31 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-professionnelle",
+    "nom": "Taxe professionnelle",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C05"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-taxe-sur-l-affectation-des-vehicules-a-des-fins-economiques",
@@ -1316,7 +3089,31 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-sur-l-utilisation-des-voies-navigables-dont-taxe-hydraulique",
+    "nom": "Taxe sur l'utilisation des voies navigables (dont taxe hydraulique)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29A/C11"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-taxe-sur-les-bureaux-et-locaux-en-ile-de-france",
@@ -1338,7 +3135,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-taxe-sur-les-logements-vacants",
@@ -1360,7 +3158,31 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxe-sur-les-vehicules-partie-menages",
+    "nom": "Taxe sur les véhicules (partie ménages)",
+    "sigle": null,
+    "categorie": "impôt courant sur le revenu/patrimoine",
+    "esa_code": "D59",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D59D/C01"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-taxes-affectees-au-cnc",
@@ -1382,7 +3204,54 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Entrées en salles, éditeurs/distributeurs TV, vidéo."
+    "notes": "Entrées en salles, éditeurs/distributeurs TV, vidéo.",
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-au-profit-de-l-ademe-agence-de-l-environnement-et-de-la-maitrise-",
+    "nom": "Taxes au profit de l'ADEME (Agence de l'environnement et de la maîtrise de l'énergie)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D214",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D214A/C08"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-au-profit-du-fndma-financement-national-de-developpement-et-de-mo",
+    "nom": "Taxes au profit du FNDMA (Financement National de Développement et de Modernisation de l'Apprentissage)",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29C/C08"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-taxes-pour-frais-de-chambres-consulaires",
@@ -1404,13 +3273,37 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "CCI, chambres de métiers et d'agriculture."
+    "notes": "CCI, chambres de métiers et d'agriculture.",
+    "aliases": []
+  },
+  {
+    "id": "eurostat-taxes-sur-les-vehicules-a-moteur-payees-par-les-producteurs",
+    "nom": "Taxes sur les véhicules à moteur payées par les producteurs",
+    "sigle": null,
+    "categorie": "impôt sur la production/importation",
+    "esa_code": "D29",
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": 0.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "eurostat_ntl",
+        "url": "",
+        "ref": "FR:D29B/C03"
+      }
+    ],
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "eurostat-impots-sur-les-societes-y-compris-majoration-et-frais-de-poursuite",
     "nom": "Impôts sur les sociétés y compris majoration et frais de poursuite",
     "sigle": null,
-    "categorie": "indéterminée",
+    "categorie": "impôt courant sur le revenu/patrimoine",
     "esa_code": "D51",
     "beneficiaire": null,
     "secteur": null,
@@ -1426,95 +3319,8 @@
         "ref": "FR:D51O/C04"
       }
     ],
-    "notes": "Sanction, hors champ des prélèvements (README §5)."
-  },
-  {
-    "id": "eurostat-foncier-bati",
-    "nom": "Foncier bâti",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 42059000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C03"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-interieure-de-consommation-des-produits-energetiques",
-    "nom": "Taxe intérieure de consommation des produits énergétiques",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 29554000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214A/C06"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-droits-d-enregistrement-y-compris-taxe-additionnelle",
-    "nom": "Droits d'enregistrement (y compris taxe additionnelle)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 14663000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214C/C01"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-autres-prelevements-sociaux",
-    "nom": "Autres prélèvements sociaux",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 14646000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51M/C06"
-      }
-    ],
-    "notes": null
+    "notes": "Sanction, hors champ des prélèvements (README §5).",
+    "aliases": []
   },
   {
     "id": "ta-taxe-departementale-de-publicite-fonciere-sur-les-mutations-a-titres-onereux",
@@ -1536,29 +3342,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-sur-les-tabacs",
-    "nom": "Taxes sur les tabacs",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 13606000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214A/C10"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droits-de-consommation-sur-les-tabacs",
@@ -1580,29 +3365,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-contributions-des-entreprises-a-la-formation-professionnelle-et-a-l-app",
-    "nom": "Contributions des entreprises à la formation professionnelle et à l'apprentissage",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 11359000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29C/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contributions-pour-le-remboursement-de-la-dette-sociale-crds",
@@ -1624,29 +3388,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-de-solidarite-additionnelle",
-    "nom": "Taxe de solidarité additionnelle",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 6211000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214G/C01"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-interieure-de-consommation-sur-les-produits-energetique-ticpe-fractions-",
@@ -1668,51 +3411,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-accise-sur-l-electricite",
-    "nom": "Accise sur l'électricité",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 4803000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214A/C07"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-sur-les-boissons",
-    "nom": "Taxes sur les boissons",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 4749000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214A/C09"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-interieure-de-consommation-sur-les-produits-energetique-ticpe-dont-part-",
@@ -1734,78 +3434,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-produits-de-la-loterie-nationale-et-du-loto",
-    "nom": "Produits de la loterie nationale et du loto",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 3988000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214F/C01"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-interieure-sur-la-consommation-de-gaz-naturel",
-    "nom": "Taxe intérieure sur la consommation de gaz naturel",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 3183000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214A/C02"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-sur-les-certificats-d-immatriculation-des-vehicules",
-    "nom": "Taxe sur les certificats d'immatriculation des véhicules",
-    "sigle": null,
-    "categorie": "taxe affectée",
-    "esa_code": "D214",
-    "beneficiaire": "ANTS - Agence nationale des titres sécurisés",
-    "secteur": null,
-    "base_legale": "LFR-I 2014 et de la LFI 2015",
-    "montant_eur": 3122000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214D/C01"
-      },
-      {
-        "source_id": "taxes_affectees",
-        "url": "",
-        "ref": ""
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-communale-additionnelle-a-certains-droits-d-enregistrement",
@@ -1827,29 +3457,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-cotisation-patronale-pour-le-fnal-fonds-national-d-aide-au-logement",
-    "nom": "Cotisation patronale pour le FNAL (Fonds national d'aide au logement)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 2935000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29C/C06"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-cotisation-des-employeurs",
@@ -1871,95 +3480,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-impot-de-solidarite-sur-la-fortune-jusque-2017-impot-sur-la-fortune-imm",
-    "nom": "Impôt de solidarité sur la fortune (jusque 2017) / Impôt sur la fortune immobilière (à partir de 2018)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D59",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 2678000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D59A/C02"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-part-sur-les-salaires",
-    "nom": "Part sur les salaires",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 2630000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C08"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-droits-d-importation",
-    "nom": "Droits d'importation",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D212",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 2600000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D2121/C02"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-contribution-de-solidarite-pour-l-autonomie",
-    "nom": "Contribution de solidarité pour l'autonomie",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 2468000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29C/C05"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-certificats-d-immatriculation-des-vehicules-cartes-grises",
@@ -1981,7 +3503,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-solidarite-autonomie-csa",
@@ -2003,7 +3526,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droits-de-consommation-sur-les-alcools",
@@ -2025,7 +3549,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevance-pour-obstacle-sur-les-cours-d-eau-redevance-pour-stockage-d-eau-en-",
@@ -2047,29 +3572,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-sur-les-emissions-de-co2",
-    "nom": "Taxe sur les émissions de CO2",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 2113000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29F/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-fraction-affectee-du-produit-du-relevement-du-tarif-de-taxe-interieure-de-con",
@@ -2091,95 +3595,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-sur-les-transports",
-    "nom": "Taxes sur les transports",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1859000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214H/C10"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-sur-les-paris-hippiques",
-    "nom": "Taxes sur les paris hippiques",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1797000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214F/C03"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-sur-les-services-professionnels-hors-droits-de-mutations",
-    "nom": "Taxes sur les services professionnels hors droits de mutations",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1763000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214H/C09"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-cotisations-sur-primes-d-assurance",
-    "nom": "Cotisations sur primes d'assurance",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1728000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214G/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-tarifaire-d-acheminement-cta",
@@ -2201,73 +3618,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-participation-des-employeurs-a-l-effort-de-construction",
-    "nom": "Participation des employeurs à l'effort de construction",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1497000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29C/C13"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-au-profit-de-l-association-sur-la-garantie-des-salaires",
-    "nom": "Taxes au profit de l'Association sur la garantie des salaires",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1468000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29C/C04"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-sur-les-jeux-des-casinos",
-    "nom": "Taxes sur les jeux des casinos",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1436000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214F/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-d-octroi-de-mer-et-droit-d-octroi-de-mer-regional",
@@ -2289,95 +3641,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-part-sur-la-consommation",
-    "nom": "Part sur la consommation",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D59",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1327000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D59A/C05"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-sur-primes-d-assurance-automobile",
-    "nom": "Taxe sur primes d'assurance automobile",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1255000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214G/C05"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-part-sur-le-capital",
-    "nom": "Part sur le capital",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1237000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C09"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-sur-la-construction",
-    "nom": "Taxes sur la construction",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1194000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214H/C08"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-sur-les-bieres-et-les-boissons-non-alcoolisees",
@@ -2399,161 +3664,31 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-contribution-sociale-sur-les-benefices-des-societes",
-    "nom": "Contribution sociale sur les bénéfices des sociétés",
+    "id": "ta-taxe-speciale-sur-les-conventions-d-assurance-automobile",
+    "nom": "Taxe spéciale sur les conventions d'assurance automobile",
     "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "CNAF",
     "secteur": null,
     "base_legale": null,
-    "montant_eur": 1166000000.0,
+    "montant_eur": 1135110042.0,
     "annee": 2024,
     "statut": "A_ARBITRER",
     "critere_echec": null,
     "sources": [
       {
-        "source_id": "eurostat_ntl",
+        "source_id": "taxes_affectees",
         "url": "",
-        "ref": "FR:D51O/C06"
+        "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-sur-construction-de-bureaux-et-sur-les-locaux-a-usage-de-bureaux",
-    "nom": "Taxe sur construction de bureaux et sur les locaux à usage de bureaux",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1055000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C16"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-contribution-patronale-sur-stock-options",
-    "nom": "Contribution patronale sur stock-options",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1033000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29C/C10"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-autres-taxes-sur-la-pollution",
-    "nom": "Autres taxes sur la pollution",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 1011000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214A/C03"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-sur-les-vehicules-de-tourisme-des-societes",
-    "nom": "Taxe sur les véhicules de tourisme des sociétés",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 991000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29B/C04"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-prelevements-sur-les-revenus-des-capitaux-mobiliers",
-    "nom": "Prélèvements sur les revenus des capitaux mobiliers",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 971000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51M/C08"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-pharmaceutiques-contribution-grossistes-repartiteurs-taxe-sur-les",
-    "nom": "Taxes pharmaceutiques (contribution grossistes répartiteurs, taxe sur les ventes de médicaments et de cosmétiques)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 957000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214I/C01"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-d-aeroport",
@@ -2575,7 +3710,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contributions-patronales-et-salariales-sur-les-attributions-d-options-stock-o",
@@ -2597,7 +3733,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-des-employeurs-a-l-association-pour-la-gestion-du-regime-d-assur",
@@ -2619,29 +3756,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-foncier-non-bati-partie",
-    "nom": "Foncier non-bâti (partie)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 883000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C04"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-additionnelle-de-solidarite-autonomie-casa",
@@ -2663,29 +3779,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-redevances-sur-les-prelevements-de-l-eau",
-    "nom": "Redevances sur les prélèvements de l'eau",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 826000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214H/C07"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-cotisation-speciale-sur-les-boissons-alcooliques",
@@ -2707,7 +3802,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-vehicules-de-societe-tvs",
@@ -2729,7 +3825,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-departementale-sur-la-consommation-finale-d-electricite-tcfe",
@@ -2751,51 +3848,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-cotisation-des-entreprises-cinematographiques-au-profit-du-cnc-centre-n",
-    "nom": "Cotisation des entreprises cinématographiques au profit du CNC (Centre national du cinéma)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 708000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214E/C03"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-contribution-de-securite-immobiliere",
-    "nom": "Contribution de sécurité immobilière",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 692000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214B/C01"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-due-par-les-concessionnaires-d-autoroutes",
@@ -2817,29 +3871,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-retenue-sur-les-benefices-non-commerciaux",
-    "nom": "Retenue sur les bénéfices non commerciaux",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 660000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51O/C07"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-annuelle-sur-les-locaux-a-usage-de-bureaux-les-locaux-commerciaux-les-lo",
@@ -2861,51 +3894,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-octroi-de-mer",
-    "nom": "Octroi de mer",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D212",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 648000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D2121/C03"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-autres-taxes-sur-l-energie",
-    "nom": "Autres taxes sur l'énergie",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 622000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214A/C04"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-exploitants-d-infrastructures-de-transports",
@@ -2927,29 +3917,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-sur-les-mises-a-disposition-de-produits-petroliers-pour-le-stockag",
-    "nom": "Taxe sur les mises à disposition de produits pétroliers pour le stockage stratégique",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 599000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214A/C11"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-prelevement-sur-les-contrats-d-assurance-de-biens",
@@ -2971,7 +3940,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-interieure-de-consommation-sur-les-produits-energetiques-ticpe-part-gren",
@@ -2993,29 +3963,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-sur-infrastructures-de-transport-longues-distances",
-    "nom": "Taxe sur infrastructures de transport longues distances",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 549000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51O/C10"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-speciale-de-consommation-sur-les-carburants",
@@ -3037,29 +3986,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-produit-de-l-imposition-chambre-de-commerce",
-    "nom": "Produit de l'imposition chambre de commerce",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 525000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C13"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-solde-de-la-taxe-d-apprentissage-apres-prise-en-compte-des-versements-directs",
@@ -3081,29 +4009,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-contributions-sur-les-loyers-immobiliers",
-    "nom": "Contributions sur les loyers immobiliers",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 511000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214H/C04"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-due-par-les-entreprises-exploitant-des-medicaments-beneficiant-d",
@@ -3125,7 +4032,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droits-departementaux-d-enregistrement-sur-les-mutations-a-titre-onereux-d-im",
@@ -3147,7 +4055,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-cotisation-obligatoire",
@@ -3169,7 +4078,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-annuelle-au-fonds-de-developpement-pour-l-insertion-professionne",
@@ -3191,7 +4101,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-boissons-sucrees",
@@ -3213,29 +4124,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-contribution-des-distributeurs-d-energie-electrique-basse-tension",
-    "nom": "Contribution des distributeurs d'énergie électrique basse tension",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 378000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214L/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-de-licence-sur-la-remuneration-des-debitants-de-tabacs",
@@ -3257,29 +4147,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-imposition-sur-les-pylones",
-    "nom": "Imposition sur les pylônes",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 348000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C15"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-cotisation-versee-par-les-organismes-hlm-et-les-sem",
@@ -3301,7 +4170,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-fraction-des-droits-de-timbre-sur-les-passeports-securises",
@@ -3323,7 +4193,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-additionnelle-a-la-taxe-fonciere-sur-les-proprietes-non-baties-pour-frai",
@@ -3345,7 +4216,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-ta-cfe-fraction-cci-r-de-la-taxe-additionnelle-a-la-cotisation-fonciere-des-e",
@@ -3367,7 +4239,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-ta-cvae-taxe-additionnelle-a-la-cotisation-sur-la-valeur-ajoutee-des-entrepri",
@@ -3389,7 +4262,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-prelevement-progressif-sur-le-produit-des-jeux-dans-les-casinos-au-profit-des",
@@ -3411,7 +4285,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-transactions-financieres-fraction-affectee-de-la-ressource-etat",
@@ -3433,7 +4308,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-due-par-les-laboratoires-et-les-grossistes-repartiteurs-sur-les-",
@@ -3455,7 +4331,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-prelevement-sur-les-jeux-exploites-par-la-fdj-hors-paris-sportifs",
@@ -3477,7 +4354,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-tst-taxe-sur-les-editeurs-et-distributeurs-de-services-de-television-fraction",
@@ -3499,7 +4377,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-ta-cfe-fraction-crma-de-la-taxe-additionnelle-a-la-cotisation-fonciere-des-en",
@@ -3521,29 +4400,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-due-par-les-operateurs-de-communications-electroniques",
-    "nom": "Taxe due par les opérateurs de communications électroniques",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 236000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214H/C11"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-supplementaire-a-l-apprentissage",
@@ -3565,29 +4423,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-chambre-d-agriculture",
-    "nom": "Chambre d'agriculture",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 227000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C17"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contributions-pour-frais-de-controle",
@@ -3609,7 +4446,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-sur-les-regimes-de-retraite-conditionnant-la-constitution-de-dro",
@@ -3631,29 +4469,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-chambre-metier",
-    "nom": "Taxe chambre métier",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 214000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C14"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-tst-taxe-sur-les-editeurs-et-distributeurs-de-services-de-television-fraction",
@@ -3675,7 +4492,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "eurostat-recettes-diverses-et-penalites",
@@ -3697,7 +4515,8 @@
         "ref": "FR:D91C/C01"
       }
     ],
-    "notes": "Sanction, hors champ des prélèvements (README §5)."
+    "notes": "Sanction, hors champ des prélèvements (README §5).",
+    "aliases": []
   },
   {
     "id": "ta-redevances-percues-a-l-occasion-des-procedures-et-formalites-en-matiere-de-pr",
@@ -3719,7 +4538,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-prelevement-sur-les-paris-sportifs-en-ligne-de-la-fdj-et-des-nouveaux-operate",
@@ -3741,7 +4561,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-impot-sur-les-spectacles-jeux-et-divertissements",
@@ -3763,7 +4584,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-de-sejour-taxe-de-sejour-forfaitaire",
@@ -3785,29 +4607,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-speciale-sur-les-vehicules-routiers-taxe-a-l-essieu",
-    "nom": "Taxe spéciale sur les véhicules routiers (taxe à l'essieu)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 154000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29B/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-departementale-additionnelle-a-certains-droits-d-enregistrement",
@@ -3829,29 +4630,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-autres-taxes-sur-le-revenu",
-    "nom": "Autres taxes sur le revenu",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 144000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51E/C01"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-de-consommation-sur-les-tabacs-dans-les-dom",
@@ -3873,7 +4653,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droits-de-consommation-sur-les-tabacs-dom",
@@ -3895,7 +4676,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-tsa-taxe-sur-le-prix-des-entrees-aux-seances-organisees-par-les-exploitants-d",
@@ -3917,7 +4699,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-due-par-les-laboratoires-sur-leurs-depenses-de-publicite",
@@ -3939,7 +4722,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-ventes-et-les-locations-de-videogrammes-destines-a-l-usage-prive",
@@ -3961,7 +4745,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-cotisation-btp-intemperies",
@@ -3983,7 +4768,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevance-hydraulique",
@@ -4005,29 +4791,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-contribution-sur-les-rentes-infra-marginales-electricite",
-    "nom": "Contribution sur les rentes infra marginales (électricité)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 127000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29H/C05"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contributions-additionnelles-aux-primes-ou-cotisations-afferentes-a-certaines",
@@ -4049,7 +4814,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droits-et-contributions-pour-frais-de-controle",
@@ -4071,7 +4837,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-de-balayage",
@@ -4093,7 +4860,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-equivalente-aux-droits-de-plaidoirie",
@@ -4115,7 +4883,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-de-circulation-sur-les-vins-cidres-poires-et-hydromels",
@@ -4137,7 +4906,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-des-assures",
@@ -4159,7 +4929,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-fraction-des-produits-annuels-de-la-vente-de-biens-confisques",
@@ -4181,7 +4952,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-patronale-au-dialogue-social-0-016",
@@ -4203,7 +4975,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-de-la-mecanique-et-de-la-constructi",
@@ -4225,29 +4998,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-sur-les-spectacles",
-    "nom": "Taxes sur les spectacles",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 96000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214E/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droits-percus-au-profit-de-la-caisse-nationale-de-l-assurance-maladie-des-tra",
@@ -4269,7 +5021,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevances-sur-les-paris-hippiques",
@@ -4291,7 +5044,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-speciale-pour-la-gestion-des-dechets-radioactifs-conception",
@@ -4313,7 +5067,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-conventionnelle-a-la-formation-pour-les-entreprises-de-travail-t",
@@ -4335,7 +5090,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-speciale-d-equipement-au-profit-de-l-etablissement-public-societe-du-gra",
@@ -4357,7 +5113,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-additionnelle-a-la-taxe-sur-les-installations-nucleaires-de-base-recherc",
@@ -4379,7 +5136,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-destinee-a-financer-le-developpement-des-actions-de-formation-profession",
@@ -4401,7 +5159,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-annuelle-au-profit-de-l-institut-de-radioprotection-et-de-surete",
@@ -4423,7 +5182,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-de-consommation-sur-les-produits-intermediaires",
@@ -4445,7 +5205,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-sur-la-cession-a-un-service-de-television-des-droits-de-diffusio",
@@ -4467,29 +5228,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-redevance-cynegetique-permis-de-chasse",
-    "nom": "Redevance cynégétique (permis de chasse)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D59",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 57000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D59D/C04"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-due-par-les-entreprises-fabriquant-ou-exploitant-des-dispositifs",
@@ -4511,7 +5251,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-specifique-pour-le-developpement-de-la-formation-professionnelle",
@@ -4533,7 +5274,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-sur-les-avantages-de-preretraite-d-entreprise",
@@ -4555,56 +5297,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-due-par-les-entreprises-de-transport-public-aerien-et-maritime-cor",
-    "nom": "Taxe due par les entreprises de transport public aérien et maritime (Corse, DOM)",
-    "sigle": null,
-    "categorie": "taxe affectée",
-    "esa_code": "D29",
-    "beneficiaire": "Collectivité territoriale de Corse et Conservatoire de l'espace littoral, de 2007 à 2011",
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 47000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29B/C05"
-      },
-      {
-        "source_id": "taxes_affectees",
-        "url": "",
-        "ref": ""
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-droit-annuel-de-francisation-et-de-navigation",
-    "nom": "Droit annuel de francisation et de navigation",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D59",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 44000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D59D/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-nuisances-sonores-aeriennes",
@@ -4626,13 +5320,14 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "eurostat-amendes-et-confiscations",
     "nom": "Amendes et confiscations",
     "sigle": null,
-    "categorie": "indéterminée",
+    "categorie": "impôt sur la production/importation",
     "esa_code": "D212",
     "beneficiaire": null,
     "secteur": null,
@@ -4648,7 +5343,8 @@
         "ref": "FR:D2121/C01"
       }
     ],
-    "notes": "Sanction, hors champ des prélèvements (README §5)."
+    "notes": "Sanction, hors champ des prélèvements (README §5).",
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-boissons-edulcorees",
@@ -4670,7 +5366,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-departemental-de-passage-sur-les-ouvrages-d-art-reliant-le-continent-au",
@@ -4692,7 +5389,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-le-developpement-de-la-formation-professionnelle-dans-les-metiers-d",
@@ -4714,7 +5412,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-due-par-les-entreprises-de-transport-public-aerien-et-maritime-sur-les-p",
@@ -4736,7 +5435,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-fraction-du-prelevement-sur-les-jeux-de-loterie-correspondant-aux-jeux-dedies",
@@ -4758,7 +5458,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-participation-au-financement-de-la-formation-fraction-affectee-aux-cma-pour-l",
@@ -4780,7 +5481,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-spectacles-de-varietes",
@@ -4802,7 +5504,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-sur-les-indemnites-de-mise-a-la-retraite",
@@ -4824,7 +5527,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevances-pour-prelevement-sur-la-ressource-en-eau-pour-pollution-de-l-eau-p",
@@ -4846,29 +5550,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-de-risque-systemique",
-    "nom": "Taxe de risque systémique",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D59",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 28000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D59F/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-affecte-au-fonds-d-indemnisation-de-la-profession-d-avoues-pres-les-cou",
@@ -4890,7 +5573,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxes-locales-d-equipement",
@@ -4912,7 +5596,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-fraction-des-droits-de-timbre-sur-les-cartes-nationales-d-identite",
@@ -4934,7 +5619,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-la-cession-a-titre-onereux-des-terrains-nus-ou-des-droits-relatifs-a",
@@ -4956,7 +5642,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-surtaxe-sur-les-eaux-minerales",
@@ -4978,7 +5665,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-additionnelle-regionale-de-15-a-la-taxe-de-sejour-idf",
@@ -5000,7 +5688,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-communale-sur-la-consommation-finale-d-electricite-tcfe",
@@ -5022,7 +5711,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-additionnelle-departementale-a-la-taxe-de-sejour",
@@ -5044,7 +5734,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-dechets-receptionnes-dans-une-installation-de-stockage-ou-un-inc",
@@ -5066,7 +5757,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-prelevement-sur-les-contrats-d-assurance-vie-en-desherence-prelevement-sur-le",
@@ -5088,7 +5780,8 @@
         "ref": ""
       }
     ],
-    "notes": "Versement non obligatoire (libre choix)."
+    "notes": "Versement non obligatoire (libre choix).",
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-du-cuir-de-la-maroquinerie-de-la-ga",
@@ -5110,7 +5803,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-annuelle-acquittee-par-les-personnes-inscrites-comme-commissaire",
@@ -5132,7 +5826,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-titres-de-sejour-et-de-voyage-electroniques",
@@ -5154,7 +5849,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-de-l-ameublement-ainsi-que-des-indu",
@@ -5176,7 +5872,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-des-materiaux-de-construction-regro",
@@ -5198,7 +5895,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevances-umts-2g-et-3g",
@@ -5220,7 +5918,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-de-l-horlogerie-bijouterie-joailler",
@@ -5242,7 +5941,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-cotisation-versee-par-les-organismes-hlm",
@@ -5264,7 +5964,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-fraction-du-prelevement-sur-les-mises-de-jeux-de-cercle-en-ligne-affectee-aux",
@@ -5286,7 +5987,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-fraction-du-prelevement-sur-les-paris-hippiques-affectee-aux-epci-sur-le-terr",
@@ -5308,7 +6010,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-de-l-habillement",
@@ -5330,7 +6033,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevances-communale-et-departementale-des-mines",
@@ -5352,7 +6056,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-cotisations-normale-et-supplementaire-des-entreprises-cinematographiques",
@@ -5374,7 +6079,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-de-timbre-pour-la-delivrance-du-permis-de-conduire-en-cas-de-perte-ou-d",
@@ -5396,34 +6102,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-autres-taxes",
-    "nom": "Autres taxes",
-    "sigle": null,
-    "categorie": "recette fiscale (État)",
-    "esa_code": "D212",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 9000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D2122C/C01"
-      },
-      {
-        "source_id": "vm_tome1",
-        "url": "",
-        "ref": "ligne 1799"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-relative-a-la-mise-sur-le-marche-des-produits-phytopharmaceutiques-et-de",
@@ -5445,7 +6125,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-prelevement-sur-la-participation-des-employeurs-a-l-effort-de-construction-pe",
@@ -5467,7 +6148,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-affectee-au-financement-d-un-nouveau-centre-technique-industriel-de-la-p",
@@ -5489,7 +6171,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-sur-les-produits-beneficiant-d-une-appellation-d-origine-ou-d-une-indic",
@@ -5511,7 +6194,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-spectacles-percue-au-profit-de-l-association-pour-le-soutien-du-",
@@ -5533,7 +6217,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-produits-de-la-fonderie",
@@ -5555,7 +6240,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-remontees-mecaniques",
@@ -5577,7 +6263,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-fraction-des-prelevements-sociaux-sur-les-jeux-prevus-aux-art-l137-20-a-l137-",
@@ -5599,7 +6286,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droits-de-plaidoirie",
@@ -5621,7 +6309,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-annuel-de-francisation-et-de-navigation-en-corse-droit-de-passeport-en-",
@@ -5643,7 +6332,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-liee-aux-dossiers-de-demande-concernant-les-medicaments-veterinaires-ou-",
@@ -5665,7 +6355,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-annuelle-sur-la-vente-des-produits-phytopharmaceutiques",
@@ -5687,7 +6378,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-annuelle-portant-sur-les-autorisations-de-medicaments-veterinaires-et-le",
@@ -5709,7 +6401,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-annuelle-sur-les-engins-maritimes-a-usage-personnel-taemup",
@@ -5731,7 +6424,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droits-assimiles-au-droit-d-octroi-de-mer-sur-les-rhums-et-spiritueux-a-base-",
@@ -5753,7 +6447,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-forfaitaire-des-organismes-assureurs-et-contribution-forfaitaire",
@@ -5775,7 +6470,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevance-due-par-les-titulaires-de-titres-d-exploitation-de-mines-d-hydrocar",
@@ -5797,7 +6493,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-passagers-maritimes-embarques-a-destination-d-espaces-naturels-p",
@@ -5819,7 +6516,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-ta-tinb-taxe-additionnelle-a-la-taxe-sur-les-installations-nucleaires-de-base",
@@ -5841,7 +6539,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-le-developpement-de-l-industrie-de-la-conservation-des-produits-agr",
@@ -5863,7 +6562,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-de-fabrication-du-papier-du-carton-",
@@ -5885,7 +6585,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-de-ski-de-fond",
@@ -5907,29 +6608,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-exceptionnelle-de-solidarite-sur-les-hautes-remunerations",
-    "nom": "Taxe exceptionnelle de solidarité sur les hautes rémunérations",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 2000000.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29C/C11"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-exploitants-de-plateformes-de-mises-en-relation-par-voie-electro",
@@ -5951,7 +6631,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxes-speciales-d-equipement",
@@ -5973,7 +6654,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxes-dans-le-domaine-funeraire",
@@ -5995,7 +6677,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevance-pour-delivrance-initiale-du-permis-de-chasse",
@@ -6017,7 +6700,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevance-percue-a-l-occasion-de-l-introduction-des-familles-etrangeres-en-fr",
@@ -6039,7 +6723,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-redevance-proportionnelle-sur-l-energie-hydraulique",
@@ -6061,7 +6746,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-affectee-au-financement-de-l-institut-des-corps-gras",
@@ -6083,7 +6769,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-due-par-les-concessionnaires-de-mines-d-or-les-amodiataires-des-concessi",
@@ -6105,7 +6792,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-droit-d-examen-du-permis-de-chasse",
@@ -6127,7 +6815,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-pour-non-raccordement-a-l-egout-participation-pour-le-financement-de-l-a",
@@ -6149,7 +6838,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-specifique-a-la-formation-professionnelle-pour-saint-pierre-et-m",
@@ -6171,7 +6861,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-versement-pour-sous-densite",
@@ -6193,7 +6884,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-annuelle-sur-les-engins-maritimes-a-usage-personnel-taemup-fraction-perc",
@@ -6215,7 +6907,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-permis-de-conduire",
@@ -6237,51 +6930,54 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-3-dividendes",
-    "nom": "3% dividendes",
+    "id": "vm-1503-accises-sur-les-energies-ex-ticfe",
+    "nom": "Accises sur les énergies (ex-TICFE)",
     "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
     "beneficiaire": null,
     "secteur": null,
     "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
+    "montant_eur": null,
+    "annee": null,
     "statut": "A_ARBITRER",
     "critere_echec": null,
     "sources": [
       {
-        "source_id": "eurostat_ntl",
+        "source_id": "vm_tome1",
         "url": "",
-        "ref": "FR:D51O/C08"
+        "ref": "ligne 1503"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
-    "id": "eurostat-achats-d-energies-renouvelables-a-prix-contractuels",
-    "nom": "Achats d'énergies renouvelables à prix contractuels",
+    "id": "vm-1502-accises-sur-les-energies-ex-ticgn",
+    "nom": "Accises sur les énergies (ex-TICGN)",
     "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
     "beneficiaire": null,
     "secteur": null,
     "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
+    "montant_eur": null,
+    "annee": null,
     "statut": "A_ARBITRER",
     "critere_echec": null,
     "sources": [
       {
-        "source_id": "eurostat_ntl",
+        "source_id": "vm_tome1",
         "url": "",
-        "ref": "FR:D29H/C06"
+        "ref": "ligne 1502"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-amendes-penalites-et-majorations",
@@ -6303,73 +6999,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Sanction, hors champ des prélèvements (README §5)."
-  },
-  {
-    "id": "eurostat-avoir-fiscal-distribue-negatif",
-    "nom": "Avoir fiscal distribué (négatif)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51O/C02"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-avoir-fiscal-utilise-positif",
-    "nom": "Avoir fiscal utilisé (positif)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51M/C02"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-contribution-au-srf-single-resolution-fund",
-    "nom": "Contribution au SRF (single resolution fund)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29H/C04"
-      }
-    ],
-    "notes": null
+    "notes": "Sanction, hors champ des prélèvements (README §5).",
+    "aliases": []
   },
   {
     "id": "vm-1440-contribution-differentielle-applicable-a-certains-contribuables-titulair",
@@ -6391,7 +7022,8 @@
         "ref": "ligne 1440"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-exceptionnelle-des-organismes-complementaires-en-sante-aux-depen",
@@ -6413,7 +7045,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1441-contribution-exceptionnelle-sur-les-benefices-des-grandes-entreprises",
@@ -6435,7 +7068,8 @@
         "ref": "ligne 1441"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-contribution-sociale-a-la-charge-des-fournisseurs-agrees-de-produits-de-tabac",
@@ -6457,7 +7091,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1752-contribution-sur-la-rente-infra-marginale-de-la-production-d-electricite",
@@ -6479,35 +7114,14 @@
         "ref": "ligne 1752"
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-contribution-temporaire-de-solidarite",
-    "nom": "Contribution temporaire de solidarité",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51O/C09"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "eurostat-contribution-a-l-audiovisuel-public",
     "nom": "Contribution à l'audiovisuel public",
     "sigle": null,
-    "categorie": "indéterminée",
+    "categorie": "impôt courant sur le revenu/patrimoine",
     "esa_code": "D59",
     "beneficiaire": null,
     "secteur": null,
@@ -6523,7 +7137,8 @@
         "ref": "FR:D59D/C03"
       }
     ],
-    "notes": "Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5)."
+    "notes": "Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5).",
+    "aliases": []
   },
   {
     "id": "seed-contribution-a-l-audiovisuel-public-ex-redevance-tv",
@@ -6545,7 +7160,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5)."
+    "notes": "Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5).",
+    "aliases": []
   },
   {
     "id": "ta-cotisation-additionnelle-versee-par-les-organismes-hlm-et-les-sem",
@@ -6567,7 +7183,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-cotisation-au-profit-des-caisses-d-assurances-d-accidents-agricoles-d-alsace-",
@@ -6589,29 +7206,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-cotisation-minimale-de-taxe-professionnelle",
-    "nom": "Cotisation minimale de taxe professionnelle",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-cotisations-aux-ordres-professionnels-et-syndicats",
@@ -6633,7 +7229,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Bénéficiaire hors périmètre APU (organisme privé)."
+    "notes": "Bénéficiaire hors périmètre APU (organisme privé).",
+    "aliases": []
   },
   {
     "id": "seed-cotisations-facultatives-per-assurance-vie-prevoyance-facultative",
@@ -6655,7 +7252,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Versement non obligatoire (libre choix)."
+    "notes": "Versement non obligatoire (libre choix).",
+    "aliases": []
   },
   {
     "id": "seed-cotisations-sociales-imputees-fonctionnaires-d-etat",
@@ -6677,7 +7275,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Pas de versement effectif (employeur fictif)."
+    "notes": "Pas de versement effectif (employeur fictif).",
+    "aliases": []
   },
   {
     "id": "seed-dons-et-legs-aux-administrations",
@@ -6699,7 +7298,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Volontaires."
+    "notes": "Volontaires.",
+    "aliases": []
   },
   {
     "id": "seed-emprunts-et-produits-de-la-dette",
@@ -6721,7 +7321,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Ressource remboursable, librement souscrite."
+    "notes": "Ressource remboursable, librement souscrite.",
+    "aliases": []
   },
   {
     "id": "seed-factures-d-eau-et-d-assainissement-part-exploitant",
@@ -6743,29 +7344,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Contrepartie directe."
-  },
-  {
-    "id": "eurostat-fonds-de-solidarite-contribution-des-fonctionnaires",
-    "nom": "Fonds de solidarité contribution des fonctionnaires",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51M/C05"
-      }
-    ],
-    "notes": null
+    "notes": "Contrepartie directe.",
+    "aliases": []
   },
   {
     "id": "seed-forfait-de-post-stationnement",
@@ -6787,7 +7367,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Contrepartie directe (occupation du domaine public) depuis 2018."
+    "notes": "Contrepartie directe (occupation du domaine public) depuis 2018.",
+    "aliases": []
   },
   {
     "id": "ta-fraction-de-taxe-de-solidarite-additionnelle-tsa",
@@ -6809,7 +7390,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-fraction-du-produit-des-successions-en-desherence",
@@ -6831,51 +7413,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-impot-forfaitaire-annuel",
-    "nom": "Impôt forfaitaire annuel",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D51",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D51O/C05"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-impot-sur-les-operations-traitees-dans-les-bourses-de-valeurs",
-    "nom": "Impôt sur les opérations traitées dans les bourses de valeurs",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214C/C02"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-part-salariale-de-l-assurance-chomage",
@@ -6897,7 +7436,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Supprimée en 2018, remplacée par de la CSG."
+    "notes": "Supprimée en 2018, remplacée par de la CSG.",
+    "aliases": []
   },
   {
     "id": "vm-1785-produits-des-jeux-exploites-par-la-francaise-des-jeux-hors-paris-sportif",
@@ -6919,7 +7459,8 @@
         "ref": "ligne 1785"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1787-prelevement-sur-le-produit-brut-des-paris-hippiques",
@@ -6941,7 +7482,8 @@
         "ref": "ligne 1787"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1789-prelevement-sur-les-jeux-de-cercle-en-ligne",
@@ -6963,7 +7505,8 @@
         "ref": "ligne 1789"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1788-prelevement-sur-les-paris-sportifs",
@@ -6985,7 +7528,8 @@
         "ref": "ligne 1788"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1427-prelevements-de-solidarite",
@@ -7007,29 +7551,8 @@
         "ref": "ligne 1427"
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-prelevements-et-taxes-compensatoires-a-l-importation",
-    "nom": "Prélèvements et taxes compensatoires à l'importation",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D212",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D2122B/C01"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1786-prelevements-sur-le-produit-des-jeux-dans-les-casinos",
@@ -7051,7 +7574,8 @@
         "ref": "ligne 1786"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-peages-autoroutiers-et-d-ouvrages-d-art",
@@ -7073,7 +7597,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Paiement d'un service rendu (usage de l'infrastructure)."
+    "notes": "Paiement d'un service rendu (usage de l'infrastructure).",
+    "aliases": []
   },
   {
     "id": "vm-1499-recettes-diverses",
@@ -7095,7 +7620,8 @@
         "ref": "ligne 1499"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-redevance-d-enlevement-des-ordures-menageres",
@@ -7117,7 +7643,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Tarifée selon le service rendu => contrepartie directe (README §5)."
+    "notes": "Tarifée selon le service rendu => contrepartie directe (README §5).",
+    "aliases": []
   },
   {
     "id": "ta-redevance-pour-creation-de-bureaux-ou-de-locaux-de-recherche-en-region-ile-de",
@@ -7139,7 +7666,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-redevances-domaniales",
@@ -7161,7 +7689,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Contrepartie : droit d'occupation du domaine public."
+    "notes": "Contrepartie : droit d'occupation du domaine public.",
+    "aliases": []
   },
   {
     "id": "vm-1402-retenues-a-la-source-et-prelevements-sur-les-revenus-de-capitaux-mobilie",
@@ -7183,7 +7712,8 @@
         "ref": "ligne 1402"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1401-retenues-a-la-source-sur-certains-benefices-non-commerciaux-et-de-l-impo",
@@ -7205,7 +7735,8 @@
         "ref": "ligne 1401"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "seed-revenus-du-domaine-dividendes-loyers",
@@ -7227,51 +7758,8 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Recettes patrimoniales avec contrepartie."
-  },
-  {
-    "id": "eurostat-tva-sur-subventions",
-    "nom": "TVA sur subventions",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29H/C03"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-additionnelle-sur-les-assurances-automobile",
-    "nom": "Taxe additionnelle sur les assurances automobile",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214G/C03"
-      }
-    ],
-    "notes": null
+    "notes": "Recettes patrimoniales avec contrepartie.",
+    "aliases": []
   },
   {
     "id": "ta-taxe-annuelle-sur-les-logements-vacants",
@@ -7293,29 +7781,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-d-habitation",
-    "nom": "Taxe d'habitation",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D59",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": null,
-    "annee": null,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D59A/C03"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-departementale-des-espaces-naturels-sensibles",
@@ -7337,7 +7804,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-exceptionnelle-sur-la-reserve-de-capitalisation-exit-tax",
@@ -7359,51 +7827,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-professionnelle",
-    "nom": "Taxe professionnelle",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C05"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-sur-l-utilisation-des-voies-navigables-dont-taxe-hydraulique",
-    "nom": "Taxe sur l'utilisation des voies navigables (dont taxe hydraulique)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29A/C11"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1439-taxe-sur-le-patrimoine-financier",
@@ -7425,7 +7850,8 @@
         "ref": "ligne 1439"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-declarations-et-notifications-de-produit-du-tabac",
@@ -7447,7 +7873,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-installations-de-production-d-electricite-utilisant-l-energie-me",
@@ -7469,7 +7896,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1442-taxe-sur-les-petits-colis",
@@ -7491,7 +7919,8 @@
         "ref": "ligne 1442"
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-plus-values-immobilieres-pvi-autres-que-terrains-a-batir",
@@ -7513,7 +7942,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxe-sur-les-produits-de-tabac",
@@ -7535,7 +7965,8 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "vm-1796-taxe-sur-les-rachats-d-actions",
@@ -7557,73 +7988,8 @@
         "ref": "ligne 1796"
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxe-sur-les-vehicules-partie-menages",
-    "nom": "Taxe sur les véhicules (partie ménages)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D59",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D59D/C01"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-au-profit-de-l-ademe-agence-de-l-environnement-et-de-la-maitrise-",
-    "nom": "Taxes au profit de l'ADEME (Agence de l'environnement et de la maîtrise de l'énergie)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D214",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D214A/C08"
-      }
-    ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-au-profit-du-fndma-financement-national-de-developpement-et-de-mo",
-    "nom": "Taxes au profit du FNDMA (Financement National de Développement et de Modernisation de l'Apprentissage)",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29C/C08"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-taxes-sur-les-friches-commerciales",
@@ -7645,29 +8011,8 @@
         "ref": ""
       }
     ],
-    "notes": null
-  },
-  {
-    "id": "eurostat-taxes-sur-les-vehicules-a-moteur-payees-par-les-producteurs",
-    "nom": "Taxes sur les véhicules à moteur payées par les producteurs",
-    "sigle": null,
-    "categorie": "indéterminée",
-    "esa_code": "D29",
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": 0.0,
-    "annee": 2024,
-    "statut": "A_ARBITRER",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "eurostat_ntl",
-        "url": "",
-        "ref": "FR:D29B/C03"
-      }
-    ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   },
   {
     "id": "ta-versement-transport-du-par-les-entreprises-de-plus-de-9-salaries-implantees-e",
@@ -7689,6 +8034,7 @@
         "ref": ""
       }
     ],
-    "notes": null
+    "notes": null,
+    "aliases": []
   }
 ]

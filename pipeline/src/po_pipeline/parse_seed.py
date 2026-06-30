@@ -39,6 +39,7 @@ def parse(path=None, reference_year: int | None = None) -> list[Prelevement]:
                 statut=(row.get("statut") or "A_ARBITRER").strip() or "A_ARBITRER",
                 critere_echec=_clean(row.get("critere_echec")),
                 notes=_clean(row.get("notes")),
+                aliases=_aliases(row.get("alias")),
                 sources=[Source("readme_seed", ref="README §4-§5")],
             ))
     return records
@@ -49,6 +50,12 @@ def _clean(value):
         return None
     v = str(value).strip()
     return v or None
+
+
+def _aliases(value):
+    """Libellés alternatifs, séparés par « | » dans la colonne `alias`."""
+    v = _clean(value)
+    return [a.strip() for a in v.split("|") if a.strip()] if v else []
 
 
 def _mdeur_to_eur(value):

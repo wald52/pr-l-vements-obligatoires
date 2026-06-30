@@ -25,13 +25,21 @@ def test_distinct_taxes_not_merged():
 
 
 def test_coverage_computation():
+    # La couverture se mesure sur le socle curé (readme_seed) ; une ligne PRIS
+    # d'une autre source (composante fine) gonfle la somme itemisée mais pas la
+    # couverture, pour éviter le double-comptage.
     recs = [
-        Prelevement(id="a", nom="A", montant_eur=600e9, statut="PRIS"),
-        Prelevement(id="b", nom="B", montant_eur=500e9, statut="PRIS"),
+        Prelevement(id="a", nom="A", montant_eur=600e9, statut="PRIS",
+                    sources=[Source("readme_seed")]),
+        Prelevement(id="b", nom="B", montant_eur=500e9, statut="PRIS",
+                    sources=[Source("readme_seed")]),
+        Prelevement(id="d", nom="D", montant_eur=300e9, statut="PRIS",
+                    sources=[Source("eurostat_ntl")]),
         Prelevement(id="c", nom="C", statut="REJET", critere_echec="C3"),
     ]
     cov = coverage(recs, {"year": 2024, "total_po_mdeur": 1254.0})
-    assert cov["n_pris"] == 2
+    assert cov["n_pris"] == 3
     assert cov["n_rejet"] == 1
-    assert cov["somme_pris_mdeur"] == 1100.0
+    assert cov["somme_pris_socle_mdeur"] == 1100.0       # a + b (socle)
+    assert cov["somme_pris_itemise_mdeur"] == 1400.0     # a + b + d
     assert cov["couverture_pct"] == round(100 * 1100 / 1254, 1)

@@ -1,4 +1,4 @@
-nom;sigle;categorie;secteur;base_legale;montant_mdeur;statut;critere_echec;notes
+nom;sigle;categorie;secteur;base_legale;montant_mdeur;statut;critere_echec;notes;alias
 Taxe sur la valeur ajoutée;TVA;impôt d'État;APUC;CGI art. 256 s.;200;PRIS;;Premier impôt par le rendement — fractions affectées ASSO/APUL.
 Impôt sur le revenu;IR;impôt d'État;APUC;CGI art. 1 A s.;90;PRIS;;Prélevé à la source — inclut le PFU (flat tax).
 Contribution exceptionnelle sur les hauts revenus;CEHR;impôt d'État;APUC;CGI art. 223 sexies;;PRIS;;
@@ -7,7 +7,7 @@ Accise sur les énergies (ex-TICPE);TICPE;impôt d'État;APUC;CIBS;30;PRIS;;
 Accises sur les alcools, tabacs et boissons;;impôt d'État;APUC;CIBS;18;PRIS;;
 Taxe générale sur les activités polluantes;TGAP;impôt d'État;APUC;CIBS;;PRIS;;
 Impôt sur la fortune immobilière;IFI;impôt d'État;APUC;CGI art. 964 s.;2;PRIS;;
-Droits d'enregistrement et de mutation à titre gratuit;;impôt d'État;APUC;CGI;18;PRIS;;Successions et donations.
+Droits d'enregistrement et de mutation à titre gratuit;;impôt d'État;APUC;CGI;18;PRIS;;Successions et donations.;Mutations à titre gratuit|Droits de mutation à titre gratuit
 Droits de timbre;;impôt d'État;APUC;CGI;;PRIS;;Passeports, cartes, etc.
 Taxe sur les transactions financières;TTF;impôt d'État;APUC;CGI art. 235 ter ZD;2.5;PRIS;;
 Taxe spéciale sur les conventions d'assurance;TSCA;impôt d'État;APUC;CGI art. 991 s.;8;PRIS;;
@@ -16,8 +16,8 @@ Taxe sur l'affectation des véhicules à des fins économiques;ex-TVS;impôt d'�
 Malus automobile (CO2 et masse);;impôt d'État;APUC;CIBS;;PRIS;;
 Taxe sur les bureaux et locaux en Île-de-France;;impôt d'État;APUC;CGI;;PRIS;;
 Taxe sur les surfaces de stationnement;;impôt d'État;APUC;CGI;;PRIS;;
-Taxe foncière sur les propriétés bâties;TFPB;impôt local;APUL;CGI art. 1380 s.;35;PRIS;;
-Taxe foncière sur les propriétés non bâties;TFPNB;impôt local;APUL;CGI art. 1393 s.;1;PRIS;;
+Taxe foncière sur les propriétés bâties;TFPB;impôt local;APUL;CGI art. 1380 s.;35;PRIS;;;Foncier bâti
+Taxe foncière sur les propriétés non bâties;TFPNB;impôt local;APUL;CGI art. 1393 s.;1;PRIS;;;Foncier non-bâti|Foncier non bâti|Foncier non-bâti (partie)
 Taxe d'habitation sur les résidences secondaires;THRS;impôt local;APUL;CGI art. 1407 s.;2.5;PRIS;;TH résidence principale supprimée.
 Taxe sur les logements vacants;TLV;impôt local;APUL;CGI art. 232;;PRIS;;
 Cotisation foncière des entreprises;CFE;impôt local;APUL;CGI art. 1447 s.;8;PRIS;;
