@@ -1,6 +1,6 @@
 # Rapport — inventaire des prélèvements obligatoires en France
 
-> Généré le 2026-06-29 par le pipeline (`po-pipeline report`). Ne pas éditer à la main.
+> Généré le 2026-06-30 par le pipeline (`po-pipeline report`). Ne pas éditer à la main.
 
 ## Synthèse
 

@@ -4,7 +4,7 @@
 PY ?= python
 export PYTHONPATH := src
 
-.PHONY: install all offline fetch normalize classify reconcile report validate test clean
+.PHONY: install all offline fetch normalize classify reconcile report workdoc validate test clean
 
 install:
 	$(PY) -m pip install -r requirements.txt
@@ -32,6 +32,9 @@ validate:
 
 report:
 	$(PY) -m po_pipeline report
+
+workdoc:
+	$(PY) -m po_pipeline workdoc
 
 test:
 	$(PY) -m pytest -q

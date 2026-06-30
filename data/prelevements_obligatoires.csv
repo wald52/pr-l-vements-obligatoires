@@ -280,7 +280,7 @@ seed-amendes-penalites-et-majorations,"Amendes, pénalités et majorations",,ind
 eurostat-avoir-fiscal-distribue-negatif,Avoir fiscal distribué (négatif),,indéterminée,D51,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-avoir-fiscal-utilise-positif,Avoir fiscal utilisé (positif),,indéterminée,D51,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
 eurostat-contribution-au-srf-single-resolution-fund,Contribution au SRF (single resolution fund),,indéterminée,D29,,,,0.0,2024,A_ARBITRER,,,eurostat_ntl
-vm-1440-contribution-differentielle-applicable-a-certains-contribuables-titulair,Contribution différentielle applicable à certains contribuables titulaires de très hauts reve- nus,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
+vm-1440-contribution-differentielle-applicable-a-certains-contribuables-titulair,Contribution différentielle applicable à certains contribuables titulaires de très hauts revenus,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 ta-contribution-exceptionnelle-des-organismes-complementaires-en-sante-aux-depen,Contribution exceptionnelle des organismes complémentaires en santé aux dépenses liées à la gestion de l'épidémie de Covid-19,,taxe affectée,,CNAMTS,,,,2024,A_ARBITRER,,,taxes_affectees
 vm-1441-contribution-exceptionnelle-sur-les-benefices-des-grandes-entreprises,Contribution exceptionnelle sur les bénéfices des grandes entreprises,,recette fiscale (État),,,,,,,A_ARBITRER,,,vm_tome1
 ta-contribution-sociale-a-la-charge-des-fournisseurs-agrees-de-produits-de-tabac,Contribution sociale à la charge des fournisseurs agréés de produits de tabac,,taxe affectée,,CNAMTS - Fonds tabacs,,,,2024,A_ARBITRER,,,taxes_affectees

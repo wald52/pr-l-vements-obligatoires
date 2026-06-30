@@ -94,6 +94,10 @@ def _reconstruct_name(lines: list[str], i: int, start: int) -> str:
         j -= 1
 
     name = re.sub(r"\s+", " ", " ".join(p for p in parts if p)).strip(" .-—•")
+    # Recolle les césures de fin de ligne (« reve- nus » -> « revenus ») sans
+    # toucher aux traits d'union légitimes (« ex-TICPE », « infra-marginale »),
+    # qui ne sont jamais suivis d'une espace.
+    name = re.sub(r"(\w)-\s+(\w)", r"\1\2", name)
     return name
 
 

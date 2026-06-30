@@ -28,6 +28,7 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("classify", help="appliquer la règle de décision")
     sub.add_parser("reconcile", help="fusionner + mesurer la couverture")
     sub.add_parser("report", help="générer docs/RAPPORT.md")
+    sub.add_parser("workdoc", help="générer le document de travail docs/INVENTAIRE_TRAVAIL.md")
     sub.add_parser("validate", help="valider le jeu de données (schéma JSON)")
     p_all = sub.add_parser("all", help="exécuter tous les étages")
     p_all.add_argument("--offline", action="store_true")
@@ -52,6 +53,9 @@ def main(argv: list[str] | None = None) -> int:
     elif args.stage == "report":
         from .report import report
         report()
+    elif args.stage == "workdoc":
+        from .workdoc import build
+        build()
     elif args.stage == "validate":
         from .validate import validate_dataset
         validate_dataset()
@@ -61,11 +65,13 @@ def main(argv: list[str] | None = None) -> int:
         from .reconcile import reconcile
         from .report import report
         from .validate import validate_dataset
+        from .workdoc import build as build_workdoc
         fetch(offline=args.offline)
         normalize()
         reconcile()  # appelle classify() en interne
         validate_dataset()
         report()
+        build_workdoc()
 
     return 0
 
