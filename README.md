@@ -100,8 +100,11 @@ Les §4 (candidats **pris**) et §5 (candidats **rejetés**) appliquent cette r�
 > ajouté trois familles entières qui manquaient — les **prélèvements sur les
 > jeux** (§4.1), la **fiscalité ultramarine** (§4.3) et les **régimes de base
 > des professions libérales** (§4.4) — ainsi que le **PEEC** (§4.6), qui a
-> basculé dans le champ des PO sans qu'aucune règle fiscale ne change (cf. la
-> note du §4.6). Les pistes non encore dépouillées sont signalées au §7.
+> basculé dans le champ des PO sans qu'aucune règle fiscale ne change. La passe
+> suivante a dépouillé **ligne à ligne** le tableau des impositions affectées à
+> des tiers de l'article 135 de la LF 2026 (§4.6), en tranchant chaque
+> affectataire contre la liste INSEE des ODAC. Les pistes restantes sont
+> signalées au §7.
 
 ### 4.1 Impôts d'État (et ODAC)
 
@@ -164,7 +167,9 @@ impositions sur les biens et services – CIBS)
 - **Malus automobile** (taxes sur les émissions de CO₂ et sur la masse).
 - **Taxe sur les bureaux et locaux** en Île-de-France.
 - **Taxe sur les surfaces de stationnement**.
-- **Taxe sur les nuisances sonores aériennes (TNSA)**.
+- **Taxe sur les nuisances sonores aériennes (TNSA)** — affectée aux exploitants
+  d'aérodromes, publics **ou privés** : son classement dépend de l'exploitant
+  (cf. §4.6.2).
 - **Taxe sur les services fournis par les opérateurs de communications
   électroniques (TOCE)**.
 - Diverses taxes affectées à des fonds ou opérateurs (cf. §4.6).
@@ -287,9 +292,14 @@ effectivement versées.
 
 > Les régimes complémentaires paritaires (AGIRC-ARRCO, Unédic) sont **inclus**
 > bien que gérés en droit privé : ils relèvent du périmètre des ASSO et
-> l'affiliation y est obligatoire. La contribution **AGS** suit la même logique :
-> l'association qui porte le régime relève du droit privé, mais sa gestion est
-> déléguée à un établissement de l'Unédic et la contribution est obligatoire.
+> l'affiliation y est obligatoire.
+>
+> La contribution **AGS** est retenue, mais **pas au titre des ASSO** : l'AGS
+> est une association de droit privé qui figure nommément dans la **liste INSEE
+> des ODAC** (fonction « protection sociale »). C'est ce classement, et non la
+> délégation de gestion à l'Unédic, qui fait passer C2. Elle apparaît d'ailleurs
+> au tableau des impositions affectées à des tiers (§4.6.1), lequel exclut par
+> construction les organismes de sécurité sociale.
 
 ### 4.5 Impôts et taxes affectés à la Sécurité sociale (« fiscalité sociale »)
 
@@ -325,44 +335,108 @@ Recettes fiscales fléchées vers les ASSO ; ce sont des PO comme les autres.
 ### 4.6 Taxes affectées à des opérateurs, agences et ODAC
 
 Le Conseil des prélèvements obligatoires recense de l'ordre de **238 ressources
-affectées** (≈ 352 Md€ en 2022) à des tiers autres que l'État ; la grande
-majorité sont des prélèvements obligatoires. Principaux exemples :
+affectées** (≈ 352 Md€ en 2022) à des tiers autres que l'État. Cette rubrique
+est la plus piégeuse du document : c'est ici que le critère **C2** fait le plus
+de victimes.
 
-- **Contribution unique à la formation professionnelle et à l'alternance
-  (CUFPA)** = ex-**taxe d'apprentissage** + contribution à la formation
-  professionnelle.
-- **Redevances des agences de l'eau** (prélèvement, pollution…) — qualifiées
-  d'impositions de toutes natures ⇒ **PO**.
-- **Taxe de solidarité sur les billets d'avion** (« taxe Chirac ») et taxe de
-  l'aviation civile.
-- **Taxes affectées au CNC** (taxe sur les entrées en salles, sur les éditeurs
-  et distributeurs de services de télévision, sur la vidéo).
-- **Taxes pour frais de chambres** (CCI, chambres de métiers et de
-  l'agriculture).
-- **Contribution de vie étudiante et de campus (CVEC)**.
-- **Participation des employeurs à l'effort de construction (PEEC, « 1 %
-  logement »)** — 0,45 % de la masse salariale, due par les entreprises d'au
-  moins 50 salariés. **Cas d'école du critère C2** : longtemps regardée comme un
-  versement à un organisme privé, elle bascule dans le champ des PO depuis que
-  l'**INSEE a reclassé Action Logement Services en ODAC** le 31 août 2022 —
-  classement contesté sans succès par l'organisme, jusque devant le Conseil
-  d'État (28 avril 2026). Le prélèvement n'a pas changé ; c'est la **nature de
-  son bénéficiaire** qui a changé.
-- **Contribution supplémentaire à l'apprentissage (CSA)** et **contribution
-  dédiée au financement du CPF des titulaires de CDD**.
-- **Contribution FIPHFP** des employeurs publics au titre de l'obligation
-  d'emploi des travailleurs handicapés — le FIPHFP figure dans la liste INSEE
-  des ODAC (à la différence de l'AGEFIPH : cf. §5).
-- **Taxes affectées au Centre national de la musique (CNM)**, dont la taxe sur
-  les revenus de la musique enregistrée (dite « taxe streaming »).
-- **Taxe d'aéroport** — de **nature fiscale** : elle finance des missions
-  régaliennes de sûreté et de sécurité, qui ne peuvent précisément pas être
-  financées par des redevances ; à distinguer des **redevances aéroportuaires**
-  (cf. §5).
-- **Taxes et droits affectés aux agences sanitaires** (ANSES pour les produits
-  phytopharmaceutiques, ANSM pour les médicaments).
-- **Taxe sur les éoliennes en mer**, **taxes affectées à divers fonds et
-  établissements publics** (ADEME, Agence nationale du sport, etc.).
+**La source de référence.** L'**article 135 de la loi de finances pour 2026**
+porte le tableau de plafonnement des impositions affectées à des tiers *autres
+que* les collectivités territoriales, les organismes de sécurité sociale et
+l'audiovisuel public — soit **135 lignes**, avec pour chacune l'imposition, son
+affectataire, son rendement prévisionnel et son plafond. C'est l'énumération la
+plus proche de l'exhaustivité dont on dispose pour cette catégorie.
+
+> **Attention au contresens.** Figurer dans ce tableau prouve qu'on est une
+> *imposition de toutes natures* — donc que **C3** est satisfait. Cela ne dit
+> **rien de C2** : le tableau compte quantité d'affectataires de droit privé,
+> dont les prélèvements ne sont **pas** des PO. Il faut donc, ligne à ligne,
+> vérifier le secteur de l'affectataire. La référence pour cela est la **liste
+> INSEE des ODAC**. Et la forme juridique ne suffit pas non plus : l'**AGS** et
+> **Action Logement Services** sont des associations de droit privé pourtant
+> classées ODAC, donc dans les APU.
+
+#### 4.6.1 Affectataires publics ⇒ PRIS
+
+| Affectataire | Impositions affectées (art. 135 LF 2026) |
+|---|---|
+| **AFITF** — infrastructures de transport | Taxe sur le transport aérien de passagers (tarif de solidarité, « taxe Chirac ») ; fraction d'accise sur les énergies ; taxe sur la distance parcourue sur le réseau autoroutier concédé ; taxe sur l'exploitation des infrastructures de transport de longue distance (TEITLD) |
+| **Société des grands projets (SGP)** | Taxe annuelle sur les bureaux, locaux commerciaux, locaux de stockage et surfaces de stationnement ; IFER sur le matériel roulant RATP ; taxe spéciale d'équipement ; taxe additionnelle régionale de 15 % à la taxe de séjour en Île-de-France |
+| **ANTS** — titres sécurisés | Fractions des droits de timbre (titres de séjour, passeports, cartes nationales d'identité) ; taxe fixe sur l'immatriculation des véhicules (TFIV) ; taxe sur le renouvellement du permis de conduire |
+| **VNF** — voies navigables | Redevance hydraulique |
+| **Action Logement Services** | **PEEC** (« 1 % logement »), 0,45 % de la masse salariale des entreprises d'au moins 50 salariés |
+| **ANAH** — habitat | Recettes de la mise aux enchères des quotas carbone (cf. §4.1) |
+| **ANCOLS**, **CGLLS** — logement social | Prélèvement sur la PEEC ; cotisations et cotisations additionnelles des organismes HLM et des SEM |
+| **Établissements publics fonciers** (11 EPF) et **agences des cinquante pas géométriques** (Guadeloupe, Martinique) | Taxes spéciales d'équipement |
+| **Agences de l'eau** | Redevances pour pollution de l'eau, pour modernisation des réseaux de collecte, pour prélèvement sur la ressource, pour pollutions diffuses, pour stockage en période d'étiage… ; redevances cynégétiques ; droit de validation du permis de chasse |
+| **OFB** — biodiversité | Droit d'examen et redevance de délivrance initiale du permis de chasse ; taxe sur l'éolien ; fraction du prélèvement sur les jeux de loterie dédiés à la biodiversité |
+| **CELRL** — littoral | Taxe annuelle sur les engins maritimes à usage personnel (TAEMUP) |
+| **ANSES** | Taxes sur les médicaments vétérinaires et les établissements pharmaceutiques vétérinaires ; taxes sur la mise sur le marché et la vente des produits phytopharmaceutiques ; redevance sur les produits biocides |
+| **Santé publique France (ANSP)** | Fraction des prélèvements sociaux sur les jeux |
+| **FIPHFP** | Contribution des employeurs **publics** au titre de l'obligation d'emploi des travailleurs handicapés |
+| **AGS** | Contribution des employeurs au régime de garantie des créances des salariés (cf. §4.4) |
+| **FranceAgriMer** | Redevance pour délivrance de certificats sanitaires et phytosanitaires |
+| **France compétences** | **CUFPA** ; contribution supplémentaire à l'apprentissage ; les huit fractions de la participation des employeurs à la formation professionnelle continue (dont celle des titulaires de CDD) ; contribution spécifique de Saint-Pierre-et-Miquelon |
+| **Établissements d'enseignement supérieur et CROUS** | **CVEC** |
+| **CEA** | Taxe sur les installations nucléaires de base du secteur énergétique (tarif de base) ; fractions d'accise sur l'électricité et sur le gaz |
+| **CNFPT** | Cotisation obligatoire des collectivités employeuses |
+| **CNC** | Neuf taxes : spectacles cinématographiques, publicité télévisuelle, services de télévision, vidéogrammes, services de contenus audiovisuels à la demande et publicité afférente, visa d'exploitation, autorisation d'exploitant de salles, production et distribution d'œuvres |
+| **CNM** | Taxe sur les spectacles de variétés ; taxe sur les locations de phonogrammes et vidéomusiques en ligne (« taxe streaming ») |
+| **Agence nationale du sport (ANS)** | Prélèvement sur les paris sportifs en ligne ; taxe sur la cession de droits d'exploitation audiovisuelle des manifestations sportives (« taxe Buffet ») |
+| **AMF**, **ACPR-Banque de France** | Droits et contributions pour frais de contrôle |
+| **ARPE** — plateformes | Taxe sur les exploitants de plateformes de mise en relation |
+| **ANFr** — fréquences | Taxe sur l'utilisation des bandes 700 et 800 MHz |
+| **H2A** (ex-H3C) — audit | Contribution annuelle des commissaires aux comptes |
+| **AGRASC** — avoirs saisis | Fraction des produits de la vente de biens confisqués |
+| **INPI**, **INAO** | Redevances de propriété industrielle ; droit sur les produits sous AOP ou IGP |
+| **OFII** — immigration | Redevance perçue à l'occasion de l'introduction des familles étrangères |
+| **ASP** — services et paiement | Taxe sur la cession de terrains nus rendus constructibles |
+| **Chambres consulaires** (CCI France, CRMA, chambres d'agriculture) | Taxes additionnelles à la CVAE et à la CFE pour frais de chambres ; taxe additionnelle à la TFPNB |
+| **GIP « Objectif Meuse » et « Haute-Marne »** | Taxe sur les installations nucléaires de base, tarif d'accompagnement |
+
+> S'y ajoutent, hors tableau de l'article 135 parce qu'affectées à la Sécurité
+> sociale ou à l'audiovisuel : les taxes affectées à l'**ANSM**, à l'**ADEME**
+> et à l'**INRAP** (cf. §4.2 pour la taxe d'archéologie préventive), ainsi que
+> la **taxe d'aéroport**, de nature fiscale — elle finance des missions
+> régaliennes de sûreté et de sécurité, qui ne peuvent précisément pas être
+> financées par des redevances ; à distinguer des **redevances aéroportuaires**
+> (cf. §5).
+
+#### 4.6.2 Affectataires privés ⇒ REJET (échec C2)
+
+Même tableau, même qualification d'imposition de toutes natures, mais le
+bénéficiaire est hors du périmètre des APU. Ces prélèvements sont
+**obligatoires sans être des prélèvements obligatoires** — c'est le paradoxe
+que le critère C2 sert précisément à trancher.
+
+| Affectataire (hors APU) | Imposition affectée |
+|---|---|
+| **AGEFIPH** | Contribution annuelle au fonds pour l'insertion professionnelle des personnes handicapées — miroir exact de la contribution FIPHFP (§4.6.1), pour les employeurs privés |
+| **AGFPN** — fonds paritaire | Contribution patronale au dialogue social (0,016 %) |
+| **AFT**, **ANFA**, **3CABTP** | Taxes de formation professionnelle des transports, de la réparation automobile, du bâtiment et des travaux publics |
+| **Centres techniques industriels et comités professionnels de développement économique** (CTP, CTIPC, DEFI, Francéclat, CTC, CTCPA, CODIFAB, FCBA, CETIM, CERIB, CTMNC, ITERG) | Taxes sur les biens des industries : papier, plasturgie, habillement, horlogerie-bijouterie, cuir et chaussure, conservation des produits agricoles, ameublement et bois, béton et matériaux de construction, fonderie, soudure, mécanique, corps gras |
+| **ASTP** — théâtre privé | Taxe sur les spectacles d'art dramatique, lyrique et chorégraphique |
+| **Caisse centrale de réassurance (CCR)** | Contributions additionnelles aux primes de certaines assurances ; contribution forfaitaire des professionnels de santé |
+| **FGAO**, **FGTI** — fonds de garantie | Contribution des assurés ; prélèvement sur les contrats d'assurance de biens |
+| **Sociétés mères de courses de chevaux** | Redevance sur les paris hippiques |
+| **Organismes de secours et de sauvetage en mer agréés** | TAEMUP ; taxe sur l'éolien en mer |
+| **Comités des pêches maritimes** (national et régionaux) | Taxe sur l'éolien en mer |
+| **Comité professionnel des stocks stratégiques pétroliers** | « Rémunération pour services rendus » — échoue **et** à C2 **et** à C3, l'intitulé le dit lui-même |
+| **UCF CIBTP** | Cotisation « intempéries » du bâtiment et des travaux publics |
+| **UNCARPA** — caisses des règlements pécuniaires des avocats | Droit de timbre sur les procédures civiles et prud'homales |
+| **CGOS** — œuvres sociales hospitalières | Cotisation obligatoire |
+| **Fondation du patrimoine** | Fraction du prélèvement sur les jeux de loterie dédiés au patrimoine |
+| **Fonds pour l'emploi du travail temporaire**, **fonds d'indemnisation des avoués** | Contribution conventionnelle à la formation ; droit affecté |
+| **Éco-organisme de la filière REP** des navires de plaisance | Fraction de la TAEMUP |
+| **Opérateurs électriques chargés d'une mission de service public** | Fraction d'accise sur l'électricité et les combustibles |
+
+> **Cas non tranché.** L'**ANDRA**, affectataire des tarifs de recherche et de
+> conception de la taxe sur les installations nucléaires de base, ne figure pas
+> dans la liste INSEE des ODAC consultée ; son secteur n'a pas pu être établi
+> avec certitude ici. La ligne est signalée plutôt que classée d'autorité.
+>
+> **Cas mixte.** La **taxe sur les nuisances sonores aériennes** (§4.1) est
+> affectée aux « personnes publiques **ou privées** exploitant des aérodromes » :
+> son classement dépend de l'exploitant, ce qui interdit une réponse unique.
 
 ### 4.7 Prélèvements au profit de l'Union européenne
 
@@ -409,10 +483,11 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 | **Contributions volontaires obligatoires (CVO / CVE)** des interprofessions agricoles | REJET | C2 — versées à des **interprofessions de droit privé** ; le Conseil constitutionnel juge qu'elles ne constituent pas des « impositions de toutes natures ». Obligatoires, mais hors APU. |
 | **Éco-contributions REP** (emballages, textiles, meubles, bâtiment…) | REJET | C2 — perçues par des **éco-organismes agréés** de droit privé, non par une APU. |
 | **Certificats d'économies d'énergie (CEE)** | REJET | C1 + C2 — obligation **en nature** (obtenir des certificats) et non versement monétaire à une APU, quoique le coût soit répercuté sur les factures. |
-| **Contribution AGEFIPH** (employeurs privés, obligation d'emploi des travailleurs handicapés) | REJET | C2 — l'AGEFIPH **ne figure pas** dans la liste INSEE des ODAC, à la différence du **FIPHFP** (§4.6). Asymétrie assumée : deux contributions jumelles, deux bénéficiaires de nature différente. |
+| **Contribution AGEFIPH** (employeurs privés, obligation d'emploi des travailleurs handicapés) | REJET | C2 — l'AGEFIPH **ne figure pas** dans la liste INSEE des ODAC, à la différence du **FIPHFP** (§4.6.1). Asymétrie assumée : deux contributions jumelles, deux bénéficiaires de nature différente. |
+| **Les 18 affectataires privés du tableau de l'article 135 de la LF 2026** (CTI et comités professionnels, AFT, ANFA, ASTP, CCR, FGAO, FGTI, UCF CIBTP, UNCARPA, CGOS, sociétés de courses…) | REJET | C2 — détaillés en **§4.6.2**. Ce sont des *impositions de toutes natures* affectées à des organismes hors APU : obligatoires, mais pas des prélèvements obligatoires. |
 | **Primes d'assurances obligatoires** (RC automobile, décennale) | REJET | C2 + C3 — versées à un **assureur privé** en échange d'une couverture. La **TSCA** assise sur ces primes est, elle, un PO (§4.1). |
 | **Cotisations aux services de prévention et de santé au travail (SPSTI)** | REJET | C2 + C3 — organisme privé, en contrepartie d'un service de suivi médical. |
-| **Contribution au fonds paritaire de financement du dialogue social** | REJET | C2 — bénéficiaire paritaire **hors périmètre APU**. |
+| **Contribution patronale au dialogue social** (0,016 %) | REJET | C2 — bénéficiaire paritaire (AGFPN) **hors périmètre APU**, alors même qu'elle figure au tableau des impositions affectées de la LF 2026 (§4.6.2). |
 | **Obligations d'investissement dans la production audiovisuelle** (éditeurs, SMAD) | REJET | C1 + C2 — obligation de **dépenser** dans un secteur, sans versement à une APU. |
 | **Franchises médicales et participation forfaitaire** | REJET | Non un prélèvement : un **moindre remboursement**, pas un flux versé à une APU. |
 | **Redevances aéroportuaires et redevances de navigation aérienne** | REJET | C3 — **service rendu** (usage des installations, contrôle aérien) ; à distinguer de la **taxe d'aéroport**, qui est un PO (§4.6). |
@@ -468,6 +543,14 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 - **Wikipédia — Contribution volontaire obligatoire** (statut juridique des
   CVO/CVE) :
   <https://fr.wikipedia.org/wiki/Contribution_volontaire_obligatoire>
+- **Article 135 de la loi n° 2026-103 du 19 février 2026 de finances pour
+  2026** — tableau de plafonnement des impositions de toutes natures affectées
+  à des tiers (135 lignes : imposition, affectataire, rendement, plafond) ;
+  source de tout le §4.6 :
+  <https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053511577>
+- **Conseil des prélèvements obligatoires — « Les taxes affectées : des
+  instruments à mieux encadrer »** :
+  <https://www.vie-publique.fr/files/rapport/pdf/184000643.pdf>
 
 > *Note méthodologique.* Les montants et taux cités (1 254 Md€ ; 42,7 % du PIB en
 > 2024) proviennent des comptes nationaux INSEE. La liste des dispositifs reflète
@@ -490,10 +573,16 @@ attendu :
   les produits, redevances sanitaires d'abattage et de découpe, taxes affectées
   à des fonds professionnels) qui n'ont pas encore été passées au filtre
   C1-C2-C3.
-- **Les ~238 ressources affectées recensées par le CPO** (§4.6) : une trentaine
-  seulement est citée ici ; chacune demande une vérification du bénéficiaire
-  dans la **liste INSEE des ODAC**, seule manière de trancher C2 de façon
-  fiable — c'est exactement ce qui a départagé le FIPHFP de l'AGEFIPH.
+- **Les affectations non couvertes par l'article 135** — celui-ci exclut par
+  construction les impositions affectées aux **collectivités territoriales**,
+  aux **organismes de sécurité sociale** et à l'**audiovisuel public**. Le §4.6
+  est donc complet pour les tiers plafonnés, mais les ~238 ressources du CPO
+  débordent ce périmètre : le solde se trouve dans les §4.2 et §4.5, qui, eux,
+  ne sont pas adossés à une énumération légale.
+- **Le classement sectoriel de quelques affectataires** reste à établir
+  (ANDRA notamment, cf. §4.6.2). La liste INSEE des ODAC ne recense que les
+  organismes d'administration **centrale** : pour un affectataire local ou pour
+  un établissement à activité marchande, elle ne tranche pas.
 - **Les taxes locales facultatives** instituées par délibération : leur
   existence dépend de chaque collectivité, ce qui rend l'énumération exhaustive
   peu praticable ; un inventaire par catégorie serait plus utile qu'une liste.
