@@ -7,7 +7,8 @@
 > règle à chaque candidat (impôt, taxe, cotisation, redevance, amende…).
 >
 > **Année de référence.** Montants 2024 (derniers comptes nationaux INSEE) ;
-> liste des dispositifs reflétant le droit en vigueur fin 2025 / PLF 2026.
+> liste des dispositifs reflétant le droit en vigueur mi-2026 (loi de finances
+> et loi de financement de la sécurité sociale pour 2026 incluses).
 
 ---
 
@@ -94,6 +95,13 @@ Les §4 (candidats **pris**) et §5 (candidats **rejetés**) appliquent cette r�
 > centaines de lignes). Les rubriques ci-dessous en organisent l'essentiel par
 > bénéficiaire ; les listes par catégorie se veulent couvrantes, mais le
 > document budgétaire fait foi pour l'exhaustivité ligne à ligne.
+>
+> **État de la recherche.** Ce recensement est incrémental. La dernière passe a
+> ajouté trois familles entières qui manquaient — les **prélèvements sur les
+> jeux** (§4.1), la **fiscalité ultramarine** (§4.3) et les **régimes de base
+> des professions libérales** (§4.4) — ainsi que le **PEEC** (§4.6), qui a
+> basculé dans le champ des PO sans qu'aucune règle fiscale ne change (cf. la
+> note du §4.6). Les pistes non encore dépouillées sont signalées au §7.
 
 ### 4.1 Impôts d'État (et ODAC)
 
@@ -107,8 +115,18 @@ Satisfont C1-C2-C3 : versés à l'État, obligatoires, sans contrepartie.
   **prélèvement forfaitaire unique (PFU / « flat tax »)** sur les revenus du
   capital.
 - **Contribution exceptionnelle sur les hauts revenus (CEHR)**.
+- **Contribution différentielle sur les hauts revenus (CDHR)** — garantit une
+  imposition minimale des très hauts revenus ; créée pour les revenus 2025 et
+  **prorogée par la LF 2026** jusqu'à ce que le déficit public repasse sous
+  3 % du PIB.
 - **Impôt sur les sociétés (IS)**, contribution sociale sur l'IS et
-  contributions exceptionnelles éventuelles.
+  contributions exceptionnelles éventuelles (dont la **contribution
+  exceptionnelle sur les bénéfices des grandes entreprises**).
+- **Retenues à la source sur les revenus versés à des non-résidents**
+  (salaires, dividendes, redevances) — prélèvements définitifs ou imputables,
+  mais bien des impositions au profit de l'État.
+- **Contribution sur les revenus locatifs (CRL)** — due par certaines personnes
+  morales sur les loyers d'immeubles achevés depuis plus de quinze ans.
 
 **Accises et taxes sur la consommation / l'énergie** (codifiées dans le code des
 impositions sur les biens et services – CIBS)
@@ -117,6 +135,12 @@ impositions sur les biens et services – CIBS)
   alcools, droits de consommation sur les tabacs, contributions sur les boissons
   sucrées/édulcorées).
 - **Taxe générale sur les activités polluantes (TGAP)**.
+- **Produit de la mise aux enchères des quotas d'émission (SEQE-UE)** — bien
+  qu'il prenne la forme d'un marché, il est enregistré en comptabilité
+  nationale comme un **impôt sur la production (D.29)** au sens du SEC 2010 :
+  c'est donc un PO. Le manuel du déficit et de la dette (MGDD) prescrit un
+  enregistrement décalé d'une année civile ; une partie du produit est affectée
+  à l'ANAH.
 
 **Patrimoine, mutations, transactions**
 - **Impôt sur la fortune immobilière (IFI)**.
@@ -124,7 +148,14 @@ impositions sur les biens et services – CIBS)
   (successions et donations).
 - **Droits de timbre** (passeports, cartes, etc.).
 - **Taxe sur les transactions financières (TTF)**.
-- **Taxe spéciale sur les conventions d'assurance (TSCA)**.
+- **Taxe sur les rachats d'actions** — assise sur la réduction de capital
+  consécutive au rachat de ses propres titres par une grande entreprise.
+- **Taxe spéciale sur les conventions d'assurance (TSCA)** — assise sur les
+  primes d'assurance, y compris celles des assurances **obligatoires** (dont la
+  souscription, elle, n'est pas un PO : cf. §5).
+- **Taxe sur les actifs non affectés à une activité opérationnelle des holdings
+  patrimoniales** — créée par la **LF 2026** (20 %, applicable à compter du
+  1ᵉʳ janvier 2027) : droit voté, rendement encore nul à la date du document.
 
 **Taxes sectorielles et comportementales (principales)**
 - **Taxe sur les services numériques** (dite « taxe GAFA »).
@@ -133,7 +164,29 @@ impositions sur les biens et services – CIBS)
 - **Malus automobile** (taxes sur les émissions de CO₂ et sur la masse).
 - **Taxe sur les bureaux et locaux** en Île-de-France.
 - **Taxe sur les surfaces de stationnement**.
-- Diverses taxes affectées à des fonds ou opérateurs (cf. §4.5).
+- **Taxe sur les nuisances sonores aériennes (TNSA)**.
+- **Taxe sur les services fournis par les opérateurs de communications
+  électroniques (TOCE)**.
+- Diverses taxes affectées à des fonds ou opérateurs (cf. §4.6).
+
+**Prélèvements sur les jeux d'argent et de hasard**
+
+Famille souvent oubliée des recensements, alors qu'elle satisfait pleinement
+C1-C2-C3 : le joueur ne reçoit aucune contrepartie individualisée en échange du
+prélèvement, qui est assis sur les mises ou sur le **produit brut des jeux
+(PBJ)** et versé par l'opérateur.
+
+- **Prélèvements sur les jeux de loterie et les jeux instantanés** (FDJ).
+- **Prélèvements sur les paris hippiques** (PMU et opérateurs agréés).
+- **Prélèvements sur les paris sportifs** — **7,6 %** du PBJ en réseau physique
+  et **15 %** en ligne.
+- **Prélèvement sur le poker en ligne** — porté de 0,2 % à **1 % des mises**.
+- **Prélèvement sur le produit brut des jeux des casinos**.
+
+> Environ **23 %** du produit de ces prélèvements est reversé à des affectataires
+> autres que l'État : Sécurité sociale, bloc communal, Agence nationale du sport,
+> sociétés de courses. Leur volet social figure en §4.5 et leur volet communal en
+> §4.2 — c'est le **même** prélèvement vu par bénéficiaire, non un doublon.
 
 ### 4.2 Impôts locaux (APUL)
 
@@ -142,8 +195,11 @@ contrepartie individualisée.
 
 - **Taxe foncière sur les propriétés bâties (TFPB)**.
 - **Taxe foncière sur les propriétés non bâties (TFPNB)**.
-- **Taxe d'habitation sur les résidences secondaires (THRS)** et **taxe sur les
-  logements vacants** (la TH sur les résidences principales a été supprimée).
+- **Taxe d'habitation sur les résidences secondaires (THRS)** (la TH sur les
+  résidences principales a été supprimée).
+- **Taxe sur les logements vacants (TLV)** en zone tendue — produit affecté à
+  l'ANAH — et **taxe d'habitation sur les logements vacants (THLV)**, instituée
+  par les communes hors zone tendue.
 - **Cotisation foncière des entreprises (CFE)**.
 - **Cotisation sur la valeur ajoutée des entreprises (CVAE)** — en voie
   d'extinction progressive.
@@ -159,11 +215,49 @@ contrepartie individualisée.
 - **Taxe d'aménagement** (urbanisme).
 - **Taxe locale sur la publicité extérieure (TLPE)**.
 - **Taxe GEMAPI** (gestion des milieux aquatiques et prévention des inondations).
+- **Taxe pour la gestion des eaux pluviales urbaines**.
+- **Taxe sur les certificats d'immatriculation des véhicules** (« carte grise »)
+  — au profit des **régions**.
+- **Taxe d'archéologie préventive (TAP, ex-redevance RAP)** — qualifiée
+  d'« imposition de toute nature », adossée depuis 2022 au recouvrement de la
+  taxe d'aménagement ; finance l'INRAP, les services archéologiques des
+  collectivités et le Fonds national pour l'archéologie préventive.
+- **Prélèvement communal (et départemental) sur le produit brut des jeux des
+  casinos** — volet local des prélèvements du §4.1.
+- **Taxe sur les remontées mécaniques** (communes et départements de montagne).
+- **Redevances communales et départementales des mines** — malgré leur nom, des
+  impositions et non des redevances pour service rendu.
+- **Taxe sur les friches commerciales**.
+- **Taxe forfaitaire sur la cession de terrains nus devenus constructibles**.
+- **Taxe sur les résidences mobiles terrestres**.
+- **Taxe additionnelle spéciale annuelle** au profit de la région Île-de-France.
 - **Taxe de balayage**, **taxe sur les pylônes électriques**, **taxes spéciales
   d'équipement**, et autres taxes locales facultatives instituées par
   délibération.
 
-### 4.3 Cotisations sociales effectives (ASSO)
+### 4.3 Fiscalité ultramarine
+
+Régime juridique distinct — l'octroi de mer bénéficie d'une **dérogation de
+l'Union européenne**, aujourd'hui accordée jusqu'à fin 2027 — mais des
+prélèvements obligatoires de plein exercice : obligatoires, sans contrepartie,
+au profit des collectivités.
+
+- **Octroi de mer** — frappe les importations **et** les productions locales
+  dans les départements et régions d'outre-mer ; l'un des plus anciens impôts
+  français (perçu en Martinique dès 1670). Plus de **1,6 Md€** de recettes en
+  2022, soit en moyenne près du **tiers des ressources des communes**
+  ultramarines ; réformé dans le cadre de la LF 2025.
+- **Octroi de mer régional (OMR)** — part additionnelle au profit des régions.
+- **Taxe spéciale de consommation (TSC)** sur les carburants — équivalent
+  ultramarin de l'accise sur les énergies, au profit des régions et
+  départements d'outre-mer.
+- **Droits de consommation sur les tabacs** propres aux DROM et à la Corse.
+
+> À noter, symétriquement : la **TVA n'est pas applicable** en Guyane ni à
+> Mayotte, et s'applique à taux réduits en Guadeloupe, en Martinique et à La
+> Réunion. Une moindre imposition n'est évidemment pas un prélèvement.
+
+### 4.4 Cotisations sociales effectives (ASSO)
 
 Versements effectifs (C1), à des organismes classés dans les ASSO (C2),
 obligatoires et sans contrepartie strictement proportionnelle (C3). La part
@@ -183,19 +277,32 @@ effectivement versées.
 - **Cotisations des régimes spéciaux** effectivement versées (CNRACL pour la
   fonction publique territoriale et hospitalière, régimes SNCF, RATP, marins,
   etc.).
+- **Cotisations des régimes de base des professions libérales** — **CNAVPL** et
+  ses sections professionnelles (CIPAV, CARMF, CARPIMKO, CAVEC…), **CNBF** pour
+  les avocats, **CAVIMAC** pour les ministres des cultes.
+- **Contribution AGS** — contribution patronale recouvrée par l'URSSAF avec les
+  contributions chômage, qui finance le régime de garantie des salaires en cas
+  de défaillance de l'employeur.
+- **Contribution au Fonds national d'aide au logement (FNAL)**.
 
 > Les régimes complémentaires paritaires (AGIRC-ARRCO, Unédic) sont **inclus**
 > bien que gérés en droit privé : ils relèvent du périmètre des ASSO et
-> l'affiliation y est obligatoire.
+> l'affiliation y est obligatoire. La contribution **AGS** suit la même logique :
+> l'association qui porte le régime relève du droit privé, mais sa gestion est
+> déléguée à un établissement de l'Unédic et la contribution est obligatoire.
 
-### 4.4 Impôts et taxes affectés à la Sécurité sociale (« fiscalité sociale »)
+### 4.5 Impôts et taxes affectés à la Sécurité sociale (« fiscalité sociale »)
 
 Recettes fiscales fléchées vers les ASSO ; ce sont des PO comme les autres.
 
 - **CSG** — contribution sociale généralisée (revenus d'activité, de
   remplacement, du capital, des jeux).
 - **CRDS** — contribution au remboursement de la dette sociale.
-- **Prélèvement de solidarité** de 7,5 % sur les revenus du capital.
+- **Prélèvement de solidarité** sur les revenus du capital — la **LF 2026**
+  porte le taux global des prélèvements sociaux sur le capital à **18,6 %**,
+  ce qui mécaniquement porte le **PFU** à **31,4 %**.
+- **Contribution additionnelle de solidarité pour l'autonomie (CASA)** — 0,3 %
+  sur les pensions de retraite et d'invalidité imposables, au profit de la CNSA.
 - **Taxe sur les salaires** (employeurs non assujettis à la TVA).
 - **Contribution sociale de solidarité des sociétés (C3S)**.
 - **Forfait social**.
@@ -204,8 +311,18 @@ Recettes fiscales fléchées vers les ASSO ; ce sont des PO comme les autres.
 - **Accises affectées** sur les tabacs, alcools et boissons sucrées.
 - **Contributions de l'industrie pharmaceutique** (clause de sauvegarde « M »,
   taxes sur le chiffre d'affaires et la promotion des laboratoires).
+- **Contributions patronales sur les attributions gratuites d'actions et les
+  stock-options**.
+- **Contributions sur les rentes de « retraites chapeau »** et sur les
+  **avantages de préretraite**.
+- **Contribution spécifique sur les indemnités de rupture conventionnelle**
+  (ex-forfait social dédié, porté à 30 %).
+- **Prélèvements sociaux sur les jeux** — CSG sur les jeux de loterie portée de
+  6,2 % à **7,2 %**, prélèvements sociaux sur les paris et les casinos. La
+  réforme portée par la LFSS vise ≈ **1,6 Md€** pour la Sécurité sociale, au
+  bénéfice principal des branches famille et maladie.
 
-### 4.5 Taxes affectées à des opérateurs, agences et ODAC
+### 4.6 Taxes affectées à des opérateurs, agences et ODAC
 
 Le Conseil des prélèvements obligatoires recense de l'ordre de **238 ressources
 affectées** (≈ 352 Md€ en 2022) à des tiers autres que l'État ; la grande
@@ -223,10 +340,31 @@ majorité sont des prélèvements obligatoires. Principaux exemples :
 - **Taxes pour frais de chambres** (CCI, chambres de métiers et de
   l'agriculture).
 - **Contribution de vie étudiante et de campus (CVEC)**.
+- **Participation des employeurs à l'effort de construction (PEEC, « 1 %
+  logement »)** — 0,45 % de la masse salariale, due par les entreprises d'au
+  moins 50 salariés. **Cas d'école du critère C2** : longtemps regardée comme un
+  versement à un organisme privé, elle bascule dans le champ des PO depuis que
+  l'**INSEE a reclassé Action Logement Services en ODAC** le 31 août 2022 —
+  classement contesté sans succès par l'organisme, jusque devant le Conseil
+  d'État (28 avril 2026). Le prélèvement n'a pas changé ; c'est la **nature de
+  son bénéficiaire** qui a changé.
+- **Contribution supplémentaire à l'apprentissage (CSA)** et **contribution
+  dédiée au financement du CPF des titulaires de CDD**.
+- **Contribution FIPHFP** des employeurs publics au titre de l'obligation
+  d'emploi des travailleurs handicapés — le FIPHFP figure dans la liste INSEE
+  des ODAC (à la différence de l'AGEFIPH : cf. §5).
+- **Taxes affectées au Centre national de la musique (CNM)**, dont la taxe sur
+  les revenus de la musique enregistrée (dite « taxe streaming »).
+- **Taxe d'aéroport** — de **nature fiscale** : elle finance des missions
+  régaliennes de sûreté et de sécurité, qui ne peuvent précisément pas être
+  financées par des redevances ; à distinguer des **redevances aéroportuaires**
+  (cf. §5).
+- **Taxes et droits affectés aux agences sanitaires** (ANSES pour les produits
+  phytopharmaceutiques, ANSM pour les médicaments).
 - **Taxe sur les éoliennes en mer**, **taxes affectées à divers fonds et
-  établissements publics** (ADEME, agences sanitaires, etc.).
+  établissements publics** (ADEME, Agence nationale du sport, etc.).
 
-### 4.6 Prélèvements au profit de l'Union européenne
+### 4.7 Prélèvements au profit de l'Union européenne
 
 Bénéficiaire = institutions de l'UE (C2 satisfait via le volet supranational).
 
@@ -234,6 +372,11 @@ Bénéficiaire = institutions de l'UE (C2 satisfait via le volet supranational).
   compte du budget de l'UE.
 - **Ressource propre fondée sur la TVA** (fraction d'assiette TVA).
 - **Contribution fondée sur les déchets d'emballages plastiques non recyclés**.
+- **Mécanisme d'ajustement carbone aux frontières (MACF / CBAM)** — entré en
+  régime définitif le 1ᵉʳ janvier 2026, l'obligation d'achat de certificats ne
+  produisant ses premiers versements qu'en 2027 : à surveiller, son
+  rattachement (ressource propre de l'UE ou recette nationale) détermine la
+  ligne où il sera comptabilisé.
 
 > Nuance : la **contribution « ressource RNB »**, versée par l'État au budget de
 > l'UE, est en comptabilité nationale un **transfert entre administrations**
@@ -263,6 +406,17 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 | **Dons et legs aux administrations** | REJET | C3 — **volontaires**. |
 | **Contribution à l'audiovisuel public (ex-redevance TV)** | REJET *aujourd'hui* | Était un **PO jusqu'en 2022** ; supprimée et remplacée par une fraction de TVA (elle, comptée). Mentionnée pour mémoire. |
 | **Crédits d'impôt restituables** (CICE historique, CIR…) | N/A | Non un prélèvement : ils **minorent** les PO ; leur traitement explique l'écart de taux INSEE / Eurostat. |
+| **Contributions volontaires obligatoires (CVO / CVE)** des interprofessions agricoles | REJET | C2 — versées à des **interprofessions de droit privé** ; le Conseil constitutionnel juge qu'elles ne constituent pas des « impositions de toutes natures ». Obligatoires, mais hors APU. |
+| **Éco-contributions REP** (emballages, textiles, meubles, bâtiment…) | REJET | C2 — perçues par des **éco-organismes agréés** de droit privé, non par une APU. |
+| **Certificats d'économies d'énergie (CEE)** | REJET | C1 + C2 — obligation **en nature** (obtenir des certificats) et non versement monétaire à une APU, quoique le coût soit répercuté sur les factures. |
+| **Contribution AGEFIPH** (employeurs privés, obligation d'emploi des travailleurs handicapés) | REJET | C2 — l'AGEFIPH **ne figure pas** dans la liste INSEE des ODAC, à la différence du **FIPHFP** (§4.6). Asymétrie assumée : deux contributions jumelles, deux bénéficiaires de nature différente. |
+| **Primes d'assurances obligatoires** (RC automobile, décennale) | REJET | C2 + C3 — versées à un **assureur privé** en échange d'une couverture. La **TSCA** assise sur ces primes est, elle, un PO (§4.1). |
+| **Cotisations aux services de prévention et de santé au travail (SPSTI)** | REJET | C2 + C3 — organisme privé, en contrepartie d'un service de suivi médical. |
+| **Contribution au fonds paritaire de financement du dialogue social** | REJET | C2 — bénéficiaire paritaire **hors périmètre APU**. |
+| **Obligations d'investissement dans la production audiovisuelle** (éditeurs, SMAD) | REJET | C1 + C2 — obligation de **dépenser** dans un secteur, sans versement à une APU. |
+| **Franchises médicales et participation forfaitaire** | REJET | Non un prélèvement : un **moindre remboursement**, pas un flux versé à une APU. |
+| **Redevances aéroportuaires et redevances de navigation aérienne** | REJET | C3 — **service rendu** (usage des installations, contrôle aérien) ; à distinguer de la **taxe d'aéroport**, qui est un PO (§4.6). |
+| **Redevances d'utilisation des fréquences radioélectriques** | REJET | C3 — contrepartie : droit d'usage d'une ressource rare du domaine public. |
 
 ---
 
@@ -287,7 +441,68 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 - **Wikipédia — Prélèvements obligatoires** (synthèse et renvois) :
   <https://fr.wikipedia.org/wiki/Pr%C3%A9l%C3%A8vements_obligatoires>
 
+**Sources ajoutées pour les compléments (§4.1 jeux, §4.3 outre-mer, §4.6, §5)**
+
+- **INSEE — Liste des organismes divers d'administration centrale (ODAC)**,
+  édition mai 2025 (situation 2023) — sert à trancher le critère C2 (y figurent
+  Action Logement Services, le FIPHFP, le CNM, l'ANSES ; n'y figure pas
+  l'AGEFIPH) :
+  <https://www.insee.fr/fr/statistiques/fichier/8574832/Liste_ODAC_SD2023.pdf>
+- **Conseil d'État, 28 avril 2026, n° 498073** — contentieux du classement
+  d'Action Logement Services en administration publique :
+  <https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2026-04-28/498073>
+- **Cour des comptes — « L'octroi de mer, une taxe à la croisée des chemins »**
+  (2024) : <https://www.ccomptes.fr/fr/publications/loctroi-de-mer-une-taxe-la-croisee-des-chemins>
+- **Légifrance — Code de la sécurité sociale, section « Prélèvements sur les
+  jeux, concours et paris » (art. L. 137-20 à L. 137-25)** :
+  <https://www.legifrance.gouv.fr/codes/id/LEGISCTA000021535946>
+- **Conseil des prélèvements obligatoires — fiscalité des jeux d'argent et de
+  hasard** (synthèse) :
+  <https://www.banquedesterritoires.fr/fiscalite-des-jeux-dargent-et-de-hasard-le-conseil-des-prelevements-obligatoires-veut-redistribuer>
+- **Eurostat — Système européen des comptes (SEC 2010)**, référence pour le
+  traitement des quotas d'émission en impôts sur la production (D.29) :
+  <https://ec.europa.eu/eurostat/fr/web/esa-2010>
+- **Ministère de la Transition écologique — redevance / taxe d'archéologie
+  préventive** :
+  <https://www.ecologie.gouv.fr/politiques-publiques/redevance-darcheologie-preventive>
+- **Wikipédia — Contribution volontaire obligatoire** (statut juridique des
+  CVO/CVE) :
+  <https://fr.wikipedia.org/wiki/Contribution_volontaire_obligatoire>
+
 > *Note méthodologique.* Les montants et taux cités (1 254 Md€ ; 42,7 % du PIB en
 > 2024) proviennent des comptes nationaux INSEE. La liste des dispositifs reflète
-> le droit en vigueur fin 2025 ; certains prélèvements évoluent chaque année en
-> loi de finances et en loi de financement de la sécurité sociale.
+> le droit en vigueur **mi-2026**, lois de finances et de financement de la
+> sécurité sociale pour 2026 comprises ; certains prélèvements évoluent chaque
+> année. Deux entrées sont du **droit voté non encore productif** et signalées
+> comme telles : la taxe sur les actifs non opérationnels des holdings
+> patrimoniales (§4.1, applicable en 2027) et le MACF (§4.7, premiers versements
+> en 2027).
+
+---
+
+## 7. Pistes encore ouvertes
+
+Le recensement n'est pas clos. Ce qui reste à dépouiller, par ordre de rendement
+attendu :
+
+- **Voies et moyens, tome I, ligne à ligne** — plusieurs centaines
+  d'impositions, dont une longue traîne de taxes à faible rendement (taxes sur
+  les produits, redevances sanitaires d'abattage et de découpe, taxes affectées
+  à des fonds professionnels) qui n'ont pas encore été passées au filtre
+  C1-C2-C3.
+- **Les ~238 ressources affectées recensées par le CPO** (§4.6) : une trentaine
+  seulement est citée ici ; chacune demande une vérification du bénéficiaire
+  dans la **liste INSEE des ODAC**, seule manière de trancher C2 de façon
+  fiable — c'est exactement ce qui a départagé le FIPHFP de l'AGEFIPH.
+- **Les taxes locales facultatives** instituées par délibération : leur
+  existence dépend de chaque collectivité, ce qui rend l'énumération exhaustive
+  peu praticable ; un inventaire par catégorie serait plus utile qu'une liste.
+- **Les prélèvements des collectivités à statut particulier** — Nouvelle-
+  Calédonie, Polynésie française, Wallis-et-Futuna, Saint-Pierre-et-Miquelon,
+  Saint-Martin et Saint-Barthélemy — qui disposent de leur propre compétence
+  fiscale et sont ici absents.
+- **Les cas limites à surveiller** : le MACF (§4.7) selon son rattachement
+  définitif, et tout reclassement sectoriel d'organisme par l'INSEE, qui peut
+  faire entrer ou sortir un prélèvement du champ **sans modification de la
+  règle fiscale** — le précédent d'Action Logement montre que ce risque n'est
+  pas théorique.
