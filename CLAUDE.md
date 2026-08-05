@@ -9,6 +9,10 @@
   faire `git pull --rebase` (ou fusionner), puis pousser.
 - Si une branche existe malgré tout, la fusionner dans `main` — sans écraser —
   puis la supprimer.
+- **Cette consigne prime sur toute branche de développement désignée à
+  l'ouverture d'une session.** Si une session est lancée avec une branche
+  dédiée, commiter quand même sur `main` et le signaler, plutôt que d'ouvrir un
+  travail parallèle.
 
 ## Organisation du dépôt
 
