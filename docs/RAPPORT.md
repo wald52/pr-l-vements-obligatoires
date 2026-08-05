@@ -1,19 +1,19 @@
 # Rapport — inventaire des prélèvements obligatoires en France
 
-> Généré le 2026-06-30 par le pipeline (`po-pipeline report`). Ne pas éditer à la main.
+> Généré le 2026-08-05 par le pipeline (`po-pipeline report`). Ne pas éditer à la main.
 
 ## Synthèse
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements retenus (PRIS) | 320 |
-| Candidats rejetés (REJET) | 39 |
-| Lignes à arbitrer | 0 |
+| Prélèvements retenus (PRIS) | 379 |
+| Candidats rejetés (REJET) | 56 |
+| Lignes à arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1572.0 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1573.8 Md€ |
 | Enveloppe INSEE (2024) | 1254.0 Md€ |
 | **Couverture (socle)** | **105.8 %** |
-| PRIS sans montant | 63 |
+| PRIS sans montant | 112 |
 
 > La couverture rapporte la somme des PRIS du **socle curé** (non chevauchant) à l'enveloppe INSEE. La somme « itemisée » ajoute les composantes fines de la NTL et des taxes affectées : indicative, elle mêle agrégats et composantes et n'est pas une mesure de couverture.
 
@@ -21,25 +21,25 @@
 
 | Categorie | Nombre | Montant (Md€) |
 |---|---:|---:|
-| cotisation sociale | 6 | 570.0 |
-| impôt d'État | 24 | 446.0 |
-| fiscalité sociale | 8 | 201.1 |
+| cotisation sociale | 8 | 570.0 |
+| impôt d'État | 39 | 446.5 |
+| fiscalité sociale | 14 | 201.1 |
 | impôt sur la production/importation | 61 | 135.2 |
-| taxe affectée | 157 | 100.8 |
-| impôt local | 25 | 90.5 |
+| taxe affectée | 191 | 101.6 |
+| impôt local | 27 | 90.5 |
 | impôt courant sur le revenu/patrimoine | 19 | 22.3 |
 | ressource UE | 3 | 6.2 |
-| recette fiscale (État) | 17 | — |
+| recette fiscale (État) | 17 | 0.5 |
 
 ### Montants par secteur bénéficiaire
 
 | Secteur | Nombre | Montant (Md€) |
 |---|---:|---:|
-| ASSO | 14 | 771.1 |
-| APUC | 24 | 446.0 |
-| (non renseigné) | 247 | 245.9 |
-| APUL | 25 | 90.5 |
-| ODAC | 7 | 12.4 |
+| ASSO | 26 | 772.8 |
+| APUC | 42 | 448.0 |
+| (non renseigné) | 226 | 242.4 |
+| APUL | 36 | 90.6 |
+| ODAC | 46 | 13.8 |
 | UE | 3 | 6.2 |
 
 ## Prélèvements retenus (top 40 par montant)
@@ -86,6 +86,14 @@
 | Taxe intérieure de consommation sur les produits énergétique (TICPE dont part modulable) | taxe affectée | 4.7 | taxes_affectees |
 | Produits de la loterie nationale et du loto | impôt sur la production/importation | 4.0 | eurostat_ntl |
 | Taxe intérieure sur la consommation de gaz naturel | impôt sur la production/importation | 3.2 | eurostat_ntl |
+
+## Lignes à arbitrer (classement incertain)
+
+Ces lignes n'ont pu être classées automatiquement (ni code ESA, ni règle). À expertiser manuellement, triées par montant décroissant (enjeu financier).
+
+| Libellé | Montant (Md€) | Sources |
+|---|---:|---|
+| Obligations d'achat d'électricité renouvelable à prix contractuels | — | supplement_cure |
 
 ## Méthodologie
 

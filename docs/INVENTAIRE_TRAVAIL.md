@@ -1,8 +1,8 @@
 # Inventaire des prélèvements obligatoires — document de travail
 
-> Généré le 2026-06-30 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
+> Généré le 2026-08-05 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
 
-Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
+Ce document regroupe les **436 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
 
 **Comment l'utiliser.** Traiter en priorité le §4 (« à arbitrer ») : commencer par le §4.1 (doublons probables à fusionner), puis instruire les taxes affectées (§4.3) et les nouvelles impositions (§4.4). Le §5 liste les questions ouvertes.
 
@@ -19,12 +19,12 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements au total | 359 |
-| Retenus (PRIS) | 320 |
-| Rejetés (REJET) | 39 |
-| À arbitrer | 0 |
+| Prélèvements au total | 436 |
+| Retenus (PRIS) | 379 |
+| Rejetés (REJET) | 56 |
+| À arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1572.0 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1573.8 Md€ |
 | Enveloppe INSEE 2024 | 1254.0 Md€ |
 | Couverture (socle / INSEE) | 105.8 % |
 
@@ -32,15 +32,15 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 
 | Catégorie | Nombre |
 |---|---:|
-| taxe affectée | 178 |
+| taxe affectée | 224 |
 | impôt sur la production/importation | 62 |
-| impôt local | 25 |
-| impôt d'État | 24 |
+| impôt d'État | 42 |
+| impôt local | 29 |
 | impôt courant sur le revenu/patrimoine | 21 |
 | recette fiscale (État) | 17 |
+| fiscalité sociale | 15 |
 | indéterminée | 13 |
-| fiscalité sociale | 8 |
-| cotisation sociale | 6 |
+| cotisation sociale | 8 |
 | ressource UE | 3 |
 | impôt en capital | 1 |
 | cotisation sociale imputée | 1 |
@@ -50,16 +50,16 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Source | Lignes |
 |---|---:|
 | taxes_affectees | 184 |
+| supplement_cure | 133 |
 | eurostat_ntl | 103 |
 | readme_seed | 69 |
 | vm_tome1 | 24 |
-| supplement_cure | 18 |
 
 ## 2. Prélèvements retenus (PRIS)
 
-320 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
+379 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
 
-### Administrations de sécurité sociale (ASSO) — 14 lignes, 771.06 Md€
+### Administrations de sécurité sociale (ASSO) — 26 lignes, 772.79 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -75,10 +75,22 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Cotisations agricoles |  | 5.00 | Code rural | readme_seed (README §4-§5) |
 | Prélèvement de solidarité sur les revenus du capital |  | 5.00 | CSS | readme_seed (README §4-§5) |
 | Taxe de solidarité additionnelle (complémentaire santé) | TSA | 5.00 | CSS art. L862-4 | readme_seed (README §4-§5) |
+| Contribution tarifaire d'acheminement (CTA) | CTA | 1.70 | Loi 2004-803 art. 18 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution sur les indemnités de mise à la retraite |  | 0.03 | CSS art. L. 137-12 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Droits de plaidoirie |  | 0.00 | CSS art. L. 723-3 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Clause de sauvegarde sur les dispositifs médicaux | clause Z | — | CSS art. L. 138-19-8 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution exceptionnelle à la charge des organismes complémentaires d'assurance maladie |  | — | LFSS 2026 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution salariale sur les carried interests |  | — | CSS art. L. 137-37 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution sur les dépenses de promotion des médicaments et des dispositifs médicaux |  | — | CSS art. L. 245-1 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution sur les premières ventes de médicaments et de dispositifs médicaux |  | — | CSS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution vente en gros des grossistes-répartiteurs |  | — | CSS art. L. 138-1 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contributions de l'industrie pharmaceutique (clause de sauvegarde M) |  | — | CSS | readme_seed (README §4-§5) |
+| Cotisation du régime local d'assurance maladie d'Alsace-Moselle |  | — | CSS art. L. 325-1 à L. 325-3 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisations aux caisses d'assurance-accidents agricoles d'Alsace-Moselle |  | — | CSS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations des régimes spéciaux |  | — | Code de la sécurité sociale | readme_seed (README §4-§5) |
+| Taxe annuelle sur les émissions de polluants atmosphériques |  | — | CIBS art. L. 421-115 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### État et administrations centrales (APUC) — 24 lignes, 446.00 Md€
+### État et administrations centrales (APUC) — 42 lignes, 448.04 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -92,11 +104,25 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Impôt sur la fortune immobilière | IFI | 2.00 | CGI art. 964 s. | vm_tome1 (ligne 1406); readme_seed (README §4-§5) |
 | Taxe sur les transactions financières | TTF | 1.85 | CGI art. 235 ter ZD | eurostat_ntl (FR:D214C/C03); vm_tome1 (ligne 1797); readme_seed (README §4-§5) |
 | Taxe sur les services numériques |  | 0.79 | CGI art. 299 s. | eurostat_ntl (FR:D214I/C02); vm_tome1 (ligne 1430); readme_seed (README §4-§5) |
+| Contribution de sécurité immobilière | CSI | 0.69 | CGI art. 879 | eurostat_ntl (FR:D214B/C01); supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les petits colis |  | 0.50 | LF 2026 | vm_tome1 (ligne 1442); supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Prélèvement sur les sommes versées par les assureurs au titre des contrats d'assurance en cas de décès |  | 0.48 | CGI art. 990 I et 990 I bis | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution des distributeurs d'énergie électrique basse tension | FACÉ | 0.38 | CGI art. 1519 quinquies | eurostat_ntl (FR:D214L/C02); supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les surfaces de stationnement |  | 0.01 | CGI | taxes_affectees; readme_seed (README §4-§5) |
+| Contribution au Fonds de résolution unique | FRU / SRF | — | Règlement UE 806/2014 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution de la Caisse des dépôts et consignations représentative de l'impôt sur les sociétés |  | — | CGI art. 208 ter | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution des institutions financières |  | — | CGI | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution exceptionnelle sur les hauts revenus | CEHR | — | CGI art. 223 sexies | readme_seed (README §4-§5) |
+| Contribution sur la rente infra-marginale de la production d'électricité | CRIM | — | Code de l'énergie art. L. 443-1 s. | vm_tome1 (ligne 1752); supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Droit de passeport des navires |  | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Droit de timbre sur les procédures civiles en première instance et prud'homales |  | — | CGI | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Droits de timbre |  | — | CGI | readme_seed (README §4-§5) |
+| Frais de gestion de la fiscalité directe locale |  | — | CGI art. 1641 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Garantie des matières d'or et d'argent |  | — | CGI art. 522 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Impôt minimum mondial à 15 % (pilier 2) | IMG | — | Directive UE 2022/2523 - CGI art. 223 VJ s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Malus automobile (CO2 et masse) |  | — | CIBS | readme_seed (README §4-§5) |
+| Retenues à la source sur les revenus versés à des non-résidents |  | — | CGI art. 182 A s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe forfaitaire sur les métaux précieux, bijoux, objets d'art, de collection et d'antiquité |  | — | CGI art. 150 VI s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe générale sur les activités polluantes | TGAP | — | CIBS | vm_tome1 (ligne 1756); readme_seed (README §4-§5) |
 | Taxe générale sur les activités polluantes — composante déchets | TGAP déchets | — | CIBS (ex-CGI 266 sexies) | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe générale sur les activités polluantes — composante lessives | TGAP lessives | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -104,22 +130,65 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Taxe générale sur les activités polluantes — composante émissions polluantes | TGAP émissions | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur l'affectation des véhicules à des fins économiques | ex-TVS | — | CIBS | readme_seed (README §4-§5) |
 | Taxe sur l'exploitation des infrastructures de transport de longue distance | TEILD | — | CGI art. 235 ter ZE bis | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur la distance parcourue sur le réseau autoroutier concédé |  | — | CIBS art. L. 421-190 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur la masse en ordre de marche | malus masse | — | CIBS art. L. 421-81 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur la valeur vénale des immeubles des entités juridiques | taxe de 3 % | — | CGI art. 990 D | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur le patrimoine financier (holdings patrimoniales) |  | — | LF 2026 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur le transport aérien de passagers — tarif de solidarité | TSBA solidarité | — | CIBS (ex-taxe de solidarité « Chirac ») | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les bureaux et locaux en Île-de-France |  | — | CGI | readme_seed (README §4-§5) |
 
-### Organismes divers d'administration centrale (ODAC) — 7 lignes, 12.41 Md€
+### Organismes divers d'administration centrale (ODAC) — 46 lignes, 13.76 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
 | Contribution unique à la formation professionnelle et à l'alternance | CUFPA | 9.83 | Code du travail L6131-1 | taxes_affectees; readme_seed (README §4-§5) |
 | Redevances des agences de l'eau |  | 2.20 | Code de l'environnement L213-10 | readme_seed (README §4-§5) |
+| Cotisation versée par les organismes HLM et les SEM |  | 0.34 | CCH art. L. 452-4 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les services de télévision - éditeurs | TST-E | 0.25 | CIBS art. L. 453-13 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur la publicité télévisuelle et autres ressources liées à la diffusion de services de télévision | TST-D | 0.24 | CIBS art. L. 454-1 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution supplémentaire à l'apprentissage | CSA | 0.23 | Code du travail art. L. 6242-1 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe de solidarité sur les billets d'avion |  | 0.21 | CGI art. 302 bis K | taxes_affectees; readme_seed (README §4-§5) |
 | Contribution de vie étudiante et de campus | CVEC | 0.17 | Code de l'éducation L841-5 | taxes_affectees; readme_seed (README §4-§5) |
+| Droits et contributions pour frais de contrôle de l'Autorité des marchés financiers |  | 0.14 | CMF art. L. 621-5-3 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les spectacles vivants - fraction variétés | TSV-SV | 0.06 | CIBS art. L. 452-14 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisation additionnelle versée par les organismes HLM et les SEM |  | 0.04 | CCH art. L. 452-4-1 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur la production et la distribution d'oeuvres cinématographiques |  | 0.01 | CIBS art. L. 455-17 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Droit sur les produits bénéficiant d'une appellation d'origine ou d'une indication géographique protégée (INAO) |  | 0.01 | LFI 2012 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les spectacles perçue au profit de l'Association pour le soutien du théâtre privé | TSV-ADLC | 0.01 | LFI 2012 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe annuelle sur la vente des produits phytopharmaceutiques |  | 0.00 | LFR-I 2014 et de la LFI 2015 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe annuelle portant sur les autorisations de médicaments vétérinaires et les autorisations d’établissements pharmaceutiques vétérinaires |  | 0.00 | LFR 2016 et LFI 2017 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe annuelle sur les engins maritimes à usage personnel (TAEMUP) | TAEMUP | 0.00 | LFR 2017 et LFI 2018 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevance pour délivrance initiale du permis de chasse |  | 0.00 | Code de l'environnement | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Droit d'examen du permis de chasse |  | 0.00 | Code de l'environnement | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution spéciale et taxe additionnelle d'accompagnement (stockage de déchets radioactifs, Cigéo) |  | — | Loi de finances 2000 art. 43 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contributions des commissaires aux comptes et des organismes tiers indépendants à la Haute autorité de l'audit | H2A | — | Code de commerce art. L. 821-6 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Indemnité de défrichement |  | — | Code forestier art. L. 341-6 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Participations au financement de la formation des professions non salariées |  | — | Code du travail art. L. 6331-48 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Prélèvement sur la participation des employeurs à l'effort de construction au profit de l'ANCOLS |  | — | CCH art. L. 313-3 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Prélèvement sur les contrats d'assurance de biens au profit du Fonds de garantie des victimes d'actes de terrorisme | FGTI | — | Code des assurances art. L. 422-1 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevance sur les produits biocides |  | — | Code de l'environnement art. L. 522-16 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevances cynégétiques et droit de validation du permis de chasse |  | — | Code de l'environnement art. L. 423-21-1 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Rémunération pour services rendus au Comité professionnel des stocks stratégiques pétroliers | CPSSP | — | Code de l'énergie art. L. 642-6 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Solde de la taxe d'apprentissage |  | — | Code du travail art. L. 6241-2 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe d'archéologie préventive | TAP | — | CU art. L. 331-1 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe fixe sur l'immatriculation des véhicules | TFIV | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe relative à la mise sur le marché des produits phytopharmaceutiques, matières fertilisantes et supports de culture |  | — | CRPM art. L. 253-8-2 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur l'autorisation d'exercice de l'activité d'exploitant d'établissement de spectacles cinématographiques |  | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur l'utilisation des bandes 700 MHz et 800 MHz du spectre radioélectrique |  | — | CGI art. 1609 undecies | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur la mise en relation par voie électronique en vue de fournir certaines prestations de transport |  | — | CIBS art. L. 453-40 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur la publicité diffusée au moyen de services d'accès à des contenus audiovisuels à la demande |  | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur le renouvellement et l'échange du permis de conduire | TREPC | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur le visa d'exploitation cinématographique |  | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les dossiers de demande concernant les médicaments vétérinaires |  | — | CSP | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les installations nucléaires de base - tarif de conception | TINB-E TC | — | CIBS art. L. 322-39 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les installations nucléaires de base - tarif de recherche | TINB-E TR | — | CIBS art. L. 322-39 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les locations de phonogrammes et vidéomusiques en ligne | taxe streaming | — | CIBS art. L. 453-60 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les services d'accès à des contenus audiovisuels à la demande | SMAD | — | CIBS art. L. 453-30 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les vidéogrammes |  | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxes affectées au CNC |  | — | Code du cinéma | readme_seed (README §4-§5) |
 | Taxes pour frais de chambres consulaires |  | — | CGI | readme_seed (README §4-§5) |
 
-### Administrations publiques locales (APUL) — 25 lignes, 90.45 Md€
+### Administrations publiques locales (APUL) — 36 lignes, 90.58 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -136,6 +205,12 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Taxe d'aménagement |  | 0.58 | CGI art. 1635 quater A | taxes_affectees; readme_seed (README §4-§5) |
 | Taxe GEMAPI |  | 0.53 | CGI art. 1530 bis | eurostat_ntl (FR:D29A/C18); readme_seed (README §4-§5) |
 | Taxe locale sur la publicité extérieure | TLPE | 0.19 | CGCT L2333-6 s. | taxes_affectees; readme_seed (README §4-§5) |
+| Taxe sur les installations nucléaires de base - tarif d'accompagnement | TINB-E TA | 0.06 | CIBS art. L. 322-39 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Droit départemental de passage sur les ouvrages d'art reliant le continent aux îles maritimes |  | 0.03 | CGCT art. L. 3333-1 s. | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe additionnelle départementale à la taxe de séjour |  | 0.02 | CGCT art. L. 3333-1 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les déchets réceptionnés dans une installation de stockage ou un incinérateur de déchets ménagers |  | 0.02 | CGCT art. L. 2333-92 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les passagers maritimes embarqués à destination d'espaces naturels protégés |  | 0.00 | CIBS art. L. 423-45 s. | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxes dans le domaine funéraire |  | 0.00 | CGCT art. L. 2223-22 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Imposition forfaitaire sur le matériel ferroviaire roulant | IFER ferroviaire | — | CGI art. 1599 quater A | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Imposition forfaitaire sur les centrales photovoltaïques et hydrauliques | IFER photovoltaïque | — | CGI art. 1519 F | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Imposition forfaitaire sur les installations de production d'électricité nucléaire ou thermique à flamme | IFER nucléaire | — | CGI art. 1519 E | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -144,9 +219,14 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Imposition forfaitaire sur les stations radioélectriques | IFER antennes | — | CGI art. 1519 H | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Imposition forfaitaire sur les transformateurs électriques | IFER transformateurs | — | CGI art. 1519 G | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Imposition forfaitaire sur les éoliennes terrestres et hydroliennes | IFER éolien | — | CGI art. 1519 D | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevance pour création de bureaux, locaux commerciaux et de stockage en Île-de-France | RCBCE | — | CU art. L. 520-1 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevance pour obstacle sur les cours d'eau |  | — | Code de l'environnement art. L. 213-10-11 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevance pour protection du milieu aquatique |  | — | Code de l'environnement art. L. 213-10-12 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevance pour stockage d'eau en période d'étiage |  | — | Code de l'environnement art. L. 213-10-10 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe additionnelle régionale à la taxe de séjour en Île-de-France |  | — | CGCT | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe d'habitation sur les logements vacants | THLV | — | CGI art. 1407 bis | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe de séjour |  | — | CGCT L2333-26 s. | readme_seed (README §4-§5) |
-| Taxe pour la gestion des eaux pluviales urbaines |  | — | CGCT art. L2333-97 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les activités commerciales saisonnières non salariées |  | — | CGCT art. L. 2333-88 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les logements vacants | TLV | — | CGI art. 232 | readme_seed (README §4-§5) |
 
 ### Union européenne — 3 lignes, 6.20 Md€
@@ -157,7 +237,7 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Droits de douane |  | 2.00 | Code des douanes de l'Union | readme_seed (README §4-§5) |
 | Contribution sur les emballages plastiques non recyclés |  | 1.20 | Décision ressources propres UE | readme_seed (README §4-§5) |
 
-### Secteur à préciser — 247 lignes, 245.85 Md€
+### Secteur à préciser — 226 lignes, 242.38 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -194,7 +274,6 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Taxes sur les paris hippiques |  | 1.80 |  | eurostat_ntl (FR:D214F/C03) |
 | Taxes sur les services professionnels hors droits de mutations |  | 1.76 |  | eurostat_ntl (FR:D214H/C09) |
 | Cotisations sur primes d'assurance |  | 1.73 |  | eurostat_ntl (FR:D214G/C02) |
-| Contribution tarifaire d'acheminement (CTA) |  | 1.70 |  | taxes_affectees |
 | Participation des employeurs à l'effort de construction |  | 1.50 |  | eurostat_ntl (FR:D29C/C13) |
 | Taxes au profit de l'Association sur la garantie des salaires |  | 1.47 |  | eurostat_ntl (FR:D29C/C04) |
 | Taxes sur les jeux des casinos |  | 1.44 |  | eurostat_ntl (FR:D214F/C02) |
@@ -220,7 +299,6 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Taxe sur les véhicules de société (TVS) |  | 0.76 |  | taxes_affectees |
 | Taxe départementale sur la consommation finale d'électricité (TCFE) |  | 0.72 |  | taxes_affectees |
 | Cotisation des entreprises cinématographiques au profit du CNC (Centre national du cinéma) |  | 0.71 |  | eurostat_ntl (FR:D214E/C03) |
-| Contribution de sécurité immobilière |  | 0.69 |  | eurostat_ntl (FR:D214B/C01) |
 | Taxe due par les concessionnaires d'autoroutes |  | 0.68 | LFI 2012 | taxes_affectees |
 | Retenue sur les bénéfices non commerciaux |  | 0.66 |  | eurostat_ntl (FR:D51O/C07) |
 | Taxe annuelle sur les locaux à usage de bureaux, les locaux commerciaux, les locaux de stockage et les surfaces de stationnement annexées à ces catégories de locaux perçue dans la région Ile-de-France |  | 0.66 | LFI 2012 | taxes_affectees |
@@ -239,10 +317,8 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Droits départementaux d'enregistrement sur les mutations à titre onéreux d'immeubles |  | 0.50 |  | taxes_affectees |
 | Cotisation obligatoire |  | 0.49 |  | taxes_affectees |
 | Taxe sur les boissons sucrées |  | 0.44 |  | taxes_affectees |
-| Contribution des distributeurs d'énergie électrique basse tension |  | 0.38 |  | eurostat_ntl (FR:D214L/C02) |
 | Droit de licence sur la rémunération des débitants de tabacs |  | 0.37 |  | taxes_affectees |
 | Imposition sur les pylônes |  | 0.35 |  | eurostat_ntl (FR:D29A/C15) |
-| Cotisation versée par les organismes HLM et les SEM |  | 0.34 |  | taxes_affectees |
 | Fraction des droits de timbre sur les passeports sécurisés |  | 0.30 | LFI 2012 | taxes_affectees |
 | Taxe additionnelle à la taxe foncière sur les propriétés non baties, pour frais de chambres d'agriculture (TCA-TFPNB) |  | 0.29 | LFI 2013 et de la LFR-III 2012 | taxes_affectees |
 | TA-CFE - fraction CCI-R de la Taxe additionnelle à la cotisation foncière des entreprises pour frais de chambres de commerce et d’industrie de région |  | 0.28 | LFI 2013 et de la LFR-III 2012 | taxes_affectees |
@@ -254,7 +330,6 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | TST - Taxe sur les éditeurs et distributeurs de services de télévision - Fraction Editeurs |  | 0.25 |  | taxes_affectees |
 | TA-CFE - fraction CRMA de la Taxe additionnelle à la cotisation foncière des entreprises pour frais de chambre régionale de métiers et d'artisanat |  | 0.24 | LFR 2017 et LFI 2018 | taxes_affectees |
 | Taxe due par les opérateurs de communications électroniques |  | 0.24 |  | eurostat_ntl (FR:D214H/C11) |
-| Contribution supplémentaire à l'apprentissage |  | 0.23 |  | taxes_affectees |
 | Chambre d'agriculture |  | 0.23 |  | eurostat_ntl (FR:D29A/C17) |
 | Contributions pour frais de contrôle |  | 0.22 | LFI 2014 | taxes_affectees |
 | Contribution sur les régimes de retraite conditionnant la constitution de droits à prestations à l’achèvement de la carrière du bénéficiaire dans l’entreprise |  | 0.22 |  | taxes_affectees |
@@ -272,7 +347,7 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | TSA - Taxe sur le prix des entrées aux séances organisées par les exploitants d’établissements de spectacles cinématographiques |  | 0.14 |  | taxes_affectees |
 | Contribution due par les laboratoires sur leurs dépenses de publicité |  | 0.13 |  | taxes_affectees |
 | Taxe sur les ventes et les locations de vidéogrammes destinés à l'usage privé du public (taxe vidéo et VOD ) |  | 0.13 |  | taxes_affectees |
-| Cotisation BTP intempéries |  | 0.13 |  | taxes_affectees |
+| Cotisation BTP intempéries |  | 0.13 | Code du travail art. L. 5424-6 s. | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Redevance hydraulique |  | 0.13 | LFI 2020 | taxes_affectees |
 | Contribution sur les rentes infra marginales (électricité) |  | 0.13 |  | eurostat_ntl (FR:D29H/C05) |
 | Contributions additionnelles aux primes ou cotisations afférentes à certaines conventions d'assurance |  | 0.12 | LFR 2015 et de la LFI 2016 | taxes_affectees |
@@ -299,11 +374,9 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Droit annuel de francisation et de navigation |  | 0.04 |  | eurostat_ntl (FR:D59D/C02) |
 | Taxe sur les nuisances sonores aériennes |  | 0.04 | LFI 2014 | taxes_affectees |
 | Taxe sur les boissons édulcorées |  | 0.04 |  | taxes_affectees |
-| Droit départemental de passage sur les ouvrages d'art reliant le continent aux îles maritimes |  | 0.03 |  | taxes_affectees |
 | Taxe due par les entreprises de transport public aérien et maritime sur les passagers embarqués |  | 0.03 |  | taxes_affectees |
 | Participation au financement de la formation- Fraction affectée aux CMA pour leurs actions de formation |  | 0.03 |  | taxes_affectees |
 | Taxe sur les spectacles de variétés |  | 0.03 | LFI 2012 | taxes_affectees |
-| Contribution sur les indemnités de mise à la retraite |  | 0.03 |  | taxes_affectees |
 | Redevances pour prélèvement sur la ressource en eau, pour pollution de l'eau, pour modernisation des réseaux de collecte, pour pollutions diffuses, pour stockage d'eau en période d'étiage, pour obstacle sur les cours d'eau et pour protection du milieu aquatique dans les DOM |  | 0.03 |  | taxes_affectees |
 | Taxe de risque systémique |  | 0.03 |  | eurostat_ntl (FR:D59F/C02) |
 | Droit affecté au fonds d’indemnisation de la profession d’avoués près les cours d’appel |  | 0.03 |  | taxes_affectees |
@@ -313,8 +386,6 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Surtaxe sur les eaux minérales |  | 0.02 |  | taxes_affectees |
 | Taxe additionnelle régionale de 15% à la taxe de séjour IDF |  | 0.02 | LFI 2019 | taxes_affectees |
 | Taxe communale sur la consommation finale d'électricité (TCFE) |  | 0.02 |  | taxes_affectees |
-| Taxe additionnelle départementale à la taxe de séjour |  | 0.02 |  | taxes_affectees |
-| Taxe sur les déchets réceptionnés dans une installation de stockage ou un incinérateur de déchets ménagers |  | 0.02 |  | taxes_affectees |
 | Contribution annuelle acquittée par les personnes inscrites comme commissaires aux comptes, et droit fixe sur chaque rapport de certification des comptes, et contribution de la compagnie nationale des commissaires aux comptes |  | 0.02 | LFR 2017 et LFI 2018 | taxes_affectees |
 | Taxe sur les Titres de séjour et de voyage electroniques |  | 0.02 | LFI 2012 | taxes_affectees |
 | Redevances UMTS 2G et 3G |  | 0.01 |  | taxes_affectees |
@@ -327,30 +398,21 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Autres taxes |  | 0.01 |  | eurostat_ntl (FR:D2122C/C01); vm_tome1 (ligne 1799) |
 | Taxe relative à la mise sur le marché des produits phytopharmaceutiques et de leurs adjuvants, des matières fertilisantes et de leurs adjuvants et des supports de culture |  | 0.01 | LFR 2016 et LFI 2017 | taxes_affectees |
 | Prélèvement sur la participation des employeurs à l'effort de construction (PEEC) |  | 0.01 | LFR-I 2014 et de la LFI 2015 | taxes_affectees |
-| Droit sur les produits bénéficiant d'une appellation d'origine ou d'une indication géographique protégée (INAO) |  | 0.01 | LFI 2012 | taxes_affectees |
 | Taxe sur les remontées mécaniques |  | 0.01 |  | taxes_affectees |
 | Fraction des Prélèvements sociaux sur les jeux prévus aux art. L137-20 à L137-22 du Code de la sécurité sociale |  | 0.01 | LFI 2012 | taxes_affectees |
-| Droits de plaidoirie |  | 0.00 |  | taxes_affectees |
 | Droit annuel de francisation et de navigation en Corse; droit de passeport en Corse |  | 0.00 |  | taxes_affectees |
 | Taxe liée aux dossiers de demande concernant les médicaments vétérinaires ou leur publicité |  | 0.00 | LFR 2016 et LFI 2017 | taxes_affectees |
-| Taxe annuelle sur la vente des produits phytopharmaceutiques |  | 0.00 | LFR-I 2014 et de la LFI 2015 | taxes_affectees |
-| Taxe annuelle portant sur les autorisations de médicaments vétérinaires et les autorisations d’établissements pharmaceutiques vétérinaires |  | 0.00 | LFR 2016 et LFI 2017 | taxes_affectees |
-| Taxe annuelle sur les engins maritimes à usage personnel (TAEMUP) |  | 0.00 | LFR 2017 et LFI 2018 | taxes_affectees |
 | Droits assimilés au droit d'octroi de mer sur les rhums et spiritueux à base d'alcool de cru |  | 0.00 |  | taxes_affectees |
 | Contribution forfaitaire des organismes assureurs et contribution forfaitaire des organismes participant à la gestion du régime prévu par la loi n° 2001-1128 du 30 novembre 2001 |  | 0.00 |  | taxes_affectees |
 | Redevance due par les titulaires de titres d'exploitation de mines d'hydrocarbures liquides ou gazeux |  | 0.00 |  | taxes_affectees |
-| Taxe sur les passagers maritimes embarqués à destination d'espaces naturels protégés |  | 0.00 |  | taxes_affectees |
 | TA-TINB - Taxe additionnelle à la taxe sur les installations nucléaires de base dite "de stockage" |  | 0.00 |  | taxes_affectees |
 | Taxe de ski de fond |  | 0.00 |  | taxes_affectees |
 | Taxe exceptionnelle de solidarité sur les hautes rémunérations |  | 0.00 |  | eurostat_ntl (FR:D29C/C11) |
 | Taxe sur les exploitants de plateformes de mises en relation par voie électronique en vue de fournir certaines prestations de transport |  | 0.00 | LFI 2022 | taxes_affectees |
 | Taxes spéciales d'équipement |  | 0.00 | LFR 2016 et LFI 2017 | taxes_affectees |
-| Taxes dans le domaine funéraire |  | 0.00 |  | taxes_affectees |
-| Redevance pour délivrance initiale du permis de chasse |  | 0.00 |  | taxes_affectees |
 | Redevance perçue à l’occasion de l’introduction des familles étrangères en France |  | 0.00 |  | taxes_affectees |
 | Redevance proportionnelle sur l'énergie hydraulique |  | 0.00 |  | taxes_affectees |
 | Taxe due par les concessionnaires de mines d'or, les amodiataires des concessions de mines d'or et les titulaires de permis et d'autorisations d'exploitation de mines d'or exploitées en Guyane (taxe additionnelle aurifère) |  | 0.00 |  | taxes_affectees |
-| Droit d'examen du permis de chasse |  | 0.00 |  | taxes_affectees |
 | Taxe pour non-raccordement à l'égout - Participation pour le financement de l'assainissement collectif (PAC) |  | 0.00 |  | taxes_affectees |
 | Contribution spécifique à la formation professionnelle pour Saint Pierre et Miquelon |  | 0.00 |  | taxes_affectees |
 | Versement pour sous-densité |  | 0.00 |  | taxes_affectees |
@@ -367,9 +429,7 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Contribution exceptionnelle des organismes complémentaires en santé aux dépenses liées à la gestion de l'épidémie de Covid-19 |  | — |  | taxes_affectees |
 | Contribution exceptionnelle sur les bénéfices des grandes entreprises |  | — |  | vm_tome1 (ligne 1441) |
 | Contribution sociale à la charge des fournisseurs agréés de produits de tabac |  | — |  | taxes_affectees |
-| Contribution sur la rente infra-marginale de la production d'électricité |  | — |  | vm_tome1 (ligne 1752) |
 | Contribution temporaire de solidarité |  | — |  | eurostat_ntl (FR:D51O/C09) |
-| Cotisation additionnelle versée par les organismes HLM et les SEM |  | — |  | taxes_affectees |
 | Cotisation au profit des caisses d’assurances d’accidents agricoles d’Alsace-Moselle |  | — |  | taxes_affectees |
 | Cotisation minimale de taxe professionnelle |  | — |  | eurostat_ntl (FR:D29A/C02) |
 | Fonds de solidarité contribution des fonctionnaires |  | — |  | eurostat_ntl (FR:D51M/C05) |
@@ -398,7 +458,6 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 | Taxe sur le patrimoine financier |  | — |  | vm_tome1 (ligne 1439) |
 | Taxe sur les déclarations et notifications de produit du tabac |  | — |  | taxes_affectees |
 | Taxe sur les installations de production d'électricité utilisant l'énergie mécanique du vent situées dans les eaux intérieures ou la mer territoriale |  | — |  | taxes_affectees |
-| Taxe sur les petits colis |  | — |  | vm_tome1 (ligne 1442) |
 | Taxe sur les plus-values immobilières (PVI) autres que terrains à bâtir |  | — |  | taxes_affectees |
 | Taxe sur les produits de tabac |  | — |  | taxes_affectees |
 | Taxe sur les rachats d'actions |  | — |  | vm_tome1 (ligne 1796) |
@@ -411,53 +470,70 @@ Ce document regroupe les **359 prélèvements** de l'inventaire réconcilié (an
 
 ## 3. Candidats rejetés (REJET)
 
-39 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
+56 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
 
 | Candidat | Critère | Note | Sources |
 |---|---|---|---|
+| Cotisation obligatoire au Centre national de la fonction publique territoriale |  | Transfert entre administrations publiques : payé par des APUL à une APUL, consolidé en comptabilité nationale. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations sociales imputées (fonctionnaires d'État) | C1 | Pas de versement effectif (employeur fictif). | readme_seed (README §4-§5) |
 | Contribution des employeurs à l'association pour la gestion du régime d'assurance des créances des salariés (AGS) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
 | Contribution annuelle au fonds de développement pour l'insertion professionnelle des handicapés (FIPH) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Contribution patronale au dialogue social (0,016%) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe pour le développement des industries de la mécanique et de la construction métallique, des matériels et consommables de soudage et produits du décolletage, de construction métallique et des matériels aérauliques et thermiques | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Redevances sur les paris hippiques | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe destinée à financer le développement des actions de formation professionnelle dans les transports routiers | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe pour le développement de la formation professionnelle dans les métiers de la réparation de l'automobile, du cycle et du motocycle | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Fraction du prélèvement sur les jeux de loterie correspondant aux jeux dédiés au patrimoine | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe pour le développement des industries du cuir, de la maroquinerie, de la ganterie et de la chaussure | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe pour le développement des industries de l'ameublement ainsi que des industries du bois | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe pour le développement des industries des matériaux de construction regroupant les industries du béton, de la terre cuite et des roches ornementales et de construction | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe pour le développement des industries de l'horlogerie, bijouterie, joaillerie, orfèvrerie et arts de la table | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe pour le développement des industries de l'habillement | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe affectée au financement d’un nouveau Centre Technique Industriel de la plasturgie et des composites | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe sur les spectacles perçue au profit de l'Association pour le soutien du théâtre privé | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
+| Contributions additionnelles aux primes d'assurance au profit de la Caisse centrale de réassurance | C2 | La CCR est une société anonyme d'assurance classée parmi les sociétés financières. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution patronale au dialogue social (0,016%) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe pour le développement des industries de la mécanique et de la construction métallique, des matériels et consommables de soudage et produits du décolletage, de construction métallique et des matériels aérauliques et thermiques | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevances sur les paris hippiques | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe destinée à financer le développement des actions de formation professionnelle dans les transports routiers | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe pour le développement de la formation professionnelle dans les métiers de la réparation de l'automobile, du cycle et du motocycle | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Fraction du prélèvement sur les jeux de loterie correspondant aux jeux dédiés au patrimoine | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe pour le développement des industries du cuir, de la maroquinerie, de la ganterie et de la chaussure | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe pour le développement des industries de l'ameublement ainsi que des industries du bois | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe pour le développement des industries des matériaux de construction regroupant les industries du béton, de la terre cuite et des roches ornementales et de construction | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe pour le développement des industries de l'horlogerie, bijouterie, joaillerie, orfèvrerie et arts de la table | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe pour le développement des industries de l'habillement | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution forfaitaire annuelle à la charge des professionnels de santé | C2 | Fonds de garantie des dommages liés aux actes de soins, géré par la CCR. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe affectée au financement d’un nouveau Centre Technique Industriel de la plasturgie et des composites | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les produits de la fonderie | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe pour le développement de l'industrie de la conservation des produits agricoles (CTCPA) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe pour le développement des industries de fabrication du papier, du carton et de la pâte de cellulose. | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Taxe affectée au financement de l'institut des corps gras | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
+| Taxe pour le développement de l'industrie de la conservation des produits agricoles (CTCPA) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe pour le développement des industries de fabrication du papier, du carton et de la pâte de cellulose. | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe affectée au financement de l'institut des corps gras | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution des assurés au Fonds de garantie des assurances obligatoires de dommages | C2 | Personne morale de droit privé absente de la liste ODAC, à la différence du FGTI. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution spécifique à la formation professionnelle du bâtiment et des travaux publics | C2 | Affectée au 3CABTP. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contributions pour frais de contrôle de l'Autorité de contrôle prudentiel et de résolution | C2 | L'ACPR est adossée à la Banque de France, classée en sociétés financières et non en APU. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisation obligatoire au Comité de gestion des oeuvres sociales des personnels hospitaliers | C2 | Payée par des hôpitaux publics à une association de droit privé. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations aux ordres professionnels et syndicats | C2 | Bénéficiaire hors périmètre APU (organisme privé). | readme_seed (README §4-§5) |
 | Fraction du produit des successions en déshérence | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
+| Taxe pour la protection des obtentions végétales | C2 | Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Prélèvement sur les contrats d'assurance-vie en deshérence; 'Prélèvement sur les contrats participation et intéressement en déshérence | C3 | Versement non obligatoire (libre choix). | taxes_affectees |
+| Contribution sur les abondements des employeurs aux plans d'épargne retraite collectifs | C3 | Versement non obligatoire (libre choix). | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations facultatives (PER, assurance-vie, prévoyance facultative) | C3 | Versement non obligatoire (libre choix). | readme_seed (README §4-§5) |
 | Dons et legs aux administrations | C3 | Volontaires. | readme_seed (README §4-§5) |
 | Emprunts et produits de la dette | C3 | Ressource remboursable, librement souscrite. | readme_seed (README §4-§5) |
 | Factures d'eau et d'assainissement (part exploitant) | C3 | Contrepartie directe. | readme_seed (README §4-§5) |
 | Forfait de post-stationnement | C3 | Contrepartie directe (occupation du domaine public) depuis 2018. | readme_seed (README §4-§5) |
+| Participation pour le financement de l'assainissement collectif | C3 | Contrepartie directe : raccordement au réseau. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Péages autoroutiers et d'ouvrages d'art | C3 | Paiement d'un service rendu (usage de l'infrastructure). | readme_seed (README §4-§5) |
 | Redevance d'enlèvement des ordures ménagères | C3 | Tarifée selon le service rendu => contrepartie directe (README §5). | readme_seed (README §4-§5) |
 | Redevances domaniales | C3 | Contrepartie : droit d'occupation du domaine public. | readme_seed (README §4-§5) |
+| Redevances perçues lors du lancement de certains matériels aéronautiques | C3 | Contrepartie d'une prestation de contrôle et d'homologation. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevances perçues par l'Institut national de la propriété industrielle | C3 | Service rendu individualisé, malgré leur inscription parmi les taxes affectées plafonnées. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Revenus du domaine, dividendes, loyers | C3 | Recettes patrimoniales avec contrepartie. | readme_seed (README §4-§5) |
 | Impôts sur les sociétés y compris majoration et frais de poursuite | sanction | Sanction, hors champ des prélèvements (README §5). | eurostat_ntl (FR:D51O/C04) |
 | Recettes diverses et pénalités | sanction | Sanction, hors champ des prélèvements (README §5). | eurostat_ntl (FR:D91C/C01) |
 | Amendes et confiscations | sanction | Sanction, hors champ des prélèvements (README §5). | eurostat_ntl (FR:D2121/C01) |
 | Amendes, pénalités et majorations | sanction | Sanction, hors champ des prélèvements (README §5). | readme_seed (README §4-§5) |
+| Contribution spéciale due par les employeurs d'étrangers sans autorisation de travail | sanction | Sanction administrative proportionnée au manquement, malgré son nom. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Majoration de la taxe sur les assurances de protection juridique au profit du Conseil national des barreaux | sanction | Sanction, hors champ des prélèvements (README §5). | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution sur les activités privées de sécurité | supprime | Supprimée au 1er janvier 2020. Le CNAPS est désormais financé sur le budget de l'État. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution à l'audiovisuel public | supprime | Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5). | eurostat_ntl (FR:D59D/C03) |
 | Contribution à l'audiovisuel public (ex-redevance TV) | supprime | Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5). | readme_seed (README §4-§5) |
 | Part salariale de l'assurance chômage | supprime | Supprimée en 2018, remplacée par de la CSG. | readme_seed (README §4-§5) |
+| Taxe annuelle sur les résidences mobiles terrestres | supprime | Abrogée au 1er octobre 2019 par la LF 2019. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe pour la gestion des eaux pluviales urbaines | supprime | Instituée en 2011 et abrogée en 2015, son coût de recouvrement excédant son rendement. Aucun financement de substitution n'a été institué. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les hydrofluorocarbures | supprime | Entrée en vigueur reportée trois fois puis abrogation par la loi 2025-127 du 14 février 2025. Jamais perçue. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
 ## 4. À arbitrer — front de recherche
 
-0 lignes restent à classer. Elles sont pré-triées ci-dessous pour faciliter l'instruction.
+1 lignes restent à classer. Elles sont pré-triées ci-dessous pour faciliter l'instruction.
 
 ### 4.1 Doublons probables d'un prélèvement déjà retenu
 
@@ -493,7 +569,7 @@ Chantiers identifiés pour la suite des recherches :
 
 1. **Doublons** : les correspondances de même périmètre (« Foncier bâti » ↔ taxe foncière, « Mutations à titre gratuit » ↔ DMTG) sont désormais fusionnées via la colonne `alias` du socle. Les candidats résiduels du §4.1 sont des **composantes plus fines** (ex. accises ex-TICGN/TICFE) : à fusionner au cas par cas ou à conserver comme détail.
 2. **Classification ESA** : la correspondance par préfixe (D29→D2, D51→D5…) reclasse désormais automatiquement les lignes NTL ; les codes encore non couverts (cf. catégorie « indéterminée » au §1) restent à compléter dans `esa_defaults`.
-3. **Montants manquants** : 82 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
+3. **Montants manquants** : 131 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
 4. **Base de mesure** : la couverture (105.8 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
 5. **Exhaustivité de l'État A** : le volume narratif du V&M ne détaille que les ~24 principaux impôts d'État ; les lignes mineures (1101→1799) sont agrégées (« Autres taxes », « Recettes diverses »). Si besoin, parser la table récapitulative formelle (État A) pour les ~300 lignes complètes.
 6. **Taxes affectées** (§4.3) : confirmer le périmètre PO de chacune (certaines redevances pour service rendu sont à exclure au titre de C3).

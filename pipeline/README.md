@@ -49,11 +49,29 @@ make test              # 17 tests unitaires
 
 ## Le « socle curé » (toujours présent)
 
-`seed/readme_inventory.csv` encode la liste déjà vérifiée du README (§4 PRIS,
-§5 REJET) comme source à part entière (`readme_seed`). Il garantit un jeu de
-données significatif **même sans réseau** ; les sources officielles l'étendent
-ensuite à l'exhaustivité ligne à ligne et remplacent les montants approximatifs
-(« ordre de grandeur ») par les montants officiels.
+Deux fichiers, tous deux lus par `parse_seed.py` :
+
+| Fichier | Rôle |
+|---|---|
+| `seed/readme_inventory.csv` | La liste déjà vérifiée du README (§4 PRIS, §5 REJET), source `readme_seed`. |
+| `seed/supplement.csv` | **Le fichier à éditer** pour ajouter un prélèvement à la main : entrées issues du dépouillement documentaire (V&M Tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, NTL Eurostat), source `supplement_cure`. |
+
+Ils garantissent un jeu de données significatif **même sans réseau** ; les
+sources officielles l'étendent ensuite à l'exhaustivité ligne à ligne et
+remplacent les montants approximatifs par les montants officiels.
+
+Colonnes de `supplement.csv` :
+`nom;sigle;categorie;secteur;base_legale;montant_mdeur;statut;critere_echec;notes;alias`
+
+Deux pièges à connaître :
+
+- **Pas de point-virgule dans les champs** : le fichier est en `;` sans
+  échappement systématique ; un `;` dans les notes décale toutes les colonnes.
+- **Renseigner `alias`** (séparateur `|`) quand le prélèvement existe déjà sous
+  un autre libellé dans une source officielle — typiquement l'appellation CIBS
+  moderne face à l'appellation historique du tableau des taxes affectées. Sans
+  alias, la déduplication échoue et la même taxe apparaît deux fois, parfois
+  avec deux statuts contradictoires.
 
 ## Atteindre l'exhaustivité ligne à ligne
 
@@ -64,10 +82,13 @@ ensuite à l'exhaustivité ligne à ligne et remplacent les montants approximati
 3. Inspecter la section « Lignes à arbitrer » de `docs/RAPPORT.md` et compléter
    `config/decision_rules.yaml` pour les cas nouveaux.
 
-> ⚠️ Dans l'environnement Claude Code on the web utilisé pour construire ce
-> pipeline, l'egress vers `ec.europa.eu` et `data.economie.gouv.fr` est **bloqué
-> par la politique réseau** (403). La génération live nécessite d'élargir cette
-> politique ou d'exécuter le pipeline en local.
+> ℹ️ L'egress vers `ec.europa.eu` et `data.economie.gouv.fr` était bloqué (403)
+> dans l'environnement où ce pipeline a été construit. **Ce n'est plus le cas** :
+> les quatre sources ont été récupérées en direct et le jeu de données versionné
+> est désormais produit par un `make all` complet (Eurostat NTL, V&M Tome I,
+> taxes affectées, agrégats de contrôle). Si `make all` échoue sur un 403,
+> l'environnement d'exécution est en cause, pas la configuration : `make offline`
+> reste disponible et retombe sur le socle curé.
 
 ## Ajouter une source
 

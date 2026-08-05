@@ -14,7 +14,28 @@ les regénérer via `cd pipeline && make all` (ou `make offline`).
 `base_legale`, `montant_eur`, `annee`, `statut` (PRIS/REJET/A_ARBITRER),
 `critere_echec` (∅/C1/C2/C3/sanction/supprime), `sources`, `notes`.
 
-> État actuel : produit à partir du **socle curé du README** (source
-> `readme_seed`). Les montants sont des ordres de grandeur tant que les sources
-> officielles (Eurostat NTL, Voies & Moyens Tome I…) n'ont pas été récupérées
-> en exécution réseau. Voir `pipeline/README.md`.
+## Provenance
+
+État actuel : produit par un **`make all` complet**, les quatre sources ayant été
+récupérées en direct. Quatre contributeurs :
+
+| Source | Rôle | Enregistrements |
+|---|---|---:|
+| `eurostat_ntl` | National Tax List, onglet France — épine dorsale, codes SEC et montants | 103 |
+| `taxes_affectees` | Liste des taxes affectées (data.economie.gouv.fr) | 184 |
+| `readme_seed` | Socle curé du README (§4 PRIS, §5 REJET) | 69 |
+| `supplement_cure` | Ajouts curés à la main (`pipeline/seed/supplement.csv`) | 133 |
+| `vm_tome1` | Voies & Moyens Tome I — énumération des lignes budgétaires | 24 |
+
+Après déduplication : **436 prélèvements uniques**.
+
+## Ce que ce jeu de données ne contient pas
+
+- Les prélèvements des **collectivités à autonomie fiscale** (Nouvelle-Calédonie,
+  Polynésie française, Wallis-et-Futuna, Saint-Pierre-et-Miquelon,
+  Saint-Barthélemy). Ils sont réels et documentés au **README §4.7**, mais ils
+  sont hors du **territoire économique des comptes nationaux** : les inclure
+  fausserait la mesure de couverture. Saint-Martin, rattaché statistiquement à la
+  Guadeloupe, est en revanche dans le champ.
+- Les **prélèvements supprimés** y figurent en `REJET` / `critere_echec=supprime`,
+  volontairement : c'est ce qui évite de les réintroduire par erreur.

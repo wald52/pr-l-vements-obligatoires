@@ -80,7 +80,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -233,7 +233,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -585,7 +585,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -776,7 +776,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -1044,7 +1044,7 @@
         "ref": ""
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -1440,7 +1440,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -1547,7 +1547,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -1622,12 +1622,12 @@
   {
     "id": "ta-contribution-tarifaire-d-acheminement-cta",
     "nom": "Contribution tarifaire d'acheminement (CTA)",
-    "sigle": null,
+    "sigle": "CTA",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Caisse nationale de retraite des industries électriques et gazières",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "ASSO",
+    "base_legale": "Loi 2004-803 art. 18",
     "montant_eur": 1702180000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1637,6 +1637,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -2332,12 +2337,12 @@
   {
     "id": "eurostat-contribution-de-securite-immobiliere",
     "nom": "Contribution de sécurité immobilière",
-    "sigle": null,
+    "sigle": "CSI",
     "categorie": "impôt sur la production/importation",
     "esa_code": "D214",
     "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 879",
     "montant_eur": 692000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -2347,9 +2352,14 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D214B/C01"
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
-    "notes": null,
+    "notes": "Ligne 1707. A succédé en 2013 au salaire du conservateur des hypothèques. Confirmée par la NTL (D214B).",
     "aliases": []
   },
   {
@@ -2566,7 +2576,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -2782,6 +2792,34 @@
     "aliases": []
   },
   {
+    "id": "vm-1442-taxe-sur-les-petits-colis",
+    "nom": "Taxe sur les petits colis",
+    "sigle": null,
+    "categorie": "recette fiscale (État)",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "LF 2026",
+    "montant_eur": 500000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1442"
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
     "id": "ta-droits-departementaux-d-enregistrement-sur-les-mutations-a-titre-onereux-d-im",
     "nom": "Droits départementaux d'enregistrement sur les mutations à titre onéreux d'immeubles",
     "sigle": null,
@@ -2828,6 +2866,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-prelevement-sur-les-sommes-versees-par-les-assureurs-au-titre-de",
+    "nom": "Prélèvement sur les sommes versées par les assureurs au titre des contrats d'assurance en cas de décès",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 990 I et 990 I bis",
+    "montant_eur": 478000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Régime successoral propre à l'assurance-vie. Ligne 1714.",
+    "aliases": []
+  },
+  {
     "id": "ta-taxe-sur-les-boissons-sucrees",
     "nom": "Taxe sur les boissons sucrées",
     "sigle": null,
@@ -2853,12 +2914,12 @@
   {
     "id": "eurostat-contribution-des-distributeurs-d-energie-electrique-basse-tension",
     "nom": "Contribution des distributeurs d'énergie électrique basse tension",
-    "sigle": null,
+    "sigle": "FACÉ",
     "categorie": "impôt sur la production/importation",
     "esa_code": "D214",
     "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 1519 quinquies",
     "montant_eur": 378000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -2868,9 +2929,14 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D214L/C02"
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
-    "notes": null,
+    "notes": "Supprimée au 1er août 2025 par la LF 2025 et remplacée par une fraction de l'accise sur l'électricité.",
     "aliases": []
   },
   {
@@ -2926,8 +2992,8 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "CGLLS - Caisse de garantie du logement locatif social",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "ODAC",
+    "base_legale": "CCH art. L. 452-4",
     "montant_eur": 342622000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -2937,6 +3003,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -3058,6 +3129,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-sur-les-services-de-television-editeurs",
+    "nom": "Taxe sur les services de télévision - éditeurs",
+    "sigle": "TST-E",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS art. L. 453-13 s.",
+    "montant_eur": 252000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNC.",
+    "aliases": []
+  },
+  {
     "id": "ta-taxe-sur-les-transactions-financieres-fraction-affectee-de-la-ressource-etat",
     "nom": "Taxe sur les transactions financières - fraction affectée de la ressource État",
     "sigle": null,
@@ -3150,6 +3244,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-sur-la-publicite-televisuelle-et-autres-ressources-liees-a-",
+    "nom": "Taxe sur la publicité télévisuelle et autres ressources liées à la diffusion de services de télévision",
+    "sigle": "TST-D",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS art. L. 454-1 s.",
+    "montant_eur": 242000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNC.",
+    "aliases": []
+  },
+  {
     "id": "ta-ta-cfe-fraction-crma-de-la-taxe-additionnelle-a-la-cotisation-fonciere-des-en",
     "nom": "TA-CFE - fraction CRMA de la Taxe additionnelle à la cotisation foncière des entreprises pour frais de chambre régionale de métiers et d'artisanat",
     "sigle": null,
@@ -3198,12 +3315,12 @@
   {
     "id": "ta-contribution-supplementaire-a-l-apprentissage",
     "nom": "Contribution supplémentaire à l'apprentissage",
-    "sigle": null,
+    "sigle": "CSA",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "France Compétences",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "ODAC",
+    "base_legale": "Code du travail art. L. 6242-1",
     "montant_eur": 235000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -3213,6 +3330,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -3386,7 +3508,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -3460,7 +3582,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -3625,6 +3747,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-droits-et-contributions-pour-frais-de-controle-de-l-autorite-des",
+    "nom": "Droits et contributions pour frais de contrôle de l'Autorité des marchés financiers",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CMF art. L. 621-5-3",
+    "montant_eur": 140000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "L'AMF figure dans la liste INSEE des ODAC.",
+    "aliases": []
+  },
+  {
     "id": "ta-tsa-taxe-sur-le-prix-des-entrees-aux-seances-organisees-par-les-exploitants-d",
     "nom": "TSA - Taxe sur le prix des entrées aux séances organisées par les exploitants d’établissements de spectacles cinématographiques",
     "sigle": null,
@@ -3701,7 +3846,7 @@
     "esa_code": null,
     "beneficiaire": "UCF CIBTP - Union des caisses de France",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "Code du travail art. L. 5424-6 s.",
     "montant_eur": 128325577.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -3711,6 +3856,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -4108,6 +4258,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-sur-les-spectacles-vivants-fraction-varietes",
+    "nom": "Taxe sur les spectacles vivants - fraction variétés",
+    "sigle": "TSV-SV",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS art. L. 452-14 s.",
+    "montant_eur": 60000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNM.",
+    "aliases": []
+  },
+  {
     "id": "ta-contribution-sur-la-cession-a-un-service-de-television-des-droits-de-diffusio",
     "nom": "Contribution sur la cession à un service de télévision des droits de diffusion de manifestations ou de compétitions sportives",
     "sigle": null,
@@ -4128,6 +4301,29 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-installations-nucleaires-de-base-tarif-d-accompagne",
+    "nom": "Taxe sur les installations nucléaires de base - tarif d'accompagnement",
+    "sigle": "TINB-E TA",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CIBS art. L. 322-39 s.",
+    "montant_eur": 58000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée aux GIP Objectif Meuse et Haute-Marne et aux communes concernées.",
     "aliases": []
   },
   {
@@ -4247,7 +4443,7 @@
         "ref": ""
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -4320,14 +4516,42 @@
     "aliases": []
   },
   {
+    "id": "ta-cotisation-additionnelle-versee-par-les-organismes-hlm-et-les-sem",
+    "nom": "Cotisation additionnelle versée par les organismes HLM et les SEM",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "FNAVDL - Fonds national d’accompagnement vers et dans le logement",
+    "secteur": "ODAC",
+    "base_legale": "CCH art. L. 452-4-1",
+    "montant_eur": 38000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
     "id": "ta-droit-departemental-de-passage-sur-les-ouvrages-d-art-reliant-le-continent-au",
     "nom": "Droit départemental de passage sur les ouvrages d'art reliant le continent aux îles maritimes",
     "sigle": null,
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Départements (part départementale)",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT art. L. 3333-1 s.",
     "montant_eur": 34174937.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -4337,6 +4561,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -4418,8 +4647,8 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "CNAMTS, CNAVTS, CCMSA (non salariés-maladie) en 2016; CNAVTS dès 2017",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 137-12",
     "montant_eur": 29770006.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -4429,6 +4658,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -4648,8 +4882,8 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Départements (part départementale)",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT art. L. 3333-1",
     "montant_eur": 18668885.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -4659,6 +4893,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -4671,8 +4910,8 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Communes",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT art. L. 2333-92",
     "montant_eur": 17313784.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -4682,6 +4921,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -4758,7 +5002,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -4947,7 +5191,7 @@
         "ref": "ligne 1799"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -4971,6 +5215,29 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-la-production-et-la-distribution-d-oeuvres-cinematograp",
+    "nom": "Taxe sur la production et la distribution d'oeuvres cinématographiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS art. L. 455-17",
+    "montant_eur": 8000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNC.",
     "aliases": []
   },
   {
@@ -5003,7 +5270,7 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "INAO - Institut national de l'origine et de la qualité",
-    "secteur": null,
+    "secteur": "ODAC",
     "base_legale": "LFI 2012",
     "montant_eur": 6100000.0,
     "annee": 2024,
@@ -5014,9 +5281,42 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "ta-taxe-sur-les-spectacles-percue-au-profit-de-l-association-pour-le-soutien-du-",
+    "nom": "Taxe sur les spectacles perçue au profit de l'Association pour le soutien du théâtre privé",
+    "sigle": "TSV-ADLC",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": "Association pour le soutien du théâtre privé",
+    "secteur": "ODAC",
+    "base_legale": "LFI 2012",
+    "montant_eur": 6000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "taxes_affectees",
+        "url": "",
+        "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
     "aliases": []
   },
   {
@@ -5072,8 +5372,8 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "CNBF - Caisse nationale des barreaux français",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 723-3",
     "montant_eur": 4802000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -5083,6 +5383,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -5141,7 +5446,7 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
-    "secteur": null,
+    "secteur": "ODAC",
     "base_legale": "LFR-I 2014 et de la LFI 2015",
     "montant_eur": 4179000.0,
     "annee": 2024,
@@ -5152,6 +5457,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -5164,7 +5474,7 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "ANSéS - Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
-    "secteur": null,
+    "secteur": "ODAC",
     "base_legale": "LFR 2016 et LFI 2017",
     "montant_eur": 4000000.0,
     "annee": 2024,
@@ -5175,6 +5485,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -5183,11 +5498,11 @@
   {
     "id": "ta-taxe-annuelle-sur-les-engins-maritimes-a-usage-personnel-taemup",
     "nom": "Taxe annuelle sur les engins maritimes à usage personnel (TAEMUP)",
-    "sigle": null,
+    "sigle": "TAEMUP",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Organismes de secours et de sauvetage en mer agréés (art. L742-9 code de la sécurité intérieure)",
-    "secteur": null,
+    "secteur": "ODAC",
     "base_legale": "LFR 2017 et LFI 2018",
     "montant_eur": 4000000.0,
     "annee": 2024,
@@ -5198,6 +5513,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -5279,8 +5599,8 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Personne publique assurant la gestion de l'espace naturel protégé concerné ou la commune d'implantation de l'espace naturel protégé",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUL",
+    "base_legale": "CIBS art. L. 423-45 s.",
     "montant_eur": 3600000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -5290,6 +5610,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -5417,8 +5742,8 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Communes ou EPCI (établissements publics de coopération intercommunale) à fiscalité propre",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT art. L. 2223-22",
     "montant_eur": 969277.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -5428,6 +5753,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -5440,8 +5770,8 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "OFB - Office français de la biodiversité",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "ODAC",
+    "base_legale": "Code de l'environnement",
     "montant_eur": 900000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -5451,6 +5781,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -5532,8 +5867,8 @@
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "OFB - Office français de la biodiversité",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "ODAC",
+    "base_legale": "Code de l'environnement",
     "montant_eur": 600000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -5543,6 +5878,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -5802,6 +6142,52 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-clause-de-sauvegarde-sur-les-dispositifs-medicaux",
+    "nom": "Clause de sauvegarde sur les dispositifs médicaux",
+    "sigle": "clause Z",
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 138-19-8 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Pendant de la clause M pour les dispositifs médicaux.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-au-fonds-de-resolution-unique",
+    "nom": "Contribution au Fonds de résolution unique",
+    "sigle": "FRU / SRF",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "Règlement UE 806/2014",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Classée D29H dans la National Tax List d'Eurostat pour la France.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-contribution-au-srf-single-resolution-fund",
     "nom": "Contribution au SRF (single resolution fund)",
     "sigle": null,
@@ -5822,6 +6208,52 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-de-la-caisse-des-depots-et-consignations-representa",
+    "nom": "Contribution de la Caisse des dépôts et consignations représentative de l'impôt sur les sociétés",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 208 ter",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Ligne 1303. La CDC n'étant pas assujettie à l'IS.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-des-institutions-financieres",
+    "nom": "Contribution des institutions financières",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Ligne 1415.",
     "aliases": []
   },
   {
@@ -5917,6 +6349,52 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contribution-exceptionnelle-a-la-charge-des-organismes-complemen",
+    "nom": "Contribution exceptionnelle à la charge des organismes complémentaires d'assurance maladie",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "LFSS 2026",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "2,05 % des cotisations perçues. Répercussion directe sur les adhérents interdite.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-salariale-sur-les-carried-interests",
+    "nom": "Contribution salariale sur les carried interests",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 137-37",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
     "id": "ta-contribution-sociale-a-la-charge-des-fournisseurs-agrees-de-produits-de-tabac",
     "nom": "Contribution sociale à la charge des fournisseurs agréés de produits de tabac",
     "sigle": null,
@@ -5965,12 +6443,12 @@
   {
     "id": "vm-1752-contribution-sur-la-rente-infra-marginale-de-la-production-d-electricite",
     "nom": "Contribution sur la rente infra-marginale de la production d'électricité",
-    "sigle": null,
+    "sigle": "CRIM",
     "categorie": "recette fiscale (État)",
     "esa_code": null,
     "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUC",
+    "base_legale": "Code de l'énergie art. L. 443-1 s.",
     "montant_eur": null,
     "annee": null,
     "statut": "PRIS",
@@ -5980,9 +6458,60 @@
         "source_id": "vm_tome1",
         "url": "",
         "ref": "ligne 1752"
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-sur-les-depenses-de-promotion-des-medicaments-et-de",
+    "nom": "Contribution sur les dépenses de promotion des médicaments et des dispositifs médicaux",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 245-1 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-sur-les-premieres-ventes-de-medicaments-et-de-dispo",
+    "nom": "Contribution sur les premières ventes de médicaments et de dispositifs médicaux",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": null,
     "aliases": []
   },
   {
@@ -6003,6 +6532,29 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D51O/C09"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-vente-en-gros-des-grossistes-repartiteurs",
+    "nom": "Contribution vente en gros des grossistes-répartiteurs",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 138-1 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": null,
@@ -6032,26 +6584,26 @@
     "aliases": []
   },
   {
-    "id": "ta-cotisation-additionnelle-versee-par-les-organismes-hlm-et-les-sem",
-    "nom": "Cotisation additionnelle versée par les organismes HLM et les SEM",
-    "sigle": null,
+    "id": "supplement-cure-contributions-des-commissaires-aux-comptes-et-des-organismes-tie",
+    "nom": "Contributions des commissaires aux comptes et des organismes tiers indépendants à la Haute autorité de l'audit",
+    "sigle": "H2A",
     "categorie": "taxe affectée",
     "esa_code": null,
-    "beneficiaire": "FNAVDL - Fonds national d’accompagnement vers et dans le logement",
-    "secteur": null,
-    "base_legale": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code de commerce art. L. 821-6",
     "montant_eur": null,
-    "annee": 2024,
+    "annee": null,
     "statut": "PRIS",
     "critere_echec": null,
     "sources": [
       {
-        "source_id": "taxes_affectees",
+        "source_id": "supplement_cure",
         "url": "",
-        "ref": ""
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
-    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "notes": "Cotisations sur honoraires, cotisations additionnelles, droit fixe sur rapports de certification.",
     "aliases": []
   },
   {
@@ -6078,6 +6630,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-cotisation-du-regime-local-d-assurance-maladie-d-alsace-moselle",
+    "nom": "Cotisation du régime local d'assurance maladie d'Alsace-Moselle",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 325-1 à L. 325-3",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "1,30 % à la charge exclusive des salariés des trois départements. Taux maintenu en 2026.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-cotisation-minimale-de-taxe-professionnelle",
     "nom": "Cotisation minimale de taxe professionnelle",
     "sigle": null,
@@ -6101,6 +6676,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-cotisations-aux-caisses-d-assurance-accidents-agricoles-d-alsace",
+    "nom": "Cotisations aux caisses d'assurance-accidents agricoles d'Alsace-Moselle",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Régime AT-MP agricole local.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-cotisations-des-regimes-speciaux",
     "nom": "Cotisations des régimes spéciaux",
     "sigle": null,
@@ -6121,6 +6719,29 @@
       }
     ],
     "notes": "CNRACL, SNCF, RATP, marins, etc.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-droit-de-passeport-des-navires",
+    "nom": "Droit de passeport des navires",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Navires sous pavillon étranger appartenant à des résidents français.",
     "aliases": []
   },
   {
@@ -6213,6 +6834,52 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-frais-de-gestion-de-la-fiscalite-directe-locale",
+    "nom": "Frais de gestion de la fiscalité directe locale",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 1641",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Majorations de 1 à 8 % prélevées par l'État sur le contribuable local au titre de l'assiette, du recouvrement et des dégrèvements.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-garantie-des-matieres-d-or-et-d-argent",
+    "nom": "Garantie des matières d'or et d'argent",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 522 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Droits de poinçonnage. Ligne 1766.",
     "aliases": []
   },
   {
@@ -6423,6 +7090,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-impot-minimum-mondial-a-15-pilier-2",
+    "nom": "Impôt minimum mondial à 15 % (pilier 2)",
+    "sigle": "IMG",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "Directive UE 2022/2523 - CGI art. 223 VJ s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Ligne de recette propre au V&M depuis le PLF 2026.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-impot-sur-les-operations-traitees-dans-les-bourses-de-valeurs",
     "nom": "Impôt sur les opérations traitées dans les bourses de valeurs",
     "sigle": null,
@@ -6443,6 +7133,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-indemnite-de-defrichement",
+    "nom": "Indemnité de défrichement",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code forestier art. L. 341-6",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ASP. Imposition due à l'occasion d'une autorisation administrative.",
     "aliases": []
   },
   {
@@ -6469,6 +7182,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-participations-au-financement-de-la-formation-des-professions-no",
+    "nom": "Participations au financement de la formation des professions non salariées",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code du travail art. L. 6331-48 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Sept assiettes distinctes selon l'article 36 du PLF 2026 : artisans, autres indépendants, agriculture, pêche, particuliers employeurs, artistes-auteurs, intermittents.",
+    "aliases": []
+  },
+  {
     "id": "vm-1785-produits-des-jeux-exploites-par-la-francaise-des-jeux-hors-paris-sportif",
     "nom": "Produits des jeux exploités par la Française des jeux (hors paris sportifs)",
     "sigle": null,
@@ -6492,6 +7228,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-prelevement-sur-la-participation-des-employeurs-a-l-effort-de-co",
+    "nom": "Prélèvement sur la participation des employeurs à l'effort de construction au profit de l'ANCOLS",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CCH art. L. 313-3",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
     "id": "vm-1787-prelevement-sur-le-produit-brut-des-paris-hippiques",
     "nom": "Prélèvement sur le produit brut des paris hippiques",
     "sigle": null,
@@ -6512,6 +7271,29 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-prelevement-sur-les-contrats-d-assurance-de-biens-au-profit-du-f",
+    "nom": "Prélèvement sur les contrats d'assurance de biens au profit du Fonds de garantie des victimes d'actes de terrorisme",
+    "sigle": "FGTI",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code des assurances art. L. 422-1",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Le FGTI figure dans la liste INSEE des ODAC, à la différence du FGAO.",
     "aliases": []
   },
   {
@@ -6676,6 +7458,144 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-redevance-pour-creation-de-bureaux-locaux-commerciaux-et-de-stoc",
+    "nom": "Redevance pour création de bureaux, locaux commerciaux et de stockage en Île-de-France",
+    "sigle": "RCBCE",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CU art. L. 520-1 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Imposition due à la construction, distincte de la taxe annuelle sur les bureaux.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevance-pour-obstacle-sur-les-cours-d-eau",
+    "nom": "Redevance pour obstacle sur les cours d'eau",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "Code de l'environnement art. L. 213-10-11",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée aux agences de l'eau, classées en ODAL.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevance-pour-protection-du-milieu-aquatique",
+    "nom": "Redevance pour protection du milieu aquatique",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "Code de l'environnement art. L. 213-10-12",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée aux agences de l'eau.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevance-pour-stockage-d-eau-en-periode-d-etiage",
+    "nom": "Redevance pour stockage d'eau en période d'étiage",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "Code de l'environnement art. L. 213-10-10",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée aux agences de l'eau.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevance-sur-les-produits-biocides",
+    "nom": "Redevance sur les produits biocides",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code de l'environnement art. L. 522-16",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ANSES.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevances-cynegetiques-et-droit-de-validation-du-permis-de-chas",
+    "nom": "Redevances cynégétiques et droit de validation du permis de chasse",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code de l'environnement art. L. 423-21-1",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectées à l'OFB. Confirmées par la NTL (D59D).",
+    "aliases": []
+  },
+  {
     "id": "vm-1402-retenues-a-la-source-et-prelevements-sur-les-revenus-de-capitaux-mobilie",
     "nom": "Retenues à la source et prélèvements sur les revenus de capitaux mobiliers et le prélèvement sur les bons anonymes",
     "sigle": null,
@@ -6722,6 +7642,75 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-retenues-a-la-source-sur-les-revenus-verses-a-des-non-residents",
+    "nom": "Retenues à la source sur les revenus versés à des non-résidents",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 182 A s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Salaires, dividendes, redevances. Lignes 1401 et 1402.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-remuneration-pour-services-rendus-au-comite-professionnel-des-st",
+    "nom": "Rémunération pour services rendus au Comité professionnel des stocks stratégiques pétroliers",
+    "sigle": "CPSSP",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code de l'énergie art. L. 642-6",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Le CPSSP figure dans la liste INSEE des ODAC. Confirmée par la NTL (D214A).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-solde-de-la-taxe-d-apprentissage",
+    "nom": "Solde de la taxe d'apprentissage",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code du travail art. L. 6241-2",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affecté à la Caisse des dépôts et consignations (plateforme SOLTéA).",
+    "aliases": []
+  },
+  {
     "id": "eurostat-tva-sur-subventions",
     "nom": "TVA sur subventions",
     "sigle": null,
@@ -6742,6 +7731,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-additionnelle-regionale-a-la-taxe-de-sejour-en-ile-de-franc",
+    "nom": "Taxe additionnelle régionale à la taxe de séjour en Île-de-France",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "15 %, au profit de la Société des grands projets.",
     "aliases": []
   },
   {
@@ -6788,6 +7800,52 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-annuelle-sur-les-emissions-de-polluants-atmospheriques",
+    "nom": "Taxe annuelle sur les émissions de polluants atmosphériques",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CIBS art. L. 421-115 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Volet de la taxation de l'affectation des véhicules à des fins économiques.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-d-archeologie-preventive",
+    "nom": "Taxe d'archéologie préventive",
+    "sigle": "TAP",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CU art. L. 331-1 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Ex-redevance d'archéologie préventive. Finance l'INRAP et le FNAP.",
     "aliases": []
   },
   {
@@ -6906,6 +7964,52 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-fixe-sur-l-immatriculation-des-vehicules",
+    "nom": "Taxe fixe sur l'immatriculation des véhicules",
+    "sigle": "TFIV",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ANTS.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-forfaitaire-sur-les-metaux-precieux-bijoux-objets-d-art-de-",
+    "nom": "Taxe forfaitaire sur les métaux précieux, bijoux, objets d'art, de collection et d'antiquité",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 150 VI s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Imposition libératoire sur la cession. Ligne 1413.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-taxe-generale-sur-les-activites-polluantes",
     "nom": "Taxe générale sur les activités polluantes",
     "sigle": "TGAP",
@@ -6930,7 +8034,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -7026,29 +8130,6 @@
     "aliases": []
   },
   {
-    "id": "supplement-cure-taxe-pour-la-gestion-des-eaux-pluviales-urbaines",
-    "nom": "Taxe pour la gestion des eaux pluviales urbaines",
-    "sigle": null,
-    "categorie": "impôt local",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUL",
-    "base_legale": "CGCT art. L2333-97",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "supplement_cure",
-        "url": "",
-        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
-      }
-    ],
-    "notes": "Facultative",
-    "aliases": []
-  },
-  {
     "id": "eurostat-taxe-professionnelle",
     "nom": "Taxe professionnelle",
     "sigle": null,
@@ -7069,6 +8150,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-relative-a-la-mise-sur-le-marche-des-produits-phytopharmace",
+    "nom": "Taxe relative à la mise sur le marché des produits phytopharmaceutiques, matières fertilisantes et supports de culture",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CRPM art. L. 253-8-2",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ANSES.",
     "aliases": []
   },
   {
@@ -7095,6 +8199,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-sur-l-autorisation-d-exercice-de-l-activite-d-exploitant-d-",
+    "nom": "Taxe sur l'autorisation d'exercice de l'activité d'exploitant d'établissement de spectacles cinématographiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNC.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-taxe-sur-l-exploitation-des-infrastructures-de-transport-de-long",
     "nom": "Taxe sur l'exploitation des infrastructures de transport de longue distance",
     "sigle": "TEILD",
@@ -7115,6 +8242,29 @@
       }
     ],
     "notes": "Concessions autoroutières et grands aéroports (depuis 2024).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-l-utilisation-des-bandes-700-mhz-et-800-mhz-du-spectre-",
+    "nom": "Taxe sur l'utilisation des bandes 700 MHz et 800 MHz du spectre radioélectrique",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CGI art. 1609 undecies",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ANFR. A distinguer des redevances d'utilisation des fréquences.",
     "aliases": []
   },
   {
@@ -7141,6 +8291,121 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-sur-la-distance-parcourue-sur-le-reseau-autoroutier-concede",
+    "nom": "Taxe sur la distance parcourue sur le réseau autoroutier concédé",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS art. L. 421-190 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'AFITF.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-la-masse-en-ordre-de-marche",
+    "nom": "Taxe sur la masse en ordre de marche",
+    "sigle": "malus masse",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS art. L. 421-81 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Composante du malus à l'immatriculation.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-la-mise-en-relation-par-voie-electronique-en-vue-de-fou",
+    "nom": "Taxe sur la mise en relation par voie électronique en vue de fournir certaines prestations de transport",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS art. L. 453-40 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ARPE.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-la-publicite-diffusee-au-moyen-de-services-d-acces-a-de",
+    "nom": "Taxe sur la publicité diffusée au moyen de services d'accès à des contenus audiovisuels à la demande",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNC.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-la-valeur-venale-des-immeubles-des-entites-juridiques",
+    "nom": "Taxe sur la valeur vénale des immeubles des entités juridiques",
+    "sigle": "taxe de 3 %",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 990 D",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Frappe les entités détenant des immeubles en France sans révéler leurs bénéficiaires.",
+    "aliases": []
+  },
+  {
     "id": "vm-1439-taxe-sur-le-patrimoine-financier",
     "nom": "Taxe sur le patrimoine financier",
     "sigle": null,
@@ -7161,6 +8426,52 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-le-patrimoine-financier-holdings-patrimoniales",
+    "nom": "Taxe sur le patrimoine financier (holdings patrimoniales)",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "LF 2026",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Droit voté non encore productif : exercices clos à compter du 31/12/2026. Ligne 1439.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-le-renouvellement-et-l-echange-du-permis-de-conduire",
+    "nom": "Taxe sur le renouvellement et l'échange du permis de conduire",
+    "sigle": "TREPC",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ANTS.",
     "aliases": []
   },
   {
@@ -7187,6 +8498,52 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-sur-le-visa-d-exploitation-cinematographique",
+    "nom": "Taxe sur le visa d'exploitation cinématographique",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNC.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-activites-commerciales-saisonnieres-non-salariees",
+    "nom": "Taxe sur les activités commerciales saisonnières non salariées",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT art. L. 2333-88",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Instituée par délibération communale.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-taxe-sur-les-bureaux-et-locaux-en-ile-de-france",
     "nom": "Taxe sur les bureaux et locaux en Île-de-France",
     "sigle": null,
@@ -7207,6 +8564,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-dossiers-de-demande-concernant-les-medicaments-vete",
+    "nom": "Taxe sur les dossiers de demande concernant les médicaments vétérinaires",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CSP",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ANSES.",
     "aliases": []
   },
   {
@@ -7256,6 +8636,75 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-sur-les-installations-nucleaires-de-base-tarif-de-conceptio",
+    "nom": "Taxe sur les installations nucléaires de base - tarif de conception",
+    "sigle": "TINB-E TC",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS art. L. 322-39 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ANDRA.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-installations-nucleaires-de-base-tarif-de-recherche",
+    "nom": "Taxe sur les installations nucléaires de base - tarif de recherche",
+    "sigle": "TINB-E TR",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS art. L. 322-39 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée à l'ANDRA.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-locations-de-phonogrammes-et-videomusiques-en-ligne",
+    "nom": "Taxe sur les locations de phonogrammes et vidéomusiques en ligne",
+    "sigle": "taxe streaming",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS art. L. 453-60 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNM.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-taxe-sur-les-logements-vacants",
     "nom": "Taxe sur les logements vacants",
     "sigle": "TLV",
@@ -7276,29 +8725,6 @@
       }
     ],
     "notes": null,
-    "aliases": []
-  },
-  {
-    "id": "vm-1442-taxe-sur-les-petits-colis",
-    "nom": "Taxe sur les petits colis",
-    "sigle": null,
-    "categorie": "recette fiscale (État)",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "vm_tome1",
-        "url": "",
-        "ref": "ligne 1442"
-      }
-    ],
-    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -7368,6 +8794,52 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-services-d-acces-a-des-contenus-audiovisuels-a-la-d",
+    "nom": "Taxe sur les services d'accès à des contenus audiovisuels à la demande",
+    "sigle": "SMAD",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS art. L. 453-30 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNC.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-videogrammes",
+    "nom": "Taxe sur les vidéogrammes",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au CNC.",
     "aliases": []
   },
   {
@@ -7647,6 +9119,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contributions-additionnelles-aux-primes-d-assurance-au-profit-de",
+    "nom": "Contributions additionnelles aux primes d'assurance au profit de la Caisse centrale de réassurance",
+    "sigle": "surprime CatNat",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CGI art. 1635 bis A",
+    "montant_eur": 120000000.0,
+    "annee": 2024,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "La CCR est une société anonyme d'assurance classée parmi les sociétés financières.",
+    "aliases": []
+  },
+  {
     "id": "ta-contribution-patronale-au-dialogue-social-0-016",
     "nom": "Contribution patronale au dialogue social (0,016%)",
     "sigle": null,
@@ -7654,7 +9149,7 @@
     "esa_code": null,
     "beneficiaire": "AGFPN - Association de Gestion du Fonds Paritaire National – AGFPN.",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "Code du travail art. L. 2135-9 s.",
     "montant_eur": 98045343.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7664,6 +9159,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7677,7 +9177,7 @@
     "esa_code": null,
     "beneficiaire": "CTI de l'Industrie : CT des indus. mécaniques (CETIM), CT de l'industrie du décolletage (CTDEC), CTI de la construction métallique (CTICM), CT des indus. aérauliques et thermiques (CETIAT), et Institut de Soudure",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS art. L. 471-1 s.",
     "montant_eur": 96715378.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7687,6 +9187,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7700,7 +9205,7 @@
     "esa_code": null,
     "beneficiaire": "France Galop et la société d’encouragement à l’élevage du cheval français (SECF)",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CGI art. 302 bis ZG",
     "montant_eur": 84677756.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7710,6 +9215,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7718,12 +9228,12 @@
   {
     "id": "ta-taxe-destinee-a-financer-le-developpement-des-actions-de-formation-profession",
     "nom": "Taxe destinée à financer le développement des actions de formation professionnelle dans les transports routiers",
-    "sigle": null,
+    "sigle": "TIVT",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "AFT - Association pour le développement de la formation professionnelle dans les transports",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS",
     "montant_eur": 63426000.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7733,6 +9243,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7769,7 +9284,7 @@
     "esa_code": null,
     "beneficiaire": "ANFA - Association nationale pour la formation automobile",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS",
     "montant_eur": 32656722.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7779,6 +9294,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7792,7 +9312,7 @@
     "esa_code": null,
     "beneficiaire": "Fondation du patrimoine",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CGI",
     "montant_eur": 31264516.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7802,6 +9322,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7833,12 +9358,12 @@
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-du-cuir-de-la-maroquinerie-de-la-ga",
     "nom": "Taxe pour le développement des industries du cuir, de la maroquinerie, de la ganterie et de la chaussure",
-    "sigle": null,
+    "sigle": "TBICCM",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "CTC - Comité professionnel de développement Cuir, Chaussure, Maroquinerie",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS art. L. 471-1 s.",
     "montant_eur": 16500000.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7848,6 +9373,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7856,12 +9386,12 @@
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-de-l-ameublement-ainsi-que-des-indu",
     "nom": "Taxe pour le développement des industries de l'ameublement ainsi que des industries du bois",
-    "sigle": null,
+    "sigle": "TBIA / TBIB",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "CTI de la filière Bois - Comité professionnel de développement des industries françaises de l'ameublement et du bois (CODIFAB); Institut technologique FCBA (Filière cellulose, bois, ameublement); Centre technique de la mécanique (CETIM)",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS art. L. 471-1 s.",
     "montant_eur": 15100000.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7871,6 +9401,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7884,7 +9419,7 @@
     "esa_code": null,
     "beneficiaire": "CTI des matériaux : Centre d'étude et de recherche de l'industrie du béton (CERIB); Centre technique de matériaux naturels de construction (CTMNC)",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS art. L. 471-1 s.",
     "montant_eur": 13079542.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7894,6 +9429,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7902,12 +9442,12 @@
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-de-l-horlogerie-bijouterie-joailler",
     "nom": "Taxe pour le développement des industries de l'horlogerie, bijouterie, joaillerie, orfèvrerie et arts de la table",
-    "sigle": null,
+    "sigle": "TBIHBJOAT",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Francéclat",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS art. L. 471-1 s.",
     "montant_eur": 12700000.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7917,6 +9457,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -7925,12 +9470,12 @@
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-de-l-habillement",
     "nom": "Taxe pour le développement des industries de l'habillement",
-    "sigle": null,
+    "sigle": "TBIH",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Comité de développement et de promotion de l'habillement - DEFI",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS art. L. 471-1 s.",
     "montant_eur": 11000000.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7940,20 +9485,48 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
     "aliases": []
   },
   {
+    "id": "supplement-cure-contribution-forfaitaire-annuelle-a-la-charge-des-professionnels",
+    "nom": "Contribution forfaitaire annuelle à la charge des professionnels de santé",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code des assurances art. L. 426-1",
+    "montant_eur": 8000000.0,
+    "annee": 2024,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Fonds de garantie des dommages liés aux actes de soins, géré par la CCR.",
+    "aliases": []
+  },
+  {
     "id": "ta-taxe-affectee-au-financement-d-un-nouveau-centre-technique-industriel-de-la-p",
     "nom": "Taxe affectée au financement d’un nouveau Centre Technique Industriel de la plasturgie et des composites",
-    "sigle": null,
+    "sigle": "TBIPC",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Centres techniques industriels de la plasturgie et des composites",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS art. L. 471-1 s.",
     "montant_eur": 6400000.0,
     "annee": 2024,
     "statut": "REJET",
@@ -7963,29 +9536,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
-      }
-    ],
-    "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
-    "aliases": []
-  },
-  {
-    "id": "ta-taxe-sur-les-spectacles-percue-au-profit-de-l-association-pour-le-soutien-du-",
-    "nom": "Taxe sur les spectacles perçue au profit de l'Association pour le soutien du théâtre privé",
-    "sigle": null,
-    "categorie": "taxe affectée",
-    "esa_code": null,
-    "beneficiaire": "Association pour le soutien du théâtre privé",
-    "secteur": null,
-    "base_legale": "LFI 2012",
-    "montant_eur": 6000000.0,
-    "annee": 2024,
-    "statut": "REJET",
-    "critere_echec": "C2",
-    "sources": [
+      },
       {
-        "source_id": "taxes_affectees",
+        "source_id": "supplement_cure",
         "url": "",
-        "ref": ""
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -8032,6 +9587,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -8040,12 +9600,12 @@
   {
     "id": "ta-taxe-pour-le-developpement-des-industries-de-fabrication-du-papier-du-carton-",
     "nom": "Taxe pour le développement des industries de fabrication du papier, du carton et de la pâte de cellulose.",
-    "sigle": null,
+    "sigle": "TBIP",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Centre technique de l’industrie des papiers, cartons et celluloses",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS art. L. 471-1 s.",
     "montant_eur": 2346000.0,
     "annee": 2024,
     "statut": "REJET",
@@ -8055,6 +9615,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -8063,12 +9628,12 @@
   {
     "id": "ta-taxe-affectee-au-financement-de-l-institut-des-corps-gras",
     "nom": "Taxe affectée au financement de l'institut des corps gras",
-    "sigle": null,
+    "sigle": "TICG",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "ITERG - Institut des corps gras",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "CIBS art. L. 471-1 s.",
     "montant_eur": 650000.0,
     "annee": 2024,
     "statut": "REJET",
@@ -8078,6 +9643,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -8104,6 +9674,121 @@
       }
     ],
     "notes": "Sanction, hors champ des prélèvements (README §5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-des-assures-au-fonds-de-garantie-des-assurances-obl",
+    "nom": "Contribution des assurés au Fonds de garantie des assurances obligatoires de dommages",
+    "sigle": "FGAO",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code des assurances art. L. 421-4",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Personne morale de droit privé absente de la liste ODAC, à la différence du FGTI.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-speciale-due-par-les-employeurs-d-etrangers-sans-au",
+    "nom": "Contribution spéciale due par les employeurs d'étrangers sans autorisation de travail",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CESEDA art. L. 8253-1",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "sanction",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Sanction administrative proportionnée au manquement, malgré son nom.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-specifique-a-la-formation-professionnelle-du-batime",
+    "nom": "Contribution spécifique à la formation professionnelle du bâtiment et des travaux publics",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code du travail",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectée au 3CABTP. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-sur-les-abondements-des-employeurs-aux-plans-d-epar",
+    "nom": "Contribution sur les abondements des employeurs aux plans d'épargne retraite collectifs",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 137-5",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Versement non obligatoire (libre choix).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-sur-les-activites-privees-de-securite",
+    "nom": "Contribution sur les activités privées de sécurité",
+    "sigle": "CNAPS",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CGI art. 1609 quintricies",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Supprimée au 1er janvier 2020. Le CNAPS est désormais financé sur le budget de l'État.",
     "aliases": []
   },
   {
@@ -8150,6 +9835,75 @@
       }
     ],
     "notes": "Supprimée en 2022, remplacée par une fraction de TVA (mémoire, README §5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contributions-pour-frais-de-controle-de-l-autorite-de-controle-p",
+    "nom": "Contributions pour frais de contrôle de l'Autorité de contrôle prudentiel et de résolution",
+    "sigle": "ACPR",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CMF art. L. 612-20",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "L'ACPR est adossée à la Banque de France, classée en sociétés financières et non en APU.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-cotisation-obligatoire-au-centre-national-de-la-fonction-publiqu",
+    "nom": "Cotisation obligatoire au Centre national de la fonction publique territoriale",
+    "sigle": "CNFPT",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Loi 84-53 art. 12-2",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Transfert entre administrations publiques : payé par des APUL à une APUL, consolidé en comptabilité nationale.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-cotisation-obligatoire-au-comite-de-gestion-des-oeuvres-sociales",
+    "nom": "Cotisation obligatoire au Comité de gestion des oeuvres sociales des personnels hospitaliers",
+    "sigle": "CGOS",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code du travail",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Payée par des hôpitaux publics à une association de droit privé.",
     "aliases": []
   },
   {
@@ -8337,6 +10091,52 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-majoration-de-la-taxe-sur-les-assurances-de-protection-juridique",
+    "nom": "Majoration de la taxe sur les assurances de protection juridique au profit du Conseil national des barreaux",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CGI art. 1001",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "sanction",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Sanction, hors champ des prélèvements (README §5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-obligations-d-achat-d-electricite-renouvelable-a-prix-contractue",
+    "nom": "Obligations d'achat d'électricité renouvelable à prix contractuels",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "Code de l'énergie art. L. 314-1 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "A_ARBITRER",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Aucun versement à une APU, mais la NTL d'Eurostat les enregistre en D29H pour la France. Divergence assumée entre analyse juridique et traitement statistique.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-part-salariale-de-l-assurance-chomage",
     "nom": "Part salariale de l'assurance chômage",
     "sigle": null,
@@ -8357,6 +10157,29 @@
       }
     ],
     "notes": "Supprimée en 2018, remplacée par de la CSG.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-participation-pour-le-financement-de-l-assainissement-collectif",
+    "nom": "Participation pour le financement de l'assainissement collectif",
+    "sigle": "PFAC",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CSP art. L. 1331-7",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Contrepartie directe : raccordement au réseau.",
     "aliases": []
   },
   {
@@ -8429,6 +10252,52 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-redevances-percues-lors-du-lancement-de-certains-materiels-aeron",
+    "nom": "Redevances perçues lors du lancement de certains matériels aéronautiques",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": null,
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Contrepartie d'une prestation de contrôle et d'homologation.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevances-percues-par-l-institut-national-de-la-propriete-indus",
+    "nom": "Redevances perçues par l'Institut national de la propriété industrielle",
+    "sigle": "INPI",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CPI art. L. 411-2",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Service rendu individualisé, malgré leur inscription parmi les taxes affectées plafonnées.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-revenus-du-domaine-dividendes-loyers",
     "nom": "Revenus du domaine, dividendes, loyers",
     "sigle": null,
@@ -8449,6 +10318,98 @@
       }
     ],
     "notes": "Recettes patrimoniales avec contrepartie.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-annuelle-sur-les-residences-mobiles-terrestres",
+    "nom": "Taxe annuelle sur les résidences mobiles terrestres",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 1013",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Abrogée au 1er octobre 2019 par la LF 2019.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-pour-la-gestion-des-eaux-pluviales-urbaines",
+    "nom": "Taxe pour la gestion des eaux pluviales urbaines",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT art. L. 2333-97",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Instituée en 2011 et abrogée en 2015, son coût de recouvrement excédant son rendement. Aucun financement de substitution n'a été institué.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-pour-la-protection-des-obtentions-vegetales",
+    "nom": "Taxe pour la protection des obtentions végétales",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code de la propriété intellectuelle",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-hydrofluorocarbures",
+    "nom": "Taxe sur les hydrofluorocarbures",
+    "sigle": "HFC",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "LF 2019 art. 197",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Entrée en vigueur reportée trois fois puis abrogation par la loi 2025-127 du 14 février 2025. Jamais perçue.",
     "aliases": []
   }
 ]
