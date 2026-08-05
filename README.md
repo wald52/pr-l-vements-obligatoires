@@ -608,49 +608,113 @@ comptes nationaux français (sauf Saint-Martin, rattaché statistiquement à la
 Guadeloupe). Les recenser sans le dire produirait un double langage ; les taire
 laisserait un trou.
 
-**Nouvelle-Calédonie**
+**Nouvelle-Calédonie** — système fiscal complet, le plus dense des six
+
 - **Taxe générale sur la consommation (TGC)** — équivalent local de la TVA,
-  introduite en 2018.
-- **Impôt sur le revenu des personnes physiques** ; **impôt sur les sociétés** ;
-  **contribution additionnelle à l'impôt sur les sociétés (CAIS)** ;
+  introduite en 2018 ; frappe la consommation finale sur le territoire.
+- **Impôt sur le revenu des personnes physiques** et déclarations catégorielles.
+- **Impôt sur les sociétés**, **contribution additionnelle à l'IS (CAIS)** et
   **contribution sociale additionnelle à l'IS (CSA)**.
 - **Contribution calédonienne de solidarité (CCS)** — créée au 1ᵉʳ janvier 2015
-  pour financer durablement les régimes sociaux ; assise dès le premier franc et
-  sans plafond, au taux de référence de 4 % sur les revenus professionnels des
-  indépendants, 2 % sur les revenus d'activité et 1,3 % sur les revenus de
-  remplacement.
+  pour financer durablement les régimes sociaux (retraite, personnes âgées,
+  logement, handicap et dépendance) ; assise dès le premier franc et sans
+  plafond, au taux de référence de **4 %** sur les revenus professionnels des
+  indépendants, **2 %** sur les revenus d'activité et **1,3 %** sur les revenus
+  de remplacement et de solidarité.
 - **Impôt sur le revenu des valeurs mobilières (IRVM)** ; **contribution des
-  patentes** ; **contribution foncière** ; taxes sur les plus-values mobilières
-  et immobilières et sur le produit net bancaire (réforme récente) ; taxes sur
-  les tabacs et les produits sucrés.
+  patentes** ; **contribution foncière**.
+- **Taxes sur les plus-values immobilières** et **mobilières** ; **taxe sur le
+  produit net bancaire** — issues de la réforme fiscale récente.
+- **Taxe sur les opérations financières (TOF)** ; **taxe sur les contrats
+  d'assurance (TCA)**.
+- **Taxes sur les alcools et les tabacs (TAT3S, TCI)** ; **taxe sur les produits
+  alimentaires contenant du sucre**.
+- **Taxe sur les produits des jeux**.
+- **Redevance sur l'extraction des produits miniers** et **taxe sur l'exportation
+  des produits miniers** — assises sur le nickel, ressource centrale du
+  territoire.
+- **Taxe hypothécaire** et **contribution de sécurité immobilière (CSI)**.
 
-**Polynésie française**
-- **TVA polynésienne** ; **contribution des patentes** ; **impôt sur les
-  transactions** ; **impôt sur les sociétés** ; **droits de douane** propres.
-- **Contribution de solidarité territoriale (CST)** — **CST-S** retenue à la
-  source sur les salaires et revenus assimilés, **CST-NS** sur les professions et
-  activités non salariées. Il n'existe pas d'impôt général sur le revenu.
+**Polynésie française** — fiscalité assise sur la consommation et l'activité,
+sans impôt général sur le revenu
 
-**Saint-Barthélemy**
-- **Droit de quai** sur toutes les marchandises importées par mer ou par air —
-  institué par un arrêté municipal du 24 mai 1879, base légale confirmée par la
-  loi de finances pour 1974.
+- **TVA polynésienne** ; **droits de douane** propres.
+- **Contribution de solidarité territoriale (CST)** — **CST-S**, retenue à la
+  source sur les salaires et revenus assimilés, et **CST-NS**, sur les professions
+  et activités non salariées. C'est ce qui tient lieu d'imposition des revenus.
+- **Impôt sur les transactions** (régime alternatif à l'IS pour les petites
+  structures) et **impôt sur les sociétés**.
+- **Contribution des patentes** (art. 211-1 à 219-2 du code des impôts) et
+  **contribution des licences** (art. 231-1 à 236-1) — pour les débits de
+  boissons.
+- **Impôt foncier sur les propriétés bâties** (art. 221-1 à 228-3) et **régime
+  des revenus locatifs**.
+- **Centimes additionnels communaux** — surtaxes adossées à l'impôt foncier, à la
+  contribution des patentes et à la contribution des licences, perçues au profit
+  des communes et de leurs sections. Mécanisme sans équivalent métropolitain
+  depuis la disparition des centimes additionnels en France continentale.
+
+**Saint-Pierre-et-Miquelon** — **code local des impôts** voté par le conseil
+territorial ; le corpus le plus proche du modèle métropolitain
+
+- **Impôt sur le revenu** (barème progressif propre) et **impôt sur les
+  sociétés**.
+- **Taxe sur les salaires** ; **taxe sur les spectacles**.
+- **Taxe de réhabilitation des sites**.
+- **Taxes sur les pétroles**, **taxes spéciales sur les pétroles** et **redevance
+  sur les pétroles** — trois prélèvements distincts sur les produits pétroliers.
+- **Droits de mutation**, **taxes successorales**, **droits d'apport**, **taxe de
+  publicité foncière** et **contribution de sécurité immobilière**.
+- **Impôt foncier**, **droit de bail** et **taxes communales**.
+- **Patente** et **droits de licence**.
+- **Impôt sur la fortune**.
+- S'y ajoute, prévue par le droit national, la **redevance due par les titulaires
+  de titres d'exploitation de mines d'hydrocarbures au large de
+  Saint-Pierre-et-Miquelon**.
+
+**Saint-Barthélemy** — **code des contributions** ; taux de prélèvements
+obligatoires d'environ **20 % du PIB**, moins de la moitié du niveau
+métropolitain
+
+- **Droit de quai** — droit d'importation de **5 %** de la valeur des
+  marchandises (taux majoré pour les véhicules), qui tient lieu de TVA :
+  ≈ **25 %** des recettes fiscales. Institué par un arrêté municipal du 24 mai
+  1879, base légale confirmée par la loi de finances pour 1974.
+- **Droits sur les mutations immobilières** — 4,8 % : ≈ **25 %** des recettes.
+- **Taxe de séjour** (5 % du prix des nuitées) et **taxes portuaires et
+  aéroportuaires** : ≈ **20 %** des recettes.
+- **Taxes sur les carburants** et autres consommations spécifiques.
 - **Contribution forfaitaire annuelle des entreprises** — part fixe de 350 € et
-  part variable de 100 € par salarié.
-- **Taxe de séjour**, **droits d'enregistrement**, taxes sur les véhicules.
+  part variable de 100 € par salarié ; **seul prélèvement direct sur les
+  entreprises**, moins de 10 % des recettes.
+- **Prélèvements sociaux identiques à ceux des DOM** (cotisations sociales, CSG,
+  CRDS) : l'autonomie fiscale ne s'étend pas au champ social, qui reste régi par
+  le droit national.
 
-**Saint-Martin, Saint-Pierre-et-Miquelon, Wallis-et-Futuna**
-- Fiscalités propres organisées autour d'un impôt sur le revenu et d'un impôt
-  sur les sociétés locaux (Saint-Martin), de droits de douane, d'une **taxe
-  spéciale sur les carburants** et d'une patente (Saint-Pierre-et-Miquelon), et
-  de droits d'entrée et d'une patente (Wallis-et-Futuna).
-- S'y ajoute, pour Saint-Pierre-et-Miquelon, la **redevance due par les
-  titulaires de titres d'exploitation de mines d'hydrocarbures au large de
-  Saint-Pierre-et-Miquelon**, prévue par le droit national.
+**Saint-Martin** — **code général des impôts** propre, largement décalqué du CGI
+métropolitain (impôt sur le revenu, impôt sur les sociétés, droits
+d'enregistrement, fiscalité foncière), avec des taux et abattements distincts.
+Contrairement aux cinq autres collectivités de cette section, Saint-Martin est
+**rattaché statistiquement à la Guadeloupe** et donc **inclus** dans le
+territoire économique des comptes nationaux (§2.1).
+
+**Wallis-et-Futuna** — le régime le plus atypique de la République
+
+- **Pas d'impôt sur le revenu, pas d'impôt sur les sociétés au sens classique,
+  pas de TVA, pas d'impôt sur la fortune, ni CSG ni CRDS.**
+- **Droits de douane et taxes à l'importation** — l'essentiel des recettes ;
+  ≈ 2,5 Md F CFP (≈ 208 M€) par an de fiscalité indirecte.
+- **Droit proportionnel** sur toutes les marchandises dédouanées et mises à la
+  consommation — première imposition directe du territoire, la moitié du total.
+- **Patente** — droit fixe annuel variant selon l'activité (≈ 84 € à 7 542 €),
+  **droit additionnel sur le commerce des alcools** (≈ 126 € à 838 €) et **taxe
+  additionnelle de 30 % au profit de la chambre de commerce**.
 
 > Le rapport public thématique de la Cour des comptes **« L'autonomie fiscale en
-> outre-mer »** est la référence pour cette section ; le détail ligne à ligne des
-> six codes locaux reste à dépouiller (§9).
+> outre-mer »** couvre les six collectivités. Le détail article par article des
+> codes locaux — le seul code de Saint-Pierre-et-Miquelon fait 172 pages —
+> dépasse le format de ce document ; les rubriques ci-dessus en donnent la
+> structure et les principaux prélèvements, pas l'exhaustivité (§9).
 
 ### 4.8 Cotisations sociales effectives (ASSO)
 
@@ -1338,7 +1402,14 @@ documenter deux corrections apportées à la version précédente de ce document
 - **Direction des services fiscaux de Nouvelle-Calédonie — contribution
   calédonienne de solidarité et TGC** : <https://dsf.gouv.nc/>
 - **Direction des impôts et des contributions publiques de Polynésie française —
-  contribution de solidarité territoriale** : <https://www.service-public.pf/dicp/>
+  contribution de solidarité territoriale, patentes, impôt foncier, centimes
+  additionnels communaux** : <https://www.service-public.pf/dicp/>
+- **Direction des services fiscaux de Saint-Pierre-et-Miquelon — Code local des
+  impôts** (table analytique dépouillée pour le §4.7) :
+  <https://www.services-fiscaux975.fr/files/file/Documentation/2022/CLI%202022.pdf>
+- **IEOM — Rapport annuel Wallis-et-Futuna** (structure des recettes fiscales du
+  territoire) :
+  <https://www.ieom.fr/IMG/rapport_annuel_ieom_wallis-et-futuna_2022/files/basic-html/page60.html>
 - **FIPECO — L'économie et les finances publiques de Saint-Barthélemy** :
   <https://www.fipeco.fr/commentaire/L'%C3%A9conomie%20et%20les%20finances%20publiques%20de%20Saint-Barth%C3%A9lemy>
 - **Légifrance — Code de la sécurité sociale, section « Prélèvements sur les
@@ -1442,11 +1513,15 @@ attendu :
   ressources **soumises à autorisation annuelle de perception** ; l'annexe
   complète, plus large, reste à récupérer (le site budget.gouv.fr refuse l'accès
   automatisé). Écart estimé : quelques dizaines de lignes sur ≈ 238.
-- **Les six codes fiscaux des collectivités à autonomie fiscale** (§4.7) :
-  le code des impôts calédonien, la fiscalité polynésienne, le CGI de
-  Saint-Martin, le code local de Saint-Pierre-et-Miquelon, le code des
-  contributions de Saint-Barthélemy et la fiscalité de Wallis-et-Futuna. Chacun
-  compte plusieurs dizaines d'impositions ; seules les principales sont citées.
+- **Les six codes fiscaux des collectivités à autonomie fiscale** (§4.7). La
+  structure de chacun a été relevée pour cette version — table analytique du code
+  local de Saint-Pierre-et-Miquelon, répertoire de la direction des services
+  fiscaux calédonienne, code des impôts polynésien, ventilation budgétaire de
+  Saint-Barthélemy et de Wallis-et-Futuna. Reste le **détail article par
+  article** : chacun compte plusieurs dizaines d'impositions et de tarifs, dont
+  beaucoup n'ont aucun équivalent métropolitain. C'est le gisement le plus riche
+  encore ouvert, mais le moins utile au ratio national, puisque cinq de ces six
+  collectivités sont hors champ des comptes nationaux (§2.1).
 - **La longue traîne des taxes à faible rendement** : l'IGF en recensait 192 en
   2014 sous le seuil de 150 M€, et la Cour des comptes constatait en 2019 qu'aucun
   inventaire à jour n'existait. Beaucoup ont été supprimées depuis (§7), d'autres
