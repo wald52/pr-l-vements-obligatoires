@@ -278,7 +278,8 @@ depuis le 1ᵉʳ janvier 2026)
 - fraction perçue sur les **produits énergétiques** (ex-**TICPE**, ligne 1501) ;
 - fraction perçue sur les **gaz naturels** (ex-TICGN, ligne 1502) ;
 - fraction perçue sur l'**électricité** (ex-TICFE / ex-CSPE, ligne 1503) ;
-- fraction perçue sur les **charbons et autres** (ex-TICC, ligne 1504).
+- fraction perçue sur les **charbons et autres** (ex-TICC, ex-**TICHLC** sur les
+  houilles, lignites et cokes, ligne 1504).
 
 > Les anciennes **taxes communales et départementales sur la consommation finale
 > d'électricité (TCCFE / TDCFE)** ont été absorbées par cette accise : les
@@ -416,7 +417,12 @@ depuis le 1ᵉʳ janvier 2026)
   en 2025, 200 M€ attendus en 2026 au titre de la composante pérenne.
 - **Taxe spéciale sur les conventions d'assurance (TSCA)** — assise sur les
   primes, y compris celles des assurances **obligatoires** (dont la souscription,
-  elle, n'est pas un PO : cf. §5).
+  elle, n'est pas un PO : cf. §5). Ses taux varient par risque (art. 991 à 1004
+  du CGI) et son produit est **éclaté entre plusieurs bénéficiaires** : le volet
+  **véhicules terrestres à moteur** (18 %) alimente notamment les départements
+  (services d'incendie et de secours) et la branche famille de la Sécurité
+  sociale. Une seule taxe, plusieurs affectataires — d'où sa réapparition en
+  §4.5 et §4.9.
 - **Contributions additionnelles aux primes d'assurance** finançant des fonds :
   **Fonds de prévention des risques naturels majeurs** (« fonds Barnier ») et
   **Fonds de garantie des victimes des actes de terrorisme et d'autres
@@ -575,8 +581,8 @@ au profit des collectivités, et **dans le champ des comptes nationaux** (§2.1)
   d'outre-mer.
 - **Droits de consommation sur les tabacs** propres aux DROM.
 - **Taxe due par les entreprises de transport public aérien et maritime**
-  (versions outre-mer et Corse) ; **taxe d'embarquement sur les passagers** dans
-  les territoires d'outre-mer.
+  (versions outre-mer et Corse) ; **taxe d'embarquement sur les passagers** et
+  **taxe d'atterrissage** dans les territoires d'outre-mer.
 - **Redevances de l'eau dans les départements d'outre-mer** (régime propre).
 - **Corse** : **droits de consommation sur les tabacs** et **sur les alcools** à
   tarifs spécifiques, **droit de francisation et droit de passeport** à régime
@@ -993,6 +999,9 @@ Regroupement par domaine :
   discutable au regard de C3.
 - **Redevance sur les paris hippiques** — versée aux **sociétés-mères de courses
   de chevaux** ; bénéficiaire de droit privé, d'où la réserve sur C2.
+- **Taxe pour la protection des obtentions végétales** — due par les obtenteurs
+  et détenteurs de certificats d'obtention ; même réserve sur C2, le bénéficiaire
+  étant l'instance nationale des obtentions végétales.
 
 **Industrie et branches professionnelles** — *nouvelle rubrique*
 
@@ -1121,6 +1130,7 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 | **Redevances de l'INPI** (procédures de propriété industrielle, registre du commerce) | REJET | C3 — **service rendu** individualisé, malgré leur inscription parmi les *taxes affectées plafonnées* du PLF 2026 (+45 M€). Illustration directe de l'avertissement du §2. |
 | **Émoluments et débours des notaires, huissiers et greffiers** | REJET | C2 + C3 — rémunération d'un officier ministériel ; seuls les **DMTO** compris dans les « frais de notaire » sont des PO. |
 | **Redevance pour frais d'envoi des certificats d'immatriculation** | REJET | C3 — coût d'acheminement d'un titre. |
+| **Redevances perçues lors du lancement de certains matériels aéronautiques** | REJET | C3 — contrepartie d'une prestation de contrôle et d'homologation. |
 
 ### 5.3 Bénéficiaire hors APU (échec C2)
 
@@ -1223,6 +1233,15 @@ documenter deux corrections apportées à la version précédente de ce document
 - **Contribution sur la rente inframarginale de la production d'électricité
   (CRIM)** — dispositif temporaire (2022-2025), **éteint** : aucune recette
   attendue en 2026.
+- **Contribution des gestionnaires de réseaux publics de distribution
+  d'électricité au FACÉ** (financement de l'électrification rurale) — **supprimée
+  au 1ᵉʳ août 2025** par la LF 2025 et remplacée par une fraction de l'accise sur
+  l'électricité. Le prélèvement n'a pas disparu : il a changé de véhicule.
+- **Taxe sur les hydrofluorocarbures (HFC)** — cas singulier : instituée par la
+  LF 2019, son entrée en vigueur a été reportée trois fois (2021, 2023, 2025)
+  avant son **abrogation par la loi n° 2025-127 du 14 février 2025**. Elle n'a
+  donc **jamais été perçue**. À ne pas compter parmi les prélèvements, malgré sa
+  présence dans plusieurs listes en circulation.
 - **Contribution pour l'aide juridique** (« timbre de 35 € ») — supprimée en
   2014 ; à ne pas confondre avec le **nouveau droit de timbre sur les procédures
   civiles et prud'homales** créé en 2026 (§4.3).
@@ -1341,6 +1360,15 @@ documenter deux corrections apportées à la version précédente de ce document
 - **Sénat — Financement de la gestion des eaux pluviales après abrogation de la
   taxe pluviale** :
   <https://www.senat.fr/questions/base/2023/qSEQ230406451.html>
+- **Sénat — Conséquences de la suppression de la contribution des gestionnaires
+  de réseau de distribution d'électricité au FACÉ** (2025) :
+  <https://www.senat.fr/questions/base/2025/qSEQ25040446S.html>
+- **Citepa — Suppression de la taxe sur les HFC** (jamais entrée en vigueur,
+  abrogée en 2025) :
+  <https://www.citepa.org/suppression-de-la-taxe-sur-les-hfc-initialement-prevue-pour-2021-et-de-la-tgap-sur-les-lubrifiants/>
+- **BOFiP — Taxe sur les conventions d'assurances, tarifs applicables aux
+  véhicules terrestres à moteur** :
+  <https://bofip.impots.gouv.fr/bofip/3383-PGP.html/identifiant=BOI-TCAS-ASSUR-30-10-30-20240619>
 - **Régime local d'assurance maladie d'Alsace-Moselle** (taux 2026 maintenu à
   1,30 %) : <https://regime-local.fr/>
 - **Projet de loi de financement de la sécurité sociale pour 2026** (mesures de
@@ -1384,7 +1412,28 @@ documenter deux corrections apportées à la version précédente de ce document
 
 ## 9. Pistes encore ouvertes
 
-Le recensement n'est pas clos. Ce qui reste à dépouiller, par ordre de rendement
+**Contrôle de couverture effectué.** Avant de lister ce qui manque, il faut dire
+ce qui a été vérifié. Deux confrontations automatiques ont été menées entre le
+présent document et ses listes sources :
+
+| Liste source | Entrées | Couverture finale |
+|---|---|---|
+| Article 36 du PLF 2026 (ressources affectées) | 131 lignes exploitables | **131 / 131** |
+| État A du PLF 2026 (recettes du budget général) | ≈ 90 lignes fiscales | **intégralement dépouillé** |
+| Liste encyclopédique, section « en vigueur » | 337 entrées | **337 / 337** |
+
+Le premier passage laissait six entrées non couvertes ; leur examen a produit
+six décisions distinctes, ce qui illustre bien la méthode : la **TICHLC** est
+fondue dans l'accise sur les énergies (§4.2) ; la **taxe HFC** n'a jamais été
+perçue et est abrogée (§7) ; la **contribution FACÉ** a été supprimée en 2025 et
+remplacée par une fraction d'accise (§7) ; la **taxe d'atterrissage** relève de
+la fiscalité ultramarine (§4.6) ; la **taxe sur les obtentions végétales** entre
+au §4.10 sous réserve C2 ; les **redevances de lancement aéronautique** sont
+rejetées comme contrepartie de service (§5.2).
+
+Ce contrôle mesure la **couverture par rapport à des listes existantes**, pas
+l'exhaustivité absolue — laquelle n'est atteignable par personne, y compris par
+l'administration (§1). Ce qui reste à dépouiller, par ordre de rendement
 attendu :
 
 - **L'annexe « Liste des taxes affectées » du PLF 2026**, publiée séparément en
