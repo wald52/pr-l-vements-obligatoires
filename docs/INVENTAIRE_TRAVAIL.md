@@ -2,7 +2,7 @@
 
 > Généré le 2026-08-05 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
 
-Ce document regroupe les **436 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
+Ce document regroupe les **437 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
 
 **Comment l'utiliser.** Traiter en priorité le §4 (« à arbitrer ») : commencer par le §4.1 (doublons probables à fusionner), puis instruire les taxes affectées (§4.3) et les nouvelles impositions (§4.4). Le §5 liste les questions ouvertes.
 
@@ -19,12 +19,12 @@ Ce document regroupe les **436 prélèvements** de l'inventaire réconcilié (an
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements au total | 436 |
-| Retenus (PRIS) | 379 |
+| Prélèvements au total | 437 |
+| Retenus (PRIS) | 380 |
 | Rejetés (REJET) | 56 |
 | À arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1573.8 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1574.5 Md€ |
 | Enveloppe INSEE 2024 | 1254.0 Md€ |
 | Couverture (socle / INSEE) | 105.8 % |
 
@@ -34,7 +34,7 @@ Ce document regroupe les **436 prélèvements** de l'inventaire réconcilié (an
 |---|---:|
 | taxe affectée | 224 |
 | impôt sur la production/importation | 62 |
-| impôt d'État | 42 |
+| impôt d'État | 43 |
 | impôt local | 29 |
 | impôt courant sur le revenu/patrimoine | 21 |
 | recette fiscale (État) | 17 |
@@ -50,14 +50,14 @@ Ce document regroupe les **436 prélèvements** de l'inventaire réconcilié (an
 | Source | Lignes |
 |---|---:|
 | taxes_affectees | 184 |
-| supplement_cure | 133 |
+| supplement_cure | 134 |
 | eurostat_ntl | 103 |
 | readme_seed | 69 |
 | vm_tome1 | 24 |
 
 ## 2. Prélèvements retenus (PRIS)
 
-379 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
+380 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
 
 ### Administrations de sécurité sociale (ASSO) — 26 lignes, 772.79 Md€
 
@@ -90,7 +90,7 @@ Ce document regroupe les **436 prélèvements** de l'inventaire réconcilié (an
 | Cotisations des régimes spéciaux |  | — | Code de la sécurité sociale | readme_seed (README §4-§5) |
 | Taxe annuelle sur les émissions de polluants atmosphériques |  | — | CIBS art. L. 421-115 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### État et administrations centrales (APUC) — 42 lignes, 448.04 Md€
+### État et administrations centrales (APUC) — 43 lignes, 448.74 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -104,6 +104,7 @@ Ce document regroupe les **436 prélèvements** de l'inventaire réconcilié (an
 | Impôt sur la fortune immobilière | IFI | 2.00 | CGI art. 964 s. | vm_tome1 (ligne 1406); readme_seed (README §4-§5) |
 | Taxe sur les transactions financières | TTF | 1.85 | CGI art. 235 ter ZD | eurostat_ntl (FR:D214C/C03); vm_tome1 (ligne 1797); readme_seed (README §4-§5) |
 | Taxe sur les services numériques |  | 0.79 | CGI art. 299 s. | eurostat_ntl (FR:D214I/C02); vm_tome1 (ligne 1430); readme_seed (README §4-§5) |
+| Droit de partage |  | 0.70 | CGI art. 746 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution de sécurité immobilière | CSI | 0.69 | CGI art. 879 | eurostat_ntl (FR:D214B/C01); supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les petits colis |  | 0.50 | LF 2026 | vm_tome1 (ligne 1442); supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Prélèvement sur les sommes versées par les assureurs au titre des contrats d'assurance en cas de décès |  | 0.48 | CGI art. 990 I et 990 I bis | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |

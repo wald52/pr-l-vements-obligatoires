@@ -2335,6 +2335,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-droit-de-partage",
+    "nom": "Droit de partage",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 746",
+    "montant_eur": 700000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "1,1 % de l'actif net partagé. Partages de biens indivis : successions, divorces, liquidations de société. Fait générateur propre, distinct de la mutation.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-contribution-de-securite-immobiliere",
     "nom": "Contribution de sécurité immobilière",
     "sigle": "CSI",

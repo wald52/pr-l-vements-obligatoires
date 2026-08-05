@@ -12,13 +12,13 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 260 entrées retenues (§4), 44 candidats rejetés avec le critère qui
+> **Contenu.** 261 entrées retenues (§4), 44 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (436 prélèvements), produit par le
+> est dans [`data/`](data/) (437 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -204,7 +204,7 @@ tranchent :
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **260 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **261 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -215,7 +215,7 @@ pour les raisons exposées au §1.
 |---|---:|---|
 | 4.1 Revenu, bénéfices, patrimoine | 21 | État |
 | 4.2 Accises et impositions sur les biens et services (CIBS) | 34 | État, collectivités, ASSO |
-| 4.3 Enregistrement, timbre, mutations, transactions | 17 | État |
+| 4.3 Enregistrement, timbre, mutations, transactions | 18 | État |
 | 4.4 Jeux d'argent et de hasard | 7 | État, ASSO, communes, ANS |
 | 4.5 Impôts locaux | 33 | APUL |
 | 4.6 DROM et Corse | 8 | Collectivités ultramarines |
@@ -229,8 +229,8 @@ S'y ajoutent **44 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **436 prélèvements
-uniques** (379 PRIS, 56 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **437 prélèvements
+uniques** (380 PRIS, 56 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -431,6 +431,11 @@ depuis le 1ᵉʳ janvier 2026)
 - **Droits d'apport des sociétés** ; **droit fixe pour l'établissement d'un
   contrat de mariage** ; **droits sur les autres conventions et actes civils**
   (ligne 1711) et sur les **actes judiciaires et extrajudiciaires** (ligne 1712).
+- **Droit de partage** — 1,1 % de l'actif net partagé, dû lors du partage de
+  biens indivis : sortie d'indivision successorale, liquidation de communauté
+  après divorce, partage de société. ≈ 0,7 Md€. Souvent oublié des recensements
+  parce qu'il se confond avec les droits d'enregistrement, alors qu'il a son
+  fait générateur propre — le partage, non la mutation.
 - **Contribution de sécurité immobilière** (ligne 1707) — perçue à l'occasion des
   formalités de publicité foncière ; a succédé en 2013 au « salaire du
   conservateur des hypothèques ». **Nouvelle entrée.**

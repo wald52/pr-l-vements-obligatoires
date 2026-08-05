@@ -6,11 +6,11 @@
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements retenus (PRIS) | 379 |
+| Prélèvements retenus (PRIS) | 380 |
 | Candidats rejetés (REJET) | 56 |
 | Lignes à arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1573.8 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1574.5 Md€ |
 | Enveloppe INSEE (2024) | 1254.0 Md€ |
 | **Couverture (socle)** | **105.8 %** |
 | PRIS sans montant | 112 |
@@ -22,7 +22,7 @@
 | Categorie | Nombre | Montant (Md€) |
 |---|---:|---:|
 | cotisation sociale | 8 | 570.0 |
-| impôt d'État | 39 | 446.5 |
+| impôt d'État | 40 | 447.2 |
 | fiscalité sociale | 14 | 201.1 |
 | impôt sur la production/importation | 61 | 135.2 |
 | taxe affectée | 191 | 101.6 |
@@ -36,7 +36,7 @@
 | Secteur | Nombre | Montant (Md€) |
 |---|---:|---:|
 | ASSO | 26 | 772.8 |
-| APUC | 42 | 448.0 |
+| APUC | 43 | 448.7 |
 | (non renseigné) | 226 | 242.4 |
 | APUL | 36 | 90.6 |
 | ODAC | 46 | 13.8 |
