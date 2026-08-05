@@ -9,6 +9,13 @@
 > **Année de référence.** Montants 2024 (derniers comptes nationaux INSEE) ;
 > liste des dispositifs reflétant le droit en vigueur mi-2026 (loi de finances
 > et loi de financement de la sécurité sociale pour 2026 incluses).
+>
+> **Contenu.** 259 entrées retenues (§4), 43 candidats rejetés avec le critère qui
+> les disqualifie (§5), 8 cas limites assumés comme non tranchés (§6) et une liste
+> des prélèvements récemment supprimés (§7), pour ne pas les recompter. Les
+> sources primaires — Voies et moyens tome I, état A et article 36 du PLF 2026,
+> liste INSEE des ODAC — ont été dépouillées ligne à ligne ; le contrôle de
+> couverture est publié au §9.
 
 ---
 
@@ -182,6 +189,30 @@ tranchent :
 > **taxes de régulation économique et sectorielle** (§4.10), ainsi que deux
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §9.
+
+**Ce que contient ce recensement.** Le §4 compte **259 entrées**, réparties comme
+suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
+plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
+l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
+Le tableau donne donc un ordre de grandeur de la couverture, pas un décompte —
+pour les raisons exposées au §1.
+
+| Section | Entrées | Bénéficiaire |
+|---|---:|---|
+| 4.1 Revenu, bénéfices, patrimoine | 21 | État |
+| 4.2 Accises et impositions sur les biens et services (CIBS) | 34 | État, collectivités, ASSO |
+| 4.3 Enregistrement, timbre, mutations, transactions | 16 | État |
+| 4.4 Jeux d'argent et de hasard | 7 | État, ASSO, communes, ANS |
+| 4.5 Impôts locaux | 33 | APUL |
+| 4.6 DROM et Corse | 8 | Collectivités ultramarines |
+| 4.7 Collectivités à autonomie fiscale | 35 | *hors champ du ratio national* |
+| 4.8 Cotisations sociales effectives | 14 | ASSO |
+| 4.9 Fiscalité sociale | 18 | ASSO |
+| 4.10 Taxes affectées aux opérateurs et agences | 68 | ODAC, ODAL, organismes divers |
+| 4.11 Union européenne | 5 | Institutions de l'UE |
+
+S'y ajoutent **43 candidats examinés puis rejetés** (§5) et **8 cas limites non
+tranchés** (§6).
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
 
