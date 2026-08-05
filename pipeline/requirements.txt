@@ -1,0 +1,9 @@
+# Dépendances du pipeline d'inventaire des prélèvements obligatoires.
+# Toutes disponibles sur PyPI (autorisé par le proxy de l'environnement).
+requests>=2.31
+PyYAML>=6.0
+pandas>=2.0
+openpyxl>=3.1          # lecture des tableaux Excel (Eurostat NTL, V&M)
+pdfplumber>=0.11       # extraction tabulaire du PDF Voies & Moyens Tome I
+jsonschema>=4.20       # validation du jeu de données produit
+rapidfuzz>=3.6         # rapprochement flou des libellés entre sources

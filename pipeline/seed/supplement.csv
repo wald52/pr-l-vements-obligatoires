@@ -1,0 +1,134 @@
+nom;sigle;categorie;secteur;base_legale;montant_mdeur;statut;critere_echec;notes;alias
+Imposition forfaitaire sur les éoliennes terrestres et hydroliennes;IFER éolien;impôt local;APUL;CGI art. 1519 D;;PRIS;;Composante de l'IFER.;IFER éoliennes
+Imposition forfaitaire sur les installations de production d'électricité nucléaire ou thermique à flamme;IFER nucléaire;impôt local;APUL;CGI art. 1519 E;;PRIS;;Composante de l'IFER.;
+Imposition forfaitaire sur les centrales photovoltaïques et hydrauliques;IFER photovoltaïque;impôt local;APUL;CGI art. 1519 F;;PRIS;;Composante de l'IFER.;
+Imposition forfaitaire sur les transformateurs électriques;IFER transformateurs;impôt local;APUL;CGI art. 1519 G;;PRIS;;Composante de l'IFER.;
+Imposition forfaitaire sur les stations radioélectriques;IFER antennes;impôt local;APUL;CGI art. 1519 H;;PRIS;;Composante de l'IFER (antennes-relais).;
+Imposition forfaitaire sur les installations gazières et canalisations de transport;IFER gaz;impôt local;APUL;CGI art. 1519 HA;;PRIS;;Composante de l'IFER (gaz, GNL, stockage).;
+Imposition forfaitaire sur le matériel ferroviaire roulant;IFER ferroviaire;impôt local;APUL;CGI art. 1599 quater A;;PRIS;;Composante de l'IFER (transport de voyageurs).;
+Imposition forfaitaire sur les répartiteurs principaux et équipements de boucle locale cuivre;IFER cuivre;impôt local;APUL;CGI art. 1599 quater B;;PRIS;;Composante de l'IFER (téléphonie cuivre).;
+Taxe générale sur les activités polluantes — composante déchets;TGAP déchets;impôt d'État;APUC;CIBS (ex-CGI 266 sexies);;PRIS;;Composante de la TGAP.;
+Taxe générale sur les activités polluantes — composante émissions polluantes;TGAP émissions;impôt d'État;APUC;CIBS;;PRIS;;Composante de la TGAP.;
+Taxe générale sur les activités polluantes — composante lessives;TGAP lessives;impôt d'État;APUC;CIBS;;PRIS;;Composante de la TGAP.;
+Taxe générale sur les activités polluantes — composante matériaux d'extraction;TGAP matériaux;impôt d'État;APUC;CIBS;;PRIS;;Composante de la TGAP.;
+Taxe sur le transport aérien de passagers — tarif de solidarité;TSBA solidarité;impôt d'État;APUC;CIBS (ex-taxe de solidarité « Chirac »);;PRIS;;Réformée et relevée en LFI 2025.;Taxe sur le transport aérien de passagers, tarif de solidarité (TAP, TS)
+Droit de timbre sur les procédures civiles en première instance et prud'homales;;impôt d'État;APUC;CGI;;PRIS;;Rétabli en LFI 2024.;
+Taxe sur l'exploitation des infrastructures de transport de longue distance;TEILD;impôt d'État;APUC;CGI art. 235 ter ZE bis;;PRIS;;Concessions autoroutières et grands aéroports (depuis 2024).;Taxe sur les concessions autoroutières
+Taxe d'habitation sur les logements vacants;THLV;impôt local;APUL;CGI art. 1407 bis;;PRIS;;Instituée par les communes (distincte de la TLV nationale).;
+Taxe pour la gestion des eaux pluviales urbaines;;impôt local;APUL;CGCT art. L. 2333-97;;REJET;supprime;Instituée en 2011 et abrogée en 2015, son coût de recouvrement excédant son rendement. Aucun financement de substitution n'a été institué.;
+Contribution spéciale et taxe additionnelle d'accompagnement (stockage de déchets radioactifs, Cigéo);;taxe affectée;ODAC;Loi de finances 2000 art. 43;;PRIS;;Additionnelles à la taxe INB, affectées aux collectivités/ANDRA.;
+Impôt minimum mondial à 15 % (pilier 2);IMG;impôt d'État;APUC;Directive UE 2022/2523 - CGI art. 223 VJ s.;;PRIS;;Ligne de recette propre au V&M depuis le PLF 2026.;Imposition mondiale des groupes
+Taxe sur les petits colis;;impôt d'État;APUC;LF 2026;0.5;PRIS;;2 EUR par article, envois hors UE de moins de 150 EUR, au 1er mars 2026. Ligne 1442.;
+Taxe sur le patrimoine financier (holdings patrimoniales);;impôt d'État;APUC;LF 2026;;PRIS;;Droit voté non encore productif : exercices clos à compter du 31/12/2026. Ligne 1439.;Taxe sur les actifs non affectés à une activité opérationnelle
+Contribution de la Caisse des dépôts et consignations représentative de l'impôt sur les sociétés;;impôt d'État;APUC;CGI art. 208 ter;;PRIS;;Ligne 1303. La CDC n'étant pas assujettie à l'IS.;
+Contribution des institutions financières;;impôt d'État;APUC;CGI;;PRIS;;Ligne 1415.;
+Prélèvement sur les sommes versées par les assureurs au titre des contrats d'assurance en cas de décès;;impôt d'État;APUC;CGI art. 990 I et 990 I bis;0.478;PRIS;;Régime successoral propre à l'assurance-vie. Ligne 1714.;
+Contribution de sécurité immobilière;CSI;impôt d'État;APUC;CGI art. 879;;PRIS;;Ligne 1707. A succédé en 2013 au salaire du conservateur des hypothèques. Confirmée par la NTL (D214B).;
+Taxe forfaitaire sur les métaux précieux, bijoux, objets d'art, de collection et d'antiquité;;impôt d'État;APUC;CGI art. 150 VI s.;;PRIS;;Imposition libératoire sur la cession. Ligne 1413.;
+Taxe sur la valeur vénale des immeubles des entités juridiques;taxe de 3 %;impôt d'État;APUC;CGI art. 990 D;;PRIS;;Frappe les entités détenant des immeubles en France sans révéler leurs bénéficiaires.;
+Garantie des matières d'or et d'argent;;impôt d'État;APUC;CGI art. 522 s.;;PRIS;;Droits de poinçonnage. Ligne 1766.;
+Contribution au Fonds de résolution unique;FRU / SRF;impôt d'État;APUC;Règlement UE 806/2014;;PRIS;;Classée D29H dans la National Tax List d'Eurostat pour la France.;Single resolution fund
+Retenues à la source sur les revenus versés à des non-résidents;;impôt d'État;APUC;CGI art. 182 A s.;;PRIS;;Salaires, dividendes, redevances. Lignes 1401 et 1402.;
+Taxe sur la distance parcourue sur le réseau autoroutier concédé;;impôt d'État;APUC;CIBS art. L. 421-190 s.;;PRIS;;Affectée à l'AFITF.;
+Taxe annuelle sur les émissions de polluants atmosphériques;;impôt d'État;ASSO;CIBS art. L. 421-115 s.;;PRIS;;Volet de la taxation de l'affectation des véhicules à des fins économiques.;
+Taxe sur la masse en ordre de marche;malus masse;impôt d'État;APUC;CIBS art. L. 421-81 s.;;PRIS;;Composante du malus à l'immatriculation.;
+Taxe annuelle sur les engins maritimes à usage personnel;TAEMUP;taxe affectée;ODAC;CIBS art. L. 423-4 s.;;PRIS;;Ex-droit de francisation. Répartie entre CELRL, organismes de sauvetage en mer et filière REP navires.;
+Droit de passeport des navires;;impôt d'État;APUC;CIBS;;PRIS;;Navires sous pavillon étranger appartenant à des résidents français.;
+Taxe sur les passagers maritimes embarqués à destination d'espaces naturels protégés;;impôt local;APUL;CIBS art. L. 423-45 s.;;PRIS;;Au profit du gestionnaire de l'espace protégé ou de la commune d'implantation.;
+Taxe sur les services de télévision - éditeurs;TST-E;taxe affectée;ODAC;CIBS art. L. 453-13 s.;0.252;PRIS;;Affectée au CNC.;
+Taxe sur la publicité télévisuelle et autres ressources liées à la diffusion de services de télévision;TST-D;taxe affectée;ODAC;CIBS art. L. 454-1 s.;0.242;PRIS;;Affectée au CNC.;
+Taxe sur les services d'accès à des contenus audiovisuels à la demande;SMAD;taxe affectée;ODAC;CIBS art. L. 453-30 s.;;PRIS;;Affectée au CNC.;
+Taxe sur la publicité diffusée au moyen de services d'accès à des contenus audiovisuels à la demande;;taxe affectée;ODAC;CIBS;;PRIS;;Affectée au CNC.;
+Taxe sur les vidéogrammes;;taxe affectée;ODAC;CIBS;;PRIS;;Affectée au CNC.;
+Taxe sur le visa d'exploitation cinématographique;;taxe affectée;ODAC;CIBS;;PRIS;;Affectée au CNC.;
+Taxe sur l'autorisation d'exercice de l'activité d'exploitant d'établissement de spectacles cinématographiques;;taxe affectée;ODAC;CIBS;;PRIS;;Affectée au CNC.;
+Taxe sur la production et la distribution d'oeuvres cinématographiques;;taxe affectée;ODAC;CIBS art. L. 455-17;0.008;PRIS;;Affectée au CNC.;
+Taxe sur la mise en relation par voie électronique en vue de fournir certaines prestations de transport;;taxe affectée;ODAC;CIBS art. L. 453-40 s.;;PRIS;;Affectée à l'ARPE.;
+Taxe sur les locations de phonogrammes et vidéomusiques en ligne;taxe streaming;taxe affectée;ODAC;CIBS art. L. 453-60 s.;;PRIS;;Affectée au CNM.;
+Taxe sur les spectacles vivants - fraction variétés;TSV-SV;taxe affectée;ODAC;CIBS art. L. 452-14 s.;0.060;PRIS;;Affectée au CNM.;
+Taxe sur les spectacles vivants - fraction art dramatique, lyrique et chorégraphique;TSV-ADLC;taxe affectée;ODAC;CIBS art. L. 452-14 s.;;PRIS;;Affectée à l'ASTP, qui figure dans la liste INSEE des ODAC.;Taxe sur les spectacles perçue au profit de l'Association pour le soutien du théâtre privé
+Taxe additionnelle départementale à la taxe de séjour;;impôt local;APUL;CGCT art. L. 3333-1;;PRIS;;10 % de la taxe de séjour.;
+Taxe additionnelle régionale à la taxe de séjour en Île-de-France;;impôt local;APUL;CGCT;;PRIS;;15 %, au profit de la Société des grands projets.;
+Taxe sur les activités commerciales saisonnières non salariées;;impôt local;APUL;CGCT art. L. 2333-88;;PRIS;;Instituée par délibération communale.;
+Taxe sur les déchets réceptionnés dans une installation de stockage ou un incinérateur;;impôt local;APUL;CGCT art. L. 2333-92;;PRIS;;Taxe communale, distincte de la TGAP déchets.;
+Droit départemental de passage sur les ouvrages d'art reliant le continent aux îles maritimes;;impôt local;APUL;CGCT art. L. 3333-1 s.;;PRIS;;Pont de Ré, pont d'Oléron.;
+Taxe dans le domaine funéraire;;impôt local;APUL;CGCT art. L. 2223-22;;PRIS;;Convois, inhumations, crémations.;
+Redevance pour création de bureaux, locaux commerciaux et de stockage en Île-de-France;RCBCE;impôt local;APUL;CU art. L. 520-1 s.;;PRIS;;Imposition due à la construction, distincte de la taxe annuelle sur les bureaux.;
+Frais de gestion de la fiscalité directe locale;;impôt d'État;APUC;CGI art. 1641;;PRIS;;Majorations de 1 à 8 % prélevées par l'État sur le contribuable local au titre de l'assiette, du recouvrement et des dégrèvements.;
+Taxe d'archéologie préventive;TAP;taxe affectée;ODAC;CU art. L. 331-1 s.;;PRIS;;Ex-redevance d'archéologie préventive. Finance l'INRAP et le FNAP.;Redevance d'archéologie préventive
+Cotisation du régime local d'assurance maladie d'Alsace-Moselle;;cotisation sociale;ASSO;CSS art. L. 325-1 à L. 325-3;;PRIS;;1,30 % à la charge exclusive des salariés des trois départements. Taux maintenu en 2026.;
+Cotisations aux caisses d'assurance-accidents agricoles d'Alsace-Moselle;;cotisation sociale;ASSO;CSS;;PRIS;;Régime AT-MP agricole local.;
+Contribution tarifaire d'acheminement;CTA;fiscalité sociale;ASSO;Loi 2004-803 art. 18;;PRIS;;Prélevée sur la part fixe de l'acheminement de l'électricité et du gaz, au profit de la CNIEG.;
+Droits de plaidoirie;;cotisation sociale;ASSO;CSS art. L. 723-3;;PRIS;;Dus par l'avocat à chaque plaidoirie, au profit de la CNBF.;
+Contribution exceptionnelle à la charge des organismes complémentaires d'assurance maladie;;fiscalité sociale;ASSO;LFSS 2026;;PRIS;;2,05 % des cotisations perçues. Répercussion directe sur les adhérents interdite.;
+Contribution salariale sur les carried interests;;fiscalité sociale;ASSO;CSS art. L. 137-37;;PRIS;;;
+Contribution sur les abondements des employeurs aux plans d'épargne retraite collectifs;;fiscalité sociale;ASSO;CSS art. L. 137-5;;PRIS;;;
+Contribution sur les indemnités de mise à la retraite;;fiscalité sociale;ASSO;CSS art. L. 137-12;;PRIS;;;
+Clause de sauvegarde sur les dispositifs médicaux;clause Z;fiscalité sociale;ASSO;CSS art. L. 138-19-8 s.;;PRIS;;Pendant de la clause M pour les dispositifs médicaux.;
+Contribution vente en gros des grossistes-répartiteurs;;fiscalité sociale;ASSO;CSS art. L. 138-1 s.;;PRIS;;;
+Contribution sur les dépenses de promotion des médicaments et des dispositifs médicaux;;fiscalité sociale;ASSO;CSS art. L. 245-1 s.;;PRIS;;;
+Contribution sur les premières ventes de médicaments et de dispositifs médicaux;;fiscalité sociale;ASSO;CSS;;PRIS;;;
+Cotisation versée par les organismes HLM et les SEM à la CGLLS;;taxe affectée;ODAC;CCH art. L. 452-4;0.590;PRIS;;La CGLLS figure dans la liste INSEE des ODAC.;
+Cotisation additionnelle versée par les organismes HLM et les SEM à la CGLLS;;taxe affectée;ODAC;CCH art. L. 452-4-1;0.038;PRIS;;;
+Prélèvement sur la participation des employeurs à l'effort de construction au profit de l'ANCOLS;;taxe affectée;ODAC;CCH art. L. 313-3;;PRIS;;;
+Droits et contributions pour frais de contrôle de l'Autorité des marchés financiers;;taxe affectée;ODAC;CMF art. L. 621-5-3;0.140;PRIS;;L'AMF figure dans la liste INSEE des ODAC.;
+Contributions des commissaires aux comptes et des organismes tiers indépendants à la Haute autorité de l'audit;H2A;taxe affectée;ODAC;Code de commerce art. L. 821-6;;PRIS;;Cotisations sur honoraires, cotisations additionnelles, droit fixe sur rapports de certification.;
+Taxe sur l'utilisation des bandes 700 MHz et 800 MHz du spectre radioélectrique;;taxe affectée;ODAC;CGI art. 1609 undecies;;PRIS;;Affectée à l'ANFR. A distinguer des redevances d'utilisation des fréquences.;
+Taxe sur les installations nucléaires de base - tarif de recherche;TINB-E TR;taxe affectée;ODAC;CIBS art. L. 322-39 s.;;PRIS;;Affectée à l'ANDRA.;
+Taxe sur les installations nucléaires de base - tarif de conception;TINB-E TC;taxe affectée;ODAC;CIBS art. L. 322-39 s.;;PRIS;;Affectée à l'ANDRA.;
+Taxe sur les installations nucléaires de base - tarif d'accompagnement;TINB-E TA;taxe affectée;APUL;CIBS art. L. 322-39 s.;0.058;PRIS;;Affectée aux GIP Objectif Meuse et Haute-Marne et aux communes concernées.;
+Taxe sur les dossiers de demande concernant les médicaments vétérinaires;;taxe affectée;ODAC;CSP;;PRIS;;Affectée à l'ANSES.;
+Taxe annuelle sur les autorisations de médicaments vétérinaires et d'établissements pharmaceutiques vétérinaires;;taxe affectée;ODAC;CSP;;PRIS;;Affectée à l'ANSES.;
+Taxe relative à la mise sur le marché des produits phytopharmaceutiques, matières fertilisantes et supports de culture;;taxe affectée;ODAC;CRPM art. L. 253-8-2;;PRIS;;Affectée à l'ANSES.;
+Taxe annuelle sur la vente des produits phytopharmaceutiques;;taxe affectée;ODAC;CRPM art. L. 253-8-2;;PRIS;;Affectée à l'ANSES.;
+Redevance sur les produits biocides;;taxe affectée;ODAC;Code de l'environnement art. L. 522-16;;PRIS;;Affectée à l'ANSES.;
+Taxe fixe sur l'immatriculation des véhicules;TFIV;taxe affectée;ODAC;CIBS;;PRIS;;Affectée à l'ANTS.;
+Taxe sur le renouvellement et l'échange du permis de conduire;TREPC;taxe affectée;ODAC;CIBS;;PRIS;;Affectée à l'ANTS.;
+Indemnité de défrichement;;taxe affectée;ODAC;Code forestier art. L. 341-6;;PRIS;;Affectée à l'ASP. Imposition due à l'occasion d'une autorisation administrative.;
+Droit sur les produits bénéficiant d'une appellation d'origine ou d'une indication géographique protégée;;taxe affectée;ODAC;CRPM art. L. 642-13;;PRIS;;Affecté à l'INAO, qui figure dans la liste INSEE des ODAC.;
+Prélèvement sur les contrats d'assurance de biens au profit du Fonds de garantie des victimes d'actes de terrorisme;FGTI;taxe affectée;ODAC;Code des assurances art. L. 422-1;;PRIS;;Le FGTI figure dans la liste INSEE des ODAC, à la différence du FGAO.;
+Rémunération pour services rendus au Comité professionnel des stocks stratégiques pétroliers;CPSSP;taxe affectée;ODAC;Code de l'énergie art. L. 642-6;;PRIS;;Le CPSSP figure dans la liste INSEE des ODAC. Confirmée par la NTL (D214A).;
+Redevances cynégétiques et droit de validation du permis de chasse;;taxe affectée;ODAC;Code de l'environnement art. L. 423-21-1;;PRIS;;Affectées à l'OFB. Confirmées par la NTL (D59D).;
+Droit d'examen du permis de chasse;;taxe affectée;ODAC;Code de l'environnement;;PRIS;;Affecté à l'OFB.;
+Redevance pour délivrance initiale du permis de chasse;;taxe affectée;ODAC;Code de l'environnement;;PRIS;;Affectée à l'OFB.;
+Redevance pour obstacle sur les cours d'eau;;taxe affectée;APUL;Code de l'environnement art. L. 213-10-11;;PRIS;;Affectée aux agences de l'eau, classées en ODAL.;
+Redevance pour protection du milieu aquatique;;taxe affectée;APUL;Code de l'environnement art. L. 213-10-12;;PRIS;;Affectée aux agences de l'eau.;
+Redevance pour stockage d'eau en période d'étiage;;taxe affectée;APUL;Code de l'environnement art. L. 213-10-10;;PRIS;;Affectée aux agences de l'eau.;
+Contribution supplémentaire à l'apprentissage;CSA;taxe affectée;ODAC;Code du travail art. L. 6242-1;0.191;PRIS;;Affectée à France compétences.;
+Participations au financement de la formation des professions non salariées;;taxe affectée;ODAC;Code du travail art. L. 6331-48 s.;;PRIS;;Sept assiettes distinctes selon l'article 36 du PLF 2026 : artisans, autres indépendants, agriculture, pêche, particuliers employeurs, artistes-auteurs, intermittents.;
+Solde de la taxe d'apprentissage;;taxe affectée;ODAC;Code du travail art. L. 6241-2;;PRIS;;Affecté à la Caisse des dépôts et consignations (plateforme SOLTéA).;
+Taxes sur les biens des industries mécaniques, de la fonderie, de la soudure, aérauliques et thermiques et de la construction métallique;;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectées au CETIM, au CTICM et au CETIAT. Bénéficiaires absents de la liste INSEE des ODAC : l'enregistrement en PO dépend du réacheminement en comptabilité nationale.;Taxe pour le développement des industries de la mécanique et de la construction métallique, des matériels et consommables de soudage et produits du décolletage, de construction métallique et des matériels aérauliques et thermiques|Taxe sur les produits de la fonderie
+Taxes sur les biens des industries de l'ameublement et du bois;TBIA / TBIB;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectées au CODIFAB, à l'institut FCBA et au CETIM. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Taxe pour le développement des industries de l'ameublement ainsi que des industries du bois
+Taxes sur les biens des industries du béton, des matériaux de construction en terre cuite et des roches ornementales;;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectées au CERIB et au CTMNC. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Taxe pour le développement des industries des matériaux de construction regroupant les industries du béton, de la terre cuite et des roches ornementales et de construction
+Taxe sur les biens des industries de l'habillement;TBIH;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectée au DEFI et à l'IFTH. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Taxe pour le développement des industries de l'habillement
+Taxe sur les biens des industries du cuir, de la chaussure et de la maroquinerie;TBICCM;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectée au CTC. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Taxe pour le développement des industries du cuir, de la maroquinerie, de la ganterie et de la chaussure
+Taxe sur les biens des industries de l'horlogerie, de la bijouterie-joaillerie, de l'orfèvrerie et des arts de la table;TBIHBJOAT;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectée au comité Francéclat. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Taxe pour le développement des industries de l'horlogerie, bijouterie, joaillerie, orfèvrerie et arts de la table
+Taxe sur les biens des industries du papier;TBIP;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectée au Centre technique du papier. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Taxe pour le développement des industries de fabrication du papier, du carton et de la pâte de cellulose.
+Taxe sur les biens des industries de la plasturgie et des composites;TBIPC;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectée au CTIPC. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Taxe affectée au financement d’un nouveau Centre Technique Industriel de la plasturgie et des composites
+Taxe sur les biens des industries des corps gras;TICG;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectée à l'ITERG. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Taxe affectée au financement de l'institut des corps gras
+Taxe pour le développement de l'industrie de la conservation des produits agricoles;;taxe affectée;;CIBS art. L. 471-1 s.;;REJET;C2;Affectée au CTCPA. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;
+Taxe sur l'immatriculation des véhicules de transport;TIVT;taxe affectée;;CIBS;;REJET;C2;Affectée à l'AFT, association de droit privé. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Taxe destinée à financer le développement des actions de formation professionnelle dans les transports routiers
+Taxe pour le développement de la formation dans les métiers de la réparation de l'automobile, du cycle et du motocycle;;taxe affectée;;CIBS;;REJET;C2;Affectée à l'ANFA, association de droit privé. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;
+Contribution spécifique à la formation professionnelle du bâtiment et des travaux publics;;taxe affectée;;Code du travail;;REJET;C2;Affectée au 3CABTP. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;
+Cotisation BTP intempéries;;taxe affectée;;Code du travail art. L. 5424-6 s.;;REJET;C2;Versée aux caisses de congés payés du BTP. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;
+Redevance sur les paris hippiques;;taxe affectée;;CGI art. 302 bis ZG;;REJET;C2;Versée aux sociétés-mères de courses de chevaux. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;
+Fraction du prélèvement sur les jeux de loterie dédiés au patrimoine;;taxe affectée;;CGI;;REJET;C2;Loto du patrimoine, versé à la Fondation du patrimoine. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;Fraction du prélèvement sur les jeux de loterie correspondant aux jeux dédiés au patrimoine
+Taxe pour la protection des obtentions végétales;;taxe affectée;;Code de la propriété intellectuelle;;REJET;C2;Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.;
+Obligations d'achat d'électricité renouvelable à prix contractuels;;impôt d'État;APUC;Code de l'énergie art. L. 314-1 s.;;A_ARBITRER;;Aucun versement à une APU, mais la NTL d'Eurostat les enregistre en D29H pour la France. Divergence assumée entre analyse juridique et traitement statistique.;
+Contribution patronale au dialogue social;;taxe affectée;;Code du travail art. L. 2135-9 s.;;REJET;C2;Versée à l'AGFPN, association paritaire hors périmètre APU. Figure pourtant au tableau des ressources affectées du PLF 2026.;Contribution patronale au dialogue social (0,016%)
+Contribution des assurés au Fonds de garantie des assurances obligatoires de dommages;FGAO;taxe affectée;;Code des assurances art. L. 421-4;;REJET;C2;Personne morale de droit privé absente de la liste ODAC, à la différence du FGTI.;
+Contributions additionnelles aux primes d'assurance au profit de la Caisse centrale de réassurance;surprime CatNat;taxe affectée;;CGI art. 1635 bis A;0.120;REJET;C2;La CCR est une société anonyme d'assurance classée parmi les sociétés financières.;
+Contribution forfaitaire annuelle à la charge des professionnels de santé;;taxe affectée;;Code des assurances art. L. 426-1;0.008;REJET;C2;Fonds de garantie des dommages liés aux actes de soins, géré par la CCR.;
+Contributions pour frais de contrôle de l'Autorité de contrôle prudentiel et de résolution;ACPR;taxe affectée;;CMF art. L. 612-20;;REJET;C2;L'ACPR est adossée à la Banque de France, classée en sociétés financières et non en APU.;
+Cotisation obligatoire au Comité de gestion des oeuvres sociales des personnels hospitaliers;CGOS;taxe affectée;;Code du travail;;REJET;C2;Payée par des hôpitaux publics à une association de droit privé.;
+Cotisation obligatoire au Centre national de la fonction publique territoriale;CNFPT;taxe affectée;;Loi 84-53 art. 12-2;;REJET;;Transfert entre administrations publiques : payé par des APUL à une APUL, consolidé en comptabilité nationale.;
+Redevances perçues par l'Institut national de la propriété industrielle;INPI;taxe affectée;;CPI art. L. 411-2;;REJET;C3;Service rendu individualisé, malgré leur inscription parmi les taxes affectées plafonnées.;
+Contribution spéciale due par les employeurs d'étrangers sans autorisation de travail;;taxe affectée;;CESEDA art. L. 8253-1;;REJET;sanction;Sanction administrative proportionnée au manquement, malgré son nom.;
+Redevances perçues lors du lancement de certains matériels aéronautiques;;taxe affectée;;;;REJET;C3;Contrepartie d'une prestation de contrôle et d'homologation.;
+Majoration de la taxe sur les assurances de protection juridique au profit du Conseil national des barreaux;;taxe affectée;;CGI art. 1001;;REJET;C2;Le CNB est un établissement d'utilité publique de droit privé.;
+Participation pour le financement de l'assainissement collectif;PFAC;impôt local;;CSP art. L. 1331-7;;REJET;C3;Contrepartie directe : raccordement au réseau.;
+Taxe sur les hydrofluorocarbures;HFC;impôt d'État;APUC;LF 2019 art. 197;;REJET;supprime;Entrée en vigueur reportée trois fois puis abrogation par la loi 2025-127 du 14 février 2025. Jamais perçue.;
+Contribution des gestionnaires de réseaux publics de distribution d'électricité au FACÉ;FACÉ;taxe affectée;APUC;CGI art. 1519 quinquies;;REJET;supprime;Supprimée au 1er août 2025 par la LF 2025 et remplacée par une fraction de l'accise sur l'électricité.;Contribution des distributeurs d'énergie électrique basse tension
+Taxe annuelle sur les résidences mobiles terrestres;;impôt d'État;APUC;CGI art. 1013;;REJET;supprime;Abrogée au 1er octobre 2019 par la LF 2019.;
+Contribution sur les activités privées de sécurité;CNAPS;taxe affectée;ODAC;CGI art. 1609 quintricies;;REJET;supprime;Supprimée au 1er janvier 2020. Le CNAPS est désormais financé sur le budget de l'État.;
+Contribution sur la rente inframarginale de la production d'électricité;CRIM;impôt d'État;APUC;Code de l'énergie art. L. 443-1 s.;;REJET;supprime;Dispositif temporaire 2022-2025, éteint. Aucune recette attendue en 2026.;

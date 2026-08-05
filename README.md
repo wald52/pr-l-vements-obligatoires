@@ -6,16 +6,20 @@
 > en tire une **règle de décision** (prendre / rejeter), puis applique cette
 > règle à chaque candidat (impôt, taxe, cotisation, redevance, amende…).
 >
-> **Année de référence.** Montants 2024 (derniers comptes nationaux INSEE) ;
-> liste des dispositifs reflétant le droit en vigueur mi-2026 (loi de finances
-> et loi de financement de la sécurité sociale pour 2026 incluses).
+> **Année de référence.** Montants 2024 (comptes nationaux INSEE
+> semi-définitifs) ; liste des dispositifs reflétant le droit en vigueur mi-2026
+> (loi de finances et loi de financement de la sécurité sociale pour 2026
+> incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
+> 43,6 % du PIB**.
 >
-> **Contenu.** 259 entrées retenues (§4), 43 candidats rejetés avec le critère qui
-> les disqualifie (§5), 8 cas limites assumés comme non tranchés (§6) et une liste
-> des prélèvements récemment supprimés (§7), pour ne pas les recompter. Les
-> sources primaires — Voies et moyens tome I, état A et article 36 du PLF 2026,
-> liste INSEE des ODAC — ont été dépouillées ligne à ligne ; le contrôle de
-> couverture est publié au §9.
+> **Contenu.** 260 entrées retenues (§4), 44 candidats rejetés avec le critère qui
+> les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
+> supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
+> moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
+> Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
+> couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
+> est dans [`data/`](data/) (436 prélèvements), produit par le
+> [`pipeline/`](pipeline/) — voir §8.
 
 ---
 
@@ -28,8 +32,12 @@
 5. [Candidats examinés puis REJETÉS](#5-candidats-examinés-puis-rejetés)
 6. [Cas limites et points de vigilance](#6-cas-limites-et-points-de-vigilance)
 7. [Prélèvements récemment supprimés (mémoire)](#7-prélèvements-récemment-supprimés-mémoire)
-8. [Sources](#8-sources)
-9. [Pistes encore ouvertes](#9-pistes-encore-ouvertes)
+8. [Du raisonnement au pipeline reproductible](#8-du-raisonnement-au-pipeline-reproductible)
+9. [Sources](#9-sources)
+10. [Pistes encore ouvertes](#10-pistes-encore-ouvertes)
+
+Le raisonnement est dans ce document ; le **jeu de données ligne à ligne** est
+dans [`data/`](data/), produit par le [`pipeline/`](pipeline/) — voir §8.
 
 ---
 
@@ -52,6 +60,12 @@ Répartition par sous-secteur d'administration bénéficiaire (en points de PIB,
 
 > La Sécurité sociale capte donc plus de la moitié des prélèvements obligatoires,
 > l'État un petit tiers, les collectivités le reste.
+
+> *Lecture du tableau.* La somme des poids par bénéficiaire (≈ 45 pts) dépasse
+> légèrement le taux INSEE (42,7 %) : la ventilation est présentée **avant
+> déduction des crédits d'impôt restituables**, sur une base proche de la mesure
+> Eurostat (cf. §5.4, dernière ligne). L'ordre de grandeur et la hiérarchie des
+> bénéficiaires restent inchangés.
 
 **Et combien de prélèvements distincts ?** Il n'existe **aucun décompte officiel
 unique**, et les ordres de grandeur publiés divergent d'un facteur cinq :
@@ -123,7 +137,7 @@ n'entrant pas dans le ratio national** : les additionner au 42,7 % serait une
 faute de méthode.
 
 > Sources de la définition : INSEE (définition c1571), OCDE (Statistiques des
-> recettes publiques / guide d'interprétation), FIPECO. Voir §8.
+> recettes publiques / guide d'interprétation), FIPECO. Voir §9.
 
 ---
 
@@ -188,9 +202,9 @@ tranchent :
 > particuliers** (§4.8), les **taxes des centres techniques industriels** et les
 > **taxes de régulation économique et sectorielle** (§4.10), ainsi que deux
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
-> sont au §9.
+> sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **259 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **260 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -201,7 +215,7 @@ pour les raisons exposées au §1.
 |---|---:|---|
 | 4.1 Revenu, bénéfices, patrimoine | 21 | État |
 | 4.2 Accises et impositions sur les biens et services (CIBS) | 34 | État, collectivités, ASSO |
-| 4.3 Enregistrement, timbre, mutations, transactions | 16 | État |
+| 4.3 Enregistrement, timbre, mutations, transactions | 17 | État |
 | 4.4 Jeux d'argent et de hasard | 7 | État, ASSO, communes, ANS |
 | 4.5 Impôts locaux | 33 | APUL |
 | 4.6 DROM et Corse | 8 | Collectivités ultramarines |
@@ -211,8 +225,13 @@ pour les raisons exposées au §1.
 | 4.10 Taxes affectées aux opérateurs et agences | 68 | ODAC, ODAL, organismes divers |
 | 4.11 Union européenne | 5 | Institutions de l'UE |
 
-S'y ajoutent **43 candidats examinés puis rejetés** (§5) et **8 cas limites non
-tranchés** (§6).
+S'y ajoutent **44 candidats examinés puis rejetés** (§5) et **8 cas limites**
+(§6), dont trois restent délibérément non tranchés.
+
+Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
+sources officielles ligne à ligne, compte de son côté **436 prélèvements
+uniques** (379 PRIS, 56 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
 
@@ -454,6 +473,11 @@ depuis le 1ᵉʳ janvier 2026)
   (services d'incendie et de secours) et la branche famille de la Sécurité
   sociale. Une seule taxe, plusieurs affectataires — d'où sa réapparition en
   §4.5 et §4.9.
+- **Contribution au Fonds de résolution unique (FRU / SRF)** — versée par les
+  établissements de crédit dans le cadre de l'Union bancaire. Figure nommément
+  dans la National Tax List d'Eurostat pour la France, classée **D.29H** :
+  c'est donc bien un prélèvement obligatoire, ce que le raisonnement seul ne
+  permettait pas de trancher (§6). **Nouvelle entrée.**
 - **Contributions additionnelles aux primes d'assurance** finançant des fonds :
   **Fonds de prévention des risques naturels majeurs** (« fonds Barnier ») et
   **Fonds de garantie des victimes des actes de terrorisme et d'autres
@@ -590,7 +614,7 @@ contrepartie individualisée.
 > collectivité les institue par délibération. Elles n'en sont pas moins des
 > prélèvements obligatoires **pour le redevable** — le caractère facultatif porte
 > sur l'institution du prélèvement, pas sur son acquittement. C'est aussi ce qui
-> rend un décompte national exhaustif impraticable (§9).
+> rend un décompte national exhaustif impraticable (§10).
 
 ### 4.6 Fiscalité des départements et régions d'outre-mer et de la Corse
 
@@ -745,7 +769,7 @@ territoire économique des comptes nationaux (§2.1).
 > outre-mer »** couvre les six collectivités. Le détail article par article des
 > codes locaux — le seul code de Saint-Pierre-et-Miquelon fait 172 pages —
 > dépasse le format de ce document ; les rubriques ci-dessus en donnent la
-> structure et les principaux prélèvements, pas l'exhaustivité (§9).
+> structure et les principaux prélèvements, pas l'exhaustivité (§10).
 
 ### 4.8 Cotisations sociales effectives (ASSO)
 
@@ -938,6 +962,13 @@ Regroupement par domaine :
   Services en ODAC** le 31 août 2022 — classement contesté sans succès par
   l'organisme, jusque devant le Conseil d'État (28 avril 2026). Le prélèvement n'a
   pas changé ; c'est la **nature de son bénéficiaire** qui a changé.
+  **Confirmation par la source de référence** : la National Tax List d'Eurostat
+  comporte pour la France une ligne « **Participation des employeurs à l'effort
+  de construction** » classée **D.29C** (autres impôts sur la production, assis
+  sur la masse salariale). Une version antérieure de ce document rejetait la
+  PEEC au motif qu'elle serait un « investissement obligatoire » plutôt qu'un
+  versement définitif ; cette lecture était défendable avant 2022, elle ne l'est
+  plus depuis le reclassement d'Action Logement Services.
 - **Cotisations des organismes HLM et des SEM à la CGLLS** (cotisation
   principale — 590 M€ en 2026 — et **cotisation additionnelle**, 38 M€) — la
   Caisse de garantie du logement locatif social figure dans la liste INSEE des
@@ -1129,13 +1160,16 @@ concernées, affectées à des **centres techniques industriels (CTI)** et à de
 - **Taxe pour le développement de l'industrie de la conservation des produits
   agricoles** — CTCPA.
 
-> Ces dix rubriques (une quinzaine de taxes nommées) sont des impositions de
-> toutes natures recouvrées par
+> **Décision retenue : REJET sur C2.** Ces dix rubriques (une quinzaine de taxes
+> nommées) sont des impositions de toutes natures recouvrées par
 > l'administration, mais leurs bénéficiaires — CTI et CPDE — **ne figurent pas**
-> dans la liste INSEE des ODAC. La réserve sur C2 énoncée plus haut s'applique
-> intégralement : elles sont recensées ici parce qu'elles sont indiscutablement
-> obligatoires et sans contrepartie individualisée, mais leur comptabilisation en
-> PO dépend du traitement en comptabilité nationale (§6).
+> dans la liste INSEE des ODAC. La lecture stricte du critère C2 les écarte donc,
+> exactement comme l'AGEFIPH et les CVO (§5.3), et c'est le classement appliqué
+> dans le jeu de données. Elles sont décrites ici, et non au §5, parce qu'elles
+> forment une **famille cohérente** qu'un recensement doit nommer : ce sont de
+> vraies charges obligatoires pesant sur les entreprises, quelle que soit leur
+> qualification statistique. La réserve — et ce qui pourrait la renverser — est
+> au §6.
 
 **Régulation économique, financière et professionnelle** — *nouvelle rubrique*
 - **Droits et contributions pour frais de contrôle** au profit de l'**Autorité
@@ -1208,7 +1242,7 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 
 | Candidat | Décision | Critère en échec / motif |
 |---|---|---|
-| **Amendes, pénalités et majorations** (routières, pénales, fiscales) | REJET | Hors champ : ce sont des **sanctions**, pas des prélèvements assis sur une capacité contributive. |
+| **Amendes, pénalités et majorations** (routières, pénales, fiscales) | REJET | Hors champ : ce sont des **sanctions**, pas des prélèvements assis sur une capacité contributive. *Réserve* : la National Tax List d'Eurostat comporte une ligne « Amendes et confiscations » classée **D.2121**, c'est-à-dire parmi les droits à l'importation — les pénalités douanières y sont traitées comme l'accessoire du droit qu'elles sanctionnent. L'exception est étroite et ne remet pas en cause le rejet général. |
 | **Contribution spéciale due par les employeurs d'étrangers sans autorisation de travail** | REJET | Hors champ : **sanction administrative** proportionnée au manquement, malgré le nom de « contribution ». |
 | **Forfait de post-stationnement (FPS)** et stationnement payant | REJET | C3 — **contrepartie directe** (occupation du domaine public) ; ce n'est plus une amende depuis 2018. |
 
@@ -1250,6 +1284,7 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 |---|---|---|
 | **Cotisations sociales imputées** (employeur fictif, pensions des fonctionnaires d'État) | REJET | C1 — **pas de versement effectif**. |
 | **Certificats d'économies d'énergie (CEE)** | REJET | C1 + C2 — obligation **en nature** (obtenir des certificats) et non versement monétaire à une APU, quoique le coût soit répercuté sur les factures. |
+| **Obligations d'achat d'électricité renouvelable à prix contractuels** | REJET *avec réserve forte* | Aucun versement à une APU : l'opérateur achète de l'énergie à un prix administré. Mais la National Tax List d'Eurostat comporte pour la France une ligne « **Achats d'énergies renouvelables à prix contractuels** » classée **D.29H** : la comptabilité nationale y voit un impôt sur la production, imputé au titre du surcoût imposé. Cas limite recensé au §6. |
 | **Obligations d'investissement dans la production audiovisuelle** (éditeurs, SMAD) | REJET | C1 + C2 — obligation de **dépenser** dans un secteur, sans versement à une APU. |
 | **Obligation de détention de stocks stratégiques pétroliers** (volet en nature) | REJET | C1 — obligation de stockage ; seule la **contribution monétaire au CPSSP** est un PO (§4.10). |
 | **Franchises médicales et participation forfaitaire** | REJET | Non un prélèvement : un **moindre remboursement**, pas un flux versé à une APU. |
@@ -1290,9 +1325,10 @@ tort.
 | **Taxe de balayage** | Imposition de toute nature, mais **produit plafonné au coût du service** balayé — ce qui est le critère usuel de la redevance. | **PRIS** (§4.5) : le Conseil d'État et la doctrine administrative la qualifient d'imposition ; le plafonnement encadre le rendement, il ne crée pas de contrepartie individualisée. |
 | **Contribution ACPR** | Imposition de toutes natures au sens constitutionnel, mais bénéficiaire hors APU (Banque de France). | **REJET** sur C2 (§5.3), avec réserve : un reclassement sectoriel la ferait basculer. |
 | **Contributions au FGDR** (fonds de garantie des dépôts et de résolution) | Le FGDR **est** un ODAC, donc C2 est satisfait ; mais une part des contributions prend la forme de **dépôts de garantie restituables** (certificats d'associé), ce qui contredit C3. | **Non tranché.** À qualifier contribution par contribution. |
-| **Contributions au Fonds de résolution unique (FRU)** | Versées par les banques à un organe de l'Union bancaire ; obligatoires. | **Non tranché** : leur rattachement (institution UE ou fonds mutualisé) commande la réponse. |
+| ~~**Contributions au Fonds de résolution unique (FRU)**~~ | *Cas tranché.* | **PRIS** — la National Tax List d'Eurostat comporte une ligne « **Contribution au SRF (single resolution fund)** » classée **D.29H** pour la France. Le cas est donc résolu par la source de référence, non par déduction ; entrée reportée au §4.3. |
 | **Contributions conventionnelles aux OPCO** | Les OPCO figurent dans la liste INSEE des ODAC, ce qui satisfait C2 ; mais ces contributions sont créées par **accord de branche**, non par la loi. | **Non tranché** : obligatoires par extension de l'accord, elles occupent une zone grise de C3. |
-| **Taxes affectées à des organismes de droit privé** : une quinzaine de **taxes sur les biens** des filières industrielles (CTI et CPDE), taxes de formation sectorielle (AFT, ANFA, 3CABTP), **cotisation BTP intempéries**, **redevance sur les paris hippiques** (sociétés de courses), fraction « loto du patrimoine » (Fondation du patrimoine) | Ce sont des **impositions de toutes natures** votées par le Parlement et recouvrées par l'administration, mais versées à des organismes **hors liste ODAC**. Leur enregistrement en PO suppose un **réacheminement** (*rerouting*) du flux à travers l'État en comptabilité nationale. | **Non tranché**, et c'est le plus gros bloc en suspens de ce document : une vingtaine de prélèvements. Recensés au §4.10 avec réserve explicite. |
+| **Taxes affectées à des organismes de droit privé** *(tranché : REJET C2)* : une quinzaine de **taxes sur les biens** des filières industrielles (CTI et CPDE), taxes de formation sectorielle (AFT, ANFA, 3CABTP), **cotisation BTP intempéries**, **redevance sur les paris hippiques** (sociétés de courses), fraction « loto du patrimoine » (Fondation du patrimoine) | Ce sont des **impositions de toutes natures** votées par le Parlement et recouvrées par l'administration, mais versées à des organismes **hors liste ODAC**. Leur enregistrement en PO suppose un **réacheminement** (*rerouting*) du flux à travers l'État en comptabilité nationale. | **Tranché : REJET sur C2**, par cohérence avec l'AGEFIPH et les CVO (§5.3) — c'est le classement appliqué dans `data/`. Mais c'est le bloc le plus fragile du document, une vingtaine de prélèvements : un arbitrage explicite de l'INSEE en faveur du réacheminement les ferait tous basculer d'un coup. Décrits au §4.10. |
+| **Obligations d'achat d'électricité renouvelable** | Aucun flux vers une APU, mais la NTL d'Eurostat les enregistre en **D.29H** pour la France (« achats d'énergies renouvelables à prix contractuels »). | **Divergence assumée** entre l'analyse juridique (pas de versement à une APU → §5.4) et le traitement statistique (impôt sur la production imputé). Le second fait foi pour le ratio de 42,7 %. |
 | **MACF / CBAM** | Achat obligatoire de certificats, premiers versements en 2027. | À surveiller (§4.11) : ressource propre de l'UE ou recette nationale. |
 | **Redevances sanitaires et de contrôle** | Certaines sont des impositions (abattage, découpage), d'autres facturent un contrôle individualisé à l'opérateur. | Traitées **au cas par cas** ; les impositions figurent au §4.10, les facturations au §5.2. |
 
@@ -1365,9 +1401,58 @@ documenter deux corrections apportées à la version précédente de ce document
 
 ---
 
-## 8. Sources
+## 8. Du raisonnement au pipeline reproductible
 
-### 8.1 Définition et cadre statistique
+Les §2–§3 décrivent la *méthode de décision* ; les §4–§7 l'appliquent à la main.
+Pour produire la liste **ligne à ligne** de façon **reproductible et tracée**, le
+dépôt fournit un pipeline (dossier [`pipeline/`](pipeline/)) qui automatise
+exactement ce raisonnement :
+
+```
+fetch ──▶ normalize ──▶ classify ──▶ reconcile ──▶ report
+sources    parsing       règle         dédup +       data/*.csv|json
+officielles canonique    C1–C3         couverture    docs/RAPPORT.md
+```
+
+- **Sources** (cf. `pipeline/config/sources.yaml`) : la **National Tax List
+  d'Eurostat** (liste détaillée impôt par impôt, classée D.2/D.5/D.91/D.61 avec
+  montants) comme épine dorsale, le **Voies & Moyens Tome I** (PDF, énumération
+  des *impositions de toutes natures*), la liste **OpenDataSoft des taxes
+  affectées**, et un **socle curé** reprenant les §4–§5 ci-dessus (garantit un
+  résultat même hors-ligne).
+- **Règle de décision** : les critères C1–C3 et les cas limites (TEOM ≠ REOM,
+  cotisations imputées, amendes, redevances…) sont encodés dans
+  `pipeline/config/decision_rules.yaml`.
+- **Preuve d'exhaustivité** : la couverture (Σ des PO retenus rapportée à
+  l'enveloppe INSEE de 1 254 Md€) est calculée et publiée dans
+  [`docs/RAPPORT.md`](docs/RAPPORT.md) ; les lignes non classables apparaissent
+  explicitement en « à arbitrer ».
+
+Lancement : `cd pipeline && make install && make all` (ou `make offline`).
+Détails dans [`pipeline/README.md`](pipeline/README.md). Sorties versionnées
+dans [`data/`](data/).
+
+### Articulation entre le document et le jeu de données
+
+Les deux formats ne font pas double emploi et ne se remplacent pas :
+
+| | `README.md` (ce document) | `data/prelevements_obligatoires.{csv,json}` |
+|---|---|---|
+| Unité | La **famille** de prélèvements, avec son raisonnement | La **ligne**, avec sa provenance et son montant |
+| Ce qu'il apporte | Pourquoi un candidat est pris ou rejeté ; les cas limites ; l'histoire des suppressions | Le décompte, les montants, la couverture vérifiable |
+| Ce qu'il ne peut pas faire | Servir de base de calcul | Expliquer une décision de qualification |
+
+Les entrées curées à la main — celles issues du dépouillement documentaire décrit
+au §4 — sont versées au pipeline via `pipeline/seed/supplement.csv`, puis
+fusionnées avec les sources officielles. **C'est le fichier à éditer** pour
+ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit jamais
+être modifié à la main.
+
+---
+
+## 9. Sources
+
+### 9.1 Définition et cadre statistique
 
 - **INSEE — Définition des prélèvements obligatoires** :
   <https://www.insee.fr/fr/metadonnees/definition/c1571>
@@ -1381,9 +1466,20 @@ documenter deux corrections apportées à la version précédente de ce document
   <https://www.insee.fr/fr/statistiques/fichier/8574832/Liste_ODAC_SD2023.pdf>
 - **OCDE — Statistiques des recettes publiques (brochure 2025, 3 critères)** :
   <https://www.oecd.org/content/dam/oecd/fr/topics/policy-sub-issues/recettes-fiscales-mondiales/brochure-statistiques-des-recettes-publiques.pdf>
+- **Eurostat — National Tax List (NTL), onglet France** : la liste de référence
+  ligne à ligne des impôts et cotisations français tels qu'ils sont *réellement
+  enregistrés* en comptabilité nationale, avec leur code SEC (D.211, D.214,
+  D.29, D.51, D.59, D.91) et leur montant annuel. **141 lignes-feuilles** pour
+  la France. C'est la seule source qui tranche empiriquement les cas litigieux :
+  elle a résolu dans cette version la PEEC (D.29C), la contribution au Fonds de
+  résolution unique (D.29H) et les obligations d'achat d'électricité
+  renouvelable (D.29H) :
+  <https://ec.europa.eu/eurostat/statistics-explained/images/e/ef/National_tax_lists_2025_2026-04-22.xlsx>
 - **Eurostat — Système européen des comptes (SEC 2010)**, référence pour le
   traitement des quotas d'émission en impôts sur la production (D.29) :
   <https://ec.europa.eu/eurostat/fr/web/esa-2010>
+- **INSEE — Le compte des administrations publiques en 2024** (Insee Première
+  n° 2054) : <https://www.insee.fr/fr/statistiques/8574492>
 - **FIPECO — La définition, le niveau et la répartition des prélèvements obligatoires** :
   <https://www.fipeco.fr/fiche/La-d%C3%A9finition,-le-niveau-et-la-r%C3%A9partition-des-pr%C3%A9l%C3%A8vements-obligatoires>
 - **FIPECO — Les prélèvements obligatoires en France et dans la zone euro en 2024** :
@@ -1392,7 +1488,7 @@ documenter deux corrections apportées à la version précédente de ce document
   vs ODAL, cas des agences de l'eau) :
   <https://www.fipeco.fr/fiche/Les-administrations-publiques-de-la-comptabilit%C3%A9-nationale>
 
-### 8.2 Sources budgétaires primaires
+### 9.2 Sources budgétaires primaires
 
 - **Évaluation des voies et moyens, tome I (annexe au PLF 2026)** — dépouillée
   intégralement pour cette version : lignes de recettes fiscales, encadrés
@@ -1422,7 +1518,7 @@ documenter deux corrections apportées à la version précédente de ce document
   inventaire annuel exhaustif) :
   <https://www.ccomptes.fr/fr/publications/les-taxes-faible-rendement>
 
-### 8.3 Sources sectorielles
+### 9.3 Sources sectorielles
 
 - **Cour des comptes — « L'autonomie fiscale en outre-mer : Nouvelle-Calédonie,
   Polynésie française, Saint-Barthélemy, Saint-Martin, Saint-Pierre-et-Miquelon,
@@ -1485,7 +1581,7 @@ documenter deux corrections apportées à la version précédente de ce document
 - **Sénat — PLF 2026, conditions générales de l'équilibre financier** :
   <https://www.senat.fr/rap/l25-139-21/l25-139-21_mono.html>
 
-### 8.4 Synthèses encyclopédiques
+### 9.4 Synthèses encyclopédiques
 
 - **Wikipédia — Prélèvements obligatoires** :
   <https://fr.wikipedia.org/wiki/Pr%C3%A9l%C3%A8vements_obligatoires>
@@ -1512,10 +1608,10 @@ documenter deux corrections apportées à la version précédente de ce document
 
 ---
 
-## 9. Pistes encore ouvertes
+## 10. Pistes encore ouvertes
 
 **Contrôle de couverture effectué.** Avant de lister ce qui manque, il faut dire
-ce qui a été vérifié. Deux confrontations automatiques ont été menées entre le
+ce qui a été vérifié. Des confrontations automatiques ont été menées entre le
 présent document et ses listes sources :
 
 | Liste source | Entrées | Couverture finale |
@@ -1523,6 +1619,7 @@ présent document et ses listes sources :
 | Article 36 du PLF 2026 (ressources affectées) | 131 lignes exploitables | **131 / 131** |
 | État A du PLF 2026 (recettes du budget général) | ≈ 90 lignes fiscales | **intégralement dépouillé** |
 | Liste encyclopédique, section « en vigueur » | 337 entrées | **337 / 337** |
+| National Tax List d'Eurostat, onglet France | 141 lignes-feuilles | **dépouillée ; 3 cas litigieux tranchés** |
 
 Le premier passage laissait six entrées non couvertes ; leur examen a produit
 six décisions distinctes, ce qui illustre bien la méthode : la **TICHLC** est
@@ -1532,6 +1629,13 @@ remplacée par une fraction d'accise (§7) ; la **taxe d'atterrissage** relève 
 la fiscalité ultramarine (§4.6) ; la **taxe sur les obtentions végétales** entre
 au §4.10 sous réserve C2 ; les **redevances de lancement aéronautique** sont
 rejetées comme contrepartie de service (§5.2).
+
+La confrontation à la **National Tax List d'Eurostat** est d'une autre nature :
+elle ne mesure pas une couverture mais **arbitre**. C'est la seule source qui
+dise ce que la comptabilité nationale enregistre *réellement* comme impôt. Elle
+a tranché trois cas que le raisonnement laissait ouverts — PEEC, contribution au
+Fonds de résolution unique, obligations d'achat d'électricité renouvelable — et
+confirmé le classement de la quasi-totalité des autres.
 
 Ce contrôle mesure la **couverture par rapport à des listes existantes**, pas
 l'exhaustivité absolue — laquelle n'est atteignable par personne, y compris par

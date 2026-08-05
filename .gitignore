@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.venv/
+venv/
+
+# Données téléchargées / intermédiaires (régénérables par le pipeline)
+pipeline/data/raw/
+pipeline/data/interim/
+
+# Les sorties finales sont versionnées : pipeline/data/processed/, data/, docs/RAPPORT.md
