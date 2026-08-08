@@ -1,19 +1,19 @@
 # Rapport — inventaire des prélèvements obligatoires en France
 
-> Généré le 2026-08-05 par le pipeline (`po-pipeline report`). Ne pas éditer à la main.
+> Généré le 2026-08-08 par le pipeline (`po-pipeline report`). Ne pas éditer à la main.
 
 ## Synthèse
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements retenus (PRIS) | 380 |
-| Candidats rejetés (REJET) | 56 |
+| Prélèvements retenus (PRIS) | 392 |
+| Candidats rejetés (REJET) | 57 |
 | Lignes à arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
 | Somme des PRIS (itemisé, indicatif) | 1574.5 Md€ |
 | Enveloppe INSEE (2024) | 1254.0 Md€ |
 | **Couverture (socle)** | **105.8 %** |
-| PRIS sans montant | 112 |
+| PRIS sans montant | 124 |
 
 > La couverture rapporte la somme des PRIS du **socle curé** (non chevauchant) à l'enveloppe INSEE. La somme « itemisée » ajoute les composantes fines de la NTL et des taxes affectées : indicative, elle mêle agrégats et composantes et n'est pas une mesure de couverture.
 
@@ -26,7 +26,7 @@
 | fiscalité sociale | 14 | 201.1 |
 | impôt sur la production/importation | 61 | 135.2 |
 | taxe affectée | 191 | 101.6 |
-| impôt local | 27 | 90.5 |
+| impôt local | 39 | 90.5 |
 | impôt courant sur le revenu/patrimoine | 19 | 22.3 |
 | ressource UE | 3 | 6.2 |
 | recette fiscale (État) | 17 | 0.5 |
@@ -38,7 +38,7 @@
 | ASSO | 26 | 772.8 |
 | APUC | 43 | 448.7 |
 | (non renseigné) | 226 | 242.4 |
-| APUL | 36 | 90.6 |
+| APUL | 48 | 90.6 |
 | ODAC | 46 | 13.8 |
 | UE | 3 | 6.2 |
 

@@ -17,17 +17,17 @@ les regénérer via `cd pipeline && make all` (ou `make offline`).
 ## Provenance
 
 État actuel : produit par un **`make all` complet**, les quatre sources ayant été
-récupérées en direct. Quatre contributeurs :
+récupérées en direct. Cinq contributeurs :
 
 | Source | Rôle | Enregistrements |
 |---|---|---:|
 | `eurostat_ntl` | National Tax List, onglet France — épine dorsale, codes SEC et montants | 103 |
 | `taxes_affectees` | Liste des taxes affectées (data.economie.gouv.fr) | 184 |
 | `readme_seed` | Socle curé du README (§4 PRIS, §5 REJET) | 69 |
-| `supplement_cure` | Ajouts curés à la main (`pipeline/seed/supplement.csv`) | 134 |
+| `supplement_cure` | Ajouts curés à la main (`pipeline/seed/supplement.csv`) | 147 |
 | `vm_tome1` | Voies & Moyens Tome I — énumération des lignes budgétaires | 24 |
 
-Après déduplication : **437 prélèvements uniques**.
+Après déduplication : **450 prélèvements uniques**.
 
 ## Ce que ce jeu de données ne contient pas
 
@@ -36,6 +36,8 @@ Après déduplication : **437 prélèvements uniques**.
   Saint-Barthélemy). Ils sont réels et documentés au **README §4.7**, mais ils
   sont hors du **territoire économique des comptes nationaux** : les inclure
   fausserait la mesure de couverture. Saint-Martin, rattaché statistiquement à la
-  Guadeloupe, est en revanche dans le champ.
+  Guadeloupe, est en revanche dans le champ — ses 13 prélèvements propres (TGCA,
+  patentes, taxes foncières locales, taxe de consommation sur les produits
+  pétroliers…) y figurent donc.
 - Les **prélèvements supprimés** y figurent en `REJET` / `critere_echec=supprime`,
   volontairement : c'est ce qui évite de les réintroduire par erreur.

@@ -12,13 +12,13 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 261 entrées retenues (§4), 44 candidats rejetés avec le critère qui
+> **Contenu.** 277 entrées retenues (§4), 45 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (437 prélèvements), produit par le
+> est dans [`data/`](data/) (450 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -204,7 +204,7 @@ tranchent :
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **261 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **277 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -219,18 +219,18 @@ pour les raisons exposées au §1.
 | 4.4 Jeux d'argent et de hasard | 7 | État, ASSO, communes, ANS |
 | 4.5 Impôts locaux | 33 | APUL |
 | 4.6 DROM et Corse | 8 | Collectivités ultramarines |
-| 4.7 Collectivités à autonomie fiscale | 35 | *hors champ du ratio national* |
+| 4.7 Collectivités à autonomie fiscale | 51 | *hors champ, sauf Saint-Martin* |
 | 4.8 Cotisations sociales effectives | 14 | ASSO |
 | 4.9 Fiscalité sociale | 18 | ASSO |
 | 4.10 Taxes affectées aux opérateurs et agences | 68 | ODAC, ODAL, organismes divers |
 | 4.11 Union européenne | 5 | Institutions de l'UE |
 
-S'y ajoutent **44 candidats examinés puis rejetés** (§5) et **8 cas limites**
+S'y ajoutent **45 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **437 prélèvements
-uniques** (380 PRIS, 56 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **450 prélèvements
+uniques** (392 PRIS, 57 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -713,6 +713,16 @@ sans impôt général sur le revenu
   contribution des patentes et à la contribution des licences, perçues au profit
   des communes et de leurs sections. Mécanisme sans équivalent métropolitain
   depuis la disparition des centimes additionnels en France continentale.
+- **Taxe de développement local (TDL)** — droit protecteur de la production
+  locale créé en 1998, frappant **151 positions douanières** à des taux de
+  **20 % à 82 %**. Rendement marginal — 2,18 Md F CFP sur 200 Md de recettes du
+  Pays en 2023, dont 45 % concentrés sur dix lignes tarifaires — ce qui a conduit
+  la chambre territoriale des comptes à en contester l'utilité.
+- **Taxe pour l'environnement, l'agriculture et la pêche (TEAP)**, perçue à
+  l'importation.
+
+> Deux absences notables, qui distinguent la Polynésie du droit métropolitain :
+> il n'y existe **ni impôt sur la fortune, ni droits de succession**.
 
 **Saint-Pierre-et-Miquelon** — **code local des impôts** voté par le conseil
 territorial ; le corpus le plus proche du modèle métropolitain
@@ -751,12 +761,41 @@ métropolitain
   CRDS) : l'autonomie fiscale ne s'étend pas au champ social, qui reste régi par
   le droit national.
 
-**Saint-Martin** — **code général des impôts** propre, largement décalqué du CGI
-métropolitain (impôt sur le revenu, impôt sur les sociétés, droits
-d'enregistrement, fiscalité foncière), avec des taux et abattements distincts.
-Contrairement aux cinq autres collectivités de cette section, Saint-Martin est
-**rattaché statistiquement à la Guadeloupe** et donc **inclus** dans le
-territoire économique des comptes nationaux (§2.1).
+**Saint-Martin** — **code général des impôts** propre (512 pages, à jour du
+6 octobre 2025), largement décalqué du CGI métropolitain mais avec ses propres
+taux, ses propres impositions et une TVA remplacée par une taxe sur le chiffre
+d'affaires. Contrairement aux cinq autres collectivités de cette section,
+Saint-Martin est **rattaché statistiquement à la Guadeloupe** et donc **inclus**
+dans le territoire économique des comptes nationaux (§2.1) : ses prélèvements
+sont les seuls de cette section à figurer aussi dans le jeu de données.
+
+- **Impôt sur le revenu** (barème propre, avec retenues à la source et
+  prélèvement sur les produits de placement à revenu fixe) et **impôt sur les
+  bénéfices**.
+- **Taxe générale sur le chiffre d'affaires (TGCA)** — tient lieu de TVA.
+- **Taxes foncières sur les propriétés bâties et non bâties** (la taxe
+  d'habitation est abrogée).
+- **Droit de licence** et **contribution des patentes**, avec cotisation minimum
+  et plafonnement.
+- **Taxe territoriale d'équipement** (a remplacé la taxe locale d'équipement).
+- **Taxe de gestion des ordures ménagères** (la taxe de balayage est abrogée).
+- **Redevance territoriale des mines**.
+- **Taxe de consommation sur les produits pétroliers** et **taxe territoriale
+  sur l'électricité**.
+- **Taxe sur les certificats d'immatriculation des véhicules** et **taxe sur les
+  permis de conduire**.
+- **Taxe d'embarquement** et **taxe d'aéroport**.
+- **Taxe sur les conventions d'assurances** ; **taxe d'accroissement** (sur les
+  biens acquis par des sociétés d'acquêts) ; **prélèvement d'office sur les bons
+  et titres anonymes**.
+- **Droits d'enregistrement**, **taxe de publicité foncière**, **droits de
+  timbre** et **droit fixe de procédure**.
+- **Taxe d'apprentissage** locale et **taxe sur les excédents de provisions**.
+- **Taxe pour frais de la chambre consulaire interprofessionnelle**.
+
+> Trois abrogations à ne pas recompter : la **taxe de séjour** (abrogée au
+> 1ᵉʳ avril 2020), la **taxe sur les salaires** et la **redevance
+> audiovisuelle**.
 
 **Wallis-et-Futuna** — le régime le plus atypique de la République
 
@@ -1302,6 +1341,7 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 | **Cotisations facultatives** : épargne retraite individuelle (PER, ex-PERP), assurance-vie, mutuelles et prévoyance facultatives | REJET | C3 — versement **non obligatoire** (libre choix). |
 | **Revenus du domaine, dividendes d'entreprises publiques, produits de cessions, loyers** | REJET | C3 — recettes patrimoniales **avec contrepartie**, non des prélèvements. |
 | **Produit de la vente des biens confisqués ; successions en déshérence ; contrats d'assurance-vie en déshérence** | REJET | Non un prélèvement : **dévolution patrimoniale** au profit de l'État, sans fait générateur contributif. |
+| **Quote-part des intérêts servis par la Caisse des dépôts sur les fonds déposés** (Fonds de financement des dossiers impécunieux) | REJET | Non un prélèvement : **produit financier** réaffecté, sans redevable ni fait générateur. Figure pourtant dans la liste des taxes affectées — nouvel exemple de l'avertissement du §2. |
 | **Emprunts et produits de la dette** | REJET | Non un prélèvement : ressource remboursable, librement souscrite. |
 | **Dons et legs aux administrations** | REJET | C3 — **volontaires**. |
 | **Part salariale de l'assurance chômage** | REJET (depuis 2018) | N'existe plus : supprimée et remplacée par de la CSG (incluse, elle). |
@@ -1539,6 +1579,11 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
 - **Direction des services fiscaux de Saint-Pierre-et-Miquelon — Code local des
   impôts** (table analytique dépouillée pour le §4.7) :
   <https://www.services-fiscaux975.fr/files/file/Documentation/2022/CLI%202022.pdf>
+- **Collectivité de Saint-Martin — Code général des impôts**, à jour du
+  6 octobre 2025 (512 pages ; sommaire dépouillé intégralement pour le §4.7) :
+  <https://www.impots-saint-martin.fr/files/file/Reglementation/CGI/CGI_SM_au_06_10_2025%20libre%20office%20_.pdf>
+- **Cour des comptes — La taxe de développement local de la Polynésie
+  française** : <https://www.ccomptes.fr/fr/publications/la-taxe-de-developpement-local-de-la-polynesie-francaise>
 - **IEOM — Rapport annuel Wallis-et-Futuna** (structure des recettes fiscales du
   territoire) :
   <https://www.ieom.fr/IMG/rapport_annuel_ieom_wallis-et-futuna_2022/files/basic-html/page60.html>
@@ -1624,7 +1669,8 @@ présent document et ses listes sources :
 | Article 36 du PLF 2026 (ressources affectées) | 131 lignes exploitables | **131 / 131** |
 | État A du PLF 2026 (recettes du budget général) | ≈ 90 lignes fiscales | **intégralement dépouillé** |
 | Liste encyclopédique, section « en vigueur » | 337 entrées | **337 / 337** |
-| National Tax List d'Eurostat, onglet France | 141 lignes-feuilles | **dépouillée ; 3 cas litigieux tranchés** |
+| National Tax List d'Eurostat, onglet France | 98 lignes-feuilles nommées | **94 / 98** (les 4 écarts sont des libellés équivalents ou des lignes historiques : avoir fiscal) |
+| Liste des taxes affectées (data.economie.gouv.fr, PLF 2024) | 206 intitulés distincts | **204 / 206** |
 
 Le premier passage laissait six entrées non couvertes ; leur examen a produit
 six décisions distinctes, ce qui illustre bien la méthode : la **TICHLC** est
@@ -1647,12 +1693,12 @@ l'exhaustivité absolue — laquelle n'est atteignable par personne, y compris p
 l'administration (§1). Ce qui reste à dépouiller, par ordre de rendement
 attendu :
 
-- **L'annexe « Liste des taxes affectées » du PLF 2026**, publiée séparément en
-  format tableur. L'**article 36 du PLF** en donne l'essentiel — 135 lignes,
-  dépouillées intégralement pour cette version — mais il ne couvre que les
-  ressources **soumises à autorisation annuelle de perception** ; l'annexe
-  complète, plus large, reste à récupérer (le site budget.gouv.fr refuse l'accès
-  automatisé). Écart estimé : quelques dizaines de lignes sur ≈ 238.
+- ~~**L'annexe « Liste des taxes affectées »**~~ — **piste close.** Le jeu de
+  données ouvert de `data.economie.gouv.fr` (268 lignes, 206 intitulés distincts)
+  a été dépouillé intégralement : **204 sur 206** étaient déjà couverts, et les
+  deux écarts sont l'un un libellé équivalent, l'autre une quote-part d'intérêts
+  qui n'est pas un prélèvement (§5.5). Aucun millésime postérieur au PLF 2024
+  n'est publié sur ce portail — vérifié en interrogeant le catalogue.
 - **Les six codes fiscaux des collectivités à autonomie fiscale** (§4.7). La
   structure de chacun a été relevée pour cette version — table analytique du code
   local de Saint-Pierre-et-Miquelon, répertoire de la direction des services
@@ -1666,6 +1712,11 @@ attendu :
   2014 sous le seuil de 150 M€, et la Cour des comptes constatait en 2019 qu'aucun
   inventaire à jour n'existait. Beaucoup ont été supprimées depuis (§7), d'autres
   créées ; l'état exact du stock est **inconnu de l'administration elle-même**.
+  *Note d'exécution* : le rapport IGF de 2014 n'a pas pu être récupéré — le
+  serveur `igf.finances.gouv.fr` présente une chaîne de certificats incomplète, et
+  contourner la vérification TLS n'est pas une option. Son intérêt est de toute
+  façon limité : douze ans après, l'essentiel de sa liste est abrogé ou refondu
+  dans le CIBS.
 - **Les taxes locales facultatives** instituées par délibération : leur existence
   dépend de chaque collectivité, ce qui rend l'énumération exhaustive
   impraticable. L'inventaire par catégorie du §4.5 est le bon niveau de

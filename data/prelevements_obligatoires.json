@@ -6745,6 +6745,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-droit-de-licence-et-contribution-des-patentes-de-saint-martin",
+    "nom": "Droit de licence et contribution des patentes de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin, section V",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Avec cotisation minimum et plafonnement.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-droit-de-passeport-des-navires",
     "nom": "Droit de passeport des navires",
     "sigle": null,
@@ -7133,6 +7156,52 @@
       }
     ],
     "notes": "Ligne de recette propre au V&M depuis le PLF 2026.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-impot-sur-le-revenu-de-saint-martin",
+    "nom": "Impôt sur le revenu de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin, titre Ier ch. Ier",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Barème propre à la collectivité.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-impot-sur-les-benefices-de-saint-martin",
+    "nom": "Impôt sur les bénéfices de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin, titre Ier ch. II",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": null,
     "aliases": []
   },
   {
@@ -7596,6 +7665,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-redevance-territoriale-des-mines-de-saint-martin",
+    "nom": "Redevance territoriale des mines de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Imposition malgré son nom, comme les redevances des mines métropolitaines.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-redevances-cynegetiques-et-droit-de-validation-du-permis-de-chas",
     "nom": "Redevances cynégétiques et droit de validation du permis de chasse",
     "sigle": null,
@@ -7849,6 +7941,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-d-accroissement-de-saint-martin",
+    "nom": "Taxe d'accroissement de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Assise sur les biens acquis par des sociétés d'acquêts.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-taxe-d-archeologie-preventive",
     "nom": "Taxe d'archéologie préventive",
     "sigle": "TAP",
@@ -7869,6 +7984,29 @@
       }
     ],
     "notes": "Ex-redevance d'archéologie préventive. Finance l'INRAP et le FNAP.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-d-embarquement-de-saint-martin",
+    "nom": "Taxe d'embarquement de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": null,
     "aliases": []
   },
   {
@@ -7915,6 +8053,52 @@
       }
     ],
     "notes": "Instituée par les communes (distincte de la TLV nationale).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-de-consommation-sur-les-produits-petroliers-de-saint-martin",
+    "nom": "Taxe de consommation sur les produits pétroliers de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Equivalent local de l'accise sur les énergies.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-de-gestion-des-ordures-menageres-de-saint-martin",
+    "nom": "Taxe de gestion des ordures ménagères de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "La taxe de balayage locale est abrogée.",
     "aliases": []
   },
   {
@@ -8030,6 +8214,29 @@
       }
     ],
     "notes": "Imposition libératoire sur la cession. Ligne 1413.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-generale-sur-le-chiffre-d-affaires-de-saint-martin",
+    "nom": "Taxe générale sur le chiffre d'affaires de Saint-Martin",
+    "sigle": "TGCA",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin, titre II",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Tient lieu de TVA à Saint-Martin. Collectivité incluse dans le territoire économique des comptes nationaux.",
     "aliases": []
   },
   {
@@ -8150,6 +8357,29 @@
       }
     ],
     "notes": "Composante de la TGAP.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-pour-frais-de-la-chambre-consulaire-interprofessionnelle-de",
+    "nom": "Taxe pour frais de la chambre consulaire interprofessionnelle de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Equivalent local des taxes pour frais de chambres consulaires.",
     "aliases": []
   },
   {
@@ -8883,6 +9113,52 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D59D/C01"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-territoriale-d-equipement-de-saint-martin",
+    "nom": "Taxe territoriale d'équipement de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "A remplacé la taxe locale d'équipement.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-territoriale-sur-l-electricite-de-saint-martin",
+    "nom": "Taxe territoriale sur l'électricité de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": null,
@@ -10364,6 +10640,29 @@
       }
     ],
     "notes": "Abrogée au 1er octobre 2019 par la LF 2019.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-de-sejour-de-saint-martin",
+    "nom": "Taxe de séjour de Saint-Martin",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI de Saint-Martin ch. I bis",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Abrogée au 1er avril 2020.",
     "aliases": []
   },
   {
