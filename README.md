@@ -12,13 +12,13 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 277 entrées retenues (§4), 45 candidats rejetés avec le critère qui
+> **Contenu.** 279 entrées retenues (§4), 45 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (450 prélèvements), produit par le
+> est dans [`data/`](data/) (455 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -204,7 +204,7 @@ tranchent :
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **277 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **279 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -215,9 +215,9 @@ pour les raisons exposées au §1.
 |---|---:|---|
 | 4.1 Revenu, bénéfices, patrimoine | 21 | État |
 | 4.2 Accises et impositions sur les biens et services (CIBS) | 34 | État, collectivités, ASSO |
-| 4.3 Enregistrement, timbre, mutations, transactions | 18 | État |
+| 4.3 Enregistrement, timbre, mutations, transactions | 19 | État |
 | 4.4 Jeux d'argent et de hasard | 7 | État, ASSO, communes, ANS |
-| 4.5 Impôts locaux | 33 | APUL |
+| 4.5 Impôts locaux | 34 | APUL |
 | 4.6 DROM et Corse | 8 | Collectivités ultramarines |
 | 4.7 Collectivités à autonomie fiscale | 51 | *hors champ, sauf Saint-Martin* |
 | 4.8 Cotisations sociales effectives | 14 | ASSO |
@@ -229,8 +229,8 @@ S'y ajoutent **45 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **450 prélèvements
-uniques** (392 PRIS, 57 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **455 prélèvements
+uniques** (394 PRIS, 60 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -440,6 +440,10 @@ depuis le 1ᵉʳ janvier 2026)
   formalités de publicité foncière ; a succédé en 2013 au « salaire du
   conservateur des hypothèques ». **Nouvelle entrée.**
 - **Taxe additionnelle au droit de bail** (ligne 1715).
+- **Droit de timbre des formules de chèques** — article 916 A du CGI : frappe les
+  chéquiers qui ne sont **pas** barrés d'avance et non transmissibles par
+  endossement. Survivance discrète d'un dispositif de 1978, toujours commentée par
+  la doctrine. **Nouvelle entrée.**
 - **Timbre unique** (ligne 1721) et **droits sur les actes et écrits assujettis
   au timbre de dimension** (ligne 1723).
 - **Droit d'examen et permis de chasser** (ligne 1725) ; **redevance pour
@@ -559,6 +563,14 @@ contrepartie individualisée.
 - **Imposition forfaitaire sur les pylônes électriques**.
 - **Redevances communale et départementale des mines** — malgré leur nom, des
   impositions et non des redevances pour service rendu.
+- **Taxe sur l'exploration d'hydrocarbures** — article 1590 du CGI, **en vigueur
+  depuis le 1ᵉʳ janvier 2018** : taxe annuelle proportionnelle à la surface des
+  permis exclusifs de recherches d'hydrocarbures liquides ou gazeux, répartie
+  entre les collectivités au prorata de la surface du permis sur leur territoire.
+  Souvent donnée pour supprimée dans les listes en circulation — elle est
+  toujours commentée comme applicable par la doctrine fiscale. À ne pas confondre
+  avec la **taxe sur l'exploration de gîtes géothermiques à haute température**,
+  celle-là bien abrogée (§7). **Nouvelle entrée.**
 - **Taxe sur les remontées mécaniques** (communes et départements de montagne).
 - **Taxe sur les éoliennes maritimes** (« taxe sur les éoliennes en mer »).
 
@@ -1422,6 +1434,17 @@ documenter deux corrections apportées à la version précédente de ce document
   2014 ; à ne pas confondre avec le **nouveau droit de timbre sur les procédures
   civiles et prud'homales** créé en 2026 (§4.3).
 - **Impôt de solidarité sur la fortune (ISF)** — remplacé par l'IFI en 2018.
+- **Taxe spéciale sur les huiles destinées à l'alimentation humaine**
+  (art. 1609 vicies du CGI) — **abrogée** par l'article 26 de la LF 2019, pour
+  les faits générateurs intervenant à compter du 1ᵉʳ janvier 2020.
+- **Prélèvement spécial sur les films pornographiques ou d'incitation à la
+  violence** et prélèvement sur les représentations théâtrales de même nature
+  (art. 235 ter M et 1605 sexies du CGI) — **abrogés** par l'article 64 de la
+  LF 2021, au 1ᵉʳ janvier 2021.
+- **Taxe sur l'exploration de gîtes géothermiques à haute température**
+  (art. 1591 du CGI) — **abrogée** par l'article 26 de la LF 2019, au
+  1ᵉʳ janvier 2019. Sa jumelle sur les hydrocarbures, elle, subsiste (§4.5) :
+  les deux sont régulièrement confondues.
 - **Taxe de risque systémique des banques**, **imposition forfaitaire annuelle
   des sociétés (IFA)**, **taxe d'abattage**, **versement pour sous-densité**,
   **taxe sur les farines**, **taxe sur les boissons énergisantes**, **taxe sur
@@ -1633,6 +1656,11 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
 
 ### 9.4 Synthèses encyclopédiques
 
+- **BOFiP-Impôts — corpus des publications en vigueur** (jeu de données ouvert,
+  9 092 documents ; séries AIS, TCA, TCAS, TFP, TPS, IF, ENR, PAT, CVAE, IMG
+  dépouillées pour cette version) :
+  <https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/bofip-vigueur/exports/csv>
+- **BOFiP — Plan de classement** : <https://bofip.impots.gouv.fr/plan-de-classement>
 - **Wikipédia — Prélèvements obligatoires** :
   <https://fr.wikipedia.org/wiki/Pr%C3%A9l%C3%A8vements_obligatoires>
 - **Wikipédia — Liste des impôts et taxes français** (≈ 430 entrées, en vigueur
@@ -1671,6 +1699,7 @@ présent document et ses listes sources :
 | Liste encyclopédique, section « en vigueur » | 337 entrées | **337 / 337** |
 | National Tax List d'Eurostat, onglet France | 98 lignes-feuilles nommées | **94 / 98** (les 4 écarts sont des libellés équivalents ou des lignes historiques : avoir fiscal) |
 | Liste des taxes affectées (data.economie.gouv.fr, PLF 2024) | 206 intitulés distincts | **204 / 206** |
+| BOFiP, corpus en vigueur (9 092 documents, séries fiscales) | 295 documents de tête | **291 / 295**, 4 écarts réels exploités |
 
 Le premier passage laissait six entrées non couvertes ; leur examen a produit
 six décisions distinctes, ce qui illustre bien la méthode : la **TICHLC** est
@@ -1680,6 +1709,16 @@ remplacée par une fraction d'accise (§7) ; la **taxe d'atterrissage** relève 
 la fiscalité ultramarine (§4.6) ; la **taxe sur les obtentions végétales** entre
 au §4.10 sous réserve C2 ; les **redevances de lancement aéronautique** sont
 rejetées comme contrepartie de service (§5.2).
+
+La confrontation au **BOFiP** — la doctrine fiscale officielle, publiée en open
+data — a été la plus productive des trois : sur 295 documents de tête des séries
+fiscales, quatre écartaient du recensement. Ils ont livré **deux prélèvements en
+vigueur qui manquaient** (taxe sur l'exploration d'hydrocarbures, droit de timbre
+des formules de chèques) et **trois abrogations** qu'il valait mieux dater
+précisément que laisser dans le flou (§7). C'est aussi la source qui permet de
+distinguer une taxe réellement vivante d'une taxe que les listes recopient par
+inertie : la doctrine indique explicitement, en tête de document, quand des
+commentaires sont retirés.
 
 La confrontation à la **National Tax List d'Eurostat** est d'une autre nature :
 elle ne mesure pas une couverture mais **arbitre**. C'est la seule source qui

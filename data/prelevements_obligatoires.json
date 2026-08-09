@@ -6791,6 +6791,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-droit-de-timbre-des-formules-de-cheques",
+    "nom": "Droit de timbre des formules de chèques",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 916 A",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Frappe les chéquiers non barrés d'avance et transmissibles par endossement.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-droit-de-timbre-sur-les-procedures-civiles-en-premiere-instance-",
     "nom": "Droit de timbre sur les procédures civiles en première instance et prud'homales",
     "sigle": null,
@@ -8495,6 +8518,29 @@
       }
     ],
     "notes": "Concessions autoroutières et grands aéroports (depuis 2024).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-l-exploration-d-hydrocarbures",
+    "nom": "Taxe sur l'exploration d'hydrocarbures",
+    "sigle": "TEH",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1590",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "En vigueur depuis le 1er janvier 2018. Annuelle et proportionnelle à la surface des permis exclusifs de recherches. Répartie entre collectivités au prorata de la surface.",
     "aliases": []
   },
   {
@@ -10482,6 +10528,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-prelevement-special-sur-les-films-pornographiques-ou-d-incitatio",
+    "nom": "Prélèvement spécial sur les films pornographiques ou d'incitation à la violence",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 235 ter M",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Abrogé par la LF 2021 art. 64 au 1er janvier 2021.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-peages-autoroutiers-et-d-ouvrages-d-art",
     "nom": "Péages autoroutiers et d'ouvrages d'art",
     "sigle": null,
@@ -10709,6 +10778,52 @@
       }
     ],
     "notes": "Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-speciale-sur-les-huiles-destinees-a-l-alimentation-humaine",
+    "nom": "Taxe spéciale sur les huiles destinées à l'alimentation humaine",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 1609 vicies",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Abrogée par la LF 2019 art. 26, faits générateurs à compter du 1er janvier 2020.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-l-exploration-de-gites-geothermiques-a-haute-temperatur",
+    "nom": "Taxe sur l'exploration de gîtes géothermiques à haute température",
+    "sigle": "TEG",
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1591",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "supprime",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Abrogée par la LF 2019 art. 26 au 1er janvier 2019. A ne pas confondre avec la taxe sur l'exploration d'hydrocarbures, toujours en vigueur.",
     "aliases": []
   },
   {
