@@ -8263,6 +8263,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-de-sejour-forfaitaire",
+    "nom": "Taxe de séjour forfaitaire",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT art. L. 2333-41 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Régime alternatif à la taxe de séjour au réel : assise sur la capacité d'accueil de l'hébergeur.",
+    "aliases": []
+  },
+  {
     "id": "ta-taxe-departementale-des-espaces-naturels-sensibles",
     "nom": "Taxe départementale des espaces naturels sensibles",
     "sigle": null,
@@ -8702,6 +8725,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-l-utilisation-par-les-poids-lourds-de-certaines-voies-d",
+    "nom": "Taxe sur l'utilisation par les poids lourds de certaines voies du domaine public routier",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT art. L. 3333-9 et L. 4331-3, CIBS",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Facultative. Deux versions : départementale sur les routes du département, régionale sur les routes nationales mises à disposition. Héritière de l'écotaxe poids lourds.",
     "aliases": []
   },
   {
@@ -10689,6 +10735,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-redevance-d-acces-aux-sites-nordiques-amenages",
+    "nom": "Redevance d'accès aux sites nordiques aménagés",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CGCT art. L. 2333-81",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Droit d'accès à un domaine skiable entretenu.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-redevance-d-enlevement-des-ordures-menageres",
     "nom": "Redevance d'enlèvement des ordures ménagères",
     "sigle": "REOM",
@@ -10709,6 +10778,29 @@
       }
     ],
     "notes": "Tarifée selon le service rendu => contrepartie directe (README §5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevance-d-usage-des-abattoirs-publics",
+    "nom": "Redevance d'usage des abattoirs publics",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CGCT art. L. 2333-1",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Tarif d'utilisation d'un équipement communal.",
     "aliases": []
   },
   {

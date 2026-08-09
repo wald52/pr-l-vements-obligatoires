@@ -2,7 +2,7 @@
 
 > Généré le 2026-08-09 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
 
-Ce document regroupe les **460 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
+Ce document regroupe les **464 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
 
 **Comment l'utiliser.** Traiter en priorité le §4 (« à arbitrer ») : commencer par le §4.1 (doublons probables à fusionner), puis instruire les taxes affectées (§4.3) et les nouvelles impositions (§4.4). Le §5 liste les questions ouvertes.
 
@@ -19,9 +19,9 @@ Ce document regroupe les **460 prélèvements** de l'inventaire réconcilié (an
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements au total | 460 |
-| Retenus (PRIS) | 399 |
-| Rejetés (REJET) | 60 |
+| Prélèvements au total | 464 |
+| Retenus (PRIS) | 401 |
+| Rejetés (REJET) | 62 |
 | À arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
 | Somme des PRIS (itemisé, indicatif) | 1574.5 Md€ |
@@ -34,8 +34,8 @@ Ce document regroupe les **460 prélèvements** de l'inventaire réconcilié (an
 |---|---:|
 | taxe affectée | 224 |
 | impôt sur la production/importation | 62 |
+| impôt local | 48 |
 | impôt d'État | 46 |
-| impôt local | 44 |
 | impôt courant sur le revenu/patrimoine | 21 |
 | recette fiscale (État) | 17 |
 | fiscalité sociale | 15 |
@@ -50,14 +50,14 @@ Ce document regroupe les **460 prélèvements** de l'inventaire réconcilié (an
 | Source | Lignes |
 |---|---:|
 | taxes_affectees | 184 |
-| supplement_cure | 157 |
+| supplement_cure | 161 |
 | eurostat_ntl | 103 |
 | readme_seed | 69 |
 | vm_tome1 | 24 |
 
 ## 2. Prélèvements retenus (PRIS)
 
-399 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
+401 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
 
 ### Administrations de sécurité sociale (ASSO) — 31 lignes, 772.79 Md€
 
@@ -195,7 +195,7 @@ Ce document regroupe les **460 prélèvements** de l'inventaire réconcilié (an
 | Taxes affectées au CNC |  | — | Code du cinéma | readme_seed (README §4-§5) |
 | Taxes pour frais de chambres consulaires |  | — | CGI | readme_seed (README §4-§5) |
 
-### Administrations publiques locales (APUL) — 49 lignes, 90.58 Md€
+### Administrations publiques locales (APUL) — 51 lignes, 90.58 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -241,9 +241,11 @@ Ce document regroupe les **460 prélèvements** de l'inventaire réconcilié (an
 | Taxe de consommation sur les produits pétroliers de Saint-Martin |  | — | CGI de Saint-Martin | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe de gestion des ordures ménagères de Saint-Martin |  | — | CGI de Saint-Martin | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe de séjour |  | — | CGCT L2333-26 s. | readme_seed (README §4-§5) |
+| Taxe de séjour forfaitaire |  | — | CGCT art. L. 2333-41 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe générale sur le chiffre d'affaires de Saint-Martin | TGCA | — | CGI de Saint-Martin, titre II | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe pour frais de la chambre consulaire interprofessionnelle de Saint-Martin |  | — | CGI de Saint-Martin | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur l'exploration d'hydrocarbures | TEH | — | CGI art. 1590 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur l'utilisation par les poids lourds de certaines voies du domaine public routier |  | — | CGCT art. L. 3333-9 et L. 4331-3, CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les activités commerciales saisonnières non salariées |  | — | CGCT art. L. 2333-88 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les logements vacants | TLV | — | CGI art. 232 | readme_seed (README §4-§5) |
 | Taxe territoriale d'équipement de Saint-Martin |  | — | CGI de Saint-Martin | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -490,7 +492,7 @@ Ce document regroupe les **460 prélèvements** de l'inventaire réconcilié (an
 
 ## 3. Candidats rejetés (REJET)
 
-60 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
+62 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
 
 | Candidat | Critère | Note | Sources |
 |---|---|---|---|
@@ -532,7 +534,9 @@ Ce document regroupe les **460 prélèvements** de l'inventaire réconcilié (an
 | Forfait de post-stationnement | C3 | Contrepartie directe (occupation du domaine public) depuis 2018. | readme_seed (README §4-§5) |
 | Participation pour le financement de l'assainissement collectif | C3 | Contrepartie directe : raccordement au réseau. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Péages autoroutiers et d'ouvrages d'art | C3 | Paiement d'un service rendu (usage de l'infrastructure). | readme_seed (README §4-§5) |
+| Redevance d'accès aux sites nordiques aménagés | C3 | Droit d'accès à un domaine skiable entretenu. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Redevance d'enlèvement des ordures ménagères | C3 | Tarifée selon le service rendu => contrepartie directe (README §5). | readme_seed (README §4-§5) |
+| Redevance d'usage des abattoirs publics | C3 | Tarif d'utilisation d'un équipement communal. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Redevances domaniales | C3 | Contrepartie : droit d'occupation du domaine public. | readme_seed (README §4-§5) |
 | Redevances perçues lors du lancement de certains matériels aéronautiques | C3 | Contrepartie d'une prestation de contrôle et d'homologation. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Redevances perçues par l'Institut national de la propriété industrielle | C3 | Service rendu individualisé, malgré leur inscription parmi les taxes affectées plafonnées. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -593,7 +597,7 @@ Chantiers identifiés pour la suite des recherches :
 
 1. **Doublons** : les correspondances de même périmètre (« Foncier bâti » ↔ taxe foncière, « Mutations à titre gratuit » ↔ DMTG) sont désormais fusionnées via la colonne `alias` du socle. Les candidats résiduels du §4.1 sont des **composantes plus fines** (ex. accises ex-TICGN/TICFE) : à fusionner au cas par cas ou à conserver comme détail.
 2. **Classification ESA** : la correspondance par préfixe (D29→D2, D51→D5…) reclasse désormais automatiquement les lignes NTL ; les codes encore non couverts (cf. catégorie « indéterminée » au §1) restent à compléter dans `esa_defaults`.
-3. **Montants manquants** : 150 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
+3. **Montants manquants** : 152 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
 4. **Base de mesure** : la couverture (105.8 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
 5. **Exhaustivité de l'État A** : le volume narratif du V&M ne détaille que les ~24 principaux impôts d'État ; les lignes mineures (1101→1799) sont agrégées (« Autres taxes », « Recettes diverses »). Si besoin, parser la table récapitulative formelle (État A) pour les ~300 lignes complètes.
 6. **Taxes affectées** (§4.3) : confirmer le périmètre PO de chacune (certaines redevances pour service rendu sont à exclure au titre de C3).

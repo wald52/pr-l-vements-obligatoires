@@ -12,13 +12,13 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 296 entrées retenues (§4), 45 candidats rejetés avec le critère qui
+> **Contenu.** 298 entrées retenues (§4), 47 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (460 prélèvements), produit par le
+> est dans [`data/`](data/) (464 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -204,7 +204,7 @@ tranchent :
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **296 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **298 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -217,7 +217,7 @@ pour les raisons exposées au §1.
 | 4.2 Accises et impositions sur les biens et services (CIBS) | 34 | État, collectivités, ASSO |
 | 4.3 Enregistrement, timbre, mutations, transactions | 19 | État |
 | 4.4 Jeux d'argent et de hasard | 7 | État, ASSO, communes, ANS |
-| 4.5 Impôts locaux | 34 | APUL |
+| 4.5 Impôts locaux | 36 | APUL |
 | 4.6 DROM et Corse | 8 | Collectivités ultramarines |
 | 4.7 Collectivités à autonomie fiscale | 65 | *hors champ, sauf Saint-Martin* |
 | 4.8 Cotisations sociales effectives | 17 | ASSO |
@@ -225,12 +225,12 @@ pour les raisons exposées au §1.
 | 4.10 Taxes affectées aux opérateurs et agences | 68 | ODAC, ODAL, organismes divers |
 | 4.11 Union européenne | 5 | Institutions de l'UE |
 
-S'y ajoutent **45 candidats examinés puis rejetés** (§5) et **8 cas limites**
+S'y ajoutent **47 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **460 prélèvements
-uniques** (399 PRIS, 60 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **464 prélèvements
+uniques** (401 PRIS, 62 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -619,6 +619,17 @@ contrepartie individualisée.
 - **Taxe additionnelle spéciale annuelle** au profit de la région Île-de-France.
 - **Droit départemental de passage sur les ouvrages d'art reliant le continent
   aux îles maritimes** (pont de Ré, pont d'Oléron…).
+- **Taxe sur l'utilisation par les poids lourds de certaines voies du domaine
+  public routier** — héritière de l'« écotaxe poids lourds » abandonnée en 2014,
+  rétablie sous forme **facultative et locale** par la loi Climat et résilience.
+  Deux versions coexistent : l'une instituée par le **conseil départemental** sur
+  les routes de son domaine, l'autre par le **conseil régional** sur les routes
+  nationales mises à sa disposition. Assiette et tarifs renvoyés au CIBS. Le Grand
+  Est est la première collectivité à l'avoir votée. **Nouvelle entrée.**
+- **Taxe de séjour forfaitaire** — régime alternatif à la taxe de séjour « au
+  réel » : elle frappe l'hébergeur sur sa capacité d'accueil et non le client sur
+  sa nuitée. Deux impositions distinctes dans le CGCT, qu'une collectivité
+  choisit d'instituer l'une **ou** l'autre.
 - **Taxe dans le domaine funéraire** (convois, inhumations, crémations).
 - **Frais de gestion de la fiscalité directe locale** — majorations (de 1 % à
   8 % selon les impôts) prélevées par l'**État** sur le contribuable local au
@@ -1376,6 +1387,8 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 | **Redevances de l'INPI** (procédures de propriété industrielle, registre du commerce) | REJET | C3 — **service rendu** individualisé, malgré leur inscription parmi les *taxes affectées plafonnées* du PLF 2026 (+45 M€). Illustration directe de l'avertissement du §2. |
 | **Émoluments et débours des notaires, huissiers et greffiers** | REJET | C2 + C3 — rémunération d'un officier ministériel ; seuls les **DMTO** compris dans les « frais de notaire » sont des PO. |
 | **Redevance pour frais d'envoi des certificats d'immatriculation** | REJET | C3 — coût d'acheminement d'un titre. |
+| **Redevance d'usage des abattoirs publics** (CGCT) | REJET | C3 — tarif d'utilisation d'un équipement communal ; à distinguer des **redevances sanitaires d'abattage**, qui sont des impositions (§4.2). |
+| **Redevance d'accès aux sites nordiques aménagés** pour les loisirs de neige non motorisés | REJET | C3 — droit d'accès à un domaine skiable entretenu. À distinguer de la **taxe sur les remontées mécaniques**, qui est un PO (§4.5). |
 | **Redevances perçues lors du lancement de certains matériels aéronautiques** | REJET | C3 — contrepartie d'une prestation de contrôle et d'homologation. |
 
 ### 5.3 Bénéficiaire hors APU (échec C2)
@@ -1725,6 +1738,10 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
   dépouillées pour cette version) :
   <https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/bofip-vigueur/exports/csv>
 - **BOFiP — Plan de classement** : <https://bofip.impots.gouv.fr/plan-de-classement>
+- **Code général des collectivités territoriales** (1 910 pages ; structure
+  dépouillée pour les §4.5 et §5.2, via le miroir libre `codes.droit.org`,
+  Légifrance refusant l'accès automatisé) :
+  <https://codes.droit.org/>
 - **URSSAF — Table des codes types de personnel (CTP) avec historique**
   (7 734 lignes, 1 243 codes en vigueur ; seule énumération publique du
   recouvrement social effectif) :
@@ -1774,6 +1791,7 @@ présent document et ses listes sources :
 | BOFiP, toutes profondeurs (séries AIS/TCA/TCAS/TFP/TPS/ENR/IF/PAT) | 289 intitulés distincts | **277 / 289**, les 12 écarts étant des annexes ou des sous-sections |
 | Table CTP de l'URSSAF (recouvrement social réel) | 1 243 codes en vigueur | dépouillée ; **2 régimes manquants** trouvés (Mayotte, CAMIEG) |
 | Code des impôts de Nouvelle-Calédonie (647 p.) | 124 intitulés de structure | dépouillé ; rubrique §4.7 réécrite, **12 prélèvements ajoutés** |
+| Code général des collectivités territoriales (1 910 p.) | 51 intitulés nommant un prélèvement | dépouillé ; **2 impositions et 2 redevances** ajoutées |
 
 Le premier passage laissait six entrées non couvertes ; leur examen a produit
 six décisions distinctes, ce qui illustre bien la méthode : la **TICHLC** est
@@ -1834,10 +1852,15 @@ attendu :
   contourner la vérification TLS n'est pas une option. Son intérêt est de toute
   façon limité : douze ans après, l'essentiel de sa liste est abrogé ou refondu
   dans le CIBS.
-- **Les taxes locales facultatives** instituées par délibération : leur existence
-  dépend de chaque collectivité, ce qui rend l'énumération exhaustive
-  impraticable. L'inventaire par catégorie du §4.5 est le bon niveau de
-  granularité ; un décompte ne le serait pas.
+- **Les taxes locales facultatives** instituées par délibération. Le **CGCT a
+  depuis été dépouillé** (1 910 pages, via un miroir libre des codes, Légifrance
+  refusant l'accès automatisé) : il nomme 51 sections de prélèvement, dont la
+  quasi-totalité était déjà couverte. Restent hors de portée non pas les
+  *catégories* de taxes — désormais closes — mais leur **existence effective
+  commune par commune**, qui dépend de chaque délibération et qu'aucune source
+  n'agrège : ni l'OFGL, dont le poste le plus fin est « autres impôts et taxes »,
+  ni le REI, limité à la fiscalité directe. L'inventaire par catégorie du §4.5
+  est donc le bon niveau de granularité ; un décompte national ne le serait pas.
 - **Les cas limites du §6**, dont trois ne sont pas tranchés (FGDR, FRU,
   contributions conventionnelles aux OPCO) et exigeraient l'avis de l'INSEE ou de
   la Commission des comptes.
