@@ -2,7 +2,7 @@
 
 > Généré le 2026-08-09 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
 
-Ce document regroupe les **455 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
+Ce document regroupe les **460 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
 
 **Comment l'utiliser.** Traiter en priorité le §4 (« à arbitrer ») : commencer par le §4.1 (doublons probables à fusionner), puis instruire les taxes affectées (§4.3) et les nouvelles impositions (§4.4). Le §5 liste les questions ouvertes.
 
@@ -19,8 +19,8 @@ Ce document regroupe les **455 prélèvements** de l'inventaire réconcilié (an
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements au total | 455 |
-| Retenus (PRIS) | 394 |
+| Prélèvements au total | 460 |
+| Retenus (PRIS) | 399 |
 | Rejetés (REJET) | 60 |
 | À arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
@@ -39,8 +39,8 @@ Ce document regroupe les **455 prélèvements** de l'inventaire réconcilié (an
 | impôt courant sur le revenu/patrimoine | 21 |
 | recette fiscale (État) | 17 |
 | fiscalité sociale | 15 |
+| cotisation sociale | 13 |
 | indéterminée | 13 |
-| cotisation sociale | 8 |
 | ressource UE | 3 |
 | impôt en capital | 1 |
 | cotisation sociale imputée | 1 |
@@ -50,16 +50,16 @@ Ce document regroupe les **455 prélèvements** de l'inventaire réconcilié (an
 | Source | Lignes |
 |---|---:|
 | taxes_affectees | 184 |
-| supplement_cure | 152 |
+| supplement_cure | 157 |
 | eurostat_ntl | 103 |
 | readme_seed | 69 |
 | vm_tome1 | 24 |
 
 ## 2. Prélèvements retenus (PRIS)
 
-394 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
+399 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
 
-### Administrations de sécurité sociale (ASSO) — 26 lignes, 772.79 Md€
+### Administrations de sécurité sociale (ASSO) — 31 lignes, 772.79 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -80,12 +80,17 @@ Ce document regroupe les **455 prélèvements** de l'inventaire réconcilié (an
 | Droits de plaidoirie |  | 0.00 | CSS art. L. 723-3 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Clause de sauvegarde sur les dispositifs médicaux | clause Z | — | CSS art. L. 138-19-8 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution exceptionnelle à la charge des organismes complémentaires d'assurance maladie |  | — | LFSS 2026 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution maladie sur les revenus d'activité à Mayotte |  | — | Ordonnance 96-1122 du 20 décembre 1996 art. 28-3 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution salariale sur les carried interests |  | — | CSS art. L. 137-37 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution sur les dépenses de promotion des médicaments et des dispositifs médicaux |  | — | CSS art. L. 245-1 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution sur les premières ventes de médicaments et de dispositifs médicaux |  | — | CSS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution vente en gros des grossistes-répartiteurs |  | — | CSS art. L. 138-1 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contributions de l'industrie pharmaceutique (clause de sauvegarde M) |  | — | CSS | readme_seed (README §4-§5) |
+| Cotisation CAMIEG des agents en activité |  | — | CSS - régime des industries électriques et gazières | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisation d'équilibre CAMIEG des inactifs |  | — | CSS - régime des industries électriques et gazières | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisation de solidarité CAMIEG |  | — | CSS - régime des industries électriques et gazières | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisation du régime local d'assurance maladie d'Alsace-Moselle |  | — | CSS art. L. 325-1 à L. 325-3 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisations au régime de prestations familiales de Mayotte |  | — | Ordonnance 96-1122 art. 28-5 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations aux caisses d'assurance-accidents agricoles d'Alsace-Moselle |  | — | CSS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations des régimes spéciaux |  | — | Code de la sécurité sociale | readme_seed (README §4-§5) |
 | Taxe annuelle sur les émissions de polluants atmosphériques |  | — | CIBS art. L. 421-115 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -588,7 +593,7 @@ Chantiers identifiés pour la suite des recherches :
 
 1. **Doublons** : les correspondances de même périmètre (« Foncier bâti » ↔ taxe foncière, « Mutations à titre gratuit » ↔ DMTG) sont désormais fusionnées via la colonne `alias` du socle. Les candidats résiduels du §4.1 sont des **composantes plus fines** (ex. accises ex-TICGN/TICFE) : à fusionner au cas par cas ou à conserver comme détail.
 2. **Classification ESA** : la correspondance par préfixe (D29→D2, D51→D5…) reclasse désormais automatiquement les lignes NTL ; les codes encore non couverts (cf. catégorie « indéterminée » au §1) restent à compléter dans `esa_defaults`.
-3. **Montants manquants** : 145 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
+3. **Montants manquants** : 150 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
 4. **Base de mesure** : la couverture (105.8 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
 5. **Exhaustivité de l'État A** : le volume narratif du V&M ne détaille que les ~24 principaux impôts d'État ; les lignes mineures (1101→1799) sont agrégées (« Autres taxes », « Recettes diverses »). Si besoin, parser la table récapitulative formelle (État A) pour les ~300 lignes complètes.
 6. **Taxes affectées** (§4.3) : confirmer le périmètre PO de chacune (certaines redevances pour service rendu sont à exclure au titre de C3).

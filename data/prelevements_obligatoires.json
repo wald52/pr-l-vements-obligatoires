@@ -6395,6 +6395,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contribution-maladie-sur-les-revenus-d-activite-a-mayotte",
+    "nom": "Contribution maladie sur les revenus d'activité à Mayotte",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Ordonnance 96-1122 du 20 décembre 1996 art. 28-3",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Régime de sécurité sociale propre à Mayotte, en convergence vers le droit commun. Sans équivalent métropolitain.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-contribution-salariale-sur-les-carried-interests",
     "nom": "Contribution salariale sur les carried interests",
     "sigle": null,
@@ -6630,6 +6653,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-cotisation-camieg-des-agents-en-activite",
+    "nom": "Cotisation CAMIEG des agents en activité",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS - régime des industries électriques et gazières",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Assurance maladie des IEG, distincte de la vieillesse CNIEG.",
+    "aliases": []
+  },
+  {
     "id": "ta-cotisation-au-profit-des-caisses-d-assurances-d-accidents-agricoles-d-alsace-",
     "nom": "Cotisation au profit des caisses d’assurances d’accidents agricoles d’Alsace-Moselle",
     "sigle": null,
@@ -6650,6 +6696,52 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-cotisation-d-equilibre-camieg-des-inactifs",
+    "nom": "Cotisation d'équilibre CAMIEG des inactifs",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS - régime des industries électriques et gazières",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-cotisation-de-solidarite-camieg",
+    "nom": "Cotisation de solidarité CAMIEG",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS - régime des industries électriques et gazières",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": null,
     "aliases": []
   },
   {
@@ -6696,6 +6788,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-cotisations-au-regime-de-prestations-familiales-de-mayotte",
+    "nom": "Cotisations au régime de prestations familiales de Mayotte",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Ordonnance 96-1122 art. 28-5",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Financement propre du régime mahorais de prestations familiales.",
     "aliases": []
   },
   {

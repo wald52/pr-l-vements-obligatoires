@@ -12,13 +12,13 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 279 entrées retenues (§4), 45 candidats rejetés avec le critère qui
+> **Contenu.** 282 entrées retenues (§4), 45 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (455 prélèvements), produit par le
+> est dans [`data/`](data/) (460 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -204,7 +204,7 @@ tranchent :
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **279 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **282 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -220,7 +220,7 @@ pour les raisons exposées au §1.
 | 4.5 Impôts locaux | 34 | APUL |
 | 4.6 DROM et Corse | 8 | Collectivités ultramarines |
 | 4.7 Collectivités à autonomie fiscale | 51 | *hors champ, sauf Saint-Martin* |
-| 4.8 Cotisations sociales effectives | 14 | ASSO |
+| 4.8 Cotisations sociales effectives | 17 | ASSO |
 | 4.9 Fiscalité sociale | 18 | ASSO |
 | 4.10 Taxes affectées aux opérateurs et agences | 68 | ODAC, ODAL, organismes divers |
 | 4.11 Union européenne | 5 | Institutions de l'UE |
@@ -229,8 +229,8 @@ S'y ajoutent **45 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **455 prélèvements
-uniques** (394 PRIS, 60 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **460 prélèvements
+uniques** (399 PRIS, 60 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -834,6 +834,21 @@ obligatoires et sans contrepartie strictement proportionnelle (C3). La part
 salariale **et** la part patronale sont incluses dès lors qu'elles sont
 effectivement versées.
 
+> **Angle mort assumé.** C'est la section la plus lourde — près de **24 points de
+> PIB**, plus de la moitié des prélèvements obligatoires — et la moins
+> décomposable. La **National Tax List d'Eurostat**, qui détaille les impôts ligne
+> à ligne, ne donne pour les cotisations sociales que des **agrégats** (D.611,
+> D.612, D.613 et leurs sous-totaux, sans une seule ligne-feuille pour la France).
+> Aucune source ne publie donc l'équivalent, côté social, de l'état A ou de la
+> liste des taxes affectées. Le contrôle mené ici s'appuie sur la **table des
+> codes types de personnel (CTP) de l'URSSAF** — 1 243 codes en vigueur, qui
+> décrivent le recouvrement réel. Elle est trop fine pour servir d'énumération
+> (un même prélèvement s'y décline en dizaines de codes selon la population et
+> les exonérations), mais elle est excellente pour **détecter les régimes
+> manquants** : c'est elle qui a fait apparaître le régime mahorais et la CAMIEG
+> ci-dessous. La granularité de cette section reste donc celle du **régime**, pas
+> celle du taux.
+
 **Régimes de base**
 - **Cotisations du régime général**, recouvrées par les **URSSAF** : maladie-
   maternité, vieillesse de base (plafonnée et déplafonnée), allocations
@@ -871,6 +886,23 @@ effectivement versées.
   héritage de la législation allemande de 1883 ; ≈ 3 millions d'assurés.
 - **Cotisations aux caisses d'assurance-accidents agricoles d'Alsace-Moselle**
   (régime AT-MP agricole local).
+- **Régime de sécurité sociale de Mayotte** — régi par l'**ordonnance n° 96-1122
+  du 20 décembre 1996**, avec sa **caisse de sécurité sociale** propre, ses
+  assiettes et ses taux, en convergence progressive vers le droit commun. Il
+  comporte notamment une **contribution maladie sur les revenus d'activité**
+  (art. 28-3) sans équivalent métropolitain, et un financement propre du régime
+  de prestations familiales (art. 28-5). La table des codes types de personnel de
+  l'URSSAF y consacre **140 codes en vigueur** — c'est, en volume de règles, la
+  plus grosse singularité sociale du territoire de la République. **Nouvelle
+  entrée.**
+- **Cotisations à la CAMIEG** — caisse d'assurance maladie des industries
+  électriques et gazières : cotisation des **agents en activité**, **cotisation
+  de solidarité** et **cotisation d'équilibre des inactifs**. Distinctes des
+  cotisations vieillesse de la CNIEG et de la contribution tarifaire
+  d'acheminement qui la finance. **Nouvelle entrée.**
+- **Cotisations aux caisses de prévoyance et de retraite du personnel
+  ferroviaire** (CPRPSNCF) et aux régimes assimilés — volet nommé des « régimes
+  spéciaux » cités plus haut.
 - **Contribution tarifaire d'acheminement (CTA)** — prélevée sur la part fixe de
   l'acheminement des factures d'électricité et de gaz, au profit de la **Caisse
   nationale des industries électriques et gazières (CNIEG)**, qu'elle finance
@@ -1661,6 +1693,13 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
   dépouillées pour cette version) :
   <https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/bofip-vigueur/exports/csv>
 - **BOFiP — Plan de classement** : <https://bofip.impots.gouv.fr/plan-de-classement>
+- **URSSAF — Table des codes types de personnel (CTP) avec historique**
+  (7 734 lignes, 1 243 codes en vigueur ; seule énumération publique du
+  recouvrement social effectif) :
+  <https://open.urssaf.fr/explore/dataset/histocodestypescsv/>
+- **Ordonnance n° 96-1122 du 20 décembre 1996** — régime de sécurité sociale de
+  Mayotte et caisse de sécurité sociale de Mayotte :
+  <https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000368749>
 - **Wikipédia — Prélèvements obligatoires** :
   <https://fr.wikipedia.org/wiki/Pr%C3%A9l%C3%A8vements_obligatoires>
 - **Wikipédia — Liste des impôts et taxes français** (≈ 430 entrées, en vigueur
@@ -1700,6 +1739,8 @@ présent document et ses listes sources :
 | National Tax List d'Eurostat, onglet France | 98 lignes-feuilles nommées | **94 / 98** (les 4 écarts sont des libellés équivalents ou des lignes historiques : avoir fiscal) |
 | Liste des taxes affectées (data.economie.gouv.fr, PLF 2024) | 206 intitulés distincts | **204 / 206** |
 | BOFiP, corpus en vigueur (9 092 documents, séries fiscales) | 295 documents de tête | **291 / 295**, 4 écarts réels exploités |
+| BOFiP, toutes profondeurs (séries AIS/TCA/TCAS/TFP/TPS/ENR/IF/PAT) | 289 intitulés distincts | **277 / 289**, les 12 écarts étant des annexes ou des sous-sections |
+| Table CTP de l'URSSAF (recouvrement social réel) | 1 243 codes en vigueur | dépouillée ; **2 régimes manquants** trouvés (Mayotte, CAMIEG) |
 
 Le premier passage laissait six entrées non couvertes ; leur examen a produit
 six décisions distinctes, ce qui illustre bien la méthode : la **TICHLC** est

@@ -1,10 +1,10 @@
 {
   "year": 2024,
-  "n_records_total": 455,
-  "n_pris": 394,
+  "n_records_total": 460,
+  "n_pris": 399,
   "n_rejet": 60,
   "n_a_arbitrer": 1,
-  "n_pris_sans_montant": 126,
+  "n_pris_sans_montant": 131,
   "somme_pris_socle_mdeur": 1326.1,
   "somme_pris_itemise_mdeur": 1574.5,
   "enveloppe_insee_mdeur": 1254.0,
