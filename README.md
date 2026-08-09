@@ -12,7 +12,7 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 282 entrées retenues (§4), 45 candidats rejetés avec le critère qui
+> **Contenu.** 296 entrées retenues (§4), 45 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
@@ -204,7 +204,7 @@ tranchent :
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **282 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **296 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -219,7 +219,7 @@ pour les raisons exposées au §1.
 | 4.4 Jeux d'argent et de hasard | 7 | État, ASSO, communes, ANS |
 | 4.5 Impôts locaux | 34 | APUL |
 | 4.6 DROM et Corse | 8 | Collectivités ultramarines |
-| 4.7 Collectivités à autonomie fiscale | 51 | *hors champ, sauf Saint-Martin* |
+| 4.7 Collectivités à autonomie fiscale | 65 | *hors champ, sauf Saint-Martin* |
 | 4.8 Cotisations sociales effectives | 17 | ASSO |
 | 4.9 Fiscalité sociale | 18 | ASSO |
 | 4.10 Taxes affectées aux opérateurs et agences | 68 | ODAC, ODAL, organismes divers |
@@ -680,32 +680,61 @@ comptes nationaux français (sauf Saint-Martin, rattaché statistiquement à la
 Guadeloupe). Les recenser sans le dire produirait un double langage ; les taire
 laisserait un trou.
 
-**Nouvelle-Calédonie** — système fiscal complet, le plus dense des six
+**Nouvelle-Calédonie** — système fiscal complet, le plus dense des six ; son
+**code des impôts** compte 647 pages (édition du 14 janvier 2026). Les rubriques
+ci-dessous suivent la structure du code lui-même.
 
+*Impôts directs* (livre I, partie I)
+- **Impôt sur les sociétés et sur les activités métallurgiques ou minières**,
+  avec un régime propre aux usines de traitement du minerai.
+- **Contribution additionnelle à l'IS au titre des montants distribués** et
+  **contribution sociale additionnelle à l'IS**.
+- **Impôt sur le revenu** (barème progressif).
+- **Contribution foncière des propriétés bâties et non bâties**.
+- **Contribution des patentes**.
+- **Contribution téléphonique** — imposition sans équivalent métropolitain.
+- **Taxe sur les plus-values immobilières privées**.
+
+*Enregistrement et consommation* (partie II)
+- **Droits d'enregistrement** ; **taxe hypothécaire** ; **contribution de
+  sécurité immobilière** ; **timbre-taxe et taxes diverses**.
 - **Taxe générale sur la consommation (TGC)** — équivalent local de la TVA,
-  introduite en 2018 ; frappe la consommation finale sur le territoire.
-- **Impôt sur le revenu des personnes physiques** et déclarations catégorielles.
-- **Impôt sur les sociétés**, **contribution additionnelle à l'IS (CAIS)** et
-  **contribution sociale additionnelle à l'IS (CSA)**.
+  introduite en 2018.
+- **Taxe de solidarité sur les services**.
+- **Taxe sur les opérations financières (TOF)**.
+- **Impôt sur le revenu des valeurs mobilières (IRVM)** et **impôt sur le revenu
+  des créances, dépôts et cautionnements**.
+
+*Impôts indirects et taxes diverses* (partie III)
+- **Droits de licence** ; **taxe sur les produits des jeux**.
+- **Contribution exceptionnelle de solidarité**.
+- **Taxe sur l'électricité due par les distributeurs d'énergie électrique**.
+- **Taxe de consommation intérieure sur les produits du cru et de fabrication
+  locale**.
+- **Taxe sur certains produits alimentaires contenant du sucre**.
+- **Taxe sur les alcools et les tabacs en faveur du secteur sanitaire et
+  social**.
+- **Droits et redevances applicables aux autorisations personnelles minières et
+  aux titres miniers** — le nickel étant la ressource centrale du territoire, s'y
+  ajoutent la **redevance sur l'extraction** et la **taxe sur l'exportation des
+  produits miniers**.
+- **Cotisation des employeurs sur les salaires au titre de la formation
+  professionnelle**.
+
+*Impositions affectées* (partie IV)
+- **Taxe sur les conventions d'assurances**.
 - **Contribution calédonienne de solidarité (CCS)** — créée au 1ᵉʳ janvier 2015
   pour financer durablement les régimes sociaux (retraite, personnes âgées,
   logement, handicap et dépendance) ; assise dès le premier franc et sans
   plafond, au taux de référence de **4 %** sur les revenus professionnels des
   indépendants, **2 %** sur les revenus d'activité et **1,3 %** sur les revenus
-  de remplacement et de solidarité.
-- **Impôt sur le revenu des valeurs mobilières (IRVM)** ; **contribution des
-  patentes** ; **contribution foncière**.
-- **Taxes sur les plus-values immobilières** et **mobilières** ; **taxe sur le
-  produit net bancaire** — issues de la réforme fiscale récente.
-- **Taxe sur les opérations financières (TOF)** ; **taxe sur les contrats
-  d'assurance (TCA)**.
-- **Taxes sur les alcools et les tabacs (TAT3S, TCI)** ; **taxe sur les produits
-  alimentaires contenant du sucre**.
-- **Taxe sur les produits des jeux**.
-- **Redevance sur l'extraction des produits miniers** et **taxe sur l'exportation
-  des produits miniers** — assises sur le nickel, ressource centrale du
-  territoire.
-- **Taxe hypothécaire** et **contribution de sécurité immobilière (CSI)**.
+  de remplacement.
+- **Impositions au profit des communes** et **au profit des provinces**.
+- **Impositions au profit de la chambre de commerce et d'industrie et de la
+  chambre de métiers et de l'artisanat**.
+- **Prélèvement sur les impositions et produits affectés aux établissements
+  publics** — l'équivalent calédonien des frais d'assiette et de recouvrement
+  métropolitains (§4.5).
 
 **Polynésie française** — fiscalité assise sur la consommation et l'activité,
 sans impôt général sur le revenu
@@ -1639,6 +1668,9 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
   <https://www.impots-saint-martin.fr/files/file/Reglementation/CGI/CGI_SM_au_06_10_2025%20libre%20office%20_.pdf>
 - **Cour des comptes — La taxe de développement local de la Polynésie
   française** : <https://www.ccomptes.fr/fr/publications/la-taxe-de-developpement-local-de-la-polynesie-francaise>
+- **Juridoc — Code des impôts de la Nouvelle-Calédonie**, édition du 14 janvier
+  2026 (647 pages ; structure dépouillée intégralement pour le §4.7) :
+  <https://juridoc.gouv.nc/juridoc/jdcodes.nsf>
 - **IEOM — Rapport annuel Wallis-et-Futuna** (structure des recettes fiscales du
   territoire) :
   <https://www.ieom.fr/IMG/rapport_annuel_ieom_wallis-et-futuna_2022/files/basic-html/page60.html>
@@ -1741,6 +1773,7 @@ présent document et ses listes sources :
 | BOFiP, corpus en vigueur (9 092 documents, séries fiscales) | 295 documents de tête | **291 / 295**, 4 écarts réels exploités |
 | BOFiP, toutes profondeurs (séries AIS/TCA/TCAS/TFP/TPS/ENR/IF/PAT) | 289 intitulés distincts | **277 / 289**, les 12 écarts étant des annexes ou des sous-sections |
 | Table CTP de l'URSSAF (recouvrement social réel) | 1 243 codes en vigueur | dépouillée ; **2 régimes manquants** trouvés (Mayotte, CAMIEG) |
+| Code des impôts de Nouvelle-Calédonie (647 p.) | 124 intitulés de structure | dépouillé ; rubrique §4.7 réécrite, **12 prélèvements ajoutés** |
 
 Le premier passage laissait six entrées non couvertes ; leur examen a produit
 six décisions distinctes, ce qui illustre bien la méthode : la **TICHLC** est
@@ -1779,8 +1812,12 @@ attendu :
   deux écarts sont l'un un libellé équivalent, l'autre une quote-part d'intérêts
   qui n'est pas un prélèvement (§5.5). Aucun millésime postérieur au PLF 2024
   n'est publié sur ce portail — vérifié en interrogeant le catalogue.
-- **Les six codes fiscaux des collectivités à autonomie fiscale** (§4.7). La
-  structure de chacun a été relevée pour cette version — table analytique du code
+- **Les codes fiscaux des collectivités à autonomie fiscale** (§4.7). Ceux de
+  **Nouvelle-Calédonie** (647 p.) et de **Saint-Martin** (512 p.) ont depuis été
+  dépouillés intégralement au niveau de leur structure ; restent
+  **Saint-Barthélemy** et **Wallis-et-Futuna**, dont les corpus ne sont pas
+  publiés sous une forme exploitable automatiquement. La structure de chacun a
+  été relevée — table analytique du code
   local de Saint-Pierre-et-Miquelon, répertoire de la direction des services
   fiscaux calédonienne, code des impôts polynésien, ventilation budgétaire de
   Saint-Barthélemy et de Wallis-et-Futuna. Reste le **détail article par
