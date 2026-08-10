@@ -13,7 +13,7 @@
 > 43,6 % du PIB**.
 >
 > **Contenu.** 307 entrées retenues (§4), 46 candidats rejetés avec le critère qui
-> les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
+> les disqualifie (§5), 9 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
@@ -2008,9 +2008,13 @@ attendu :
   n'agrège : ni l'OFGL, dont le poste le plus fin est « autres impôts et taxes »,
   ni le REI, limité à la fiscalité directe. L'inventaire par catégorie du §4.5
   est donc le bon niveau de granularité ; un décompte national ne le serait pas.
-- **Les cas limites du §6**, dont trois ne sont pas tranchés (FGDR, FRU,
-  contributions conventionnelles aux OPCO) et exigeraient l'avis de l'INSEE ou de
-  la Commission des comptes.
+- **Les cas limites du §6.** Le manuel Eurostat (MGDD) en a tranché quatre —
+  FGDR, Fonds de résolution unique, contributions conventionnelles aux OPCO, et
+  la correction des fonds de garantie d'assurance. Trois restent ouverts et
+  n'appellent plus une recherche documentaire mais une **prise de position de
+  l'INSEE** : la contribution **ACPR**, les contributions **AGEFIPH** et au
+  **dialogue social**, et le rattachement du **MACF** attendu avec ses premiers
+  versements en 2027.
 - **Le suivi des reclassements sectoriels** : tout reclassement d'organisme par
   l'INSEE peut faire entrer ou sortir un prélèvement du champ **sans modification
   de la règle fiscale**. Le précédent d'Action Logement montre que ce risque n'est
