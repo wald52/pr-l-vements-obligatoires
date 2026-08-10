@@ -12,7 +12,7 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 300 entrées retenues (§4), 48 candidats rejetés avec le critère qui
+> **Contenu.** 307 entrées retenues (§4), 48 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
@@ -204,7 +204,7 @@ tranchent :
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **300 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **307 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -219,7 +219,7 @@ pour les raisons exposées au §1.
 | 4.4 Jeux d'argent et de hasard | 7 | État, ASSO, communes, ANS |
 | 4.5 Impôts locaux | 36 | APUL |
 | 4.6 DROM et Corse | 8 | Collectivités ultramarines |
-| 4.7 Collectivités à autonomie fiscale | 65 | *hors champ, sauf Saint-Martin* |
+| 4.7 Collectivités à autonomie fiscale | 72 | *hors champ, sauf Saint-Martin* |
 | 4.8 Cotisations sociales effectives | 17 | ASSO |
 | 4.9 Fiscalité sociale | 19 | ASSO |
 | 4.10 Taxes affectées aux opérateurs et agences | 69 | ODAC, ODAL, organismes divers |
@@ -806,24 +806,33 @@ territorial ; le corpus le plus proche du modèle métropolitain
   de titres d'exploitation de mines d'hydrocarbures au large de
   Saint-Pierre-et-Miquelon**.
 
-**Saint-Barthélemy** — **code des contributions** ; taux de prélèvements
-obligatoires d'environ **20 % du PIB**, moins de la moitié du niveau
-métropolitain
+**Saint-Barthélemy** — **code des contributions**, annexé aux délibérations du
+conseil territorial (édition 2024) ; taux de prélèvements obligatoires d'environ
+**20 % du PIB**, moins de la moitié du niveau métropolitain. Les rubriques
+suivent la structure du code.
 
-- **Droit de quai** — droit d'importation de **5 %** de la valeur des
+- **Contribution forfaitaire annuelle des entreprises** (art. 7 à 12) — part fixe
+  de 350 € et part variable de 100 € par salarié ; **seul prélèvement direct sur
+  les entreprises**, moins de 10 % des recettes.
+- **Droit de quai** (art. 13) — droit d'importation de **5 %** de la valeur des
   marchandises (taux majoré pour les véhicules), qui tient lieu de TVA :
   ≈ **25 %** des recettes fiscales. Institué par un arrêté municipal du 24 mai
   1879, base légale confirmée par la loi de finances pour 1974.
-- **Droits sur les mutations immobilières** — 4,8 % : ≈ **25 %** des recettes.
-- **Taxe de séjour** (5 % du prix des nuitées) et **taxes portuaires et
-  aéroportuaires** : ≈ **20 %** des recettes.
-- **Taxes sur les carburants** et autres consommations spécifiques.
-- **Contribution forfaitaire annuelle des entreprises** — part fixe de 350 € et
-  part variable de 100 € par salarié ; **seul prélèvement direct sur les
-  entreprises**, moins de 10 % des recettes.
+- **Droits d'enregistrement** — mutations à titre onéreux et à titre gratuit :
+  ≈ **25 %** des recettes ; le taux sur les mutations immobilières est de 4,8 %.
+- **Impôt sur la plus-value immobilière** (art. 101 à 105). **Nouvelle entrée.**
+- **Droits de timbre** et **taxes sur les véhicules terrestres à moteur**
+  (chapitre 7). **Nouvelles entrées.**
+- **Taxe sur les débits de boissons** (art. 119). **Nouvelle entrée.**
+- **Taxe sur les carburants** (art. 120).
+- **Taxe de séjour** (art. 125) — 5 % du prix des nuitées.
+- **Taxes portuaires et aéroportuaires** — avec, en section 2, d'autres droits et
+  taxes ; ensemble ≈ **20 %** des recettes avec la taxe de séjour.
 - **Prélèvements sociaux identiques à ceux des DOM** (cotisations sociales, CSG,
   CRDS) : l'autonomie fiscale ne s'étend pas au champ social, qui reste régi par
-  le droit national.
+  le droit national. Symétriquement, une personne domiciliée à Saint-Barthélemy
+  échappe à l'impôt sur le revenu et à l'IFI métropolitains sur ses revenus
+  locaux.
 
 **Saint-Martin** — **code général des impôts** propre (512 pages, à jour du
 6 octobre 2025), largement décalqué du CGI métropolitain mais avec ses propres
@@ -861,17 +870,31 @@ sont les seuls de cette section à figurer aussi dans le jeu de données.
 > 1ᵉʳ avril 2020), la **taxe sur les salaires** et la **redevance
 > audiovisuelle**.
 
-**Wallis-et-Futuna** — le régime le plus atypique de la République
+**Wallis-et-Futuna** — le régime le plus atypique de la République. La fixation
+des impôts, de leur assiette et de leurs taux relève de la **seule compétence de
+l'assemblée territoriale** (loi statutaire du 29 juillet 1961 et décret du
+22 juillet 1957) ; il n'existe **pas de code consolidé**, mais une succession de
+délibérations, ce qui rend l'énumération article par article impraticable.
 
-- **Pas d'impôt sur le revenu, pas d'impôt sur les sociétés au sens classique,
-  pas de TVA, pas d'impôt sur la fortune, ni CSG ni CRDS.**
-- **Droits de douane et taxes à l'importation** — l'essentiel des recettes ;
+- **Ce qui n'existe pas** — et la liste est plus courte que l'inverse : ni impôt
+  sur le revenu, ni impôt sur les sociétés, ni impôt sur le revenu des valeurs
+  mobilières, ni impôt sur la fortune, ni impôt foncier, ni TVA, ni contribution
+  économique territoriale, ni taxe d'apprentissage, **ni CSG ni CRDS**.
+- **Droits de douane et taxes à l'importation** — l'essentiel des recettes, avec
+  un taux de **32 %** sur les marchandises importées à titre professionnel ;
   ≈ 2,5 Md F CFP (≈ 208 M€) par an de fiscalité indirecte.
 - **Droit proportionnel** sur toutes les marchandises dédouanées et mises à la
   consommation — première imposition directe du territoire, la moitié du total.
 - **Patente** — droit fixe annuel variant selon l'activité (≈ 84 € à 7 542 €),
   **droit additionnel sur le commerce des alcools** (≈ 126 € à 838 €) et **taxe
   additionnelle de 30 % au profit de la chambre de commerce**.
+- **Taxe annuelle forfaitaire sur les sociétés sans activité locale**
+  (≈ 8 360 €), due indépendamment du résultat. **Nouvelle entrée.**
+- **Droits d'immatriculation des navires**, assis sur le tonnage (à partir de
+  ≈ 1 906 €), et **droit annuel** de 5 % du droit d'immatriculation à compter de
+  la deuxième année. **Nouvelles entrées.**
+- **Cotisations sociales territoriales** — retraite salariale (6 %) et charges
+  patronales (14 % retraite + 6 % prestations familiales), sans CSG ni CRDS.
 
 > Le rapport public thématique de la Cour des comptes **« L'autonomie fiscale en
 > outre-mer »** couvre les six collectivités. Le détail article par article des
@@ -1712,6 +1735,12 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
 - **Collectivité de Saint-Martin — Code général des impôts**, à jour du
   6 octobre 2025 (512 pages ; sommaire dépouillé intégralement pour le §4.7) :
   <https://www.impots-saint-martin.fr/files/file/Reglementation/CGI/CGI_SM_au_06_10_2025%20libre%20office%20_.pdf>
+- **Collectivité de Saint-Barthélemy — Code des contributions**, annexe à la
+  délibération n° 2024-038 CT (38 pages ; structure dépouillée pour le §4.7) :
+  <https://actes.eservices-comstbarth.fr/PJ/Deliberation%20CT/Deliberation%20CT_2024/2024_038ct_annexe.pdf>
+- **Assemblée territoriale de Wallis-et-Futuna — recueil des délibérations**
+  (seule source de la fiscalité du territoire, faute de code consolidé) :
+  <https://www.assembleeterritoriale.wf/deliberations>
 - **Cour des comptes — La taxe de développement local de la Polynésie
   française** : <https://www.ccomptes.fr/fr/publications/la-taxe-de-developpement-local-de-la-polynesie-francaise>
 - **Juridoc — Code des impôts de la Nouvelle-Calédonie**, édition du 14 janvier
@@ -1837,6 +1866,7 @@ présent document et ses listes sources :
 | Code général des collectivités territoriales (1 910 p.) | 51 intitulés nommant un prélèvement | dépouillé ; **2 impositions et 2 redevances** ajoutées |
 | Code des impositions sur les biens et services (414 p.) | 36 intitulés de prélèvement | **33 / 36** ; la TGAP déchets était recensée sous son ancien nom |
 | Code de la sécurité sociale (2 534 p.) | 63 intitulés nommant un prélèvement | **62 / 63** ; une contribution de 2025 manquait |
+| Code des contributions de Saint-Barthélemy (38 p.) | 12 chapitres | dépouillé ; **4 impositions ajoutées** |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 
@@ -1904,11 +1934,16 @@ attendu :
   deux écarts sont l'un un libellé équivalent, l'autre une quote-part d'intérêts
   qui n'est pas un prélèvement (§5.5). Aucun millésime postérieur au PLF 2024
   n'est publié sur ce portail — vérifié en interrogeant le catalogue.
-- **Les codes fiscaux des collectivités à autonomie fiscale** (§4.7). Ceux de
-  **Nouvelle-Calédonie** (647 p.) et de **Saint-Martin** (512 p.) ont depuis été
-  dépouillés intégralement au niveau de leur structure ; restent
-  **Saint-Barthélemy** et **Wallis-et-Futuna**, dont les corpus ne sont pas
-  publiés sous une forme exploitable automatiquement. La structure de chacun a
+- ~~**Les codes fiscaux des collectivités à autonomie fiscale**~~ — **piste
+  close pour cinq collectivités sur six.** Les codes de **Nouvelle-Calédonie**
+  (647 p.), de **Saint-Martin** (512 p.), de **Saint-Pierre-et-Miquelon**
+  (172 p.) et de **Saint-Barthélemy** (38 p.) ont tous été récupérés et leur
+  structure dépouillée ; la fiscalité **polynésienne** l'a été par ses sources
+  administratives. Seul **Wallis-et-Futuna** résiste, et pour une raison de fond
+  et non d'accès : il n'y existe **aucun code consolidé**, la fiscalité étant
+  fixée par une succession de délibérations de l'assemblée territoriale. Une
+  énumération article par article y supposerait de dépouiller le recueil des
+  délibérations depuis 1961. La structure de chacun a
   été relevée — table analytique du code
   local de Saint-Pierre-et-Miquelon, répertoire de la direction des services
   fiscaux calédonienne, code des impôts polynésien, ventilation budgétaire de
