@@ -18,7 +18,7 @@
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (481 prélèvements), produit par le
+> est dans [`data/`](data/) (486 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -229,8 +229,8 @@ S'y ajoutent **48 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **481 prélèvements
-uniques** (417 PRIS, 63 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **486 prélèvements
+uniques** (417 PRIS, 68 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -1648,7 +1648,10 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
 
 La cohérence entre les deux formats n'est pas laissée à la vigilance : un test
 (`pipeline/tests/test_coherence_readme.py`) confronte chaque prélèvement nommé au
-§4 au contenu de `data/` et **échoue** si l'un y manque. Deux exceptions y sont
+**§4** — et chaque candidat rejeté du **§5** — au contenu de `data/`, et **échoue**
+si l'un y manque. Conserver les rejets dans les données est volontaire : un rejet
+absent est aussi gênant qu'un prélèvement manquant, car il laisse croire que le
+candidat n'a jamais été examiné. Deux exceptions y sont
 déclarées explicitement — le §4.7, hors territoire économique, et une poignée
 d'intitulés qui coiffent une sous-liste sans désigner eux-mêmes un prélèvement.
 Ce garde-fou est né d'une divergence réelle : treize prélèvements, dont le
@@ -1878,6 +1881,7 @@ présent document et ses listes sources :
 | Code des contributions de Saint-Barthélemy (38 p.) | 12 chapitres | dépouillé ; **4 impositions ajoutées** |
 | **Cohérence interne** : §4 du README ↔ `data/` | 307 entrées confrontées | **13 prélèvements** documentés ici mais absents du jeu de données — corrigé, et désormais **vérifié par un test** |
 | **Cohérence inverse** : `data/` ↔ README | 417 lignes PRIS confrontées | **3 écarts**, tous des variantes de libellé — aucun prélèvement n'a échappé au raisonnement C1-C3 |
+| **Cohérence des rejets** : §5 du README ↔ `data/` | 48 candidats confrontés | **6 rejets** documentés ici mais absents du jeu de données — corrigé, et désormais vérifié par le même test |
 | **Doublons** du jeu de données | 481 lignes, 115 440 paires testées | **1 doublon franc** (tabacs DOM, 143,8 M€ comptés deux fois) ; désormais publié dans le rapport et surveillé par un test |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |

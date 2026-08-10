@@ -2,7 +2,7 @@
 
 > Généré le 2026-08-10 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
 
-Ce document regroupe les **481 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
+Ce document regroupe les **486 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
 
 **Comment l'utiliser.** Traiter en priorité le §4 (« à arbitrer ») : commencer par le §4.1 (doublons probables à fusionner), puis instruire les taxes affectées (§4.3) et les nouvelles impositions (§4.4). Le §5 liste les questions ouvertes.
 
@@ -19,9 +19,9 @@ Ce document regroupe les **481 prélèvements** de l'inventaire réconcilié (an
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements au total | 481 |
+| Prélèvements au total | 486 |
 | Retenus (PRIS) | 417 |
-| Rejetés (REJET) | 63 |
+| Rejetés (REJET) | 68 |
 | À arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
 | Somme des PRIS (itemisé, indicatif) | 1575.9 Md€ |
@@ -32,12 +32,12 @@ Ce document regroupe les **481 prélèvements** de l'inventaire réconcilié (an
 
 | Catégorie | Nombre |
 |---|---:|
-| taxe affectée | 230 |
+| taxe affectée | 233 |
 | impôt sur la production/importation | 62 |
-| impôt d'État | 53 |
+| impôt d'État | 54 |
 | impôt local | 49 |
 | impôt courant sur le revenu/patrimoine | 21 |
-| fiscalité sociale | 17 |
+| fiscalité sociale | 18 |
 | recette fiscale (État) | 17 |
 | cotisation sociale | 13 |
 | indéterminée | 13 |
@@ -50,7 +50,7 @@ Ce document regroupe les **481 prélèvements** de l'inventaire réconcilié (an
 | Source | Lignes |
 |---|---:|
 | taxes_affectees | 184 |
-| supplement_cure | 178 |
+| supplement_cure | 184 |
 | eurostat_ntl | 103 |
 | readme_seed | 69 |
 | vm_tome1 | 24 |
@@ -508,14 +508,18 @@ Ce document regroupe les **481 prélèvements** de l'inventaire réconcilié (an
 
 ## 3. Candidats rejetés (REJET)
 
-63 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
+68 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
 
 | Candidat | Critère | Note | Sources |
 |---|---|---|---|
 | Cotisation obligatoire au Centre national de la fonction publique territoriale |  | Transfert entre administrations publiques : payé par des APUL à une APUL, consolidé en comptabilité nationale. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Crédits d'impôt restituables |  | Non un prélèvement : ils minorent les PO. Leur traitement explique l'écart de taux INSEE / Eurostat. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Franchises médicales et participation forfaitaire |  | Moindre remboursement, non un flux versé à une administration publique. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Quote-part des intérêts servis par la Caisse des dépôts sur les fonds déposés |  | Produit financier réaffecté au fonds de financement des dossiers impécunieux, sans redevable ni fait générateur. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations sociales imputées (fonctionnaires d'État) | C1 | Pas de versement effectif (employeur fictif). | readme_seed (README §4-§5) |
+| Obligations d'investissement dans la production audiovisuelle | C1 | Obligation de dépenser dans un secteur, sans versement à une administration publique. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution des employeurs à l'association pour la gestion du régime d'assurance des créances des salariés (AGS) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
-| Contribution annuelle au fonds de développement pour l'insertion professionnelle des handicapés (FIPH) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
+| Contribution annuelle au fonds de développement pour l'insertion professionnelle des handicapés (FIPH) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contributions additionnelles aux primes d'assurance au profit de la Caisse centrale de réassurance | C2 | La CCR est une société anonyme d'assurance classée parmi les sociétés financières. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution patronale au dialogue social (0,016%) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe pour le développement des industries de la mécanique et de la construction métallique, des matériels et consommables de soudage et produits du décolletage, de construction métallique et des matériels aérauliques et thermiques | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -541,6 +545,7 @@ Ce document regroupe les **481 prélèvements** de l'inventaire réconcilié (an
 | Cotisations aux ordres professionnels et syndicats | C2 | Bénéficiaire hors périmètre APU (organisme privé). | readme_seed (README §4-§5) |
 | Fraction du produit des successions en déshérence | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
 | Taxe pour la protection des obtentions végétales | C2 | Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Émoluments et débours des notaires, huissiers et greffiers | C2 | Rémunération d'un officier ministériel. Seuls les DMTO compris dans les frais de notaire sont des PO. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Prélèvement sur les contrats d'assurance-vie en deshérence; 'Prélèvement sur les contrats participation et intéressement en déshérence | C3 | Versement non obligatoire (libre choix). | taxes_affectees |
 | Contribution sur les abondements des employeurs aux plans d'épargne retraite collectifs | C3 | Versement non obligatoire (libre choix). | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations facultatives (PER, assurance-vie, prévoyance facultative) | C3 | Versement non obligatoire (libre choix). | readme_seed (README §4-§5) |

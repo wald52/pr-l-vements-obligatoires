@@ -1,7 +1,10 @@
 """Cohérence entre les deux formats du dépôt (règle n° 1 de CLAUDE.md).
 
-Tout prélèvement nommé au §4 du README doit se retrouver dans le jeu de
-données. Sans ce contrôle, les deux formats divergent silencieusement : c'est
+Tout prélèvement nommé au §4 (retenus) **ou au §5** (rejetés) du README doit se
+retrouver dans le jeu de données. Conserver les rejets est volontaire : c'est la
+trace auditable du raisonnement, et un rejet absent des données est aussi
+gênant qu'un prélèvement manquant — il laisse croire que le candidat n'a jamais
+été examiné. Sans ce contrôle, les deux formats divergent silencieusement : c'est
 exactement ce qui s'était produit sur treize entrées (quotas d'émission,
 contribution FIPHFP, taxes de l'ANSM…).
 
@@ -54,6 +57,16 @@ def _dataset_corpus() -> str:
     return _norm(" | ".join(parts))
 
 
+def _readme_rejets() -> list[str]:
+    """Candidats rejetés du §5 : première cellule en gras de chaque ligne."""
+    text = (ROOT / "README.md").read_text(encoding="utf-8")
+    section = text[text.index("## 5. Candidats"): text.index("## 6. Cas limites")]
+    return [
+        re.sub(r"\s*\(.*?\)\s*", " ", m.group(1)).strip()
+        for m in re.finditer(r"^\| \*\*([^*]{8,120})\*\*", section, re.M)
+    ]
+
+
 def _readme_entries() -> list[tuple[str, str]]:
     text = (ROOT / "README.md").read_text(encoding="utf-8")
     section = text[text.index("## 4. Les prélèvements"): text.index("## 5. Candidats")]
@@ -91,3 +104,20 @@ def test_les_chapeaux_declares_existent_toujours():
     labels = {_norm(label).strip() for _, label in _readme_entries()}
     obsoletes = sorted(CHAPEAUX - labels)
     assert not obsoletes, f"Chapeaux déclarés mais absents du README : {obsoletes}"
+
+
+def test_chaque_rejet_du_readme_est_dans_le_jeu_de_donnees():
+    corpus = _dataset_corpus()
+    manquants = []
+    for label in _readme_rejets():
+        tokens = [t for t in _norm(label).split() if len(t) > 4 and t not in STOPWORDS]
+        if len(tokens) < 2:
+            continue
+        if sum(1 for t in tokens if t in corpus) / len(tokens) < 0.55:
+            manquants.append(label)
+    assert not manquants, (
+        "Candidats rejetés au README §5 mais absents de data/ :\n  - "
+        + "\n  - ".join(manquants)
+        + "\n\nLes ajouter à pipeline/seed/supplement.csv avec statut REJET et le "
+          "critère en échec (cf. CLAUDE.md, règle n° 1)."
+    )

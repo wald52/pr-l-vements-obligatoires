@@ -177,3 +177,9 @@ Contribution FIPHFP des employeurs publics;FIPHFP;taxe affectée;ODAC;Code du tr
 Taxes et droits affectés à l'ANSM;ANSM;taxe affectée;ODAC;CSP art. L. 5321-2 s.;;PRIS;;Droits d'enregistrement et taxes liées aux autorisations de mise sur le marché des médicaments.;
 Redevances sanitaires d'abattage et de découpage;;taxe affectée;APUC;CGI art. 302 bis N s.;;PRIS;;Ligne 1776 de l'état A. Impositions recouvrées à l'occasion des contrôles.;
 Mécanisme d'ajustement carbone aux frontières;MACF / CBAM;ressource UE;UE;Règlement UE 2023/956;;PRIS;;Régime définitif depuis le 1er janvier 2026, premiers versements en 2027. Rattachement UE ou national à confirmer.;CBAM
+Contribution AGEFIPH;AGEFIPH;taxe affectée;;Code du travail art. L. 5212-1 s.;;REJET;C2;L'AGEFIPH ne figure pas dans la liste INSEE des ODAC, à la différence du FIPHFP.;Contribution annuelle au fonds de développement pour l'insertion professionnelle des handicapés (FIPH)
+Émoluments et débours des notaires, huissiers et greffiers;;taxe affectée;;Code de commerce art. L. 444-1 s.;;REJET;C2;Rémunération d'un officier ministériel. Seuls les DMTO compris dans les frais de notaire sont des PO.;
+Obligations d'investissement dans la production audiovisuelle;;taxe affectée;;Loi du 30 septembre 1986 art. 71;;REJET;C1;Obligation de dépenser dans un secteur, sans versement à une administration publique.;
+Franchises médicales et participation forfaitaire;;fiscalité sociale;;CSS art. L. 160-13;;REJET;;Moindre remboursement, non un flux versé à une administration publique.;
+Crédits d'impôt restituables;;impôt d'État;;CGI;;REJET;;Non un prélèvement : ils minorent les PO. Leur traitement explique l'écart de taux INSEE / Eurostat.;
+Quote-part des intérêts servis par la Caisse des dépôts sur les fonds déposés;;taxe affectée;;Loi de finances;;REJET;;Produit financier réaffecté au fonds de financement des dossiers impécunieux, sans redevable ni fait générateur.;

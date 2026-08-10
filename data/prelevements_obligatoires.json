@@ -9949,12 +9949,12 @@
   {
     "id": "ta-contribution-annuelle-au-fonds-de-developpement-pour-l-insertion-professionne",
     "nom": "Contribution annuelle au fonds de développement pour l'insertion professionnelle des handicapés (FIPH)",
-    "sigle": null,
+    "sigle": "AGEFIPH",
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "Association de gestion du fonds de développement pour l'insertion professionnelle des handicapés (AGEFIPH)",
     "secteur": null,
-    "base_legale": null,
+    "base_legale": "Code du travail art. L. 5212-1 s.",
     "montant_eur": 442400000.0,
     "annee": 2024,
     "statut": "REJET",
@@ -9964,6 +9964,11 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5).",
@@ -10850,6 +10855,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-credits-d-impot-restituables",
+    "nom": "Crédits d'impôt restituables",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CGI",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Non un prélèvement : ils minorent les PO. Leur traitement explique l'écart de taux INSEE / Eurostat.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-dons-et-legs-aux-administrations",
     "nom": "Dons et legs aux administrations",
     "sigle": null,
@@ -10988,6 +11016,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-franchises-medicales-et-participation-forfaitaire",
+    "nom": "Franchises médicales et participation forfaitaire",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CSS art. L. 160-13",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Moindre remboursement, non un flux versé à une administration publique.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-majoration-de-la-taxe-sur-les-assurances-de-protection-juridique",
     "nom": "Majoration de la taxe sur les assurances de protection juridique au profit du Conseil national des barreaux",
     "sigle": null,
@@ -11031,6 +11082,29 @@
       }
     ],
     "notes": "Aucun versement à une APU, mais la NTL d'Eurostat les enregistre en D29H pour la France. Divergence assumée entre analyse juridique et traitement statistique.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-obligations-d-investissement-dans-la-production-audiovisuelle",
+    "nom": "Obligations d'investissement dans la production audiovisuelle",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Loi du 30 septembre 1986 art. 71",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C1",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Obligation de dépenser dans un secteur, sans versement à une administration publique.",
     "aliases": []
   },
   {
@@ -11123,6 +11197,29 @@
       }
     ],
     "notes": "Paiement d'un service rendu (usage de l'infrastructure).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-quote-part-des-interets-servis-par-la-caisse-des-depots-sur-les-",
+    "nom": "Quote-part des intérêts servis par la Caisse des dépôts sur les fonds déposés",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Loi de finances",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Produit financier réaffecté au fonds de financement des dossiers impécunieux, sans redevable ni fait générateur.",
     "aliases": []
   },
   {
@@ -11445,6 +11542,29 @@
       }
     ],
     "notes": "Entrée en vigueur reportée trois fois puis abrogation par la loi 2025-127 du 14 février 2025. Jamais perçue.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-emoluments-et-debours-des-notaires-huissiers-et-greffiers",
+    "nom": "Émoluments et débours des notaires, huissiers et greffiers",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code de commerce art. L. 444-1 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Rémunération d'un officier ministériel. Seuls les DMTO compris dans les frais de notaire sont des PO.",
     "aliases": []
   }
 ]
