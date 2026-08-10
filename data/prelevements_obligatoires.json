@@ -10574,6 +10574,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-droits-de-port",
+    "nom": "Droits de port",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code des transports art. L. 5321-1 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Rémunèrent l'usage des infrastructures portuaires par le navire et la marchandise.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-emprunts-et-produits-de-la-dette",
     "nom": "Emprunts et produits de la dette",
     "sigle": null,

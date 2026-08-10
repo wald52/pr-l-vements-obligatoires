@@ -2,7 +2,7 @@
 
 > Généré le 2026-08-10 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
 
-Ce document regroupe les **467 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
+Ce document regroupe les **468 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
 
 **Comment l'utiliser.** Traiter en priorité le §4 (« à arbitrer ») : commencer par le §4.1 (doublons probables à fusionner), puis instruire les taxes affectées (§4.3) et les nouvelles impositions (§4.4). Le §5 liste les questions ouvertes.
 
@@ -19,9 +19,9 @@ Ce document regroupe les **467 prélèvements** de l'inventaire réconcilié (an
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements au total | 467 |
+| Prélèvements au total | 468 |
 | Retenus (PRIS) | 404 |
-| Rejetés (REJET) | 62 |
+| Rejetés (REJET) | 63 |
 | À arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
 | Somme des PRIS (itemisé, indicatif) | 1574.5 Md€ |
@@ -32,7 +32,7 @@ Ce document regroupe les **467 prélèvements** de l'inventaire réconcilié (an
 
 | Catégorie | Nombre |
 |---|---:|
-| taxe affectée | 224 |
+| taxe affectée | 225 |
 | impôt sur la production/importation | 62 |
 | impôt d'État | 48 |
 | impôt local | 48 |
@@ -50,7 +50,7 @@ Ce document regroupe les **467 prélèvements** de l'inventaire réconcilié (an
 | Source | Lignes |
 |---|---:|
 | taxes_affectees | 184 |
-| supplement_cure | 164 |
+| supplement_cure | 165 |
 | eurostat_ntl | 103 |
 | readme_seed | 69 |
 | vm_tome1 | 24 |
@@ -495,7 +495,7 @@ Ce document regroupe les **467 prélèvements** de l'inventaire réconcilié (an
 
 ## 3. Candidats rejetés (REJET)
 
-62 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
+63 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
 
 | Candidat | Critère | Note | Sources |
 |---|---|---|---|
@@ -532,6 +532,7 @@ Ce document regroupe les **467 prélèvements** de l'inventaire réconcilié (an
 | Contribution sur les abondements des employeurs aux plans d'épargne retraite collectifs | C3 | Versement non obligatoire (libre choix). | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations facultatives (PER, assurance-vie, prévoyance facultative) | C3 | Versement non obligatoire (libre choix). | readme_seed (README §4-§5) |
 | Dons et legs aux administrations | C3 | Volontaires. | readme_seed (README §4-§5) |
+| Droits de port | C3 | Rémunèrent l'usage des infrastructures portuaires par le navire et la marchandise. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Emprunts et produits de la dette | C3 | Ressource remboursable, librement souscrite. | readme_seed (README §4-§5) |
 | Factures d'eau et d'assainissement (part exploitant) | C3 | Contrepartie directe. | readme_seed (README §4-§5) |
 | Forfait de post-stationnement | C3 | Contrepartie directe (occupation du domaine public) depuis 2018. | readme_seed (README §4-§5) |

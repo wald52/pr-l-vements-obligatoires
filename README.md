@@ -12,13 +12,13 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 299 entrées retenues (§4), 47 candidats rejetés avec le critère qui
+> **Contenu.** 299 entrées retenues (§4), 48 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (467 prélèvements), produit par le
+> est dans [`data/`](data/) (468 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -225,12 +225,12 @@ pour les raisons exposées au §1.
 | 4.10 Taxes affectées aux opérateurs et agences | 68 | ODAC, ODAL, organismes divers |
 | 4.11 Union européenne | 5 | Institutions de l'UE |
 
-S'y ajoutent **47 candidats examinés puis rejetés** (§5) et **8 cas limites**
+S'y ajoutent **48 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **467 prélèvements
-uniques** (404 PRIS, 62 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **468 prélèvements
+uniques** (404 PRIS, 63 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -1413,6 +1413,7 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 | **Redevance pour frais d'envoi des certificats d'immatriculation** | REJET | C3 — coût d'acheminement d'un titre. |
 | **Redevance d'usage des abattoirs publics** (CGCT) | REJET | C3 — tarif d'utilisation d'un équipement communal ; à distinguer des **redevances sanitaires d'abattage**, qui sont des impositions (§4.2). |
 | **Redevance d'accès aux sites nordiques aménagés** pour les loisirs de neige non motorisés | REJET | C3 — droit d'accès à un domaine skiable entretenu. À distinguer de la **taxe sur les remontées mécaniques**, qui est un PO (§4.5). |
+| **Droits de port** (code des transports) | REJET | C3 — rémunèrent l'usage des infrastructures portuaires par le navire et la marchandise ; perçus au profit des ports, dont les grands ports maritimes ne relèvent pas des APU. Souvent pris pour une taxe en raison de leur nom et de leur caractère obligatoire. |
 | **Redevances perçues lors du lancement de certains matériels aéronautiques** | REJET | C3 — contrepartie d'une prestation de contrôle et d'homologation. |
 
 ### 5.3 Bénéficiaire hors APU (échec C2)
@@ -1765,6 +1766,11 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
 - **Code des impositions sur les biens et services** (414 pages) et **code de la
   sécurité sociale** (2 534 pages) — structures dépouillées pour les §4.2, §4.8
   et §4.9, même miroir.
+- **Dix-sept codes sectoriels** (22 363 pages au total) balayés au même filtre :
+  environnement, travail, énergie, rural et pêche maritime, urbanisme,
+  transports, monétaire et financier, santé publique, cinéma et image animée,
+  douanes, construction et habitation, sport, patrimoine, minier, voirie
+  routière, postes et communications électroniques, tourisme.
 - **Code général des collectivités territoriales** (1 910 pages ; structure
   dépouillée pour les §4.5 et §5.2, via le miroir libre `codes.droit.org`,
   Légifrance refusant l'accès automatisé) :
@@ -1821,6 +1827,7 @@ présent document et ses listes sources :
 | Code général des collectivités territoriales (1 910 p.) | 51 intitulés nommant un prélèvement | dépouillé ; **2 impositions et 2 redevances** ajoutées |
 | Code des impositions sur les biens et services (414 p.) | 36 intitulés de prélèvement | **33 / 36** ; la TGAP déchets était recensée sous son ancien nom |
 | Code de la sécurité sociale (2 534 p.) | 63 intitulés nommant un prélèvement | **62 / 63** ; une contribution de 2025 manquait |
+| **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 
 Le premier passage laissait six entrées non couvertes ; leur examen a produit
 six décisions distinctes, ce qui illustre bien la méthode : la **TICHLC** est
@@ -1830,6 +1837,20 @@ remplacée par une fraction d'accise (§7) ; la **taxe d'atterrissage** relève 
 la fiscalité ultramarine (§4.6) ; la **taxe sur les obtentions végétales** entre
 au §4.10 sous réserve C2 ; les **redevances de lancement aéronautique** sont
 rejetées comme contrepartie de service (§5.2).
+
+**Le balayage des codes sectoriels est un résultat négatif, et c'est le plus
+solide du document.** Dix-sept codes ont été passés au même filtre — 22 363 pages,
+181 intitulés de chapitre ou de section nommant un prélèvement — sans faire
+apparaître une seule imposition absente. Les trente écarts signalés par
+l'automate sont tous des **homonymes** : « prélèvement » d'organes, de sang ou de
+tissus dans le code de la santé publique ; « droit de préemption », « droit de
+priorité », « droit de délaissement » dans le code de l'urbanisme ; « droit de
+visite », « droit de saisie », « droit de remise » dans le code des douanes ;
+« contributions aux avaries communes » en droit maritime. Le seul candidat sérieux
+qu'il a fait remonter — les **droits de port** — est rejeté au §5.2. Autrement
+dit : les prélèvements obligatoires français ne se cachent pas dans les codes
+sectoriels ; ils sont concentrés dans le CGI, le CIBS, le CGCT et le code de la
+sécurité sociale, tous quatre désormais dépouillés.
 
 La confrontation au **BOFiP** — la doctrine fiscale officielle, publiée en open
 data — a été la plus productive des trois : sur 295 documents de tête des séries

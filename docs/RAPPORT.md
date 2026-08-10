@@ -7,7 +7,7 @@
 | Indicateur | Valeur |
 |---|---:|
 | Prélèvements retenus (PRIS) | 404 |
-| Candidats rejetés (REJET) | 62 |
+| Candidats rejetés (REJET) | 63 |
 | Lignes à arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
 | Somme des PRIS (itemisé, indicatif) | 1574.5 Md€ |

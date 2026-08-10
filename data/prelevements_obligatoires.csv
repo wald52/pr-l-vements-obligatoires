@@ -442,6 +442,7 @@ readme-seed-cotisations-aux-ordres-professionnels-et-syndicats,Cotisations aux o
 readme-seed-cotisations-facultatives-per-assurance-vie-prevoyance-facultative,"Cotisations facultatives (PER, assurance-vie, prévoyance facultative)",,indéterminée,,,,,,,REJET,C3,Versement non obligatoire (libre choix).,readme_seed
 readme-seed-cotisations-sociales-imputees-fonctionnaires-d-etat,Cotisations sociales imputées (fonctionnaires d'État),,cotisation sociale imputée,,,,,,,REJET,C1,Pas de versement effectif (employeur fictif).,readme_seed
 readme-seed-dons-et-legs-aux-administrations,Dons et legs aux administrations,,indéterminée,,,,,,,REJET,C3,Volontaires.,readme_seed
+supplement-cure-droits-de-port,Droits de port,,taxe affectée,,,,Code des transports art. L. 5321-1 s.,,,REJET,C3,Rémunèrent l'usage des infrastructures portuaires par le navire et la marchandise.,supplement_cure
 readme-seed-emprunts-et-produits-de-la-dette,Emprunts et produits de la dette,,indéterminée,,,,,,,REJET,C3,"Ressource remboursable, librement souscrite.",readme_seed
 readme-seed-factures-d-eau-et-d-assainissement-part-exploitant,Factures d'eau et d'assainissement (part exploitant),,indéterminée,,,,,,,REJET,C3,Contrepartie directe.,readme_seed
 readme-seed-forfait-de-post-stationnement,Forfait de post-stationnement,FPS,indéterminée,,,,,,,REJET,C3,Contrepartie directe (occupation du domaine public) depuis 2018.,readme_seed
