@@ -24,10 +24,10 @@ récupérées en direct. Cinq contributeurs :
 | `eurostat_ntl` | National Tax List, onglet France — épine dorsale, codes SEC et montants | 103 |
 | `taxes_affectees` | Liste des taxes affectées (data.economie.gouv.fr) | 184 |
 | `readme_seed` | Socle curé du README (§4 PRIS, §5 REJET) | 69 |
-| `supplement_cure` | Ajouts curés à la main (`pipeline/seed/supplement.csv`) | 190 |
+| `supplement_cure` | Ajouts curés à la main (`pipeline/seed/supplement.csv`) | 192 |
 | `vm_tome1` | Voies & Moyens Tome I — énumération des lignes budgétaires | 24 |
 
-Après déduplication : **486 prélèvements uniques**.
+Après déduplication : **488 prélèvements uniques**.
 
 ## Ce que ce jeu de données ne contient pas
 

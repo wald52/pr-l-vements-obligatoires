@@ -3959,6 +3959,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contributions-additionnelles-aux-primes-d-assurance-au-profit-de",
+    "nom": "Contributions additionnelles aux primes d'assurance au profit de la Caisse centrale de réassurance",
+    "sigle": "surprime CatNat",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 1635 bis A",
+    "montant_eur": 120000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Surprime catastrophes naturelles. Réacheminée via l'État en application du MGDD 28 et enregistrée en D214G par la National Tax List.",
+    "aliases": []
+  },
+  {
     "id": "ta-contributions-additionnelles-aux-primes-ou-cotisations-afferentes-a-certaines",
     "nom": "Contributions additionnelles aux primes ou cotisations afférentes à certaines conventions d'assurance",
     "sigle": null,
@@ -5264,6 +5287,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contribution-forfaitaire-annuelle-a-la-charge-des-professionnels",
+    "nom": "Contribution forfaitaire annuelle à la charge des professionnels de santé",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "Code des assurances art. L. 426-1",
+    "montant_eur": 8000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Fonds de garantie des dommages liés aux actes de soins. Réacheminée via l'État (MGDD 28).",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-taxe-sur-la-production-et-la-distribution-d-oeuvres-cinematograp",
     "nom": "Taxe sur la production et la distribution d'oeuvres cinématographiques",
     "sigle": null,
@@ -6303,6 +6349,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contribution-des-assures-au-fonds-de-garantie-des-assurances-obl",
+    "nom": "Contribution des assurés au Fonds de garantie des assurances obligatoires de dommages",
+    "sigle": "FGAO",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "Code des assurances art. L. 421-4",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Réacheminée via l'État en application du MGDD 28. Ligne D214G de la National Tax List.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-contribution-des-institutions-financieres",
     "nom": "Contribution des institutions financières",
     "sigle": null,
@@ -6699,6 +6768,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contributions-conventionnelles-de-branche-aux-opco",
+    "nom": "Contributions conventionnelles de branche aux OPCO",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code du travail art. L. 6332-1-2",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Obligatoires par extension de l'accord de branche. Le critère du MGDD 27 est l'impossibilité de s'y soustraire sans cesser l'activité, non l'origine légale ou conventionnelle.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-contributions-de-l-industrie-pharmaceutique-clause-de-sauvegarde-m",
     "nom": "Contributions de l'industrie pharmaceutique (clause de sauvegarde M)",
     "sigle": null,
@@ -6742,6 +6834,29 @@
       }
     ],
     "notes": "Cotisations sur honoraires, cotisations additionnelles, droit fixe sur rapports de certification.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contributions-des-etablissements-de-credit-au-fonds-de-garantie-",
+    "nom": "Contributions des établissements de crédit au Fonds de garantie des dépôts et de résolution",
+    "sigle": "FGDR",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CMF art. L. 312-4 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Part non restituable. Le MGDD 27 classe en impôts les versements obligatoires aux fonds de protection. La part restituable (certificats d'associé) est un pré-paiement d'impôt conditionnel, hors recette jusqu'au fait déclencheur (MGDD 30).",
     "aliases": []
   },
   {
@@ -9998,29 +10113,6 @@
     "aliases": []
   },
   {
-    "id": "supplement-cure-contributions-additionnelles-aux-primes-d-assurance-au-profit-de",
-    "nom": "Contributions additionnelles aux primes d'assurance au profit de la Caisse centrale de réassurance",
-    "sigle": "surprime CatNat",
-    "categorie": "taxe affectée",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": "CGI art. 1635 bis A",
-    "montant_eur": 120000000.0,
-    "annee": 2024,
-    "statut": "REJET",
-    "critere_echec": "C2",
-    "sources": [
-      {
-        "source_id": "supplement_cure",
-        "url": "",
-        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
-      }
-    ],
-    "notes": "La CCR est une société anonyme d'assurance classée parmi les sociétés financières.",
-    "aliases": []
-  },
-  {
     "id": "ta-contribution-patronale-au-dialogue-social-0-016",
     "nom": "Contribution patronale au dialogue social (0,016%)",
     "sigle": null,
@@ -10375,29 +10467,6 @@
     "aliases": []
   },
   {
-    "id": "supplement-cure-contribution-forfaitaire-annuelle-a-la-charge-des-professionnels",
-    "nom": "Contribution forfaitaire annuelle à la charge des professionnels de santé",
-    "sigle": null,
-    "categorie": "taxe affectée",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": "Code des assurances art. L. 426-1",
-    "montant_eur": 8000000.0,
-    "annee": 2024,
-    "statut": "REJET",
-    "critere_echec": "C2",
-    "sources": [
-      {
-        "source_id": "supplement_cure",
-        "url": "",
-        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
-      }
-    ],
-    "notes": "Fonds de garantie des dommages liés aux actes de soins, géré par la CCR.",
-    "aliases": []
-  },
-  {
     "id": "ta-taxe-affectee-au-financement-d-un-nouveau-centre-technique-industriel-de-la-p",
     "nom": "Taxe affectée au financement d’un nouveau Centre Technique Industriel de la plasturgie et des composites",
     "sigle": "TBIPC",
@@ -10553,29 +10622,6 @@
       }
     ],
     "notes": "Sanction, hors champ des prélèvements (README §5).",
-    "aliases": []
-  },
-  {
-    "id": "supplement-cure-contribution-des-assures-au-fonds-de-garantie-des-assurances-obl",
-    "nom": "Contribution des assurés au Fonds de garantie des assurances obligatoires de dommages",
-    "sigle": "FGAO",
-    "categorie": "taxe affectée",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": "Code des assurances art. L. 421-4",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "REJET",
-    "critere_echec": "C2",
-    "sources": [
-      {
-        "source_id": "supplement_cure",
-        "url": "",
-        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
-      }
-    ],
-    "notes": "Personne morale de droit privé absente de la liste ODAC, à la différence du FGTI.",
     "aliases": []
   },
   {

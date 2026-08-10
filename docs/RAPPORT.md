@@ -6,14 +6,14 @@
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements retenus (PRIS) | 417 |
-| Candidats rejetés (REJET) | 68 |
+| Prélèvements retenus (PRIS) | 422 |
+| Candidats rejetés (REJET) | 65 |
 | Lignes à arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1326.1 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1575.9 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1576.0 Md€ |
 | Enveloppe INSEE (2024) | 1254.0 Md€ |
 | **Couverture (socle)** | **105.8 %** |
-| PRIS sans montant | 148 |
+| PRIS sans montant | 151 |
 
 > La couverture rapporte la somme des PRIS du **socle curé** (non chevauchant) à l'enveloppe INSEE. La somme « itemisée » ajoute les composantes fines de la NTL et des taxes affectées : indicative, elle mêle agrégats et composantes et n'est pas une mesure de couverture.
 
@@ -25,7 +25,7 @@
 | impôt d'État | 48 | 448.6 |
 | fiscalité sociale | 16 | 201.1 |
 | impôt sur la production/importation | 61 | 135.2 |
-| taxe affectée | 196 | 101.6 |
+| taxe affectée | 201 | 101.7 |
 | impôt local | 43 | 90.5 |
 | impôt courant sur le revenu/patrimoine | 19 | 22.3 |
 | ressource UE | 4 | 6.2 |
@@ -36,10 +36,10 @@
 | Secteur | Nombre | Montant (Md€) |
 |---|---:|---:|
 | ASSO | 35 | 772.8 |
-| APUC | 51 | 450.2 |
+| APUC | 54 | 450.3 |
 | (non renseigné) | 226 | 242.4 |
 | APUL | 53 | 90.6 |
-| ODAC | 48 | 13.8 |
+| ODAC | 50 | 13.8 |
 | UE | 4 | 6.2 |
 
 ## Prélèvements retenus (top 40 par montant)

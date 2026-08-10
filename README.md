@@ -12,13 +12,13 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 307 entrées retenues (§4), 48 candidats rejetés avec le critère qui
+> **Contenu.** 307 entrées retenues (§4), 46 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (486 prélèvements), produit par le
+> est dans [`data/`](data/) (488 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -225,12 +225,13 @@ pour les raisons exposées au §1.
 | 4.10 Taxes affectées aux opérateurs et agences | 69 | ODAC, ODAL, organismes divers |
 | 4.11 Union européenne | 5 | Institutions de l'UE |
 
-S'y ajoutent **48 candidats examinés puis rejetés** (§5) et **8 cas limites**
-(§6), dont trois restent délibérément non tranchés.
+S'y ajoutent **46 candidats examinés puis rejetés** (§5) et **8 cas limites**
+(§6), dont **un seul reste ouvert** — le MACF, dont les premiers versements
+n'interviennent qu'en 2027.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **486 prélèvements
-uniques** (417 PRIS, 68 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **488 prélèvements
+uniques** (422 PRIS, 65 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -499,11 +500,25 @@ depuis le 1ᵉʳ janvier 2026)
   dans la National Tax List d'Eurostat pour la France, classée **D.29H** :
   c'est donc bien un prélèvement obligatoire, ce que le raisonnement seul ne
   permettait pas de trancher (§6). **Nouvelle entrée.**
-- **Contributions additionnelles aux primes d'assurance** finançant des fonds :
-  **Fonds de prévention des risques naturels majeurs** (« fonds Barnier ») et
-  **Fonds de garantie des victimes des actes de terrorisme et d'autres
-  infractions (FGTI)** — le FGTI figurant dans la liste INSEE des ODAC, C2 est
-  satisfait. **Nouvelle entrée.**
+- **Contributions additionnelles aux primes d'assurance** finançant des fonds de
+  garantie : **fonds de prévention des risques naturels majeurs** (« fonds
+  Barnier »), **Fonds de garantie des victimes des actes de terrorisme et
+  d'autres infractions (FGTI)**, **Fonds de garantie des assurances obligatoires
+  de dommages (FGAO)**, **surprime « catastrophes naturelles »** au profit de la
+  Caisse centrale de réassurance (120 M€) et **contribution forfaitaire annuelle
+  des professionnels de santé** au fonds de garantie des dommages liés aux actes
+  de soins (8,3 M€).
+
+  > **Correction.** Une version antérieure de ce document ne retenait que le
+  > FGTI et rejetait les autres sur C2, au motif que leurs bénéficiaires — FGAO,
+  > CCR — ne figurent pas dans la liste des ODAC. C'était une erreur de méthode :
+  > le **MGDD § 28** prescrit, lorsqu'un fonds de protection est classé **hors**
+  > administration publique, de **réacheminer le prélèvement via l'État**, qui
+  > l'enregistre en impôt avant de le transférer. La National Tax List le
+  > confirme pour la France par une ligne dédiée, **D.214G « Cotisations sur
+  > primes d'assurance »**, dotée de **1 728 M€ en 2024** — un montant sans
+  > commune mesure avec le seul FGTI. La qualité du bénéficiaire ne suffit donc
+  > pas à écarter un prélèvement assis sur les primes d'assurance.
 
 ### 4.4 Prélèvements sur les jeux d'argent et de hasard
 
@@ -1456,8 +1471,6 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 | **Éco-contributions REP** (emballages, textiles, meubles, bâtiment…) | REJET | C2 — perçues par des **éco-organismes agréés** de droit privé, non par une APU. |
 | **Contribution AGEFIPH** (employeurs privés, obligation d'emploi des travailleurs handicapés) | REJET | C2 — l'AGEFIPH **ne figure pas** dans la liste INSEE des ODAC, à la différence du **FIPHFP** (§4.10). Asymétrie assumée : deux contributions jumelles, deux bénéficiaires de nature différente. |
 | **Primes d'assurances obligatoires** (RC automobile, décennale) | REJET | C2 + C3 — versées à un **assureur privé** en échange d'une couverture. La **TSCA** assise sur ces primes est, elle, un PO (§4.3). |
-| **Contribution des assurés au Fonds de garantie des assurances obligatoires de dommages (FGAO)** | REJET | C2 — personne morale de droit privé, absente de la liste ODAC — contrairement au **FGTI**, qui y figure et dont le prélèvement sur les contrats d'assurance de biens est donc un PO. Les deux figurent côte à côte dans le tableau des ressources affectées du PLF 2026 (lignes 90 et 91) : illustration parfaite de l'avertissement du §2. |
-| **Contributions additionnelles aux primes d'assurance au profit de la Caisse centrale de réassurance (CCR)** — surprime « catastrophes naturelles » (120 M€) — et **contribution forfaitaire annuelle à la charge des professionnels de santé** (8,3 M€, fonds de garantie des dommages liés aux actes de soins) | REJET | C2 — la CCR est une **société anonyme d'assurance** détenue par l'État, classée parmi les sociétés financières et non parmi les APU. Le prélèvement est obligatoire, son bénéficiaire ne l'est pas. |
 | **Cotisations aux services de prévention et de santé au travail (SPSTI)** | REJET | C2 + C3 — organisme privé, en contrepartie d'un service de suivi médical. |
 | **Contribution patronale au dialogue social** (0,016 % de la masse salariale) | REJET | C2 — versée à l'**AGFPN**, association de gestion du fonds paritaire national, **hors périmètre APU**. Elle figure pourtant en ligne 10 du tableau des ressources affectées du PLF 2026. |
 | **Redevance pour copie privée** | REJET | C2 — perçue par des **sociétés de gestion collective** de droit privé et reversée aux ayants droit ; c'est une rémunération, non un impôt. |
@@ -1510,11 +1523,11 @@ tort.
 | Cas | Difficulté | Position retenue ici |
 |---|---|---|
 | **Taxe de balayage** | Imposition de toute nature, mais **produit plafonné au coût du service** balayé — ce qui est le critère usuel de la redevance. | **PRIS** (§4.5) : le Conseil d'État et la doctrine administrative la qualifient d'imposition ; le plafonnement encadre le rendement, il ne crée pas de contrepartie individualisée. |
-| **Contribution ACPR** | Imposition de toutes natures au sens constitutionnel, mais bénéficiaire hors APU (Banque de France). | **REJET** sur C2 (§5.3), avec réserve : un reclassement sectoriel la ferait basculer. |
-| **Contributions au FGDR** (fonds de garantie des dépôts et de résolution) | Le FGDR **est** un ODAC, donc C2 est satisfait ; mais une part des contributions prend la forme de **dépôts de garantie restituables** (certificats d'associé), ce qui contredit C3. | **Non tranché.** À qualifier contribution par contribution. |
+| **Contribution ACPR** | Imposition de toutes natures au sens constitutionnel, mais bénéficiaire hors APU (Banque de France). | **REJET** sur C2 (§5.3), **réserve désormais sérieuse**. La correction opérée sur les fonds de garantie d'assurance montre que la qualité du bénéficiaire n'est pas décisive quand le prélèvement est réacheminé via l'État (MGDD § 28). Aucune ligne de la National Tax List ne nomme cependant la contribution ACPR, et le contrôle prudentiel bénéficie moins évidemment « à la collectivité tout entière » qu'un fonds de garantie. C'est le prochain cas à instruire si une source le nomme. |
+| ~~**Contributions au FGDR**~~ (fonds de garantie des dépôts et de résolution) | *Cas tranché sur pièces.* | **PRIS pour la part non restituable, hors champ pour la part restituable.** Le manuel Eurostat sur le déficit et la dette (MGDD, éd. 2019) règle les deux volets : § 27, « lorsque les contributions sont obligatoires et que les bénéficiaires ne peuvent quitter le dispositif qu'en cessant l'activité, les versements aux fonds de protection sont **classés en impôts** » — le motif étant que ces fonds rendent service « à la collectivité tout entière » et non aux seuls cotisants ; § 30, les **contributions restituables** sont enregistrées « dans les comptes financiers et non en recette », comme un **pré-paiement d'impôt conditionnel** (passif AF.8), et ne deviennent une recette fiscale qu'au moment où survient le fait déclencheur. |
 | ~~**Contributions au Fonds de résolution unique (FRU)**~~ | *Cas tranché.* | **PRIS** — la National Tax List d'Eurostat comporte une ligne « **Contribution au SRF (single resolution fund)** » classée **D.29H** pour la France. Le cas est donc résolu par la source de référence, non par déduction ; entrée reportée au §4.3. |
-| **Contributions conventionnelles aux OPCO** | Les OPCO figurent dans la liste INSEE des ODAC, ce qui satisfait C2 ; mais ces contributions sont créées par **accord de branche**, non par la loi. | **Non tranché** : obligatoires par extension de l'accord, elles occupent une zone grise de C3. |
-| **Taxes affectées à des organismes de droit privé** *(tranché : REJET C2)* : une quinzaine de **taxes sur les biens** des filières industrielles (CTI et CPDE), taxes de formation sectorielle (AFT, ANFA, 3CABTP), **cotisation BTP intempéries**, **redevance sur les paris hippiques** (sociétés de courses), fraction « loto du patrimoine » (Fondation du patrimoine) | Ce sont des **impositions de toutes natures** votées par le Parlement et recouvrées par l'administration, mais versées à des organismes **hors liste ODAC**. Leur enregistrement en PO suppose un **réacheminement** (*rerouting*) du flux à travers l'État en comptabilité nationale. | **Tranché : REJET sur C2**, par cohérence avec l'AGEFIPH et les CVO (§5.3) — c'est le classement appliqué dans `data/`. Mais c'est le bloc le plus fragile du document, une vingtaine de prélèvements : un arbitrage explicite de l'INSEE en faveur du réacheminement les ferait tous basculer d'un coup. Décrits au §4.10. |
+| ~~**Contributions conventionnelles aux OPCO**~~ | *Cas tranché.* | **PRIS.** Le critère du MGDD § 27 n'est pas l'origine légale ou conventionnelle du prélèvement, mais l'**impossibilité de s'y soustraire sans cesser l'activité** : une contribution de branche étendue par arrêté remplit cette condition. Les OPCO étant des ODAC, le flux reste interne au champ des APU. La National Tax List confirme par l'agrégat **D.29C « Contributions des entreprises à la formation professionnelle et à l'apprentissage »**, qui ne distingue pas le légal du conventionnel. |
+| **Taxes affectées à des organismes de droit privé** *(tranché : REJET C2)* : une quinzaine de **taxes sur les biens** des filières industrielles (CTI et CPDE), taxes de formation sectorielle (AFT, ANFA, 3CABTP), **cotisation BTP intempéries**, **redevance sur les paris hippiques** (sociétés de courses), fraction « loto du patrimoine » (Fondation du patrimoine) | Ce sont des **impositions de toutes natures** votées par le Parlement et recouvrées par l'administration, mais versées à des organismes **hors liste ODAC**. Leur enregistrement en PO suppose un **réacheminement** (*rerouting*) du flux à travers l'État en comptabilité nationale. | **Maintenu en REJET sur C2**, mais pour une raison désormais explicite. Le MGDD § 28 établit que les prélèvements obligatoires versés à un organisme **hors** administration publique sont **réacheminés via l'État** et comptés en impôts — le réacheminement n'est donc plus une hypothèse. Mais le motif du § 27 ne transpose pas : il vaut pour les fonds qui rendent service « à la collectivité tout entière », alors que les taxes des CTI et CPDE financent la recherche collective **de la branche qui les acquitte**. C'est cette distinction, et non l'absence de doctrine, qui les maintient hors champ. Décrits au §4.10. |
 | **Obligations d'achat d'électricité renouvelable** | Aucun flux vers une APU, mais la NTL d'Eurostat les enregistre en **D.29H** pour la France (« achats d'énergies renouvelables à prix contractuels »). | **Divergence assumée** entre l'analyse juridique (pas de versement à une APU → §5.4) et le traitement statistique (impôt sur la production imputé). Le second fait foi pour le ratio de 42,7 %. |
 | **MACF / CBAM** | Achat obligatoire de certificats, premiers versements en 2027. | À surveiller (§4.11) : ressource propre de l'UE ou recette nationale. |
 | **Redevances sanitaires et de contrôle** | Certaines sont des impositions (abattage, découpage), d'autres facturent un contrôle individualisé à l'opérateur. | Traitées **au cas par cas** ; les impositions figurent au §4.10, les facturations au §5.2. |
@@ -1685,6 +1698,12 @@ sans être dans les données.
   résolution unique (D.29H) et les obligations d'achat d'électricité
   renouvelable (D.29H) :
   <https://ec.europa.eu/eurostat/statistics-explained/images/e/ef/National_tax_lists_2025_2026-04-22.xlsx>
+- **Eurostat — Manual on Government Deficit and Debt (MGDD), édition 2019**
+  (374 pages) — doctrine opposable pour les cas limites : § 27 (les versements
+  obligatoires aux fonds de protection sont des impôts), § 28 (réacheminement via
+  l'État lorsque le fonds est hors APU), § 30 (contributions restituables
+  enregistrées en comptes financiers, non en recette) :
+  <https://ec.europa.eu/eurostat/documents/3859598/10042108/KS-GQ-19-007-EN-N.pdf>
 - **Eurostat — Système européen des comptes (SEC 2010)**, référence pour le
   traitement des quotas d'émission en impôts sur la production (D.29) :
   <https://ec.europa.eu/eurostat/fr/web/esa-2010>
@@ -1883,6 +1902,7 @@ présent document et ses listes sources :
 | **Cohérence inverse** : `data/` ↔ README | 417 lignes PRIS confrontées | **3 écarts**, tous des variantes de libellé — aucun prélèvement n'a échappé au raisonnement C1-C3 |
 | **Cohérence des rejets** : §5 du README ↔ `data/` | 48 candidats confrontés | **6 rejets** documentés ici mais absents du jeu de données — corrigé, et désormais vérifié par le même test |
 | **Doublons** du jeu de données | 481 lignes, 115 440 paires testées | **1 doublon franc** (tabacs DOM, 143,8 M€ comptés deux fois) ; désormais publié dans le rapport et surveillé par un test |
+| **Cas limites du §6** confrontés au manuel Eurostat (MGDD, 374 p.) et à la NTL | 5 cas ouverts | **4 tranchés**, dont **1 erreur corrigée** (fonds de garantie d'assurance, rejetés à tort) ; seul le MACF reste en attente |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 
