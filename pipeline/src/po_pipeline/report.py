@@ -12,6 +12,7 @@ from datetime import date
 from typing import Any
 
 from .paths import DATASET_DIR, DOCS_DIR, PROCESSED_DIR, ensure_dirs
+from .doublons import doublons_suspects
 from .schema import Prelevement, Source
 
 
@@ -108,6 +109,27 @@ def build_markdown(records: list[Prelevement], cov: dict[str, Any]) -> str:
         for r in a_arbitrer:
             src = ", ".join(sorted({s.source_id for s in r.sources}))
             out.append(f"| {r.nom} | {_mdeur(r.montant_eur)} | {src} |")
+        out.append("")
+
+    suspects = doublons_suspects(records)
+    if suspects:
+        out.append("## Doublons résiduels (à arbitrer manuellement)\n")
+        out.append(
+            "Le rapprochement ne fusionne jamais deux lignes issues d'une même "
+            "source : une énumération officielle liste des lignes distinctes à "
+            "dessein (foncier bâti / non bâti, fractions éditeurs / distributeurs "
+            "de la TST). La contrepartie est qu'un doublon *interne* à une source "
+            "y survit. Les paires ci-dessous sont signalées, pas fusionnées ; "
+            "**montants égaux** est le signal le plus fort d'un vrai doublon.\n"
+        )
+        out.append("| Score | Montants égaux | Libellé A | Libellé B | Sources |")
+        out.append("|---:|:---:|---|---|---|")
+        for d in suspects:
+            flag = "**oui**" if d["montants_egaux"] else "non"
+            out.append(
+                f"| {d['score']:.0f} | {flag} | {d['a']} | {d['b']} | "
+                f"{', '.join(d['sources'])} |"
+            )
         out.append("")
 
     out.append("## Méthodologie\n")

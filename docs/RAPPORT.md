@@ -95,6 +95,19 @@ Ces lignes n'ont pu être classées automatiquement (ni code ESA, ni règle). À
 |---|---:|---|
 | Obligations d'achat d'électricité renouvelable à prix contractuels | — | supplement_cure |
 
+## Doublons résiduels (à arbitrer manuellement)
+
+Le rapprochement ne fusionne jamais deux lignes issues d'une même source : une énumération officielle liste des lignes distinctes à dessein (foncier bâti / non bâti, fractions éditeurs / distributeurs de la TST). La contrepartie est qu'un doublon *interne* à une source y survit. Les paires ci-dessous sont signalées, pas fusionnées ; **montants égaux** est le signal le plus fort d'un vrai doublon.
+
+| Score | Montants égaux | Libellé A | Libellé B | Sources |
+|---:|:---:|---|---|---|
+| 91 | **oui** | Droit de consommation sur les tabacs dans les DOM | Droits de consommation sur les tabacs (DOM) | taxes_affectees |
+| 96 | non | TST - Taxe sur les éditeurs et distributeurs de services de télévision - Fraction Editeurs | TST - Taxe sur les éditeurs et distributeurs de services de télévision - Fraction Distributeurs | taxes_affectees |
+| 95 | non | Accise sur les énergies (ex-TICPE) | Accises sur les énergies (ex-TICFE) | readme_seed, vm_tome1 |
+| 95 | non | Droits de consommation sur les tabacs | Droits de consommation sur les tabacs (DOM) | taxes_affectees |
+| 94 | non | Accises sur les énergies (ex-TICFE) | Accises sur les énergies (ex-TICGN) | vm_tome1 |
+| 92 | non | Accise sur les énergies (ex-TICPE) | Accises sur les énergies (ex-TICGN) | readme_seed, vm_tome1 |
+
 ## Méthodologie
 
 Classement par application de la règle de décision C1–C3 (voir `README.md` §2-§3 et `pipeline/config/decision_rules.yaml`). Sources et provenance : `pipeline/config/sources.yaml` et le champ `sources` de chaque ligne du jeu de données.

@@ -1877,6 +1877,8 @@ présent document et ses listes sources :
 | Code de la sécurité sociale (2 534 p.) | 63 intitulés nommant un prélèvement | **62 / 63** ; une contribution de 2025 manquait |
 | Code des contributions de Saint-Barthélemy (38 p.) | 12 chapitres | dépouillé ; **4 impositions ajoutées** |
 | **Cohérence interne** : §4 du README ↔ `data/` | 307 entrées confrontées | **13 prélèvements** documentés ici mais absents du jeu de données — corrigé, et désormais **vérifié par un test** |
+| **Cohérence inverse** : `data/` ↔ README | 417 lignes PRIS confrontées | **3 écarts**, tous des variantes de libellé — aucun prélèvement n'a échappé au raisonnement C1-C3 |
+| **Doublons** du jeu de données | 481 lignes, 115 440 paires testées | **1 doublon franc** (tabacs DOM, 143,8 M€ comptés deux fois) ; désormais publié dans le rapport et surveillé par un test |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 
