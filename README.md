@@ -18,7 +18,7 @@
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (469 prélèvements), produit par le
+> est dans [`data/`](data/) (481 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -229,8 +229,8 @@ S'y ajoutent **48 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **469 prélèvements
-uniques** (405 PRIS, 63 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **481 prélèvements
+uniques** (417 PRIS, 63 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -1646,6 +1646,15 @@ fusionnées avec les sources officielles. **C'est le fichier à éditer** pour
 ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit jamais
 être modifié à la main.
 
+La cohérence entre les deux formats n'est pas laissée à la vigilance : un test
+(`pipeline/tests/test_coherence_readme.py`) confronte chaque prélèvement nommé au
+§4 au contenu de `data/` et **échoue** si l'un y manque. Deux exceptions y sont
+déclarées explicitement — le §4.7, hors territoire économique, et une poignée
+d'intitulés qui coiffent une sous-liste sans désigner eux-mêmes un prélèvement.
+Ce garde-fou est né d'une divergence réelle : treize prélèvements, dont le
+produit des quotas d'émission et la contribution FIPHFP, figuraient au README
+sans être dans les données.
+
 ---
 
 ## 9. Sources
@@ -1867,6 +1876,7 @@ présent document et ses listes sources :
 | Code des impositions sur les biens et services (414 p.) | 36 intitulés de prélèvement | **33 / 36** ; la TGAP déchets était recensée sous son ancien nom |
 | Code de la sécurité sociale (2 534 p.) | 63 intitulés nommant un prélèvement | **62 / 63** ; une contribution de 2025 manquait |
 | Code des contributions de Saint-Barthélemy (38 p.) | 12 chapitres | dépouillé ; **4 impositions ajoutées** |
+| **Cohérence interne** : §4 du README ↔ `data/` | 307 entrées confrontées | **13 prélèvements** documentés ici mais absents du jeu de données — corrigé, et désormais **vérifié par un test** |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 

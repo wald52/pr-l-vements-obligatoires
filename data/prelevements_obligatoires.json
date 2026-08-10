@@ -1694,6 +1694,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-produit-de-la-mise-aux-encheres-des-quotas-d-emission",
+    "nom": "Produit de la mise aux enchères des quotas d'émission",
+    "sigle": "SEQE-UE",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "Loi de finances 2013 art. 43",
+    "montant_eur": 1460000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Enregistré en impôt sur la production (D29) au sens du SEC 2010. Affecté à l'ANAH, plafonné à 700 M EUR.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-taxes-sur-les-jeux-des-casinos",
     "nom": "Taxes sur les jeux des casinos",
     "sigle": null,
@@ -6188,6 +6211,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contribution-fiphfp-des-employeurs-publics",
+    "nom": "Contribution FIPHFP des employeurs publics",
+    "sigle": "FIPHFP",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code du travail art. L. 323-8-6-1",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Obligation d'emploi des travailleurs handicapés dans la fonction publique. Le FIPHFP figure dans la liste INSEE des ODAC, à la différence de l'AGEFIPH.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-contribution-au-fonds-de-resolution-unique",
     "nom": "Contribution au Fonds de résolution unique",
     "sigle": "FRU / SRF",
@@ -6696,6 +6742,29 @@
       }
     ],
     "notes": "Cotisations sur honoraires, cotisations additionnelles, droit fixe sur rapports de certification.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contributions-sur-les-rentes-de-retraites-chapeau",
+    "nom": "Contributions sur les rentes de retraites chapeau",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 137-11",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Contribution sur les régimes de retraite à prestations définies.",
     "aliases": []
   },
   {
@@ -7389,6 +7458,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-impot-sur-les-cercles-et-maisons-de-jeux",
+    "nom": "Impôt sur les cercles et maisons de jeux",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1559 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": null,
+    "aliases": []
+  },
+  {
     "id": "eurostat-impot-sur-les-operations-traitees-dans-les-bourses-de-valeurs",
     "nom": "Impôt sur les opérations traitées dans les bourses de valeurs",
     "sigle": null,
@@ -7455,6 +7547,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-mecanisme-d-ajustement-carbone-aux-frontieres",
+    "nom": "Mécanisme d'ajustement carbone aux frontières",
+    "sigle": "MACF / CBAM",
+    "categorie": "ressource UE",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "UE",
+    "base_legale": "Règlement UE 2023/956",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Régime définitif depuis le 1er janvier 2026, premiers versements en 2027. Rattachement UE ou national à confirmer.",
     "aliases": []
   },
   {
@@ -7895,6 +8010,52 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-redevances-de-l-eau-dans-les-departements-d-outre-mer",
+    "nom": "Redevances de l'eau dans les départements d'outre-mer",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "Code de l'environnement",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Régime propre aux offices de l'eau ultramarins.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevances-sanitaires-d-abattage-et-de-decoupage",
+    "nom": "Redevances sanitaires d'abattage et de découpage",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 302 bis N s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Ligne 1776 de l'état A. Impositions recouvrées à l'occasion des contrôles.",
+    "aliases": []
+  },
+  {
     "id": "vm-1402-retenues-a-la-source-et-prelevements-sur-les-revenus-de-capitaux-mobilie",
     "nom": "Retenues à la source et prélèvements sur les revenus de capitaux mobiliers et le prélèvement sur les bons anonymes",
     "sigle": null,
@@ -8283,6 +8444,29 @@
       }
     ],
     "notes": "La taxe de balayage locale est abrogée.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-de-l-aviation-civile",
+    "nom": "Taxe de l'aviation civile",
+    "sigle": "TAC",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS - budget annexe Contrôle et exploitation aériens",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Ligne 1780 de l'état A.",
     "aliases": []
   },
   {
@@ -9027,6 +9211,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-sur-les-achats-de-viande",
+    "nom": "Taxe sur les achats de viande",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Ligne 1773 de l'état A.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-taxe-sur-les-activites-commerciales-saisonnieres-non-salariees",
     "nom": "Taxe sur les activités commerciales saisonnières non salariées",
     "sigle": null,
@@ -9047,6 +9254,29 @@
       }
     ],
     "notes": "Instituée par délibération communale.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-boissons-premix",
+    "nom": "Taxe sur les boissons prémix",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 245-7 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Frappe les mélanges de boissons alcooliques et sucrées.",
     "aliases": []
   },
   {
@@ -9533,6 +9763,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxes-et-droits-affectes-a-l-ansm",
+    "nom": "Taxes et droits affectés à l'ANSM",
+    "sigle": "ANSM",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CSP art. L. 5321-2 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Droits d'enregistrement et taxes liées aux autorisations de mise sur le marché des médicaments.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-taxes-pour-frais-de-chambres-consulaires",
     "nom": "Taxes pour frais de chambres consulaires",
     "sigle": null,
@@ -9553,6 +9806,29 @@
       }
     ],
     "notes": "CCI, chambres de métiers et d'agriculture.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxes-sur-le-transport-guide",
+    "nom": "Taxes sur le transport guidé",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS livre IV titre II",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Famille de taxes sur les mobilités codifiée au CIBS.",
     "aliases": []
   },
   {
