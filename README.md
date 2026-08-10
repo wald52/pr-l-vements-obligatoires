@@ -12,13 +12,13 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 299 entrées retenues (§4), 48 candidats rejetés avec le critère qui
+> **Contenu.** 300 entrées retenues (§4), 48 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (468 prélèvements), produit par le
+> est dans [`data/`](data/) (469 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -204,7 +204,7 @@ tranchent :
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **299 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **300 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -222,15 +222,15 @@ pour les raisons exposées au §1.
 | 4.7 Collectivités à autonomie fiscale | 65 | *hors champ, sauf Saint-Martin* |
 | 4.8 Cotisations sociales effectives | 17 | ASSO |
 | 4.9 Fiscalité sociale | 19 | ASSO |
-| 4.10 Taxes affectées aux opérateurs et agences | 68 | ODAC, ODAL, organismes divers |
+| 4.10 Taxes affectées aux opérateurs et agences | 69 | ODAC, ODAL, organismes divers |
 | 4.11 Union européenne | 5 | Institutions de l'UE |
 
 S'y ajoutent **48 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **468 prélèvements
-uniques** (404 PRIS, 63 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **469 prélèvements
+uniques** (405 PRIS, 63 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -480,9 +480,12 @@ depuis le 1ᵉʳ janvier 2026)
   Deux taxes jumelles complètent le dispositif : **taxe sur les ordres annulés
   dans le cadre d'opérations à haute fréquence** et **taxe sur les contrats
   d'échange sur défaut d'un État** (CDS souverains « à nu »).
-- **Taxe sur les rachats d'actions** — assise sur la réduction de capital
-  consécutive au rachat par une grande entreprise de ses propres titres ; 400 M€
-  en 2025, 200 M€ attendus en 2026 au titre de la composante pérenne.
+- **Taxe sur les rachats d'actions** — de son nom complet **taxe sur les
+  réductions de capital par annulation de titres résultant d'un rachat par les
+  sociétés de leurs propres titres** (art. 235 ter XB du CGI, créé par la loi du
+  14 février 2025) ; assise sur la réduction de capital consécutive au rachat par
+  une grande entreprise de ses propres titres ; 400 M€ en 2025, 200 M€ attendus
+  en 2026 au titre de la composante pérenne.
 - **Taxe spéciale sur les conventions d'assurance (TSCA)** — assise sur les
   primes, y compris celles des assurances **obligatoires** (dont la souscription,
   elle, n'est pas un PO : cf. §5). Ses taux varient par risque (art. 991 à 1004
@@ -1270,6 +1273,11 @@ Regroupement par domaine :
 - **Contribution additionnelle des exploitants agricoles et des conchyliculteurs
   au Fonds national de gestion des risques en agriculture (FNGRA)**, assise sur
   les primes d'assurance agricole.
+- **Contribution des organismes assureurs au fonds commun des accidents du
+  travail agricole** — article 1622 du CGI : les assureurs financent les
+  dépenses de l'article L. 753-1 du code rural, au prorata du nombre de leurs
+  assurés au 31 mars 2002. Prélèvement figé sur une photographie vieille de plus
+  de vingt ans, toujours en vigueur. **Nouvelle entrée.**
 - **Taxe additionnelle à la TFPNB pour frais de chambres d'agriculture**
   (335 M€ en 2026).
 - **Redevance pour délivrance de certificats sanitaires et phytosanitaires** —
@@ -1763,6 +1771,8 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
   dépouillées pour cette version) :
   <https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/bofip-vigueur/exports/csv>
 - **BOFiP — Plan de classement** : <https://bofip.impots.gouv.fr/plan-de-classement>
+- **Code général des impôts** (1 314 pages) et ses **annexes I à IV**
+  (889 pages) — structures dépouillées intégralement, même miroir.
 - **Code des impositions sur les biens et services** (414 pages) et **code de la
   sécurité sociale** (2 534 pages) — structures dépouillées pour les §4.2, §4.8
   et §4.9, même miroir.
@@ -1827,6 +1837,7 @@ présent document et ses listes sources :
 | Code général des collectivités territoriales (1 910 p.) | 51 intitulés nommant un prélèvement | dépouillé ; **2 impositions et 2 redevances** ajoutées |
 | Code des impositions sur les biens et services (414 p.) | 36 intitulés de prélèvement | **33 / 36** ; la TGAP déchets était recensée sous son ancien nom |
 | Code de la sécurité sociale (2 534 p.) | 63 intitulés nommant un prélèvement | **62 / 63** ; une contribution de 2025 manquait |
+| Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 
 Le premier passage laissait six entrées non couvertes ; leur examen a produit
@@ -1837,6 +1848,19 @@ remplacée par une fraction d'accise (§7) ; la **taxe d'atterrissage** relève 
 la fiscalité ultramarine (§4.6) ; la **taxe sur les obtentions végétales** entre
 au §4.10 sous réserve C2 ; les **redevances de lancement aéronautique** sont
 rejetées comme contrepartie de service (§5.2).
+
+Le dépouillement du **CGI lui-même** (1 314 pages, plus 889 pages d'annexes) a
+comblé le dernier trou de la démarche : jusque-là, le code fiscal principal
+n'était atteint qu'indirectement, par l'état A et par la doctrine. Sur 331
+intitulés, un seul prélèvement manquait — la **contribution des organismes
+assureurs au fonds commun des accidents du travail agricole** (§4.10) — et les
+autres écarts sont procéduraux (privilège du Trésor, dégrèvements, juridictions).
+
+Il en ressort aussi un piège de méthode à connaître : le plan du CGI **conserve
+des intitulés de sections vidées de leur contenu**. La « taxe sur les allumettes
+et les briquets » y figure encore comme section III du chapitre des monopoles,
+sans un seul article — elle est bel et bien abrogée (§7). Un recensement fondé
+sur les seuls titres de sections la compterait à tort.
 
 **Le balayage des codes sectoriels est un résultat négatif, et c'est le plus
 solide du document.** Dix-sept codes ont été passés au même filtre — 22 363 pages,

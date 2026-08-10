@@ -6280,6 +6280,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contribution-des-organismes-assureurs-au-fonds-commun-des-accide",
+    "nom": "Contribution des organismes assureurs au fonds commun des accidents du travail agricole",
+    "sigle": "FCATA",
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CGI art. 1622",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Assise au prorata du nombre d'assurés au 31 mars 2002. Finance les dépenses de l'article L. 753-1 du code rural.",
+    "aliases": []
+  },
+  {
     "id": "vm-1440-contribution-differentielle-applicable-a-certains-contribuables-titulair",
     "nom": "Contribution différentielle applicable à certains contribuables titulaires de très hauts revenus",
     "sigle": null,
