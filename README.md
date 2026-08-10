@@ -12,13 +12,13 @@
 > incluses). À titre indicatif, l'INSEE estime le taux **2025 (provisoire) à
 > 43,6 % du PIB**.
 >
-> **Contenu.** 298 entrées retenues (§4), 47 candidats rejetés avec le critère qui
+> **Contenu.** 299 entrées retenues (§4), 47 candidats rejetés avec le critère qui
 > les disqualifie (§5), 8 cas limites (§6) et une liste des prélèvements récemment
 > supprimés (§7), pour ne pas les recompter. Les sources primaires — Voies et
 > moyens tome I, état A et article 36 du PLF 2026, liste INSEE des ODAC, National
 > Tax List d'Eurostat — ont été dépouillées ligne à ligne ; le contrôle de
 > couverture est publié au §10. Le **jeu de données ligne à ligne** correspondant
-> est dans [`data/`](data/) (464 prélèvements), produit par le
+> est dans [`data/`](data/) (467 prélèvements), produit par le
 > [`pipeline/`](pipeline/) — voir §8.
 
 ---
@@ -204,7 +204,7 @@ tranchent :
 > **corrections d'erreurs** signalées en §7. Les pistes non encore dépouillées
 > sont au §10.
 
-**Ce que contient ce recensement.** Le §4 compte **298 entrées**, réparties comme
+**Ce que contient ce recensement.** Le §4 compte **299 entrées**, réparties comme
 suit. Une entrée n'est pas toujours un prélèvement : certaines en regroupent
 plusieurs (« cinq taxes affectées à l'ANSES », « sept redevances des agences de
 l'eau »), d'autres décrivent une même taxe vue depuis un affectataire différent.
@@ -221,7 +221,7 @@ pour les raisons exposées au §1.
 | 4.6 DROM et Corse | 8 | Collectivités ultramarines |
 | 4.7 Collectivités à autonomie fiscale | 65 | *hors champ, sauf Saint-Martin* |
 | 4.8 Cotisations sociales effectives | 17 | ASSO |
-| 4.9 Fiscalité sociale | 18 | ASSO |
+| 4.9 Fiscalité sociale | 19 | ASSO |
 | 4.10 Taxes affectées aux opérateurs et agences | 68 | ODAC, ODAL, organismes divers |
 | 4.11 Union européenne | 5 | Institutions de l'UE |
 
@@ -229,8 +229,8 @@ S'y ajoutent **47 candidats examinés puis rejetés** (§5) et **8 cas limites**
 (§6), dont trois restent délibérément non tranchés.
 
 Le jeu de données [`data/`](data/), qui découpe plus finement et intègre les
-sources officielles ligne à ligne, compte de son côté **464 prélèvements
-uniques** (401 PRIS, 62 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
+sources officielles ligne à ligne, compte de son côté **467 prélèvements
+uniques** (404 PRIS, 62 REJET, 1 à arbitrer) — voir §8 pour l'articulation entre
 les deux.
 
 ### 4.1 Impôts d'État sur le revenu, les bénéfices et le patrimoine
@@ -395,8 +395,17 @@ depuis le 1ᵉʳ janvier 2026)
 
 **Autres taxes sur les biens et services**
 - **Taxe générale sur les activités polluantes (TGAP)** — composantes
-  **déchets**, **émissions polluantes**, **lessives**, **matériaux
-  d'extraction** ; 1,15 Md€ en 2024, 1,36 Md€ attendus en 2026.
+  **émissions polluantes**, **lessives** et **matériaux d'extraction** ;
+  1,15 Md€ en 2024, 1,36 Md€ attendus en 2026. Sa composante historique
+  « déchets » a été **recodifiée et scindée** par le CIBS en deux impositions
+  autonomes (livre IV, titre III, art. L. 433-44 s. et L. 433-73 s.) :
+  - **taxe sur les déchets mis en décharge** ;
+  - **taxe sur les déchets incinérés**.
+  > Le prélèvement n'a pas changé de nature ; il a changé de nom et de nombre.
+  > C'est le piège récurrent du CIBS, déjà rencontré avec les accises (§4.2) et
+  > les taxes des centres techniques (§4.10) : une même charge apparaît sous une
+  > appellation historique dans les listes anciennes et sous une ou plusieurs
+  > appellations nouvelles dans le code.
 - **Taxe sur les petits colis** — 2 € par article sur les envois de moins de
   150 € en provenance de pays tiers, applicable au **1ᵉʳ mars 2026** ; 500 M€
   attendus (ligne 1442). **Nouvelle entrée.**
@@ -874,7 +883,14 @@ obligatoires et sans contrepartie strictement proportionnelle (C3). La part
 salariale **et** la part patronale sont incluses dès lors qu'elles sont
 effectivement versées.
 
-> **Angle mort assumé.** C'est la section la plus lourde — près de **24 points de
+> **Contrôle depuis effectué.** La structure du **code de la sécurité sociale**
+> (2 534 pages) a été dépouillée : sur 63 intitulés de chapitre ou de section
+> nommant un prélèvement, **62 étaient déjà couverts**. Le seul écart — la
+> contribution sur les gains de « management packages », créée en 2025 — figure
+> désormais au §4.9. La granularité du **régime** est donc bien atteinte ; c'est
+> celle du **taux** qui reste hors de portée, pour la raison ci-dessous.
+>
+> **Angle mort résiduel.** C'est la section la plus lourde — près de **24 points de
 > PIB**, plus de la moitié des prélèvements obligatoires — et la moins
 > décomposable. La **National Tax List d'Eurostat**, qui détaille les impôts ligne
 > à ligne, ne donne pour les cotisations sociales que des **agrégats** (D.611,
@@ -979,6 +995,14 @@ Recettes fiscales fléchées vers les ASSO ; ce sont des PO comme les autres.
 - **Contributions patronales et salariales sur les attributions gratuites
   d'actions et les stock-options**.
 - **Contribution salariale sur les « carried interests »**. *Nouvelle entrée.*
+- **Contribution salariale libératoire sur les gains de « management packages »**
+  — **10 %** sur la fraction du gain net excédant le plafond de l'article 163 bis H
+  du CGI, c'est-à-dire sur la part requalifiée en salaire des titres souscrits par
+  les dirigeants et salariés en raison de leurs fonctions. Créée avec le régime
+  lui-même par la LF 2025 et codifiée à la section 15 du chapitre VII du titre III
+  du livre Ier du code de la sécurité sociale. À ne pas confondre avec la
+  contribution sur les carried interests ci-dessus, qui vise les parts de
+  fonds. **Nouvelle entrée.**
 - **Contribution sur les abondements des employeurs aux plans d'épargne retraite
   collectifs**. *Nouvelle entrée.*
 - **Contributions sur les rentes de « retraites chapeau »**, sur les **avantages
@@ -1738,6 +1762,9 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
   dépouillées pour cette version) :
   <https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/bofip-vigueur/exports/csv>
 - **BOFiP — Plan de classement** : <https://bofip.impots.gouv.fr/plan-de-classement>
+- **Code des impositions sur les biens et services** (414 pages) et **code de la
+  sécurité sociale** (2 534 pages) — structures dépouillées pour les §4.2, §4.8
+  et §4.9, même miroir.
 - **Code général des collectivités territoriales** (1 910 pages ; structure
   dépouillée pour les §4.5 et §5.2, via le miroir libre `codes.droit.org`,
   Légifrance refusant l'accès automatisé) :
@@ -1792,6 +1819,8 @@ présent document et ses listes sources :
 | Table CTP de l'URSSAF (recouvrement social réel) | 1 243 codes en vigueur | dépouillée ; **2 régimes manquants** trouvés (Mayotte, CAMIEG) |
 | Code des impôts de Nouvelle-Calédonie (647 p.) | 124 intitulés de structure | dépouillé ; rubrique §4.7 réécrite, **12 prélèvements ajoutés** |
 | Code général des collectivités territoriales (1 910 p.) | 51 intitulés nommant un prélèvement | dépouillé ; **2 impositions et 2 redevances** ajoutées |
+| Code des impositions sur les biens et services (414 p.) | 36 intitulés de prélèvement | **33 / 36** ; la TGAP déchets était recensée sous son ancien nom |
+| Code de la sécurité sociale (2 534 p.) | 63 intitulés nommant un prélèvement | **62 / 63** ; une contribution de 2025 manquait |
 
 Le premier passage laissait six entrées non couvertes ; leur examen a produit
 six décisions distinctes, ce qui illustre bien la méthode : la **TICHLC** est

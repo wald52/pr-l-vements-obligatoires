@@ -6418,6 +6418,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contribution-salariale-liberatoire-sur-les-gains-de-management-p",
+    "nom": "Contribution salariale libératoire sur les gains de management packages",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 137-42, CGI art. 163 bis H",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "10 % sur la fraction du gain net excédant le plafond. Créée par la LF 2025 avec le régime des management packages.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-contribution-salariale-sur-les-carried-interests",
     "nom": "Contribution salariale sur les carried interests",
     "sigle": null,
@@ -9047,6 +9070,52 @@
       }
     ],
     "notes": "Affectée à l'ANSES.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-dechets-incineres",
+    "nom": "Taxe sur les déchets incinérés",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS art. L. 433-73 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Recodification CIBS de la composante déchets de la TGAP.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-taxe-sur-les-dechets-mis-en-decharge",
+    "nom": "Taxe sur les déchets mis en décharge",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS art. L. 433-44 s.",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Recodification CIBS de la composante déchets de la TGAP, scindée en deux impositions autonomes.",
     "aliases": []
   },
   {
