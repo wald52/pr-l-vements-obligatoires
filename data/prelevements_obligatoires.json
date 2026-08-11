@@ -836,29 +836,6 @@
     "aliases": []
   },
   {
-    "id": "readme-seed-accise-sur-l-electricite-ex-ticfe",
-    "nom": "Accise sur l'électricité (ex-TICFE)",
-    "sigle": null,
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CIBS",
-    "montant_eur": 4804000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "NTL 2024, ligne D214A « accise sur l'électricité ». Distincte de la fraction ex-TICPE.",
-    "aliases": []
-  },
-  {
     "id": "eurostat-accise-sur-l-electricite",
     "nom": "Accise sur l'électricité",
     "sigle": null,
@@ -879,6 +856,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-accise-sur-l-electricite-ex-ticfe",
+    "nom": "Accise sur l'électricité (ex-TICFE)",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": 4803000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214A « accise sur l'électricité ». Distincte de la fraction ex-TICPE.",
     "aliases": []
   },
   {
@@ -928,29 +928,6 @@
     "aliases": []
   },
   {
-    "id": "readme-seed-prelevements-sur-les-jeux-de-loterie",
-    "nom": "Prélèvements sur les jeux de loterie",
-    "sigle": null,
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CGI et CSS",
-    "montant_eur": 4045000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "NTL 2024, ligne D214F « produits de la loterie nationale et du loto ».",
-    "aliases": []
-  },
-  {
     "id": "eurostat-produits-de-la-loterie-nationale-et-du-loto",
     "nom": "Produits de la loterie nationale et du loto",
     "sigle": null,
@@ -974,6 +951,52 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-prelevements-sur-les-jeux-de-loterie",
+    "nom": "Prélèvements sur les jeux de loterie",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI et CSS",
+    "montant_eur": 3988000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214F « produits de la loterie nationale et du loto ».",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-accise-sur-les-gaz-naturels-ex-ticgn",
+    "nom": "Accise sur les gaz naturels (ex-TICGN)",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": 3183000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214A « taxe intérieure sur la consommation de gaz naturel ».",
+    "aliases": []
+  },
+  {
     "id": "eurostat-taxe-interieure-sur-la-consommation-de-gaz-naturel",
     "nom": "Taxe intérieure sur la consommation de gaz naturel",
     "sigle": null,
@@ -994,29 +1017,6 @@
       }
     ],
     "notes": null,
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-accise-sur-les-gaz-naturels-ex-ticgn",
-    "nom": "Accise sur les gaz naturels (ex-TICGN)",
-    "sigle": null,
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CIBS",
-    "montant_eur": 3166000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "NTL 2024, ligne D214A « taxe intérieure sur la consommation de gaz naturel ».",
     "aliases": []
   },
   {
@@ -1617,6 +1617,29 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-prelevements-sur-les-paris-hippiques",
+    "nom": "Prélèvements sur les paris hippiques",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI et CSS",
+    "montant_eur": 1797000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214F « taxes sur les paris hippiques ».",
+    "aliases": []
+  },
+  {
     "id": "eurostat-taxes-sur-les-paris-hippiques",
     "nom": "Taxes sur les paris hippiques",
     "sigle": null,
@@ -1637,29 +1660,6 @@
       }
     ],
     "notes": null,
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-prelevements-sur-les-paris-hippiques",
-    "nom": "Prélèvements sur les paris hippiques",
-    "sigle": null,
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CGI et CSS",
-    "montant_eur": 1769000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "NTL 2024, ligne D214F « taxes sur les paris hippiques ».",
     "aliases": []
   },
   {
@@ -1893,7 +1893,7 @@
     "beneficiaire": null,
     "secteur": "APUC",
     "base_legale": "CGI et CSS",
-    "montant_eur": 1442000000.0,
+    "montant_eur": 1436000000.0,
     "annee": 2024,
     "statut": "PRIS",
     "critere_echec": null,

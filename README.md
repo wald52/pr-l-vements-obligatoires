@@ -1728,6 +1728,14 @@ sur les grandes entreprises et les surtaxes temporaires (§4.1). L'écart résid
 **−9,9 Md€**, correspond cette fois réellement aux lignes NTL inférieures au
 milliard, que le socle ne prétend pas énumérer.
 
+Ce contrôle par bloc est désormais **un test** (`test_coherence_agregats.py`) et
+non plus une vérification ponctuelle. Il échoue si le bloc social s'écarte de plus
+d'un milliard de l'agrégat NTL — un excédent y signalant un double compte — et si
+le bloc fiscal manque de plus de 15 Md€, seuil au-delà duquel l'écart n'est plus
+imputable aux lignes inférieures au milliard. Les valeurs de référence sont figées
+dans le test, `pipeline/data/raw/` n'étant pas versionné, et doivent être révisées
+en même temps que l'année de référence.
+
 > **Piège de lecture.** La NTL présente deux fois le même flux : **D.51M et D.51A**
 > portent des chiffres identiques, comme **D.51O et D.51B**. Ce sont deux
 > ventilations d'un même agrégat, pas deux impôts. Les additionner double-compte
@@ -2009,7 +2017,7 @@ présent document et ses listes sources :
 | **Réexamen des rejets sur C2** à la lumière du réacheminement | 11 rejets confrontés | **2 requalifiés en cas limites** (AGEFIPH, dialogue social) ; les 9 autres tiennent, faute d'un prélèvement imposé et recouvré par l'État |
 | **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **10 sourcés** dans la NTL, l'état A, le rapport du Sénat et la liste des taxes affectées ; 2 résistent pour des raisons identifiées (§8) |
 | **Double compte des cotisations sociales** | socle : 570 Md€ contre 430,1 Md€ à la NTL | **erreur de 140 Md€ corrigée** ; la couverture passe de 106,5 % à 95,4 % (§8) |
-| **Contrôle bloc par bloc** du socle contre les agrégats NTL | 2 blocs | social **exact** ; bloc fiscal court de 77 Md€ → **16 familles valorisées** puis **3 sous-évaluations corrigées** (IS, prélèvement de solidarité, surtaxes sur les bénéfices), écart ramené à −9,9 Md€, couverture **100,8 %** |
+| **Contrôle bloc par bloc** du socle contre les agrégats NTL *(désormais un test)* | 2 blocs | social **exact** ; bloc fiscal court de 77 Md€ → **16 familles valorisées** puis **3 sous-évaluations corrigées** (IS, prélèvement de solidarité, surtaxes sur les bénéfices), écart ramené à −9,9 Md€, couverture **100,8 %** |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 

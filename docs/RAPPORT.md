@@ -78,14 +78,14 @@
 | Taxe intérieure de consommation sur les produits énergétique (TICPE) - Fractions transférées en compensation du transfert du RMI/RSA et dans le cadre de l'acte II de la décentralisation | taxe affectée | 5.1 | taxes_affectees |
 | Cotisation sur la valeur ajoutée des entreprises | impôt local | 5.0 | eurostat_ntl, readme_seed, vm_tome1 |
 | Taxe de solidarité additionnelle (complémentaire santé) | fiscalité sociale | 5.0 | readme_seed |
-| Accise sur l'électricité (ex-TICFE) | impôt d'État | 4.8 | readme_seed |
 | Accise sur l'électricité | impôt sur la production/importation | 4.8 | eurostat_ntl |
+| Accise sur l'électricité (ex-TICFE) | impôt d'État | 4.8 | readme_seed |
 | Taxes sur les boissons | impôt sur la production/importation | 4.7 | eurostat_ntl |
 | Taxe intérieure de consommation sur les produits énergétique (TICPE dont part modulable) | taxe affectée | 4.7 | taxes_affectees |
-| Prélèvements sur les jeux de loterie | impôt d'État | 4.0 | readme_seed |
 | Produits de la loterie nationale et du loto | impôt sur la production/importation | 4.0 | eurostat_ntl |
-| Taxe intérieure sur la consommation de gaz naturel | impôt sur la production/importation | 3.2 | eurostat_ntl |
+| Prélèvements sur les jeux de loterie | impôt d'État | 4.0 | readme_seed |
 | Accise sur les gaz naturels (ex-TICGN) | impôt d'État | 3.2 | readme_seed |
+| Taxe intérieure sur la consommation de gaz naturel | impôt sur la production/importation | 3.2 | eurostat_ntl |
 
 ## Lignes à arbitrer (classement incertain)
 

@@ -103,7 +103,7 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Taxe annuelle sur les émissions de polluants atmosphériques |  | — | CIBS art. L. 421-115 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les boissons prémix |  | — | CSS art. L. 245-7 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### État et administrations centrales (APUC) — 63 lignes, 499.63 Md€
+### État et administrations centrales (APUC) — 63 lignes, 499.61 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -116,13 +116,13 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Surtaxes et contributions exceptionnelles sur les bénéfices des sociétés |  | 13.39 | CGI | readme_seed (README §4-§5) |
 | Taxe spéciale sur les conventions d'assurance | TSCA | 10.03 | CGI art. 991 s. | eurostat_ntl (FR:D214G/C04); taxes_affectees; readme_seed (README §4-§5) |
 | Accise sur l'électricité (ex-TICFE) |  | 4.80 | CIBS | readme_seed (README §4-§5) |
-| Prélèvements sur les jeux de loterie |  | 4.04 | CGI et CSS | readme_seed (README §4-§5) |
-| Accise sur les gaz naturels (ex-TICGN) |  | 3.17 | CIBS | readme_seed (README §4-§5) |
+| Prélèvements sur les jeux de loterie |  | 3.99 | CGI et CSS | readme_seed (README §4-§5) |
+| Accise sur les gaz naturels (ex-TICGN) |  | 3.18 | CIBS | readme_seed (README §4-§5) |
 | Malus automobile (CO2 et masse) |  | 2.11 | CIBS | readme_seed (README §4-§5) |
 | Impôt sur la fortune immobilière | IFI | 2.00 | CGI art. 964 s. | vm_tome1 (ligne 1406); readme_seed (README §4-§5) |
 | Taxes sur les transports |  | 1.86 | CIBS livre IV | eurostat_ntl (FR:D214H/C10); readme_seed (README §4-§5) |
 | Taxe sur les transactions financières | TTF | 1.85 | CGI art. 235 ter ZD | eurostat_ntl (FR:D214C/C03); vm_tome1 (ligne 1797); readme_seed (README §4-§5) |
-| Prélèvements sur les paris hippiques |  | 1.77 | CGI et CSS | readme_seed (README §4-§5) |
+| Prélèvements sur les paris hippiques |  | 1.80 | CGI et CSS | readme_seed (README §4-§5) |
 | Taxes sur les services professionnels |  | 1.76 | Divers | readme_seed (README §4-§5) |
 | Cotisations sur primes d'assurance |  | 1.73 | CGI art. 1635 bis A s. | eurostat_ntl (FR:D214G/C02); readme_seed (README §4-§5) |
 | Contribution exceptionnelle sur les hauts revenus | CEHR | 1.46 | CGI art. 223 sexies | readme_seed (README §4-§5) |

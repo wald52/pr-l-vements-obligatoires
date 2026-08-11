@@ -68,11 +68,11 @@ Revenus du domaine, dividendes, loyers;;indéterminée;;;;REJET;C3;Recettes patr
 Emprunts et produits de la dette;;indéterminée;;;;REJET;C3;Ressource remboursable, librement souscrite.
 Dons et legs aux administrations;;indéterminée;;;;REJET;C3;Volontaires.
 Contribution à l'audiovisuel public (ex-redevance TV);;indéterminée;;;;REJET;supprime;Supprimée en 2022, remplacée par une fraction de TVA.
-Prélèvements sur les jeux de loterie;;impôt d'État;APUC;CGI et CSS;4.045;PRIS;;NTL 2024, ligne D214F « produits de la loterie nationale et du loto ».;
-Prélèvements sur les paris hippiques;;impôt d'État;APUC;CGI et CSS;1.769;PRIS;;NTL 2024, ligne D214F « taxes sur les paris hippiques ».;
-Prélèvements sur le produit brut des jeux des casinos;;impôt d'État;APUC;CGI et CSS;1.442;PRIS;;NTL 2024, ligne D214F « taxes sur les jeux des casinos ».;
-Accise sur l'électricité (ex-TICFE);;impôt d'État;APUC;CIBS;4.804;PRIS;;NTL 2024, ligne D214A « accise sur l'électricité ». Distincte de la fraction ex-TICPE.;
-Accise sur les gaz naturels (ex-TICGN);;impôt d'État;APUC;CIBS;3.166;PRIS;;NTL 2024, ligne D214A « taxe intérieure sur la consommation de gaz naturel ».;
+Prélèvements sur les jeux de loterie;;impôt d'État;APUC;CGI et CSS;3.988;PRIS;;NTL 2024, ligne D214F « produits de la loterie nationale et du loto ».;
+Prélèvements sur les paris hippiques;;impôt d'État;APUC;CGI et CSS;1.797;PRIS;;NTL 2024, ligne D214F « taxes sur les paris hippiques ».;
+Prélèvements sur le produit brut des jeux des casinos;;impôt d'État;APUC;CGI et CSS;1.436;PRIS;;NTL 2024, ligne D214F « taxes sur les jeux des casinos ».;
+Accise sur l'électricité (ex-TICFE);;impôt d'État;APUC;CIBS;4.803;PRIS;;NTL 2024, ligne D214A « accise sur l'électricité ». Distincte de la fraction ex-TICPE.;
+Accise sur les gaz naturels (ex-TICGN);;impôt d'État;APUC;CIBS;3.183;PRIS;;NTL 2024, ligne D214A « taxe intérieure sur la consommation de gaz naturel ».;
 Taxe sur les certificats d'immatriculation des véhicules;carte grise;impôt local;APUL;CIBS;3.122;PRIS;;NTL 2024, ligne D214D.;
 Contribution au Fonds national d'aide au logement;FNAL;fiscalité sociale;ASSO;CSS art. L. 834-1;2.935;PRIS;;NTL 2024, ligne D29C « cotisation patronale pour le FNAL ».;
 Contribution solidarité autonomie;CSA;fiscalité sociale;ASSO;CASF art. L. 14-10-4;2.468;PRIS;;NTL 2024, ligne D29C. Assise sur la masse salariale, distincte des cotisations sociales.;
