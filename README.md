@@ -87,6 +87,33 @@ exhaustif** des impôts et taxes à faible rendement ; il n'existe toujours pas.
 Le présent document ne prétend donc pas à un décompte, mais à une **couverture
 par famille**.
 
+### Une borne dure : la part que personne ne nomme
+
+Le décompte est indécidable, mais l'exhaustivité peut se mesurer autrement — en
+euros plutôt qu'en lignes. La **National Tax List d'Eurostat**, source la plus
+détaillée qui existe pour la France, comporte des lignes **résiduelles**
+intitulées « autres taxes », « autres prélèvements sociaux », « autres taxes sur
+la pollution ». Ce sont, par construction, des prélèvements que la statistique
+publique **renonce à nommer individuellement**. Leur poids :
+
+| | Md€ (2024) | Part de la fiscalité |
+|---|---:|---:|
+| Lignes fiscales **nommées** | 805,8 | 95,5 % |
+| Lignes **résiduelles** « autres… » | 38,0 | **4,5 %** |
+| Total (D.2 + D.5 + D.91) | 843,8 | 100 % |
+
+Sur ces 38,0 Md€ que la NTL laisse anonymes, le présent recensement en **nomme
+28,0** : le **prélèvement de solidarité sur les revenus du capital** (14,6 Md€,
+noyé dans « autres prélèvements sociaux ») et les **surtaxes et contributions
+exceptionnelles sur les bénéfices** (13,4 Md€, noyées dans « autres taxes »).
+
+Restent **10,0 Md€ — 1,2 % de la fiscalité française — que personne ne nomme**,
+ni Eurostat, ni les documents budgétaires, ni ce document. Et cette grandeur
+coïncide avec l'écart résiduel mesuré indépendamment sur le socle de couverture
+(−9,9 Md€, §8). Les deux calculs, menés par des chemins différents, tombent sur
+le même montant : **l'inexhaustivité restante n'est pas un oubli, c'est une zone
+que la statistique publique elle-même laisse en blanc.**
+
 ---
 
 ## 2. Définition : qu'est-ce qu'un prélèvement obligatoire ?
@@ -2017,6 +2044,7 @@ présent document et ses listes sources :
 | **Réexamen des rejets sur C2** à la lumière du réacheminement | 11 rejets confrontés | **2 requalifiés en cas limites** (AGEFIPH, dialogue social) ; les 9 autres tiennent, faute d'un prélèvement imposé et recouvré par l'État |
 | **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **10 sourcés** dans la NTL, l'état A, le rapport du Sénat et la liste des taxes affectées ; 2 résistent pour des raisons identifiées (§8) |
 | **Double compte des cotisations sociales** | socle : 570 Md€ contre 430,1 Md€ à la NTL | **erreur de 140 Md€ corrigée** ; la couverture passe de 106,5 % à 95,4 % (§8) |
+| **Part de la fiscalité que personne ne nomme** | 99 lignes-feuilles NTL | résidus « autres… » = **38,0 Md€** (4,5 %) ; ce recensement en nomme 28,0 ; **10,0 Md€ restent anonymes**, montant qui coïncide avec l'écart résiduel du socle (§1) |
 | **Contrôle bloc par bloc** du socle contre les agrégats NTL *(désormais un test)* | 2 blocs | social **exact** ; bloc fiscal court de 77 Md€ → **16 familles valorisées** puis **3 sous-évaluations corrigées** (IS, prélèvement de solidarité, surtaxes sur les bénéfices), écart ramené à −9,9 Md€, couverture **100,8 %** |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
