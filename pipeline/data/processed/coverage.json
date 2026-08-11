@@ -4,10 +4,10 @@
   "n_pris": 422,
   "n_rejet": 65,
   "n_a_arbitrer": 1,
-  "n_pris_sans_montant": 146,
-  "somme_pris_socle_mdeur": 1330.7,
-  "somme_pris_itemise_mdeur": 1580.6,
+  "n_pris_sans_montant": 142,
+  "somme_pris_socle_mdeur": 1335.3,
+  "somme_pris_itemise_mdeur": 1585.3,
   "enveloppe_insee_mdeur": 1254.0,
-  "couverture_pct": 106.1,
+  "couverture_pct": 106.5,
   "source_enveloppe": "INSEE — comptes nationaux 2024"
 }

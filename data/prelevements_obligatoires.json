@@ -1370,6 +1370,29 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-malus-automobile-co2-et-masse",
+    "nom": "Malus automobile (CO2 et masse)",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": 2113000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D29F « taxe sur les émissions de CO2 », qui regroupe la taxation des véhicules assise sur le CO2.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-taxe-sur-les-emissions-de-co2",
     "nom": "Taxe sur les émissions de CO2",
     "sigle": null,
@@ -2095,6 +2118,29 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-taxe-sur-l-affectation-des-vehicules-a-des-fins-economiques",
+    "nom": "Taxe sur l'affectation des véhicules à des fins économiques",
+    "sigle": "ex-TVS",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": 991000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D29B « taxe sur les véhicules de tourisme des sociétés ».",
+    "aliases": []
+  },
+  {
     "id": "eurostat-taxe-sur-les-vehicules-de-tourisme-des-societes",
     "nom": "Taxe sur les véhicules de tourisme des sociétés",
     "sigle": null,
@@ -2161,6 +2207,29 @@
       }
     ],
     "notes": "CCI, chambres de métiers et d'agriculture. NTL 2024 : chambres de commerce 525 + chambres de métiers 214 + chambres d'agriculture 227.",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-contributions-de-l-industrie-pharmaceutique-clause-de-sauvegarde-m",
+    "nom": "Contributions de l'industrie pharmaceutique (clause de sauvegarde M)",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS",
+    "montant_eur": 957000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214I « taxes pharmaceutiques » (grossistes-répartiteurs, ventes de médicaments).",
     "aliases": []
   },
   {
@@ -2766,6 +2835,29 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-droits-de-timbre",
+    "nom": "Droits de timbre",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": 567000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Passeports, cartes, etc. État A du PLF 2026, ligne 1721 « timbre unique ». Montant partiel : les fractions de droits de timbre affectées à l'ANTS (passeports, CNI, titres de séjour) sont hors budget général.",
     "aliases": []
   },
   {
@@ -6911,29 +7003,6 @@
     "aliases": []
   },
   {
-    "id": "readme-seed-contributions-de-l-industrie-pharmaceutique-clause-de-sauvegarde-m",
-    "nom": "Contributions de l'industrie pharmaceutique (clause de sauvegarde M)",
-    "sigle": null,
-    "categorie": "fiscalité sociale",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ASSO",
-    "base_legale": "CSS",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null,
-    "aliases": []
-  },
-  {
     "id": "supplement-cure-contributions-des-commissaires-aux-comptes-et-des-organismes-tie",
     "nom": "Contributions des commissaires aux comptes et des organismes tiers indépendants à la Haute autorité de l'audit",
     "sigle": "H2A",
@@ -7299,29 +7368,6 @@
       }
     ],
     "notes": "Rétabli en LFI 2024.",
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-droits-de-timbre",
-    "nom": "Droits de timbre",
-    "sigle": null,
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CGI",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Passeports, cartes, etc.",
     "aliases": []
   },
   {
@@ -7759,29 +7805,6 @@
       }
     ],
     "notes": "Affectée à l'ASP. Imposition due à l'occasion d'une autorisation administrative.",
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-malus-automobile-co2-et-masse",
-    "nom": "Malus automobile (CO2 et masse)",
-    "sigle": null,
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CIBS",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null,
     "aliases": []
   },
   {
@@ -9001,29 +9024,6 @@
       }
     ],
     "notes": "Affectée à l'ANSES.",
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-taxe-sur-l-affectation-des-vehicules-a-des-fins-economiques",
-    "nom": "Taxe sur l'affectation des véhicules à des fins économiques",
-    "sigle": "ex-TVS",
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CIBS",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null,
     "aliases": []
   },
   {

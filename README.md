@@ -1662,7 +1662,7 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
 
 ### La mesure de couverture, et ce qu'elle vaut
 
-Le rapport publie une **couverture de 106,1 %** : la somme des prélèvements
+Le rapport publie une **couverture de 106,5 %** : la somme des prélèvements
 retenus du socle curé rapportée à l'enveloppe INSEE de 1 254 Md€. Dépasser 100 %
 n'est pas une anomalie — les montants ligne à ligne proviennent pour l'essentiel
 de la National Tax List, qui est établie sur la **base Eurostat** (≈ 45,3 % du
@@ -1678,13 +1678,29 @@ Deux précautions encadrent ce chiffre :
   composantes — la TGAP et ses quatre composantes, l'accise sur les énergies et
   ses quatre fractions — et double-compterait ;
 - **douze prélèvements du socle n'avaient aucun montant**, donc pesaient zéro.
-  Cinq ont été sourcés (chambres consulaires, bureaux d'Île-de-France, TGAP,
-  taxes du CNC, taxe de séjour) ; **sept restent sans valeur** faute de source
-  ligne à ligne : contribution exceptionnelle sur les hauts revenus,
-  contributions de l'industrie pharmaceutique, cotisations des régimes spéciaux,
-  droits de timbre, malus automobile, taxes sur l'affectation des véhicules et
-  taxe sur les logements vacants. La couverture réelle est donc légèrement
-  supérieure à celle affichée.
+  **Neuf ont été sourcés** sans aucune estimation, en croisant trois sources déjà
+  au dossier :
+
+  | Prélèvement | Montant | Source |
+  |---|---:|---|
+  | Malus automobile | 2,113 Md€ | NTL, ligne D.29F « taxe sur les émissions de CO₂ » |
+  | Taxe sur les bureaux d'Île-de-France | 1,055 Md€ | NTL, ligne D.29A |
+  | TGAP | 1,150 Md€ | Voies et moyens tome I |
+  | Taxes sur l'affectation des véhicules | 0,991 Md€ | NTL, ligne D.29B |
+  | Taxes pour frais de chambres consulaires | 0,966 Md€ | NTL, somme des trois lignes nommées |
+  | Contributions de l'industrie pharmaceutique | 0,957 Md€ | NTL, ligne D.214I |
+  | Taxes affectées au CNC | 0,754 Md€ | Liste des taxes affectées, 5 lignes |
+  | Taxe de séjour | 0,670 Md€ | Idem, hors taxes additionnelles |
+  | Droits de timbre | 0,567 Md€ | État A, ligne 1721 — **partiel**, hors fractions affectées à l'ANTS |
+
+  **Trois résistent**, et pour des raisons identifiées plutôt que par défaut : la
+  **contribution exceptionnelle sur les hauts revenus** n'a aucune ligne
+  budgétaire propre puisqu'elle est recouvrée avec l'impôt sur le revenu (les
+  chiffres qui circulent — 1,46 Md€, puis « plus de 3,5 Md€ » — proviennent de
+  sources secondaires qui se contredisent, et n'ont pas été retenus) ; les
+  **cotisations des régimes spéciaux** ne figurent dans la NTL que sous forme
+  d'agrégats D.61, sans détail par régime (§4.8) ; la **taxe sur les logements
+  vacants** est portée à zéro dans la liste des taxes affectées disponible.
 
 La cohérence entre les deux formats n'est pas laissée à la vigilance : un test
 (`pipeline/tests/test_coherence_readme.py`) confronte chaque prélèvement nommé au
@@ -1931,7 +1947,7 @@ présent document et ses listes sources :
 | **Doublons** du jeu de données | 481 lignes, 115 440 paires testées | **1 doublon franc** (tabacs DOM, 143,8 M€ comptés deux fois) ; désormais publié dans le rapport et surveillé par un test |
 | **Cas limites du §6** confrontés au manuel Eurostat (MGDD, 374 p.) et à la NTL | 5 cas ouverts | **4 tranchés**, dont **1 erreur corrigée** (fonds de garantie d'assurance, rejetés à tort) ; seul le MACF reste en attente |
 | **Réexamen des rejets sur C2** à la lumière du réacheminement | 11 rejets confrontés | **2 requalifiés en cas limites** (AGEFIPH, dialogue social) ; les 9 autres tiennent, faute d'un prélèvement imposé et recouvré par l'État |
-| **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **5 sourcés** dans la NTL et la liste des taxes affectées ; 7 restent sans montant faute de source ligne à ligne (§8) |
+| **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **9 sourcés** dans la NTL, l'état A et la liste des taxes affectées ; 3 résistent pour des raisons identifiées (§8) |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 
