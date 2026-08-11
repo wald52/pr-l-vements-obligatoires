@@ -5,7 +5,7 @@ Contribution exceptionnelle sur les hauts revenus;CEHR;impôt d'État;APUC;CGI a
 Impôt sur les sociétés;IS;impôt d'État;APUC;CGI art. 205 s.;60;PRIS;;Inclut contributions sociale et exceptionnelles sur l'IS.
 Accise sur les énergies (ex-TICPE);TICPE;impôt d'État;APUC;CIBS;30;PRIS;;
 Accises sur les alcools, tabacs et boissons;;impôt d'État;APUC;CIBS;18;PRIS;;
-Taxe générale sur les activités polluantes;TGAP;impôt d'État;APUC;CIBS;;PRIS;;
+Taxe générale sur les activités polluantes;TGAP;impôt d'État;APUC;CIBS;1.15;PRIS;;Voies et moyens tome I : 1,15 Md EUR en 2024, 1,36 Md EUR attendus en 2026.
 Impôt sur la fortune immobilière;IFI;impôt d'État;APUC;CGI art. 964 s.;2;PRIS;;
 Droits d'enregistrement et de mutation à titre gratuit;;impôt d'État;APUC;CGI;18;PRIS;;Successions et donations.;Mutations à titre gratuit|Droits de mutation à titre gratuit
 Droits de timbre;;impôt d'État;APUC;CGI;;PRIS;;Passeports, cartes, etc.
@@ -14,7 +14,7 @@ Taxe spéciale sur les conventions d'assurance;TSCA;impôt d'État;APUC;CGI art.
 Taxe sur les services numériques;;impôt d'État;APUC;CGI art. 299 s.;0.7;PRIS;;Dite « taxe GAFA ».
 Taxe sur l'affectation des véhicules à des fins économiques;ex-TVS;impôt d'État;APUC;CIBS;;PRIS;;
 Malus automobile (CO2 et masse);;impôt d'État;APUC;CIBS;;PRIS;;
-Taxe sur les bureaux et locaux en Île-de-France;;impôt d'État;APUC;CGI;;PRIS;;
+Taxe sur les bureaux et locaux en Île-de-France;;impôt d'État;APUC;CGI;1.055;PRIS;;NTL 2024, ligne D29A « taxe sur construction de bureaux et locaux à usage de bureaux ».
 Taxe sur les surfaces de stationnement;;impôt d'État;APUC;CGI;;PRIS;;
 Taxe foncière sur les propriétés bâties;TFPB;impôt local;APUL;CGI art. 1380 s.;35;PRIS;;;Foncier bâti
 Taxe foncière sur les propriétés non bâties;TFPNB;impôt local;APUL;CGI art. 1393 s.;1;PRIS;;;Foncier non-bâti|Foncier non bâti|Foncier non-bâti (partie)
@@ -27,7 +27,7 @@ Taxe sur les surfaces commerciales;TASCOM;impôt local;APUL;CGI;;PRIS;;
 Droits de mutation à titre onéreux;DMTO;impôt local;APUL;CGI art. 1594 A s.;15;PRIS;;Part fiscale des « frais de notaire ».
 Taxe d'enlèvement des ordures ménagères;TEOM;impôt local;APUL;CGI art. 1520 s.;8;PRIS;;Adossée au foncier, sans lien avec le service rendu (≠ REOM).
 Versement mobilité;;impôt local;APUL;Code des transports L2333-64;9;PRIS;;Dû par les employeurs (ex-versement transport).
-Taxe de séjour;;impôt local;APUL;CGCT L2333-26 s.;;PRIS;;
+Taxe de séjour;;impôt local;APUL;CGCT L2333-26 s.;0.670;PRIS;;Liste des taxes affectées : deux lignes « taxe de séjour, taxe de séjour forfaitaire » (314 + 356 M EUR), hors taxes additionnelles.
 Taxe d'aménagement;;impôt local;APUL;CGI art. 1635 quater A;;PRIS;;
 Taxe locale sur la publicité extérieure;TLPE;impôt local;APUL;CGCT L2333-6 s.;;PRIS;;
 Taxe GEMAPI;;impôt local;APUL;CGI art. 1530 bis;;PRIS;;Gestion des milieux aquatiques et prévention des inondations.
@@ -48,8 +48,8 @@ Contributions de l'industrie pharmaceutique (clause de sauvegarde M);;fiscalité
 Contribution unique à la formation professionnelle et à l'alternance;CUFPA;taxe affectée;ODAC;Code du travail L6131-1;9.5;PRIS;;Ex-taxe d'apprentissage + contribution formation.
 Redevances des agences de l'eau;;taxe affectée;ODAC;Code de l'environnement L213-10;2.2;PRIS;;Impositions de toutes natures (Conseil constitutionnel).
 Taxe de solidarité sur les billets d'avion;;taxe affectée;ODAC;CGI art. 302 bis K;;PRIS;;Dite « taxe Chirac » — inclut la taxe de l'aviation civile.
-Taxes affectées au CNC;;taxe affectée;ODAC;Code du cinéma;;PRIS;;Entrées en salles, éditeurs/distributeurs TV, vidéo.
-Taxes pour frais de chambres consulaires;;taxe affectée;ODAC;CGI;;PRIS;;CCI, chambres de métiers et d'agriculture.
+Taxes affectées au CNC;;taxe affectée;ODAC;Code du cinéma;0.754;PRIS;;Entrées en salles, éditeurs/distributeurs TV, vidéo. Liste des taxes affectées : TSA 156 + TST éditeurs 257 + TST distributeurs 204 + vidéogrammes 126 + cotisations 11.
+Taxes pour frais de chambres consulaires;;taxe affectée;ODAC;CGI;0.966;PRIS;;CCI, chambres de métiers et d'agriculture. NTL 2024 : chambres de commerce 525 + chambres de métiers 214 + chambres d'agriculture 227.
 Contribution de vie étudiante et de campus;CVEC;taxe affectée;ODAC;Code de l'éducation L841-5;0.17;PRIS;;
 Droits de douane;;ressource UE;UE;Code des douanes de l'Union;2;PRIS;;Ressources propres traditionnelles, perçus pour l'UE.
 Ressource propre fondée sur la TVA;;ressource UE;UE;Décision ressources propres UE;3;PRIS;;

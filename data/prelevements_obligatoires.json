@@ -1952,6 +1952,34 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-taxe-generale-sur-les-activites-polluantes",
+    "nom": "Taxe générale sur les activités polluantes",
+    "sigle": "TGAP",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": 1150000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1756"
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Voies et moyens tome I : 1,15 Md EUR en 2024, 1,36 Md EUR attendus en 2026.",
+    "aliases": []
+  },
+  {
     "id": "ta-taxe-speciale-sur-les-conventions-d-assurance-automobile",
     "nom": "Taxe spéciale sur les conventions d'assurance automobile",
     "sigle": null,
@@ -1995,6 +2023,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-taxe-sur-les-bureaux-et-locaux-en-ile-de-france",
+    "nom": "Taxe sur les bureaux et locaux en Île-de-France",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": 1054999999.9999999,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D29A « taxe sur construction de bureaux et locaux à usage de bureaux ».",
     "aliases": []
   },
   {
@@ -2087,6 +2138,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-taxes-pour-frais-de-chambres-consulaires",
+    "nom": "Taxes pour frais de chambres consulaires",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "CGI",
+    "montant_eur": 966000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "CCI, chambres de métiers et d'agriculture. NTL 2024 : chambres de commerce 525 + chambres de métiers 214 + chambres d'agriculture 227.",
     "aliases": []
   },
   {
@@ -2312,6 +2386,29 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-taxes-affectees-au-cnc",
+    "nom": "Taxes affectées au CNC",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code du cinéma",
+    "montant_eur": 754000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Entrées en salles, éditeurs/distributeurs TV, vidéo. Liste des taxes affectées : TSA 156 + TST éditeurs 257 + TST distributeurs 204 + vidéogrammes 126 + cotisations 11.",
+    "aliases": []
+  },
+  {
     "id": "ta-taxe-departementale-sur-la-consommation-finale-d-electricite-tcfe",
     "nom": "Taxe départementale sur la consommation finale d'électricité (TCFE)",
     "sigle": null,
@@ -2429,6 +2526,29 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-taxe-de-sejour",
+    "nom": "Taxe de séjour",
+    "sigle": null,
+    "categorie": "impôt local",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "CGCT L2333-26 s.",
+    "montant_eur": 670000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Liste des taxes affectées : deux lignes « taxe de séjour, taxe de séjour forfaitaire » (314 + 356 M EUR), hors taxes additionnelles.",
     "aliases": []
   },
   {
@@ -8585,29 +8705,6 @@
     "aliases": []
   },
   {
-    "id": "readme-seed-taxe-de-sejour",
-    "nom": "Taxe de séjour",
-    "sigle": null,
-    "categorie": "impôt local",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUL",
-    "base_legale": "CGCT L2333-26 s.",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null,
-    "aliases": []
-  },
-  {
     "id": "supplement-cure-taxe-de-sejour-forfaitaire",
     "nom": "Taxe de séjour forfaitaire",
     "sigle": null,
@@ -8743,34 +8840,6 @@
       }
     ],
     "notes": "Tient lieu de TVA à Saint-Martin. Collectivité incluse dans le territoire économique des comptes nationaux.",
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-taxe-generale-sur-les-activites-polluantes",
-    "nom": "Taxe générale sur les activités polluantes",
-    "sigle": "TGAP",
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CIBS",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "vm_tome1",
-        "url": "",
-        "ref": "ligne 1756"
-      },
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {
@@ -9395,29 +9464,6 @@
     "aliases": []
   },
   {
-    "id": "readme-seed-taxe-sur-les-bureaux-et-locaux-en-ile-de-france",
-    "nom": "Taxe sur les bureaux et locaux en Île-de-France",
-    "sigle": null,
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CGI",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null,
-    "aliases": []
-  },
-  {
     "id": "supplement-cure-taxe-sur-les-dossiers-de-demande-concernant-les-medicaments-vete",
     "nom": "Taxe sur les dossiers de demande concernant les médicaments vétérinaires",
     "sigle": null,
@@ -9809,29 +9855,6 @@
     "aliases": []
   },
   {
-    "id": "readme-seed-taxes-affectees-au-cnc",
-    "nom": "Taxes affectées au CNC",
-    "sigle": null,
-    "categorie": "taxe affectée",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ODAC",
-    "base_legale": "Code du cinéma",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Entrées en salles, éditeurs/distributeurs TV, vidéo.",
-    "aliases": []
-  },
-  {
     "id": "eurostat-taxes-au-profit-de-l-ademe-agence-de-l-environnement-et-de-la-maitrise-",
     "nom": "Taxes au profit de l'ADEME (Agence de l'environnement et de la maîtrise de l'énergie)",
     "sigle": null,
@@ -9898,29 +9921,6 @@
       }
     ],
     "notes": "Droits d'enregistrement et taxes liées aux autorisations de mise sur le marché des médicaments.",
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-taxes-pour-frais-de-chambres-consulaires",
-    "nom": "Taxes pour frais de chambres consulaires",
-    "sigle": null,
-    "categorie": "taxe affectée",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ODAC",
-    "base_legale": "CGI",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "CCI, chambres de métiers et d'agriculture.",
     "aliases": []
   },
   {

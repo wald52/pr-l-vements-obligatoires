@@ -1660,6 +1660,32 @@ fusionnées avec les sources officielles. **C'est le fichier à éditer** pour
 ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit jamais
 être modifié à la main.
 
+### La mesure de couverture, et ce qu'elle vaut
+
+Le rapport publie une **couverture de 106,1 %** : la somme des prélèvements
+retenus du socle curé rapportée à l'enveloppe INSEE de 1 254 Md€. Dépasser 100 %
+n'est pas une anomalie — les montants ligne à ligne proviennent pour l'essentiel
+de la National Tax List, qui est établie sur la **base Eurostat** (≈ 45,3 % du
+PIB, soit ≈ 1 330 Md€), plus large que la base INSEE parce qu'elle ne déduit pas
+les crédits d'impôt restituables (§1). Un écart de cet ordre est donc attendu ;
+c'est un écart bien plus grand, dans un sens ou dans l'autre, qui signalerait un
+problème.
+
+Deux précautions encadrent ce chiffre :
+
+- il se calcule sur le **socle curé seul**, non chevauchant par construction. La
+  somme « itemisée » de toutes les lignes (≈ 1 574 Md€) mélange agrégats et
+  composantes — la TGAP et ses quatre composantes, l'accise sur les énergies et
+  ses quatre fractions — et double-compterait ;
+- **douze prélèvements du socle n'avaient aucun montant**, donc pesaient zéro.
+  Cinq ont été sourcés (chambres consulaires, bureaux d'Île-de-France, TGAP,
+  taxes du CNC, taxe de séjour) ; **sept restent sans valeur** faute de source
+  ligne à ligne : contribution exceptionnelle sur les hauts revenus,
+  contributions de l'industrie pharmaceutique, cotisations des régimes spéciaux,
+  droits de timbre, malus automobile, taxes sur l'affectation des véhicules et
+  taxe sur les logements vacants. La couverture réelle est donc légèrement
+  supérieure à celle affichée.
+
 La cohérence entre les deux formats n'est pas laissée à la vigilance : un test
 (`pipeline/tests/test_coherence_readme.py`) confronte chaque prélèvement nommé au
 **§4** — et chaque candidat rejeté du **§5** — au contenu de `data/`, et **échoue**
@@ -1905,6 +1931,7 @@ présent document et ses listes sources :
 | **Doublons** du jeu de données | 481 lignes, 115 440 paires testées | **1 doublon franc** (tabacs DOM, 143,8 M€ comptés deux fois) ; désormais publié dans le rapport et surveillé par un test |
 | **Cas limites du §6** confrontés au manuel Eurostat (MGDD, 374 p.) et à la NTL | 5 cas ouverts | **4 tranchés**, dont **1 erreur corrigée** (fonds de garantie d'assurance, rejetés à tort) ; seul le MACF reste en attente |
 | **Réexamen des rejets sur C2** à la lumière du réacheminement | 11 rejets confrontés | **2 requalifiés en cas limites** (AGEFIPH, dialogue social) ; les 9 autres tiennent, faute d'un prélèvement imposé et recouvré par l'État |
+| **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **5 sourcés** dans la NTL et la liste des taxes affectées ; 7 restent sans montant faute de source ligne à ligne (§8) |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 
