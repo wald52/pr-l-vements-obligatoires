@@ -1662,7 +1662,7 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
 
 ### La mesure de couverture, et ce qu'elle vaut
 
-Le rapport publie une **couverture de 98,3 %** : la somme des prélèvements
+Le rapport publie une **couverture de 100,8 %** : la somme des prélèvements
 retenus du socle curé rapportée à l'enveloppe INSEE de 1 254 Md€. Elle se calcule
 sur le **socle seul**, non chevauchant par construction — additionner toutes les
 lignes du jeu de données mélangerait agrégats et composantes (la TGAP et ses
@@ -1692,18 +1692,47 @@ séparément. Le résultat après correction :
 | Bloc | Socle | Agrégat NTL 2024 | Écart |
 |---|---:|---:|---:|
 | Cotisations sociales effectives obligatoires | 430,1 Md€ | 430,1 Md€ (D.611C + D.613C) | **0,0** |
-| Impôts | 802,9 Md€ | 843,8 Md€ (D.2 + D.5 + D.91) | −40,9 |
+| Impôts | 833,9 Md€ | 843,8 Md€ (D.2 + D.5 + D.91) | −9,9 |
+
+Rapporté à la base sur laquelle ces montants sont établis — la base Eurostat, soit
+**1 273,9 Md€** — le socle en couvre **99,2 %**. Le ratio de 100,8 % affiché par le
+rapport le compare à l'enveloppe **INSEE** de 1 254 Md€, plus étroite parce
+qu'elle déduit les crédits d'impôt restituables (§1). Les deux chiffres sont
+justes ; c'est le second qui est publié, par cohérence avec la référence
+nationale.
 
 Le bloc social est désormais exact au dixième de milliard. Le bloc fiscal
-accusait **−77 Md€** : le socle documentait des familles entières au §4 sans
-jamais les valoriser. Seize lignes ont été ajoutées avec leur montant NTL — les
-trois **prélèvements sur les jeux** (7,3 Md€), les accises sur l'**électricité**
-et les **gaz naturels** (8,0 Md€, le socle ne portant que la fraction ex-TICPE),
-les **certificats d'immatriculation** (3,1), le **FNAL** (2,9), la **contribution
+accusait **−77 Md€**, résorbés en deux temps.
+
+**D'abord des familles jamais valorisées** : seize lignes ont été ajoutées avec
+leur montant NTL — les trois **prélèvements sur les jeux** (7,3 Md€, alors que le
+§4.4 leur consacre une sous-section entière), les accises sur l'**électricité** et
+les **gaz naturels** (8,0 Md€, le socle ne portant que la fraction ex-TICPE), les
+**certificats d'immatriculation** (3,1), le **FNAL** (2,9), la **contribution
 solidarité autonomie** (2,5), la **PEEC**, l'**AGS**, les contributions sur les
-**stock-options**, les **primes d'assurance**… L'écart restant, **−41 Md€**,
-correspond à la longue traîne des lignes NTL inférieures au milliard, que le
-socle ne prétend pas énumérer.
+**stock-options** et sur les **primes d'assurance**.
+
+**Ensuite trois sous-évaluations**, que j'avais d'abord mises au compte d'une
+« longue traîne de petites lignes ». C'était une explication commode et fausse :
+l'écart était concentré, pas diffus.
+
+| Ligne | Socle avant | NTL 2024 | Correction |
+|---|---:|---:|---:|
+| Impôt sur les sociétés | 60,0 | **68,0** | +8,0 |
+| Prélèvement de solidarité sur les revenus du capital | 5,0 | **14,6** | +9,6 |
+| Surtaxes et contributions exceptionnelles sur les bénéfices | absent | **13,4** | +13,4 |
+
+Les deux premières étaient des valeurs approchées héritées du socle initial ; la
+troisième est le résidu D.51O de la NTL, qui porte la contribution exceptionnelle
+sur les grandes entreprises et les surtaxes temporaires (§4.1). L'écart résiduel,
+**−9,9 Md€**, correspond cette fois réellement aux lignes NTL inférieures au
+milliard, que le socle ne prétend pas énumérer.
+
+> **Piège de lecture.** La NTL présente deux fois le même flux : **D.51M et D.51A**
+> portent des chiffres identiques, comme **D.51O et D.51B**. Ce sont deux
+> ventilations d'un même agrégat, pas deux impôts. Les additionner double-compte
+> de 359 Md€ — l'erreur exacte que ce document a mis trois passes à débusquer sur
+> les cotisations sociales.
 
 > Ce contrôle par bloc a aussi corrigé un classement : l'**AGS** figurait en
 > cotisation sociale alors que la NTL la range en **D.29C**, impôt sur la masse
@@ -1980,7 +2009,7 @@ présent document et ses listes sources :
 | **Réexamen des rejets sur C2** à la lumière du réacheminement | 11 rejets confrontés | **2 requalifiés en cas limites** (AGEFIPH, dialogue social) ; les 9 autres tiennent, faute d'un prélèvement imposé et recouvré par l'État |
 | **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **10 sourcés** dans la NTL, l'état A, le rapport du Sénat et la liste des taxes affectées ; 2 résistent pour des raisons identifiées (§8) |
 | **Double compte des cotisations sociales** | socle : 570 Md€ contre 430,1 Md€ à la NTL | **erreur de 140 Md€ corrigée** ; la couverture passe de 106,5 % à 95,4 % (§8) |
-| **Contrôle bloc par bloc** du socle contre les agrégats NTL | 2 blocs | social **exact** ; bloc fiscal court de 77 Md€ → **16 familles valorisées**, écart ramené à −41 Md€, couverture **98,3 %** |
+| **Contrôle bloc par bloc** du socle contre les agrégats NTL | 2 blocs | social **exact** ; bloc fiscal court de 77 Md€ → **16 familles valorisées** puis **3 sous-évaluations corrigées** (IS, prélèvement de solidarité, surtaxes sur les bénéfices), écart ramené à −9,9 Md€, couverture **100,8 %** |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 

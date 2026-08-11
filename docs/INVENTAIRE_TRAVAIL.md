@@ -2,7 +2,7 @@
 
 > Généré le 2026-08-11 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
 
-Ce document regroupe les **496 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
+Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
 
 **Comment l'utiliser.** Traiter en priorité le §4 (« à arbitrer ») : commencer par le §4.1 (doublons probables à fusionner), puis instruire les taxes affectées (§4.3) et les nouvelles impositions (§4.4). Le §5 liste les questions ouvertes.
 
@@ -19,21 +19,21 @@ Ce document regroupe les **496 prélèvements** de l'inventaire réconcilié (an
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements au total | 496 |
-| Retenus (PRIS) | 430 |
+| Prélèvements au total | 497 |
+| Retenus (PRIS) | 431 |
 | Rejetés (REJET) | 65 |
 | À arbitrer | 1 |
-| Somme des PRIS (socle curé) | 1232.9 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1469.8 Md€ |
+| Somme des PRIS (socle curé) | 1263.9 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1500.8 Md€ |
 | Enveloppe INSEE 2024 | 1254.0 Md€ |
-| Couverture (socle / INSEE) | 98.3 % |
+| Couverture (socle / INSEE) | 100.8 % |
 
 ### Répartition par catégorie
 
 | Catégorie | Nombre |
 |---|---:|
 | taxe affectée | 238 |
-| impôt d'État | 60 |
+| impôt d'État | 61 |
 | impôt sur la production/importation | 56 |
 | impôt local | 51 |
 | fiscalité sociale | 22 |
@@ -52,24 +52,24 @@ Ce document regroupe les **496 prélèvements** de l'inventaire réconcilié (an
 | supplement_cure | 186 |
 | taxes_affectees | 184 |
 | eurostat_ntl | 103 |
-| readme_seed | 85 |
+| readme_seed | 86 |
 | vm_tome1 | 24 |
 
 ## 2. Prélèvements retenus (PRIS)
 
-430 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
+431 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
 
-### Administrations de sécurité sociale (ASSO) — 39 lignes, 641.62 Md€
+### Administrations de sécurité sociale (ASSO) — 39 lignes, 651.26 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
 | Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA) |  | 430.06 | Code de la sécurité sociale | readme_seed (README §4-§5) |
 | Contribution sociale généralisée | CSG | 153.13 | CSS art. L136-1 s. | eurostat_ntl (FR:D51M/C04); taxes_affectees; readme_seed (README §4-§5) |
 | Taxe sur les salaires |  | 17.32 | CGI art. 231 | eurostat_ntl (FR:D29C/C03); taxes_affectees; readme_seed (README §4-§5) |
+| Prélèvement de solidarité sur les revenus du capital |  | 14.65 | CSS | readme_seed (README §4-§5) |
 | Contribution au remboursement de la dette sociale | CRDS | 9.08 | Ordonnance 96-50 | eurostat_ntl (FR:D51M/C03); readme_seed (README §4-§5) |
 | Forfait social |  | 6.30 | CSS art. L137-15 | eurostat_ntl (FR:D29C/C09); readme_seed (README §4-§5) |
 | Contribution sociale de solidarité des sociétés | C3S | 5.23 | CSS art. L651-1 | eurostat_ntl (FR:D29H/C02); taxes_affectees; readme_seed (README §4-§5) |
-| Prélèvement de solidarité sur les revenus du capital |  | 5.00 | CSS | readme_seed (README §4-§5) |
 | Taxe de solidarité additionnelle (complémentaire santé) | TSA | 5.00 | CSS art. L862-4 | readme_seed (README §4-§5) |
 | Contribution au Fonds national d'aide au logement | FNAL | 2.94 | CSS art. L. 834-1 | readme_seed (README §4-§5) |
 | Contribution solidarité autonomie | CSA | 2.38 | CASF art. L. 14-10-4 | taxes_affectees; readme_seed (README §4-§5); supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -103,16 +103,17 @@ Ce document regroupe les **496 prélèvements** de l'inventaire réconcilié (an
 | Taxe annuelle sur les émissions de polluants atmosphériques |  | — | CIBS art. L. 421-115 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les boissons prémix |  | — | CSS art. L. 245-7 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### État et administrations centrales (APUC) — 62 lignes, 478.24 Md€
+### État et administrations centrales (APUC) — 63 lignes, 499.63 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
 | Taxe sur la valeur ajoutée | TVA | 206.33 | CGI art. 256 s. | eurostat_ntl (FR:D211/C01); readme_seed (README §4-§5) |
 | Impôt sur le revenu | IR | 96.16 | CGI art. 1 A s. | eurostat_ntl (FR:D51M/C07); readme_seed (README §4-§5) |
-| Impôt sur les sociétés | IS | 60.00 | CGI art. 205 s. | readme_seed (README §4-§5) |
+| Impôt sur les sociétés | IS | 68.00 | CGI art. 205 s. | readme_seed (README §4-§5) |
 | Accise sur les énergies (ex-TICPE) | TICPE | 30.00 | CIBS | vm_tome1 (ligne 1501); readme_seed (README §4-§5) |
 | Droits d'enregistrement et de mutation à titre gratuit |  | 20.82 | CGI | eurostat_ntl (FR:D91A/C01); readme_seed (README §4-§5) |
 | Accises sur les alcools, tabacs et boissons |  | 18.00 | CIBS | readme_seed (README §4-§5) |
+| Surtaxes et contributions exceptionnelles sur les bénéfices des sociétés |  | 13.39 | CGI | readme_seed (README §4-§5) |
 | Taxe spéciale sur les conventions d'assurance | TSCA | 10.03 | CGI art. 991 s. | eurostat_ntl (FR:D214G/C04); taxes_affectees; readme_seed (README §4-§5) |
 | Accise sur l'électricité (ex-TICFE) |  | 4.80 | CIBS | readme_seed (README §4-§5) |
 | Prélèvements sur les jeux de loterie |  | 4.04 | CGI et CSS | readme_seed (README §4-§5) |
@@ -630,7 +631,7 @@ Chantiers identifiés pour la suite des recherches :
 1. **Doublons** : les correspondances de même périmètre (« Foncier bâti » ↔ taxe foncière, « Mutations à titre gratuit » ↔ DMTG) sont désormais fusionnées via la colonne `alias` du socle. Les candidats résiduels du §4.1 sont des **composantes plus fines** (ex. accises ex-TICGN/TICFE) : à fusionner au cas par cas ou à conserver comme détail.
 2. **Classification ESA** : la correspondance par préfixe (D29→D2, D51→D5…) reclasse désormais automatiquement les lignes NTL ; les codes encore non couverts (cf. catégorie « indéterminée » au §1) restent à compléter dans `esa_defaults`.
 3. **Montants manquants** : 163 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
-4. **Base de mesure** : la couverture (98.3 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
+4. **Base de mesure** : la couverture (100.8 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
 5. **Exhaustivité de l'État A** : le volume narratif du V&M ne détaille que les ~24 principaux impôts d'État ; les lignes mineures (1101→1799) sont agrégées (« Autres taxes », « Recettes diverses »). Si besoin, parser la table récapitulative formelle (État A) pour les ~300 lignes complètes.
 6. **Taxes affectées** (§4.3) : confirmer le périmètre PO de chacune (certaines redevances pour service rendu sont à exclure au titre de C3).
 

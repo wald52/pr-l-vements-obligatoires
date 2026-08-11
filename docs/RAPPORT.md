@@ -6,13 +6,13 @@
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements retenus (PRIS) | 430 |
+| Prélèvements retenus (PRIS) | 431 |
 | Candidats rejetés (REJET) | 65 |
 | Lignes à arbitrer | 1 |
-| Somme des PRIS (socle curé) | 1232.9 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1469.8 Md€ |
+| Somme des PRIS (socle curé) | 1263.9 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1500.8 Md€ |
 | Enveloppe INSEE (2024) | 1254.0 Md€ |
-| **Couverture (socle)** | **98.3 %** |
+| **Couverture (socle)** | **100.8 %** |
 | PRIS sans montant | 144 |
 
 > La couverture rapporte la somme des PRIS du **socle curé** (non chevauchant) à l'enveloppe INSEE. La somme « itemisée » ajoute les composantes fines de la NTL et des taxes affectées : indicative, elle mêle agrégats et composantes et n'est pas une mesure de couverture.
@@ -21,9 +21,9 @@
 
 | Categorie | Nombre | Montant (Md€) |
 |---|---:|---:|
-| impôt d'État | 54 | 473.1 |
+| impôt d'État | 55 | 494.4 |
 | cotisation sociale | 13 | 430.1 |
-| fiscalité sociale | 20 | 209.8 |
+| fiscalité sociale | 20 | 219.5 |
 | impôt sur la production/importation | 55 | 124.6 |
 | taxe affectée | 204 | 107.3 |
 | impôt local | 45 | 95.4 |
@@ -35,8 +35,8 @@
 
 | Secteur | Nombre | Montant (Md€) |
 |---|---:|---:|
-| ASSO | 39 | 641.6 |
-| APUC | 62 | 478.2 |
+| ASSO | 39 | 651.3 |
+| APUC | 63 | 499.6 |
 | (non renseigné) | 219 | 229.6 |
 | APUL | 56 | 96.8 |
 | ODAC | 50 | 16.7 |
@@ -50,7 +50,7 @@
 | Taxe sur la valeur ajoutée | impôt d'État | 206.3 | eurostat_ntl, readme_seed |
 | Contribution sociale généralisée | fiscalité sociale | 153.1 | eurostat_ntl, readme_seed, taxes_affectees |
 | Impôt sur le revenu | impôt d'État | 96.2 | eurostat_ntl, readme_seed |
-| Impôt sur les sociétés | impôt d'État | 60.0 | readme_seed |
+| Impôt sur les sociétés | impôt d'État | 68.0 | readme_seed |
 | Taxe foncière sur les propriétés bâties | impôt local | 42.1 | eurostat_ntl, readme_seed |
 | Accise sur les énergies (ex-TICPE) | impôt d'État | 30.0 | readme_seed, vm_tome1 |
 | Taxe intérieure de consommation des produits énergétiques | impôt sur la production/importation | 29.6 | eurostat_ntl |
@@ -60,9 +60,11 @@
 | Droits de mutation à titre onéreux | impôt local | 15.0 | readme_seed |
 | Droits d'enregistrement (y compris taxe additionnelle) | impôt sur la production/importation | 14.7 | eurostat_ntl |
 | Autres prélèvements sociaux | impôt courant sur le revenu/patrimoine | 14.6 | eurostat_ntl |
+| Prélèvement de solidarité sur les revenus du capital | fiscalité sociale | 14.6 | readme_seed |
 | Taxe départementale de publicité foncière sur les mutations à titres onéreux | taxe affectée | 14.6 | taxes_affectees |
 | Taxes sur les tabacs | impôt sur la production/importation | 13.6 | eurostat_ntl |
 | Droits de consommation sur les tabacs | taxe affectée | 13.6 | taxes_affectees |
+| Surtaxes et contributions exceptionnelles sur les bénéfices des sociétés | impôt d'État | 13.4 | readme_seed |
 | Versement mobilité | impôt local | 12.2 | eurostat_ntl, readme_seed |
 | Contributions des entreprises à la formation professionnelle et à l'apprentissage | impôt sur la production/importation | 11.4 | eurostat_ntl |
 | Taxe spéciale sur les conventions d'assurance | impôt d'État | 10.0 | eurostat_ntl, readme_seed, taxes_affectees |
@@ -75,7 +77,6 @@
 | Contribution sociale de solidarité des sociétés | fiscalité sociale | 5.2 | eurostat_ntl, readme_seed, taxes_affectees |
 | Taxe intérieure de consommation sur les produits énergétique (TICPE) - Fractions transférées en compensation du transfert du RMI/RSA et dans le cadre de l'acte II de la décentralisation | taxe affectée | 5.1 | taxes_affectees |
 | Cotisation sur la valeur ajoutée des entreprises | impôt local | 5.0 | eurostat_ntl, readme_seed, vm_tome1 |
-| Prélèvement de solidarité sur les revenus du capital | fiscalité sociale | 5.0 | readme_seed |
 | Taxe de solidarité additionnelle (complémentaire santé) | fiscalité sociale | 5.0 | readme_seed |
 | Accise sur l'électricité (ex-TICFE) | impôt d'État | 4.8 | readme_seed |
 | Accise sur l'électricité | impôt sur la production/importation | 4.8 | eurostat_ntl |
@@ -85,7 +86,6 @@
 | Produits de la loterie nationale et du loto | impôt sur la production/importation | 4.0 | eurostat_ntl |
 | Taxe intérieure sur la consommation de gaz naturel | impôt sur la production/importation | 3.2 | eurostat_ntl |
 | Accise sur les gaz naturels (ex-TICGN) | impôt d'État | 3.2 | readme_seed |
-| Taxe sur les certificats d'immatriculation des véhicules | impôt local | 3.1 | eurostat_ntl, readme_seed, taxes_affectees |
 
 ## Lignes à arbitrer (classement incertain)
 

@@ -120,7 +120,7 @@
     "beneficiaire": null,
     "secteur": "APUC",
     "base_legale": "CGI art. 205 s.",
-    "montant_eur": 60000000000.0,
+    "montant_eur": 67998000000.00001,
     "annee": 2024,
     "statut": "PRIS",
     "critere_echec": null,
@@ -131,7 +131,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Inclut contributions sociale et exceptionnelles sur l'IS.",
+    "notes": "NTL 2024, ligne D51O « impôts sur les sociétés y compris majoration et frais de poursuite ». Le socle portait 60 Md EUR, valeur approchée.",
     "aliases": []
   },
   {
@@ -367,6 +367,29 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-prelevement-de-solidarite-sur-les-revenus-du-capital",
+    "nom": "Prélèvement de solidarité sur les revenus du capital",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS",
+    "montant_eur": 14646000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D51M « autres prélèvements sociaux ». Cohérent avec la ligne 1427 de l'état A (15,6 Md EUR en 2026). Le socle portait 5 Md EUR.",
+    "aliases": []
+  },
+  {
     "id": "ta-taxe-departementale-de-publicite-fonciere-sur-les-mutations-a-titres-onereux",
     "nom": "Taxe départementale de publicité foncière sur les mutations à titres onéreux",
     "sigle": null,
@@ -433,6 +456,29 @@
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-surtaxes-et-contributions-exceptionnelles-sur-les-benefices-des-soci",
+    "nom": "Surtaxes et contributions exceptionnelles sur les bénéfices des sociétés",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI",
+    "montant_eur": 13387000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D51O « autres taxes », résidu des impositions sur les bénéfices : contribution exceptionnelle sur les grandes entreprises, contribution sociale sur l'IS et surtaxes temporaires (§4.1).",
     "aliases": []
   },
   {
@@ -764,29 +810,6 @@
       }
     ],
     "notes": "En extinction progressive.",
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-prelevement-de-solidarite-sur-les-revenus-du-capital",
-    "nom": "Prélèvement de solidarité sur les revenus du capital",
-    "sigle": null,
-    "categorie": "fiscalité sociale",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ASSO",
-    "base_legale": "CSS",
-    "montant_eur": 5000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Taux 7,5 %.",
     "aliases": []
   },
   {
