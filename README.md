@@ -1662,7 +1662,7 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
 
 ### La mesure de couverture, et ce qu'elle vaut
 
-Le rapport publie une **couverture de 95,4 %** : la somme des prélèvements
+Le rapport publie une **couverture de 98,3 %** : la somme des prélèvements
 retenus du socle curé rapportée à l'enveloppe INSEE de 1 254 Md€. Elle se calcule
 sur le **socle seul**, non chevauchant par construction — additionner toutes les
 lignes du jeu de données mélangerait agrégats et composantes (la TGAP et ses
@@ -1684,6 +1684,30 @@ double-compterait.
 > familles sont laissées sans montant avec la mention explicite qu'elles y sont
 > comprises. Un ratio supérieur à 100 % ne doit pas rassurer — il signale un
 > double compte plus souvent qu'une exhaustivité.
+
+**Un second contrôle, par bloc.** Confronter le socle aux agrégats de la
+comptabilité nationale ne se limite pas au total : chaque bloc doit tenir
+séparément. Le résultat après correction :
+
+| Bloc | Socle | Agrégat NTL 2024 | Écart |
+|---|---:|---:|---:|
+| Cotisations sociales effectives obligatoires | 430,1 Md€ | 430,1 Md€ (D.611C + D.613C) | **0,0** |
+| Impôts | 802,9 Md€ | 843,8 Md€ (D.2 + D.5 + D.91) | −40,9 |
+
+Le bloc social est désormais exact au dixième de milliard. Le bloc fiscal
+accusait **−77 Md€** : le socle documentait des familles entières au §4 sans
+jamais les valoriser. Seize lignes ont été ajoutées avec leur montant NTL — les
+trois **prélèvements sur les jeux** (7,3 Md€), les accises sur l'**électricité**
+et les **gaz naturels** (8,0 Md€, le socle ne portant que la fraction ex-TICPE),
+les **certificats d'immatriculation** (3,1), le **FNAL** (2,9), la **contribution
+solidarité autonomie** (2,5), la **PEEC**, l'**AGS**, les contributions sur les
+**stock-options**, les **primes d'assurance**… L'écart restant, **−41 Md€**,
+correspond à la longue traîne des lignes NTL inférieures au milliard, que le
+socle ne prétend pas énumérer.
+
+> Ce contrôle par bloc a aussi corrigé un classement : l'**AGS** figurait en
+> cotisation sociale alors que la NTL la range en **D.29C**, impôt sur la masse
+> salariale. C'est le genre d'erreur qu'un total global ne révèle jamais.
 
 **Ce qui reste non valorisé.** Douze prélèvements du socle n'avaient aucun
 montant. **Dix ont été sourcés** sans aucune estimation :
@@ -1955,7 +1979,8 @@ présent document et ses listes sources :
 | **Cas limites du §6** confrontés au manuel Eurostat (MGDD, 374 p.) et à la NTL | 5 cas ouverts | **4 tranchés**, dont **1 erreur corrigée** (fonds de garantie d'assurance, rejetés à tort) ; seul le MACF reste en attente |
 | **Réexamen des rejets sur C2** à la lumière du réacheminement | 11 rejets confrontés | **2 requalifiés en cas limites** (AGEFIPH, dialogue social) ; les 9 autres tiennent, faute d'un prélèvement imposé et recouvré par l'État |
 | **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **10 sourcés** dans la NTL, l'état A, le rapport du Sénat et la liste des taxes affectées ; 2 résistent pour des raisons identifiées (§8) |
-| **Double compte des cotisations sociales** | socle : 570 Md€ contre 430,1 Md€ à la NTL | **erreur de 140 Md€ corrigée** ; la couverture passe de 106,5 % à **95,4 %** (§8) |
+| **Double compte des cotisations sociales** | socle : 570 Md€ contre 430,1 Md€ à la NTL | **erreur de 140 Md€ corrigée** ; la couverture passe de 106,5 % à 95,4 % (§8) |
+| **Contrôle bloc par bloc** du socle contre les agrégats NTL | 2 blocs | social **exact** ; bloc fiscal court de 77 Md€ → **16 familles valorisées**, écart ramené à −41 Md€, couverture **98,3 %** |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 

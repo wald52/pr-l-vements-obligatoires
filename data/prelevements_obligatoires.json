@@ -813,6 +813,29 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-accise-sur-l-electricite-ex-ticfe",
+    "nom": "Accise sur l'électricité (ex-TICFE)",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": 4804000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214A « accise sur l'électricité ». Distincte de la fraction ex-TICPE.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-accise-sur-l-electricite",
     "nom": "Accise sur l'électricité",
     "sigle": null,
@@ -882,6 +905,29 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-prelevements-sur-les-jeux-de-loterie",
+    "nom": "Prélèvements sur les jeux de loterie",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI et CSS",
+    "montant_eur": 4045000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214F « produits de la loterie nationale et du loto ».",
+    "aliases": []
+  },
+  {
     "id": "eurostat-produits-de-la-loterie-nationale-et-du-loto",
     "nom": "Produits de la loterie nationale et du loto",
     "sigle": null,
@@ -928,14 +974,37 @@
     "aliases": []
   },
   {
-    "id": "eurostat-taxe-sur-les-certificats-d-immatriculation-des-vehicules",
-    "nom": "Taxe sur les certificats d'immatriculation des véhicules",
+    "id": "readme-seed-accise-sur-les-gaz-naturels-ex-ticgn",
+    "nom": "Accise sur les gaz naturels (ex-TICGN)",
     "sigle": null,
-    "categorie": "impôt sur la production/importation",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS",
+    "montant_eur": 3166000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214A « taxe intérieure sur la consommation de gaz naturel ».",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-taxe-sur-les-certificats-d-immatriculation-des-vehicules",
+    "nom": "Taxe sur les certificats d'immatriculation des véhicules",
+    "sigle": "carte grise",
+    "categorie": "impôt local",
     "esa_code": "D214",
     "beneficiaire": "ANTS - Agence nationale des titres sécurisés",
-    "secteur": null,
-    "base_legale": "LFR-I 2014 et de la LFI 2015",
+    "secteur": "APUL",
+    "base_legale": "CIBS",
     "montant_eur": 3122000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -950,9 +1019,14 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
       }
     ],
-    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "notes": "NTL 2024, ligne D214D.",
     "aliases": []
   },
   {
@@ -999,6 +1073,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-contribution-au-fonds-national-d-aide-au-logement",
+    "nom": "Contribution au Fonds national d'aide au logement",
+    "sigle": "FNAL",
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 834-1",
+    "montant_eur": 2935000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D29C « cotisation patronale pour le FNAL ».",
     "aliases": []
   },
   {
@@ -1117,6 +1214,29 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-droits-de-douane",
+    "nom": "Droits de douane",
+    "sigle": null,
+    "categorie": "ressource UE",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "UE",
+    "base_legale": "Code des douanes de l'Union",
+    "montant_eur": 2593000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Ressources propres traditionnelles, perçus pour l'UE. NTL 2024, ligne D2121 « droits d'importation ».",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-taxe-d-habitation-sur-les-residences-secondaires",
     "nom": "Taxe d'habitation sur les résidences secondaires",
     "sigle": "THRS",
@@ -1186,14 +1306,14 @@
     "aliases": []
   },
   {
-    "id": "ta-contribution-solidarite-autonomie-csa",
-    "nom": "Contribution solidarité autonomie (CSA)",
-    "sigle": null,
-    "categorie": "taxe affectée",
+    "id": "readme-seed-contribution-solidarite-autonomie",
+    "nom": "Contribution solidarité autonomie",
+    "sigle": "CSA",
+    "categorie": "fiscalité sociale",
     "esa_code": null,
     "beneficiaire": "CNSA",
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "ASSO",
+    "base_legale": "CASF art. L. 14-10-4",
     "montant_eur": 2376000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1203,9 +1323,19 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      },
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
-    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
+    "notes": "NTL 2024, ligne D29C. Assise sur la masse salariale, distincte des cotisations sociales.",
     "aliases": []
   },
   {
@@ -1324,29 +1454,6 @@
     "aliases": []
   },
   {
-    "id": "readme-seed-droits-de-douane",
-    "nom": "Droits de douane",
-    "sigle": null,
-    "categorie": "ressource UE",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "UE",
-    "base_legale": "Code des douanes de l'Union",
-    "montant_eur": 2000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Ressources propres traditionnelles, perçus pour l'UE.",
-    "aliases": []
-  },
-  {
     "id": "readme-seed-impot-sur-la-fortune-immobiliere",
     "nom": "Impôt sur la fortune immobilière",
     "sigle": "IFI",
@@ -1426,14 +1533,14 @@
     "aliases": []
   },
   {
-    "id": "eurostat-taxes-sur-les-transports",
+    "id": "readme-seed-taxes-sur-les-transports",
     "nom": "Taxes sur les transports",
     "sigle": null,
-    "categorie": "impôt sur la production/importation",
+    "categorie": "impôt d'État",
     "esa_code": "D214",
     "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUC",
+    "base_legale": "CIBS livre IV",
     "montant_eur": 1859000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1443,9 +1550,14 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D214H/C10"
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "NTL 2024, ligne D214H « taxes sur les transports ».",
     "aliases": []
   },
   {
@@ -1505,6 +1617,52 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-prelevements-sur-les-paris-hippiques",
+    "nom": "Prélèvements sur les paris hippiques",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI et CSS",
+    "montant_eur": 1769000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214F « taxes sur les paris hippiques ».",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-taxes-sur-les-services-professionnels",
+    "nom": "Taxes sur les services professionnels",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "Divers",
+    "montant_eur": 1763000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214H, hors droits de mutation. Couvre notamment les taxes sectorielles affectées.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-taxes-sur-les-services-professionnels-hors-droits-de-mutations",
     "nom": "Taxes sur les services professionnels hors droits de mutations",
     "sigle": null,
@@ -1528,14 +1686,14 @@
     "aliases": []
   },
   {
-    "id": "eurostat-cotisations-sur-primes-d-assurance",
+    "id": "readme-seed-cotisations-sur-primes-d-assurance",
     "nom": "Cotisations sur primes d'assurance",
     "sigle": null,
-    "categorie": "impôt sur la production/importation",
+    "categorie": "taxe affectée",
     "esa_code": "D214",
     "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 1635 bis A s.",
     "montant_eur": 1728000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1545,9 +1703,14 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D214G/C02"
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "NTL 2024, ligne D214G. Contributions additionnelles finançant les fonds de garantie (§4.3).",
     "aliases": []
   },
   {
@@ -1579,14 +1742,14 @@
     "aliases": []
   },
   {
-    "id": "eurostat-participation-des-employeurs-a-l-effort-de-construction",
+    "id": "readme-seed-participation-des-employeurs-a-l-effort-de-construction",
     "nom": "Participation des employeurs à l'effort de construction",
-    "sigle": null,
-    "categorie": "impôt sur la production/importation",
+    "sigle": "PEEC",
+    "categorie": "taxe affectée",
     "esa_code": "D29",
     "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "ODAC",
+    "base_legale": "CCH art. L. 313-1",
     "montant_eur": 1497000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1596,9 +1759,37 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D29C/C13"
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "NTL 2024, ligne D29C. Action Logement Services est classée en ODAC depuis 2022 (§4.10).",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-contribution-des-employeurs-au-regime-de-garantie-des-salaires",
+    "nom": "Contribution des employeurs au régime de garantie des salaires",
+    "sigle": "AGS",
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Code du travail art. L. 3253-6",
+    "montant_eur": 1468000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D29C « taxes au profit de l'Association sur la garantie des salaires ». Classée en D29C (impôt sur la masse salariale) et non en cotisation sociale.",
     "aliases": []
   },
   {
@@ -1668,6 +1859,34 @@
       }
     ],
     "notes": "Enregistré en impôt sur la production (D29) au sens du SEC 2010. Affecté à l'ANAH, plafonné à 700 M EUR.",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-prelevements-sur-le-produit-brut-des-jeux-des-casinos",
+    "nom": "Prélèvements sur le produit brut des jeux des casinos",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI et CSS",
+    "montant_eur": 1442000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "vm_tome1",
+        "url": "",
+        "ref": "ligne 1786"
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D214F « taxes sur les jeux des casinos ».",
     "aliases": []
   },
   {
@@ -1768,14 +1987,14 @@
     "aliases": []
   },
   {
-    "id": "eurostat-taxe-sur-primes-d-assurance-automobile",
-    "nom": "Taxe sur primes d'assurance automobile",
+    "id": "readme-seed-taxe-sur-les-primes-d-assurance-automobile",
+    "nom": "Taxe sur les primes d'assurance automobile",
     "sigle": null,
-    "categorie": "impôt sur la production/importation",
+    "categorie": "taxe affectée",
     "esa_code": "D214",
     "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUL",
+    "base_legale": "CGI art. 1001",
     "montant_eur": 1255000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1785,9 +2004,14 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D214G/C05"
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "NTL 2024, ligne D214G. Alimente notamment les services d'incendie et de secours.",
     "aliases": []
   },
   {
@@ -1837,14 +2061,14 @@
     "aliases": []
   },
   {
-    "id": "eurostat-taxes-sur-la-construction",
+    "id": "readme-seed-taxes-sur-la-construction",
     "nom": "Taxes sur la construction",
     "sigle": null,
-    "categorie": "impôt sur la production/importation",
+    "categorie": "impôt local",
     "esa_code": "D214",
     "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
+    "secteur": "APUL",
+    "base_legale": "CU et CGI",
     "montant_eur": 1194000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -1854,9 +2078,14 @@
         "source_id": "eurostat_ntl",
         "url": "",
         "ref": "FR:D214H/C08"
+      },
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
       }
     ],
-    "notes": null,
+    "notes": "NTL 2024, ligne D214H « taxes sur la construction ».",
     "aliases": []
   },
   {
@@ -2023,6 +2252,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-contributions-patronales-sur-les-stock-options-et-attributions-gratu",
+    "nom": "Contributions patronales sur les stock-options et attributions gratuites d'actions",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 137-13 s.",
+    "montant_eur": 1032999999.9999999,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "NTL 2024, ligne D29C « contribution patronale sur stock-options ».",
     "aliases": []
   },
   {
@@ -3504,12 +3756,12 @@
   {
     "id": "ta-contribution-supplementaire-a-l-apprentissage",
     "nom": "Contribution supplémentaire à l'apprentissage",
-    "sigle": "CSA",
+    "sigle": null,
     "categorie": "taxe affectée",
     "esa_code": null,
     "beneficiaire": "France Compétences",
-    "secteur": "ODAC",
-    "base_legale": "Code du travail art. L. 6242-1",
+    "secteur": null,
+    "base_legale": null,
     "montant_eur": 235000000.0,
     "annee": 2024,
     "statut": "PRIS",
@@ -3519,11 +3771,6 @@
         "source_id": "taxes_affectees",
         "url": "",
         "ref": ""
-      },
-      {
-        "source_id": "supplement_cure",
-        "url": "",
-        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
     "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
@@ -8035,29 +8282,6 @@
       }
     ],
     "notes": null,
-    "aliases": []
-  },
-  {
-    "id": "vm-1786-prelevements-sur-le-produit-des-jeux-dans-les-casinos",
-    "nom": "Prélèvements sur le produit des jeux dans les casinos",
-    "sigle": null,
-    "categorie": "recette fiscale (État)",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": null,
-    "base_legale": null,
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "vm_tome1",
-        "url": "",
-        "ref": "ligne 1786"
-      }
-    ],
-    "notes": "Imposition de toutes natures affectée — prélèvement obligatoire (README §4.5).",
     "aliases": []
   },
   {

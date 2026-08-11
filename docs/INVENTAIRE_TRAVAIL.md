@@ -2,7 +2,7 @@
 
 > Généré le 2026-08-11 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
 
-Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
+Ce document regroupe les **496 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
 
 **Comment l'utiliser.** Traiter en priorité le §4 (« à arbitrer ») : commencer par le §4.1 (doublons probables à fusionner), puis instruire les taxes affectées (§4.3) et les nouvelles impositions (§4.4). Le §5 liste les questions ouvertes.
 
@@ -19,26 +19,26 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements au total | 488 |
-| Retenus (PRIS) | 422 |
+| Prélèvements au total | 496 |
+| Retenus (PRIS) | 430 |
 | Rejetés (REJET) | 65 |
 | À arbitrer | 1 |
-| Somme des PRIS (socle curé) | 1196.9 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1446.8 Md€ |
+| Somme des PRIS (socle curé) | 1232.9 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1469.8 Md€ |
 | Enveloppe INSEE 2024 | 1254.0 Md€ |
-| Couverture (socle / INSEE) | 95.4 % |
+| Couverture (socle / INSEE) | 98.3 % |
 
 ### Répartition par catégorie
 
 | Catégorie | Nombre |
 |---|---:|
-| taxe affectée | 235 |
-| impôt sur la production/importation | 62 |
-| impôt d'État | 54 |
-| impôt local | 49 |
+| taxe affectée | 238 |
+| impôt d'État | 60 |
+| impôt sur la production/importation | 56 |
+| impôt local | 51 |
+| fiscalité sociale | 22 |
 | impôt courant sur le revenu/patrimoine | 21 |
-| fiscalité sociale | 18 |
-| recette fiscale (État) | 17 |
+| recette fiscale (État) | 16 |
 | cotisation sociale | 13 |
 | indéterminée | 13 |
 | ressource UE | 4 |
@@ -52,14 +52,14 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | supplement_cure | 186 |
 | taxes_affectees | 184 |
 | eurostat_ntl | 103 |
-| readme_seed | 69 |
+| readme_seed | 85 |
 | vm_tome1 | 24 |
 
 ## 2. Prélèvements retenus (PRIS)
 
-422 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
+430 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
 
-### Administrations de sécurité sociale (ASSO) — 35 lignes, 633.81 Md€
+### Administrations de sécurité sociale (ASSO) — 39 lignes, 641.62 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -71,7 +71,11 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Contribution sociale de solidarité des sociétés | C3S | 5.23 | CSS art. L651-1 | eurostat_ntl (FR:D29H/C02); taxes_affectees; readme_seed (README §4-§5) |
 | Prélèvement de solidarité sur les revenus du capital |  | 5.00 | CSS | readme_seed (README §4-§5) |
 | Taxe de solidarité additionnelle (complémentaire santé) | TSA | 5.00 | CSS art. L862-4 | readme_seed (README §4-§5) |
+| Contribution au Fonds national d'aide au logement | FNAL | 2.94 | CSS art. L. 834-1 | readme_seed (README §4-§5) |
+| Contribution solidarité autonomie | CSA | 2.38 | CASF art. L. 14-10-4 | taxes_affectees; readme_seed (README §4-§5); supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution tarifaire d'acheminement (CTA) | CTA | 1.70 | Loi 2004-803 art. 18 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution des employeurs au régime de garantie des salaires | AGS | 1.47 | Code du travail art. L. 3253-6 | readme_seed (README §4-§5) |
+| Contributions patronales sur les stock-options et attributions gratuites d'actions |  | 1.03 | CSS art. L. 137-13 s. | readme_seed (README §4-§5) |
 | Contributions de l'industrie pharmaceutique (clause de sauvegarde M) |  | 0.96 | CSS | readme_seed (README §4-§5) |
 | Contribution sur les indemnités de mise à la retraite |  | 0.03 | CSS art. L. 137-12 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Droits de plaidoirie |  | 0.00 | CSS art. L. 723-3 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -99,7 +103,7 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Taxe annuelle sur les émissions de polluants atmosphériques |  | — | CIBS art. L. 421-115 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les boissons prémix |  | — | CSS art. L. 245-7 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### État et administrations centrales (APUC) — 54 lignes, 457.67 Md€
+### État et administrations centrales (APUC) — 62 lignes, 478.24 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -110,11 +114,19 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Droits d'enregistrement et de mutation à titre gratuit |  | 20.82 | CGI | eurostat_ntl (FR:D91A/C01); readme_seed (README §4-§5) |
 | Accises sur les alcools, tabacs et boissons |  | 18.00 | CIBS | readme_seed (README §4-§5) |
 | Taxe spéciale sur les conventions d'assurance | TSCA | 10.03 | CGI art. 991 s. | eurostat_ntl (FR:D214G/C04); taxes_affectees; readme_seed (README §4-§5) |
+| Accise sur l'électricité (ex-TICFE) |  | 4.80 | CIBS | readme_seed (README §4-§5) |
+| Prélèvements sur les jeux de loterie |  | 4.04 | CGI et CSS | readme_seed (README §4-§5) |
+| Accise sur les gaz naturels (ex-TICGN) |  | 3.17 | CIBS | readme_seed (README §4-§5) |
 | Malus automobile (CO2 et masse) |  | 2.11 | CIBS | readme_seed (README §4-§5) |
 | Impôt sur la fortune immobilière | IFI | 2.00 | CGI art. 964 s. | vm_tome1 (ligne 1406); readme_seed (README §4-§5) |
+| Taxes sur les transports |  | 1.86 | CIBS livre IV | eurostat_ntl (FR:D214H/C10); readme_seed (README §4-§5) |
 | Taxe sur les transactions financières | TTF | 1.85 | CGI art. 235 ter ZD | eurostat_ntl (FR:D214C/C03); vm_tome1 (ligne 1797); readme_seed (README §4-§5) |
+| Prélèvements sur les paris hippiques |  | 1.77 | CGI et CSS | readme_seed (README §4-§5) |
+| Taxes sur les services professionnels |  | 1.76 | Divers | readme_seed (README §4-§5) |
+| Cotisations sur primes d'assurance |  | 1.73 | CGI art. 1635 bis A s. | eurostat_ntl (FR:D214G/C02); readme_seed (README §4-§5) |
 | Contribution exceptionnelle sur les hauts revenus | CEHR | 1.46 | CGI art. 223 sexies | readme_seed (README §4-§5) |
 | Produit de la mise aux enchères des quotas d'émission | SEQE-UE | 1.46 | Loi de finances 2013 art. 43 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Prélèvements sur le produit brut des jeux des casinos |  | 1.44 | CGI et CSS | vm_tome1 (ligne 1786); readme_seed (README §4-§5) |
 | Taxe générale sur les activités polluantes | TGAP | 1.15 | CIBS | vm_tome1 (ligne 1756); readme_seed (README §4-§5) |
 | Taxe sur les bureaux et locaux en Île-de-France |  | 1.05 | CGI | readme_seed (README §4-§5) |
 | Taxe sur l'affectation des véhicules à des fins économiques | ex-TVS | 0.99 | CIBS | readme_seed (README §4-§5) |
@@ -158,18 +170,18 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Taxe sur les déchets mis en décharge |  | — | CIBS art. L. 433-44 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxes sur le transport guidé |  | — | CIBS livre IV titre II | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### Organismes divers d'administration centrale (ODAC) — 50 lignes, 15.48 Md€
+### Organismes divers d'administration centrale (ODAC) — 50 lignes, 16.74 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
 | Contribution unique à la formation professionnelle et à l'alternance | CUFPA | 9.83 | Code du travail L6131-1 | taxes_affectees; readme_seed (README §4-§5) |
 | Redevances des agences de l'eau |  | 2.20 | Code de l'environnement L213-10 | readme_seed (README §4-§5) |
+| Participation des employeurs à l'effort de construction | PEEC | 1.50 | CCH art. L. 313-1 | eurostat_ntl (FR:D29C/C13); readme_seed (README §4-§5) |
 | Taxes pour frais de chambres consulaires |  | 0.97 | CGI | readme_seed (README §4-§5) |
 | Taxes affectées au CNC |  | 0.75 | Code du cinéma | readme_seed (README §4-§5) |
 | Cotisation versée par les organismes HLM et les SEM |  | 0.34 | CCH art. L. 452-4 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les services de télévision - éditeurs | TST-E | 0.25 | CIBS art. L. 453-13 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur la publicité télévisuelle et autres ressources liées à la diffusion de services de télévision | TST-D | 0.24 | CIBS art. L. 454-1 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
-| Contribution supplémentaire à l'apprentissage | CSA | 0.23 | Code du travail art. L. 6242-1 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe de solidarité sur les billets d'avion |  | 0.21 | CGI art. 302 bis K | taxes_affectees; readme_seed (README §4-§5) |
 | Contribution de vie étudiante et de campus | CVEC | 0.17 | Code de l'éducation L841-5 | taxes_affectees; readme_seed (README §4-§5) |
 | Droits et contributions pour frais de contrôle de l'Autorité des marchés financiers |  | 0.14 | CMF art. L. 621-5-3 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -213,7 +225,7 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Taxe sur les vidéogrammes |  | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxes et droits affectés à l'ANSM | ANSM | — | CSP art. L. 5321-2 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### Administrations publiques locales (APUL) — 53 lignes, 91.25 Md€
+### Administrations publiques locales (APUL) — 56 lignes, 96.82 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -222,9 +234,12 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Versement mobilité |  | 12.23 | Code des transports L2333-64 | eurostat_ntl (FR:D29C/C07); readme_seed (README §4-§5) |
 | Cotisation foncière des entreprises | CFE | 7.71 | CGI art. 1447 s. | eurostat_ntl (FR:D29A/C06); readme_seed (README §4-§5) |
 | Cotisation sur la valeur ajoutée des entreprises | CVAE | 5.00 | CGI art. 1586 ter | eurostat_ntl (FR:D29A/C07); vm_tome1 (ligne 1497); readme_seed (README §4-§5) |
+| Taxe sur les certificats d'immatriculation des véhicules | carte grise | 3.12 | CIBS | eurostat_ntl (FR:D214D/C01); taxes_affectees; readme_seed (README §4-§5) |
 | Taxe d'habitation sur les résidences secondaires | THRS | 2.50 | CGI art. 1407 s. | readme_seed (README §4-§5) |
 | Impositions forfaitaires sur les entreprises de réseaux | IFER | 1.86 | CGI art. 1635-0 quinquies | eurostat_ntl (FR:D29A/C10); readme_seed (README §4-§5) |
 | Taxe sur les surfaces commerciales | TASCOM | 1.27 | CGI | eurostat_ntl (FR:D29A/C12); readme_seed (README §4-§5) |
+| Taxe sur les primes d'assurance automobile |  | 1.25 | CGI art. 1001 | eurostat_ntl (FR:D214G/C05); readme_seed (README §4-§5) |
+| Taxes sur la construction |  | 1.19 | CU et CGI | eurostat_ntl (FR:D214H/C08); readme_seed (README §4-§5) |
 | Taxe foncière sur les propriétés non bâties | TFPNB | 0.88 | CGI art. 1393 s. | eurostat_ntl (FR:D29A/C04); readme_seed (README §4-§5) |
 | Taxe de séjour |  | 0.67 | CGCT L2333-26 s. | readme_seed (README §4-§5) |
 | Taxe d'enlèvement des ordures ménagères | TEOM | 0.63 | CGI art. 1520 s. | taxes_affectees; readme_seed (README §4-§5) |
@@ -271,16 +286,16 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Taxe territoriale d'équipement de Saint-Martin |  | — | CGI de Saint-Martin | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe territoriale sur l'électricité de Saint-Martin |  | — | CGI de Saint-Martin | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### Union européenne — 4 lignes, 6.20 Md€
+### Union européenne — 4 lignes, 6.79 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
 | Ressource propre fondée sur la TVA |  | 3.00 | Décision ressources propres UE | readme_seed (README §4-§5) |
-| Droits de douane |  | 2.00 | Code des douanes de l'Union | readme_seed (README §4-§5) |
+| Droits de douane |  | 2.59 | Code des douanes de l'Union | readme_seed (README §4-§5) |
 | Contribution sur les emballages plastiques non recyclés |  | 1.20 | Décision ressources propres UE | readme_seed (README §4-§5) |
 | Mécanisme d'ajustement carbone aux frontières | MACF / CBAM | — | Règlement UE 2023/956 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### Secteur à préciser — 226 lignes, 242.38 Md€
+### Secteur à préciser — 219 lignes, 229.58 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -299,7 +314,6 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Taxe intérieure de consommation sur les produits énergétique (TICPE dont part modulable) |  | 4.66 |  | taxes_affectees |
 | Produits de la loterie nationale et du loto |  | 3.99 |  | eurostat_ntl (FR:D214F/C01) |
 | Taxe intérieure sur la consommation de gaz naturel |  | 3.18 |  | eurostat_ntl (FR:D214A/C02) |
-| Taxe sur les certificats d'immatriculation des véhicules |  | 3.12 | LFR-I 2014 et de la LFI 2015 | eurostat_ntl (FR:D214D/C01); taxes_affectees |
 | Taxe communale additionnelle à certains droits d'enregistrement |  | 3.09 |  | taxes_affectees |
 | Cotisation patronale pour le FNAL (Fonds national d'aide au logement) |  | 2.94 |  | eurostat_ntl (FR:D29C/C06) |
 | Cotisation des employeurs |  | 2.89 |  | taxes_affectees |
@@ -308,23 +322,17 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Droits d'importation |  | 2.60 |  | eurostat_ntl (FR:D2121/C02) |
 | Contribution de solidarité pour l'autonomie |  | 2.47 |  | eurostat_ntl (FR:D29C/C05) |
 | Taxe sur les certificats d'immatriculation des véhicules (cartes grises) |  | 2.44 |  | taxes_affectees |
-| Contribution solidarité autonomie (CSA) |  | 2.38 |  | taxes_affectees |
 | Droits de consommation sur les alcools |  | 2.29 |  | taxes_affectees |
 | Redevance pour obstacle sur les cours d’eau, redevance pour stockage d’eau en période d’étiage, redevance pour la protection du milieu aquatique, redevance pour pollutions diffuses, redevances pour prélèvement sur la ressource en eau, redevances pour pollution de l’eau, redevances pour modernisation des réseaux de collecte, redevances cynégétiques, droit de validation du permis de chasse |  | 2.20 | LFR 2015 et de la LFI 2016 | taxes_affectees |
 | Taxe sur les émissions de CO2 |  | 2.11 |  | eurostat_ntl (FR:D29F/C02) |
 | Fraction affectée du produit du relèvement du tarif de taxe intérieure de consommation sur les produits énergétiques (TICPE) sur le carburant gazole |  | 1.91 | LFR-I 2014 et de la LFI 2015 | taxes_affectees |
-| Taxes sur les transports |  | 1.86 |  | eurostat_ntl (FR:D214H/C10) |
 | Taxes sur les paris hippiques |  | 1.80 |  | eurostat_ntl (FR:D214F/C03) |
 | Taxes sur les services professionnels hors droits de mutations |  | 1.76 |  | eurostat_ntl (FR:D214H/C09) |
-| Cotisations sur primes d'assurance |  | 1.73 |  | eurostat_ntl (FR:D214G/C02) |
-| Participation des employeurs à l'effort de construction |  | 1.50 |  | eurostat_ntl (FR:D29C/C13) |
 | Taxes au profit de l'Association sur la garantie des salaires |  | 1.47 |  | eurostat_ntl (FR:D29C/C04) |
 | Taxes sur les jeux des casinos |  | 1.44 |  | eurostat_ntl (FR:D214F/C02) |
 | Droit d'octroi de mer et droit d'octroi de mer régional |  | 1.37 |  | taxes_affectees |
 | Part sur la consommation |  | 1.33 |  | eurostat_ntl (FR:D59A/C05) |
-| Taxe sur primes d'assurance automobile |  | 1.25 |  | eurostat_ntl (FR:D214G/C05) |
 | Part sur le capital |  | 1.24 |  | eurostat_ntl (FR:D29A/C09) |
-| Taxes sur la construction |  | 1.19 |  | eurostat_ntl (FR:D214H/C08) |
 | Droit sur les bières et les boissons non alcoolisées |  | 1.18 |  | taxes_affectees |
 | Contribution sociale sur les bénéfices des sociétés |  | 1.17 |  | eurostat_ntl (FR:D51O/C06) |
 | Taxe spéciale sur les conventions d'assurance automobile |  | 1.14 |  | taxes_affectees |
@@ -373,6 +381,7 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | TST - Taxe sur les éditeurs et distributeurs de services de télévision - Fraction Editeurs |  | 0.25 |  | taxes_affectees |
 | TA-CFE - fraction CRMA de la Taxe additionnelle à la cotisation foncière des entreprises pour frais de chambre régionale de métiers et d'artisanat |  | 0.24 | LFR 2017 et LFI 2018 | taxes_affectees |
 | Taxe due par les opérateurs de communications électroniques |  | 0.24 |  | eurostat_ntl (FR:D214H/C11) |
+| Contribution supplémentaire à l'apprentissage |  | 0.23 |  | taxes_affectees |
 | Chambre d'agriculture |  | 0.23 |  | eurostat_ntl (FR:D29A/C17) |
 | Contributions pour frais de contrôle |  | 0.22 | LFI 2014 | taxes_affectees |
 | Contribution sur les régimes de retraite conditionnant la constitution de droits à prestations à l’achèvement de la carrière du bénéficiaire dans l’entreprise |  | 0.22 |  | taxes_affectees |
@@ -485,7 +494,6 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Prélèvement sur les paris sportifs |  | — |  | vm_tome1 (ligne 1788) |
 | Prélèvements de solidarité |  | — |  | vm_tome1 (ligne 1427) |
 | Prélèvements et taxes compensatoires à l'importation |  | — |  | eurostat_ntl (FR:D2122B/C01) |
-| Prélèvements sur le produit des jeux dans les casinos |  | — |  | vm_tome1 (ligne 1786) |
 | Recettes diverses |  | — |  | vm_tome1 (ligne 1499) |
 | Redevance pour création de bureaux ou de locaux de recherche en région Ile-de-France |  | — |  | taxes_affectees |
 | Retenues à la source et prélèvements sur les revenus de capitaux mobiliers et le prélèvement sur les bons anonymes |  | — |  | vm_tome1 (ligne 1402) |
@@ -621,8 +629,8 @@ Chantiers identifiés pour la suite des recherches :
 
 1. **Doublons** : les correspondances de même périmètre (« Foncier bâti » ↔ taxe foncière, « Mutations à titre gratuit » ↔ DMTG) sont désormais fusionnées via la colonne `alias` du socle. Les candidats résiduels du §4.1 sont des **composantes plus fines** (ex. accises ex-TICGN/TICFE) : à fusionner au cas par cas ou à conserver comme détail.
 2. **Classification ESA** : la correspondance par préfixe (D29→D2, D51→D5…) reclasse désormais automatiquement les lignes NTL ; les codes encore non couverts (cf. catégorie « indéterminée » au §1) restent à compléter dans `esa_defaults`.
-3. **Montants manquants** : 164 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
-4. **Base de mesure** : la couverture (95.4 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
+3. **Montants manquants** : 163 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
+4. **Base de mesure** : la couverture (98.3 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
 5. **Exhaustivité de l'État A** : le volume narratif du V&M ne détaille que les ~24 principaux impôts d'État ; les lignes mineures (1101→1799) sont agrégées (« Autres taxes », « Recettes diverses »). Si besoin, parser la table récapitulative formelle (État A) pour les ~300 lignes complètes.
 6. **Taxes affectées** (§4.3) : confirmer le périmètre PO de chacune (certaines redevances pour service rendu sont à exclure au titre de C3).
 
