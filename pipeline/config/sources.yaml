@@ -105,7 +105,11 @@ control_envelope:
   total_po_mdeur: 1254.0          # 1 254 Md€ (base INSEE, 42,7 % du PIB)
   taux_po_pib_insee_pct: 42.7
   # Repère Eurostat (≈ 45,3 % du PIB ≈ 1 330 Md€) : les montants de la NTL sont
-  # exprimés sur cette base, légèrement supérieure à l'enveloppe INSEE ; une
-  # couverture un peu > 100 % vis-à-vis de l'enveloppe INSEE est donc attendue.
+  # exprimés sur cette base, légèrement supérieure à l'enveloppe INSEE.
+  # La couverture observée (≈ 95 %) est un peu inférieure à 100 % : le socle ne
+  # valorise pas encore toutes ses lignes (cf. README §8). Une couverture
+  # nettement supérieure à 100 % signalerait au contraire un double compte —
+  # c'était le cas tant que les cotisations sociales y figuraient à la fois en
+  # agrégat et en composantes.
   taux_po_pib_eurostat_pct: 45.3
   source: "INSEE — comptes nationaux 2024"

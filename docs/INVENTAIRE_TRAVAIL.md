@@ -23,10 +23,10 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Retenus (PRIS) | 422 |
 | Rejetés (REJET) | 65 |
 | À arbitrer | 1 |
-| Somme des PRIS (socle curé) | 1335.3 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1585.3 Md€ |
+| Somme des PRIS (socle curé) | 1196.9 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1446.8 Md€ |
 | Enveloppe INSEE 2024 | 1254.0 Md€ |
-| Couverture (socle / INSEE) | 106.5 % |
+| Couverture (socle / INSEE) | 95.4 % |
 
 ### Répartition par catégorie
 
@@ -59,20 +59,16 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 
 422 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
 
-### Administrations de sécurité sociale (ASSO) — 35 lignes, 773.75 Md€
+### Administrations de sécurité sociale (ASSO) — 35 lignes, 633.81 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
-| Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA) |  | 420.00 | Code de la sécurité sociale | readme_seed (README §4-§5) |
+| Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA) |  | 430.06 | Code de la sécurité sociale | readme_seed (README §4-§5) |
 | Contribution sociale généralisée | CSG | 153.13 | CSS art. L136-1 s. | eurostat_ntl (FR:D51M/C04); taxes_affectees; readme_seed (README §4-§5) |
-| Cotisations de retraite complémentaire obligatoire | AGIRC-ARRCO | 90.00 | ANI / Code de la sécurité sociale | readme_seed (README §4-§5) |
-| Cotisations d'assurance chômage (part employeur) |  | 40.00 | Code du travail | readme_seed (README §4-§5) |
 | Taxe sur les salaires |  | 17.32 | CGI art. 231 | eurostat_ntl (FR:D29C/C03); taxes_affectees; readme_seed (README §4-§5) |
-| Cotisations des travailleurs indépendants |  | 15.00 | Code de la sécurité sociale | readme_seed (README §4-§5) |
 | Contribution au remboursement de la dette sociale | CRDS | 9.08 | Ordonnance 96-50 | eurostat_ntl (FR:D51M/C03); readme_seed (README §4-§5) |
 | Forfait social |  | 6.30 | CSS art. L137-15 | eurostat_ntl (FR:D29C/C09); readme_seed (README §4-§5) |
 | Contribution sociale de solidarité des sociétés | C3S | 5.23 | CSS art. L651-1 | eurostat_ntl (FR:D29H/C02); taxes_affectees; readme_seed (README §4-§5) |
-| Cotisations agricoles |  | 5.00 | Code rural | readme_seed (README §4-§5) |
 | Prélèvement de solidarité sur les revenus du capital |  | 5.00 | CSS | readme_seed (README §4-§5) |
 | Taxe de solidarité additionnelle (complémentaire santé) | TSA | 5.00 | CSS art. L862-4 | readme_seed (README §4-§5) |
 | Contribution tarifaire d'acheminement (CTA) | CTA | 1.70 | Loi 2004-803 art. 18 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -93,13 +89,17 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Cotisation d'équilibre CAMIEG des inactifs |  | — | CSS - régime des industries électriques et gazières | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisation de solidarité CAMIEG |  | — | CSS - régime des industries électriques et gazières | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisation du régime local d'assurance maladie d'Alsace-Moselle |  | — | CSS art. L. 325-1 à L. 325-3 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisations agricoles |  | — | Code rural | readme_seed (README §4-§5) |
 | Cotisations au régime de prestations familiales de Mayotte |  | — | Ordonnance 96-1122 art. 28-5 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations aux caisses d'assurance-accidents agricoles d'Alsace-Moselle |  | — | CSS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisations d'assurance chômage (part employeur) |  | — | Code du travail | readme_seed (README §4-§5) |
+| Cotisations de retraite complémentaire obligatoire | AGIRC-ARRCO | — | ANI / Code de la sécurité sociale | readme_seed (README §4-§5) |
 | Cotisations des régimes spéciaux |  | — | Code de la sécurité sociale | readme_seed (README §4-§5) |
+| Cotisations des travailleurs indépendants |  | — | Code de la sécurité sociale | readme_seed (README §4-§5) |
 | Taxe annuelle sur les émissions de polluants atmosphériques |  | — | CIBS art. L. 421-115 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les boissons prémix |  | — | CSS art. L. 245-7 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### État et administrations centrales (APUC) — 54 lignes, 456.21 Md€
+### État et administrations centrales (APUC) — 54 lignes, 457.67 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -113,6 +113,7 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Malus automobile (CO2 et masse) |  | 2.11 | CIBS | readme_seed (README §4-§5) |
 | Impôt sur la fortune immobilière | IFI | 2.00 | CGI art. 964 s. | vm_tome1 (ligne 1406); readme_seed (README §4-§5) |
 | Taxe sur les transactions financières | TTF | 1.85 | CGI art. 235 ter ZD | eurostat_ntl (FR:D214C/C03); vm_tome1 (ligne 1797); readme_seed (README §4-§5) |
+| Contribution exceptionnelle sur les hauts revenus | CEHR | 1.46 | CGI art. 223 sexies | readme_seed (README §4-§5) |
 | Produit de la mise aux enchères des quotas d'émission | SEQE-UE | 1.46 | Loi de finances 2013 art. 43 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe générale sur les activités polluantes | TGAP | 1.15 | CIBS | vm_tome1 (ligne 1756); readme_seed (README §4-§5) |
 | Taxe sur les bureaux et locaux en Île-de-France |  | 1.05 | CGI | readme_seed (README §4-§5) |
@@ -131,7 +132,6 @@ Ce document regroupe les **488 prélèvements** de l'inventaire réconcilié (an
 | Contribution de la Caisse des dépôts et consignations représentative de l'impôt sur les sociétés |  | — | CGI art. 208 ter | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution des assurés au Fonds de garantie des assurances obligatoires de dommages | FGAO | — | Code des assurances art. L. 421-4 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution des institutions financières |  | — | CGI | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
-| Contribution exceptionnelle sur les hauts revenus | CEHR | — | CGI art. 223 sexies | readme_seed (README §4-§5) |
 | Contribution sur la rente infra-marginale de la production d'électricité | CRIM | — | Code de l'énergie art. L. 443-1 s. | vm_tome1 (ligne 1752); supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Droit de passeport des navires |  | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Droit de timbre des formules de chèques |  | — | CGI art. 916 A | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -621,8 +621,8 @@ Chantiers identifiés pour la suite des recherches :
 
 1. **Doublons** : les correspondances de même périmètre (« Foncier bâti » ↔ taxe foncière, « Mutations à titre gratuit » ↔ DMTG) sont désormais fusionnées via la colonne `alias` du socle. Les candidats résiduels du §4.1 sont des **composantes plus fines** (ex. accises ex-TICGN/TICFE) : à fusionner au cas par cas ou à conserver comme détail.
 2. **Classification ESA** : la correspondance par préfixe (D29→D2, D51→D5…) reclasse désormais automatiquement les lignes NTL ; les codes encore non couverts (cf. catégorie « indéterminée » au §1) restent à compléter dans `esa_defaults`.
-3. **Montants manquants** : 161 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
-4. **Base de mesure** : la couverture (106.5 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
+3. **Montants manquants** : 164 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
+4. **Base de mesure** : la couverture (95.4 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
 5. **Exhaustivité de l'État A** : le volume narratif du V&M ne détaille que les ~24 principaux impôts d'État ; les lignes mineures (1101→1799) sont agrégées (« Autres taxes », « Recettes diverses »). Si besoin, parser la table récapitulative formelle (État A) pour les ~300 lignes complètes.
 6. **Taxes affectées** (§4.3) : confirmer le périmètre PO de chacune (certaines redevances pour service rendu sont à exclure au titre de C3).
 

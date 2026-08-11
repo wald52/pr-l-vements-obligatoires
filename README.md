@@ -1662,45 +1662,52 @@ ajouter un prélèvement au jeu de données ; `data/` est généré et ne doit j
 
 ### La mesure de couverture, et ce qu'elle vaut
 
-Le rapport publie une **couverture de 106,5 %** : la somme des prélèvements
-retenus du socle curé rapportée à l'enveloppe INSEE de 1 254 Md€. Dépasser 100 %
-n'est pas une anomalie — les montants ligne à ligne proviennent pour l'essentiel
-de la National Tax List, qui est établie sur la **base Eurostat** (≈ 45,3 % du
-PIB, soit ≈ 1 330 Md€), plus large que la base INSEE parce qu'elle ne déduit pas
-les crédits d'impôt restituables (§1). Un écart de cet ordre est donc attendu ;
-c'est un écart bien plus grand, dans un sens ou dans l'autre, qui signalerait un
-problème.
+Le rapport publie une **couverture de 95,4 %** : la somme des prélèvements
+retenus du socle curé rapportée à l'enveloppe INSEE de 1 254 Md€. Elle se calcule
+sur le **socle seul**, non chevauchant par construction — additionner toutes les
+lignes du jeu de données mélangerait agrégats et composantes (la TGAP et ses
+quatre composantes, l'accise sur les énergies et ses quatre fractions) et
+double-compterait.
 
-Deux précautions encadrent ce chiffre :
+> **Ce ratio affichait 106,5 % jusqu'à la dernière passe, et c'était faux.** Le
+> socle portait les cotisations sociales **deux fois** : une ligne agrégée
+> « régime général » de 420 Md€, puis quatre familles ajoutées par-dessus
+> (chômage 40, retraite complémentaire 90, indépendants 15, agricoles 5), soit
+> **570 Md€** au total. Or la National Tax List plafonne les cotisations sociales
+> effectives obligatoires à **430,1 Md€** (D.611C employeurs 293,1 + D.613C
+> ménages 136,9), et le contrôle croisé le confirme : les cotisations sociales
+> nettes D.61 valent 482,3 Md€, dont 51,2 Md€ de cotisations **imputées** qui ne
+> sont pas des prélèvements obligatoires (échec C1, §2) — soit 431,1 Md€ de
+> cotisations effectives. Le socle sur-comptait donc d'environ **140 Md€**.
+>
+> Corrigé : la ligne agrégée porte désormais le montant NTL sourcé, et les quatre
+> familles sont laissées sans montant avec la mention explicite qu'elles y sont
+> comprises. Un ratio supérieur à 100 % ne doit pas rassurer — il signale un
+> double compte plus souvent qu'une exhaustivité.
 
-- il se calcule sur le **socle curé seul**, non chevauchant par construction. La
-  somme « itemisée » de toutes les lignes (≈ 1 574 Md€) mélange agrégats et
-  composantes — la TGAP et ses quatre composantes, l'accise sur les énergies et
-  ses quatre fractions — et double-compterait ;
-- **douze prélèvements du socle n'avaient aucun montant**, donc pesaient zéro.
-  **Neuf ont été sourcés** sans aucune estimation, en croisant trois sources déjà
-  au dossier :
+**Ce qui reste non valorisé.** Douze prélèvements du socle n'avaient aucun
+montant. **Dix ont été sourcés** sans aucune estimation :
 
-  | Prélèvement | Montant | Source |
-  |---|---:|---|
-  | Malus automobile | 2,113 Md€ | NTL, ligne D.29F « taxe sur les émissions de CO₂ » |
-  | Taxe sur les bureaux d'Île-de-France | 1,055 Md€ | NTL, ligne D.29A |
-  | TGAP | 1,150 Md€ | Voies et moyens tome I |
-  | Taxes sur l'affectation des véhicules | 0,991 Md€ | NTL, ligne D.29B |
-  | Taxes pour frais de chambres consulaires | 0,966 Md€ | NTL, somme des trois lignes nommées |
-  | Contributions de l'industrie pharmaceutique | 0,957 Md€ | NTL, ligne D.214I |
-  | Taxes affectées au CNC | 0,754 Md€ | Liste des taxes affectées, 5 lignes |
-  | Taxe de séjour | 0,670 Md€ | Idem, hors taxes additionnelles |
-  | Droits de timbre | 0,567 Md€ | État A, ligne 1721 — **partiel**, hors fractions affectées à l'ANTS |
+| Prélèvement | Montant | Source |
+|---|---:|---|
+| Malus automobile | 2,113 Md€ | NTL, ligne D.29F |
+| Contribution exceptionnelle sur les hauts revenus | 1,460 Md€ | Rapport général du Sénat — rendement **2022**, seul chiffre officiel |
+| Taxe sur les bureaux d'Île-de-France | 1,055 Md€ | NTL, ligne D.29A |
+| TGAP | 1,150 Md€ | Voies et moyens tome I |
+| Taxes sur l'affectation des véhicules | 0,991 Md€ | NTL, ligne D.29B |
+| Taxes pour frais de chambres consulaires | 0,966 Md€ | NTL, somme des trois lignes nommées |
+| Contributions de l'industrie pharmaceutique | 0,957 Md€ | NTL, ligne D.214I |
+| Taxes affectées au CNC | 0,754 Md€ | Liste des taxes affectées, 5 lignes |
+| Taxe de séjour | 0,670 Md€ | Idem, hors taxes additionnelles |
+| Droits de timbre | 0,567 Md€ | État A, ligne 1721 — **partiel**, hors fractions affectées à l'ANTS |
 
-  **Trois résistent**, et pour des raisons identifiées plutôt que par défaut : la
-  **contribution exceptionnelle sur les hauts revenus** n'a aucune ligne
-  budgétaire propre puisqu'elle est recouvrée avec l'impôt sur le revenu (les
-  chiffres qui circulent — 1,46 Md€, puis « plus de 3,5 Md€ » — proviennent de
-  sources secondaires qui se contredisent, et n'ont pas été retenus) ; les
-  **cotisations des régimes spéciaux** ne figurent dans la NTL que sous forme
-  d'agrégats D.61, sans détail par régime (§4.8) ; la **taxe sur les logements
-  vacants** est portée à zéro dans la liste des taxes affectées disponible.
+**Deux résistent**, pour des raisons identifiées : les **cotisations des régimes
+spéciaux**, désormais volontairement sans montant pour ne pas rejouer le double
+compte ci-dessus ; et la **taxe sur les logements vacants**, portée à zéro dans la
+liste des taxes affectées disponible et absente de la NTL comme de l'état A.
+
+La couverture réelle est donc un peu supérieure aux 95,4 % affichés — l'écart
+restant tient à ces lignes non valorisées, non à des prélèvements manquants.
 
 La cohérence entre les deux formats n'est pas laissée à la vigilance : un test
 (`pipeline/tests/test_coherence_readme.py`) confronte chaque prélèvement nommé au
@@ -1947,7 +1954,8 @@ présent document et ses listes sources :
 | **Doublons** du jeu de données | 481 lignes, 115 440 paires testées | **1 doublon franc** (tabacs DOM, 143,8 M€ comptés deux fois) ; désormais publié dans le rapport et surveillé par un test |
 | **Cas limites du §6** confrontés au manuel Eurostat (MGDD, 374 p.) et à la NTL | 5 cas ouverts | **4 tranchés**, dont **1 erreur corrigée** (fonds de garantie d'assurance, rejetés à tort) ; seul le MACF reste en attente |
 | **Réexamen des rejets sur C2** à la lumière du réacheminement | 11 rejets confrontés | **2 requalifiés en cas limites** (AGEFIPH, dialogue social) ; les 9 autres tiennent, faute d'un prélèvement imposé et recouvré par l'État |
-| **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **9 sourcés** dans la NTL, l'état A et la liste des taxes affectées ; 3 résistent pour des raisons identifiées (§8) |
+| **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **10 sourcés** dans la NTL, l'état A, le rapport du Sénat et la liste des taxes affectées ; 2 résistent pour des raisons identifiées (§8) |
+| **Double compte des cotisations sociales** | socle : 570 Md€ contre 430,1 Md€ à la NTL | **erreur de 140 Md€ corrigée** ; la couverture passe de 106,5 % à **95,4 %** (§8) |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
 

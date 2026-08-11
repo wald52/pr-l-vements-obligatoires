@@ -8,7 +8,7 @@
     "beneficiaire": null,
     "secteur": "ASSO",
     "base_legale": "Code de la sécurité sociale",
-    "montant_eur": 420000000000.0,
+    "montant_eur": 430055000000.0,
     "annee": 2024,
     "statut": "PRIS",
     "critere_echec": null,
@@ -19,7 +19,7 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "Recouvrées par les URSSAF (part salariale et patronale).",
+    "notes": "Agrégat des cotisations sociales effectives obligatoires, tous régimes confondus : NTL 2024, D611C employeurs 293 148 M EUR + D613C ménages 136 907 M EUR. La NTL ne ventile pas les cotisations par régime, d'où le portage par cette seule ligne.",
     "aliases": []
   },
   {
@@ -112,29 +112,6 @@
     "aliases": []
   },
   {
-    "id": "readme-seed-cotisations-de-retraite-complementaire-obligatoire",
-    "nom": "Cotisations de retraite complémentaire obligatoire",
-    "sigle": "AGIRC-ARRCO",
-    "categorie": "cotisation sociale",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ASSO",
-    "base_legale": "ANI / Code de la sécurité sociale",
-    "montant_eur": 90000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Inclut IRCANTEC, RAFP.",
-    "aliases": []
-  },
-  {
     "id": "readme-seed-impot-sur-les-societes",
     "nom": "Impôt sur les sociétés",
     "sigle": "IS",
@@ -183,29 +160,6 @@
       }
     ],
     "notes": null,
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-cotisations-d-assurance-chomage-part-employeur",
-    "nom": "Cotisations d'assurance chômage (part employeur)",
-    "sigle": null,
-    "categorie": "cotisation sociale",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ASSO",
-    "base_legale": "Code du travail",
-    "montant_eur": 40000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Régime Unédic.",
     "aliases": []
   },
   {
@@ -341,29 +295,6 @@
       }
     ],
     "notes": "Employeurs non assujettis à la TVA.",
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-cotisations-des-travailleurs-independants",
-    "nom": "Cotisations des travailleurs indépendants",
-    "sigle": null,
-    "categorie": "cotisation sociale",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ASSO",
-    "base_legale": "Code de la sécurité sociale",
-    "montant_eur": 15000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Recouvrées par les URSSAF (ex-RSI).",
     "aliases": []
   },
   {
@@ -833,29 +764,6 @@
       }
     ],
     "notes": "En extinction progressive.",
-    "aliases": []
-  },
-  {
-    "id": "readme-seed-cotisations-agricoles",
-    "nom": "Cotisations agricoles",
-    "sigle": null,
-    "categorie": "cotisation sociale",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "ASSO",
-    "base_legale": "Code rural",
-    "montant_eur": 5000000000.0,
-    "annee": 2024,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": "Recouvrées par la MSA.",
     "aliases": []
   },
   {
@@ -1714,6 +1622,29 @@
       }
     ],
     "notes": null,
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-contribution-exceptionnelle-sur-les-hauts-revenus",
+    "nom": "Contribution exceptionnelle sur les hauts revenus",
+    "sigle": "CEHR",
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 223 sexies",
+    "montant_eur": 1460000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Rendement 2022 (1,46 Md EUR sur 58 700 foyers), seul chiffre officiel disponible, cité par le rapport général du Sénat sur le PLF. La CEHR n'a pas de ligne budgétaire propre : elle est recouvrée avec l'impôt sur le revenu. Son rendement a augmenté depuis.",
     "aliases": []
   },
   {
@@ -6699,29 +6630,6 @@
     "aliases": []
   },
   {
-    "id": "readme-seed-contribution-exceptionnelle-sur-les-hauts-revenus",
-    "nom": "Contribution exceptionnelle sur les hauts revenus",
-    "sigle": "CEHR",
-    "categorie": "impôt d'État",
-    "esa_code": null,
-    "beneficiaire": null,
-    "secteur": "APUC",
-    "base_legale": "CGI art. 223 sexies",
-    "montant_eur": null,
-    "annee": null,
-    "statut": "PRIS",
-    "critere_echec": null,
-    "sources": [
-      {
-        "source_id": "readme_seed",
-        "url": "",
-        "ref": "README §4-§5"
-      }
-    ],
-    "notes": null,
-    "aliases": []
-  },
-  {
     "id": "supplement-cure-contribution-exceptionnelle-a-la-charge-des-organismes-complemen",
     "nom": "Contribution exceptionnelle à la charge des organismes complémentaires d'assurance maladie",
     "sigle": null,
@@ -7210,6 +7118,29 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-cotisations-agricoles",
+    "nom": "Cotisations agricoles",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Code rural",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-cotisations-au-regime-de-prestations-familiales-de-mayotte",
     "nom": "Cotisations au régime de prestations familiales de Mayotte",
     "sigle": null,
@@ -7256,6 +7187,52 @@
     "aliases": []
   },
   {
+    "id": "readme-seed-cotisations-d-assurance-chomage-part-employeur",
+    "nom": "Cotisations d'assurance chômage (part employeur)",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Code du travail",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-cotisations-de-retraite-complementaire-obligatoire",
+    "nom": "Cotisations de retraite complémentaire obligatoire",
+    "sigle": "AGIRC-ARRCO",
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "ANI / Code de la sécurité sociale",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-cotisations-des-regimes-speciaux",
     "nom": "Cotisations des régimes spéciaux",
     "sigle": null,
@@ -7275,7 +7252,30 @@
         "ref": "README §4-§5"
       }
     ],
-    "notes": "CNRACL, SNCF, RATP, marins, etc.",
+    "notes": "Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.",
+    "aliases": []
+  },
+  {
+    "id": "readme-seed-cotisations-des-travailleurs-independants",
+    "nom": "Cotisations des travailleurs indépendants",
+    "sigle": null,
+    "categorie": "cotisation sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "Code de la sécurité sociale",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "readme_seed",
+        "url": "",
+        "ref": "README §4-§5"
+      }
+    ],
+    "notes": "Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.",
     "aliases": []
   },
   {

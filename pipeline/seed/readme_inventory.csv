@@ -1,7 +1,7 @@
 nom;sigle;categorie;secteur;base_legale;montant_mdeur;statut;critere_echec;notes;alias
 Taxe sur la valeur ajoutée;TVA;impôt d'État;APUC;CGI art. 256 s.;200;PRIS;;Premier impôt par le rendement — fractions affectées ASSO/APUL.
 Impôt sur le revenu;IR;impôt d'État;APUC;CGI art. 1 A s.;90;PRIS;;Prélevé à la source — inclut le PFU (flat tax).
-Contribution exceptionnelle sur les hauts revenus;CEHR;impôt d'État;APUC;CGI art. 223 sexies;;PRIS;;
+Contribution exceptionnelle sur les hauts revenus;CEHR;impôt d'État;APUC;CGI art. 223 sexies;1.46;PRIS;;Rendement 2022 (1,46 Md EUR sur 58 700 foyers), seul chiffre officiel disponible, cité par le rapport général du Sénat sur le PLF. La CEHR n'a pas de ligne budgétaire propre : elle est recouvrée avec l'impôt sur le revenu. Son rendement a augmenté depuis.
 Impôt sur les sociétés;IS;impôt d'État;APUC;CGI art. 205 s.;60;PRIS;;Inclut contributions sociale et exceptionnelles sur l'IS.
 Accise sur les énergies (ex-TICPE);TICPE;impôt d'État;APUC;CIBS;30;PRIS;;
 Accises sur les alcools, tabacs et boissons;;impôt d'État;APUC;CIBS;18;PRIS;;
@@ -31,12 +31,12 @@ Taxe de séjour;;impôt local;APUL;CGCT L2333-26 s.;0.670;PRIS;;Liste des taxes 
 Taxe d'aménagement;;impôt local;APUL;CGI art. 1635 quater A;;PRIS;;
 Taxe locale sur la publicité extérieure;TLPE;impôt local;APUL;CGCT L2333-6 s.;;PRIS;;
 Taxe GEMAPI;;impôt local;APUL;CGI art. 1530 bis;;PRIS;;Gestion des milieux aquatiques et prévention des inondations.
-Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA);;cotisation sociale;ASSO;Code de la sécurité sociale;420;PRIS;;Recouvrées par les URSSAF (part salariale et patronale).
-Cotisations d'assurance chômage (part employeur);;cotisation sociale;ASSO;Code du travail;40;PRIS;;Régime Unédic.
-Cotisations de retraite complémentaire obligatoire;AGIRC-ARRCO;cotisation sociale;ASSO;ANI / Code de la sécurité sociale;90;PRIS;;Inclut IRCANTEC, RAFP.
-Cotisations des travailleurs indépendants;;cotisation sociale;ASSO;Code de la sécurité sociale;15;PRIS;;Recouvrées par les URSSAF (ex-RSI).
-Cotisations agricoles;;cotisation sociale;ASSO;Code rural;5;PRIS;;Recouvrées par la MSA.
-Cotisations des régimes spéciaux;;cotisation sociale;ASSO;Code de la sécurité sociale;;PRIS;;CNRACL, SNCF, RATP, marins, etc.
+Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA);;cotisation sociale;ASSO;Code de la sécurité sociale;430.055;PRIS;;Agrégat des cotisations sociales effectives obligatoires, tous régimes confondus : NTL 2024, D611C employeurs 293 148 M EUR + D613C ménages 136 907 M EUR. La NTL ne ventile pas les cotisations par régime, d'où le portage par cette seule ligne.
+Cotisations d'assurance chômage (part employeur);;cotisation sociale;ASSO;Code du travail;;PRIS;;Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.
+Cotisations de retraite complémentaire obligatoire;AGIRC-ARRCO;cotisation sociale;ASSO;ANI / Code de la sécurité sociale;;PRIS;;Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.
+Cotisations des travailleurs indépendants;;cotisation sociale;ASSO;Code de la sécurité sociale;;PRIS;;Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.
+Cotisations agricoles;;cotisation sociale;ASSO;Code rural;;PRIS;;Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.
+Cotisations des régimes spéciaux;;cotisation sociale;ASSO;Code de la sécurité sociale;;PRIS;;Montant volontairement non renseigné : cette famille est comprise dans l'agrégat des cotisations sociales effectives obligatoires porté par la ligne du régime général. La renseigner double-compterait.
 Contribution sociale généralisée;CSG;fiscalité sociale;ASSO;CSS art. L136-1 s.;140;PRIS;;
 Contribution au remboursement de la dette sociale;CRDS;fiscalité sociale;ASSO;Ordonnance 96-50;8;PRIS;;
 Prélèvement de solidarité sur les revenus du capital;;fiscalité sociale;ASSO;CSS;5;PRIS;;Taux 7,5 %.

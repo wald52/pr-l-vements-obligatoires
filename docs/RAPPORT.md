@@ -9,11 +9,11 @@
 | Prélèvements retenus (PRIS) | 422 |
 | Candidats rejetés (REJET) | 65 |
 | Lignes à arbitrer | 1 |
-| Somme des PRIS (socle curé) | 1335.3 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1585.3 Md€ |
+| Somme des PRIS (socle curé) | 1196.9 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1446.8 Md€ |
 | Enveloppe INSEE (2024) | 1254.0 Md€ |
-| **Couverture (socle)** | **106.5 %** |
-| PRIS sans montant | 142 |
+| **Couverture (socle)** | **95.4 %** |
+| PRIS sans montant | 145 |
 
 > La couverture rapporte la somme des PRIS du **socle curé** (non chevauchant) à l'enveloppe INSEE. La somme « itemisée » ajoute les composantes fines de la NTL et des taxes affectées : indicative, elle mêle agrégats et composantes et n'est pas une mesure de couverture.
 
@@ -21,8 +21,8 @@
 
 | Categorie | Nombre | Montant (Md€) |
 |---|---:|---:|
-| cotisation sociale | 13 | 570.0 |
-| impôt d'État | 48 | 454.5 |
+| impôt d'État | 48 | 456.0 |
+| cotisation sociale | 13 | 430.1 |
 | fiscalité sociale | 16 | 202.0 |
 | impôt sur la production/importation | 61 | 135.2 |
 | taxe affectée | 201 | 103.4 |
@@ -35,8 +35,8 @@
 
 | Secteur | Nombre | Montant (Md€) |
 |---|---:|---:|
-| ASSO | 35 | 773.8 |
-| APUC | 54 | 456.2 |
+| ASSO | 35 | 633.8 |
+| APUC | 54 | 457.7 |
 | (non renseigné) | 226 | 242.4 |
 | APUL | 53 | 91.3 |
 | ODAC | 50 | 15.5 |
@@ -46,20 +46,17 @@
 
 | Prélèvement | Catégorie | Montant (Md€) | Sources |
 |---|---|---:|---|
-| Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA) | cotisation sociale | 420.0 | readme_seed |
+| Cotisations du régime général (maladie, vieillesse, famille, AT-MP, CSA) | cotisation sociale | 430.1 | readme_seed |
 | Taxe sur la valeur ajoutée | impôt d'État | 206.3 | eurostat_ntl, readme_seed |
 | Contribution sociale généralisée | fiscalité sociale | 153.1 | eurostat_ntl, readme_seed, taxes_affectees |
 | Impôt sur le revenu | impôt d'État | 96.2 | eurostat_ntl, readme_seed |
-| Cotisations de retraite complémentaire obligatoire | cotisation sociale | 90.0 | readme_seed |
 | Impôt sur les sociétés | impôt d'État | 60.0 | readme_seed |
 | Taxe foncière sur les propriétés bâties | impôt local | 42.1 | eurostat_ntl, readme_seed |
-| Cotisations d'assurance chômage (part employeur) | cotisation sociale | 40.0 | readme_seed |
 | Accise sur les énergies (ex-TICPE) | impôt d'État | 30.0 | readme_seed, vm_tome1 |
 | Taxe intérieure de consommation des produits énergétiques | impôt sur la production/importation | 29.6 | eurostat_ntl |
 | Droits d'enregistrement et de mutation à titre gratuit | impôt d'État | 20.8 | eurostat_ntl, readme_seed |
 | Accises sur les alcools, tabacs et boissons | impôt d'État | 18.0 | readme_seed |
 | Taxe sur les salaires | fiscalité sociale | 17.3 | eurostat_ntl, readme_seed, taxes_affectees |
-| Cotisations des travailleurs indépendants | cotisation sociale | 15.0 | readme_seed |
 | Droits de mutation à titre onéreux | impôt local | 15.0 | readme_seed |
 | Droits d'enregistrement (y compris taxe additionnelle) | impôt sur la production/importation | 14.7 | eurostat_ntl |
 | Autres prélèvements sociaux | impôt courant sur le revenu/patrimoine | 14.6 | eurostat_ntl |
@@ -78,7 +75,6 @@
 | Contribution sociale de solidarité des sociétés | fiscalité sociale | 5.2 | eurostat_ntl, readme_seed, taxes_affectees |
 | Taxe intérieure de consommation sur les produits énergétique (TICPE) - Fractions transférées en compensation du transfert du RMI/RSA et dans le cadre de l'acte II de la décentralisation | taxe affectée | 5.1 | taxes_affectees |
 | Cotisation sur la valeur ajoutée des entreprises | impôt local | 5.0 | eurostat_ntl, readme_seed, vm_tome1 |
-| Cotisations agricoles | cotisation sociale | 5.0 | readme_seed |
 | Prélèvement de solidarité sur les revenus du capital | fiscalité sociale | 5.0 | readme_seed |
 | Taxe de solidarité additionnelle (complémentaire santé) | fiscalité sociale | 5.0 | readme_seed |
 | Accise sur l'électricité | impôt sur la production/importation | 4.8 | eurostat_ntl |
@@ -86,6 +82,10 @@
 | Taxe intérieure de consommation sur les produits énergétique (TICPE dont part modulable) | taxe affectée | 4.7 | taxes_affectees |
 | Produits de la loterie nationale et du loto | impôt sur la production/importation | 4.0 | eurostat_ntl |
 | Taxe intérieure sur la consommation de gaz naturel | impôt sur la production/importation | 3.2 | eurostat_ntl |
+| Taxe sur les certificats d'immatriculation des véhicules | impôt sur la production/importation | 3.1 | eurostat_ntl, taxes_affectees |
+| Taxe communale additionnelle à certains droits d'enregistrement | taxe affectée | 3.1 | taxes_affectees |
+| Ressource propre fondée sur la TVA | ressource UE | 3.0 | readme_seed |
+| Cotisation patronale pour le FNAL (Fonds national d'aide au logement) | impôt sur la production/importation | 2.9 | eurostat_ntl |
 
 ## Lignes à arbitrer (classement incertain)
 
