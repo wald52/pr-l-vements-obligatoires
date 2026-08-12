@@ -107,25 +107,96 @@ Sur ces 38,0 Md€ que la NTL laisse anonymes, le présent recensement en **nomm
 noyé dans « autres prélèvements sociaux ») et les **surtaxes et contributions
 exceptionnelles sur les bénéfices** (13,4 Md€, noyées dans « autres taxes »).
 
-Restent **10,0 Md€ — 1,2 % de la fiscalité française — que personne ne nomme**,
-ni Eurostat, ni les documents budgétaires, ni ce document. Et cette grandeur
-coïncide avec l'écart résiduel mesuré indépendamment sur le socle de couverture
-(−9,9 Md€, §8). Les deux calculs, menés par des chemins différents, tombent sur
-le même montant : **l'inexhaustivité restante n'est pas un oubli, c'est une zone
-que la statistique publique elle-même laisse en blanc.**
+Restent **9,9 Md€ — 1,2 % de la fiscalité française — que ni Eurostat ni les
+documents budgétaires ne nomment**. Et cette grandeur coïncide avec l'écart
+résiduel mesuré indépendamment sur le socle de couverture (−9,9 Md€, §8). Les
+deux calculs, menés par des chemins différents, tombent sur le même montant :
+**la zone laissée en blanc par la statistique publique et le trou de couverture
+de ce document sont un seul et même objet.** La section qui suit s'attaque
+directement à cet objet.
 
-**Ces résidus ne sont pas muets pour autant.** Leur évolution dans le temps
-renseigne sur ce qu'ils contiennent, et l'exercice a une valeur probatoire pour
-les cas limites du §6 :
+**Ces résidus ne sont pas muets pour autant.** Ils portent un code SEC, une
+fonction économique et une série annuelle depuis 1995. Cela suffit à les faire
+parler : une ligne résiduelle qui s'effondre en 2020 et rebondit en 2022 est un
+prélèvement touristique ; une ligne qui fait deux marches, un tiers d'année puis
+deux tiers, est un prélèvement créé au 1er septembre de l'année du milieu. Ce
+qui suit décompose ces 9,9 Md€ **ligne à ligne** plutôt que de les renvoyer à la
+statistique publique.
 
-| Résidu | 2020 | 2022 | 2024 | Lecture |
-|---|---:|---:|---:|---|
-| D.51O « autres taxes » (bénéfices) | 7 065 | 9 774 | 13 387 | La marche de 2023 suit l'instauration de la **contribution exceptionnelle sur les grandes entreprises**, ce qui **valide a posteriori** le rattachement retenu au §8 |
-| D.29C « autres taxes » (masse salariale) | 546 | 590 | **1 364** | Un doublement en deux ans, +774 M€, dans la catégorie même où devraient se loger la **contribution AGEFIPH** (507 M€) et la **contribution au dialogue social** (≈ 100 M€) |
+**Une règle préalable, qui élimine la moitié des candidats.** La NTL est un
+compte **consolidé** : un prélèvement obligatoire versé par une administration
+publique à une autre administration publique s'annule et **n'apparaît nulle
+part**. La cotisation obligatoire au CNFPT (417 M€) et celle aux centres de
+gestion de la fonction publique territoriale (183 M€) sont bien des
+prélèvements obligatoires au sens de la définition — mais elles sont payées par
+des communes à des ODAL ([liste ODAL 2024][odal24] : « Centres de gestion de la
+fonction publique territoriale, 98 organismes »). Elles ne peuvent donc pas
+loger dans un résidu. Même chose pour la contribution FIPHFP, payée par des
+employeurs publics à un ODAC. Chercher à les y placer aurait produit une
+attribution fausse et arithmétiquement séduisante.
 
-Le second cas est un **indice, pas une preuve** : rien ne dit que la hausse vient
-de là plutôt que d'un autre prélèvement assis sur les salaires. Mais l'ordre de
-grandeur est compatible, et il pèse dans le sens du réacheminement (§6).
+| Résidu SEC | 2024 (M€) | Ce qui s'y trouve | Attribué | Reste | Force |
+|---|---:|---|---:|---:|---|
+| D.29C C01 masse salariale | 1 364 | **Contribution de 30 % sur les indemnités de rupture conventionnelle et de mise à la retraite** (CSS art. L. 137-12) | 774 | 590 | étayée |
+| D.214H C01 services | 1 144 | **Taxe de séjour** et ses additionnelles départementale et régionale IDF (735) ; **taxe locale sur la publicité extérieure** (227) | 962 | 182 | étayée |
+| D.214H C02 pollution | 1 095 | **Redevances des agences de l'eau** — pollution domestique et modernisation des réseaux de collecte | 1 095 | 0 | étayée |
+| D.29A C01 foncier | 890 | **Taxes spéciales d'équipement** des EPF et des sociétés de grands projets (460), **taxe de balayage** (125), **IFER matériel roulant** (82), **taxe sur les surfaces de stationnement** (28), **surtaxe sur les eaux minérales** (24), taxes locales d'équipement (17), redevances des mines (12), friches commerciales (10) | 758 | 132 | étayée |
+| D.29F C01 pollution | 320 | **Redevances des agences de l'eau** — pollution non domestique et élevage (part payée par les entreprises) | 320 | 0 | étayée |
+| D.214A C03 pollution | 1 011 | **TGAP** et **TIRUERT** (incorporation d'énergies renouvelables dans les transports) | 1 011 | 0 | probable |
+| D.59A C01 capital | 651 | **Taxe sur les logements vacants** et **THLV** | 651 | 0 | probable |
+| D.29H C01 production | 295 | Contributions **pour frais de contrôle** (AMF, ANCOLS, H3C) et taxes affectées aux **centres techniques industriels** | 295 | 0 | probable |
+| D.29E C01 licences | 168 | **Redevances de propriété industrielle** (INPI) | 168 | 0 | probable |
+| D.2122C C01 accises UE | 9 | **Cotisations sucre** (ressource propre traditionnelle) | 9 | 0 | probable |
+| D.51M C01 revenu | 1 127 | — | 0 | 1 127 | en blanc |
+| D.214A C04 énergie | 622 | — | 0 | 622 | en blanc |
+| D.91B C01 capital | 458 | — | 0 | 458 | en blanc |
+| D.59F C01 courants | 248 | — | 0 | 248 | en blanc |
+| D.214L C01 produits | 182 | — | 0 | 182 | en blanc |
+| D.29B C01 actifs fixes | 167 | — | 0 | 167 | en blanc |
+| D.51E C01 revenu | 144 | — | 0 | 144 | en blanc |
+| D.214A C01 accises | 44 | — | 0 | 44 | en blanc |
+| D.214E C01 spectacles | 5 | — | 0 | 5 | en blanc |
+| **Total** | **9 944** | | **3 909** | **3 901** | |
+
+Soit, sur les 9,9 Md€ que personne ne nommait : **3,9 Md€ attribués sur pièces,
+2,1 Md€ par hypothèse documentée, 3,9 Md€ encore en blanc**. Les 2,1 Md€
+d'hypothèses sont ceux dont l'ordre de grandeur et la nature concordent mais
+dont je n'ai pas de preuve temporelle ou arithmétique.
+
+**Comment se démontre une attribution.** Deux exemples, parce que la méthode
+compte autant que le résultat.
+
+*La contribution de 30 % sur les ruptures conventionnelles.* Le résidu D.29C
+« autres taxes » vaut 590 M€ en 2022, **834** en 2023, **1 364** en 2024. La
+contribution unique de 30 % (loi du 14 avril 2023, art. 4) remplace le forfait
+social au **1ᵉʳ septembre 2023** et est affectée à la CNAV. Une contribution de
+rendement annuel *Y* créée au 1ᵉʳ septembre produit ≈ *Y*/3 la première année :
++244 M€ observés donnent *Y* ≈ 732 M€, et prédisent 590 + 732 = 1 322 M€ en
+2024. La NTL en affiche 1 364, à 3 % près. **Deux marches indépendantes,
+cohérentes avec un seul rendement** : c'est une démonstration, pas une
+ressemblance.
+
+*Les redevances des agences de l'eau.* Le socle retient 2,2 Md€ pour l'ensemble
+des redevances. La NTL nomme 826 M€ (« redevances sur les prélèvements de
+l'eau ») et laisse deux résidus de pollution, 1 095 M€ côté produits et 320 M€
+côté production. Somme : **2 241 M€**. L'écart de 2 % avec le socle et la
+coupure exacte entre part domestique (payée sur la facture d'eau → impôt sur les
+produits) et part non domestique (payée par les industriels et éleveurs → impôt
+sur la production) ferment le compte.
+
+**Et une hypothèse abandonnée.** La version précédente de ce document lisait
+dans la marche de D.29C un indice en faveur du réacheminement de la
+**contribution AGEFIPH** (§6). C'était faux, et deux pièces le montrent : la
+marche s'explique entièrement par la contribution de 30 % ci-dessus, et la
+**liste des ODAC de l'année 2024**, publiée en mai 2026 — la plus récente qui
+existe — **ne comporte toujours pas l'AGEFIPH** ([liste ODAC 2024][odac24]).
+Le rejet de la contribution AGEFIPH sur le critère C2 est donc confirmé sur
+pièces, et non plus seulement par défaut. Le même document tranche dans l'autre
+sens pour le **FGAO**, qui y figure nommément : la contribution des assurés est
+bien un prélèvement obligatoire.
+
+[odac24]: https://www.insee.fr/fr/statistiques/fichier/8988934/Liste_ODAC_SD2024.pdf
+[odal24]: https://www.insee.fr/fr/statistiques/fichier/8988934/Liste_ODAL_SD2024.pdf
 
 ---
 
@@ -209,15 +280,26 @@ appliquent cette règle.
 piégeux, et il ne se déduit pas du nom de l'organisme. Deux instruments le
 tranchent :
 
-- la **liste INSEE des ODAC** (édition mai 2025, situation 2023) pour
+- la **liste INSEE des ODAC** (édition mai 2026, situation 2024) pour
   l'administration centrale — c'est elle qui sépare le **FIPHFP** (ODAC, donc
   PO) de l'**AGEFIPH** (hors liste, donc pas de PO), ou qui fait entrer le
-  **FGTI**, le **FGDR**, la **CGLLS**, l'**AMF**, l'**OFII**, les **OPCO** et
-  **Action Logement Services** dans le champ des APU ;
-- le classement en **ODAL** (organismes divers d'administration locale) pour les
-  organismes à compétence territoriale : c'est le cas des **agences de l'eau**,
-  qui ne figurent pas dans la liste ODAC non parce qu'elles seraient privées,
-  mais parce qu'elles relèvent des **APUL**. C2 est satisfait dans les deux cas.
+  **FGTI**, le **FGAO**, le **FGDR**, la **CGLLS**, l'**AMF**, l'**OFII**, les
+  **OPCO** et **Action Logement Services** dans le champ des APU ;
+- la **liste INSEE des ODAL** (organismes divers d'administration locale, même
+  édition) pour les organismes à compétence territoriale : c'est le cas des
+  **agences et offices de l'eau** (10), qui ne figurent pas dans la liste ODAC
+  non parce qu'elles seraient privées, mais parce qu'elles relèvent des **APUL**,
+  et de même des **établissements publics fonciers** (40), des **centres de
+  gestion de la fonction publique territoriale** (98) et des **sociétés de grands
+  projets** (2). C2 est satisfait dans les deux cas.
+
+> **Une conséquence à ne pas manquer.** Ces deux listes disent qui est dans les
+> APU, donc *aussi* quels flux sont **internes** aux APU. Un prélèvement
+> obligatoire versé par une administration à une autre est bien un prélèvement au
+> sens de la définition, mais il **disparaît à la consolidation** et n'apparaît
+> dans aucun agrégat de comptabilité nationale — cotisation au CNFPT, cotisation
+> aux centres de gestion, contribution FIPHFP. Ils sont recensés ici, en `REJET`
+> motivé par le caractère interne du flux, et non par un échec de C1, C2 ou C3.
 
 ---
 
@@ -1556,9 +1638,10 @@ Pour chaque cas, on indique **le critère qui disqualifie**.
 
 ## 6. Cas limites et points de vigilance
 
-**Nouvelle section.** Sept dossiers où la qualification est disputée, mal
+**Nouvelle section.** Les dossiers où la qualification est disputée, mal
 stabilisée ou susceptible de basculer. Les signaler vaut mieux que de trancher à
-tort.
+tort ; ceux qui ont pu être tranchés **sur pièces** sont barrés et conservés,
+parce que le chemin de la décision vaut autant que la décision.
 
 | Cas | Difficulté | Position retenue ici |
 |---|---|---|
@@ -1569,7 +1652,7 @@ tort.
 | ~~**Contributions conventionnelles aux OPCO**~~ | *Cas tranché.* | **PRIS.** Le critère du MGDD § 27 n'est pas l'origine légale ou conventionnelle du prélèvement, mais l'**impossibilité de s'y soustraire sans cesser l'activité** : une contribution de branche étendue par arrêté remplit cette condition. Les OPCO étant des ODAC, le flux reste interne au champ des APU. La National Tax List confirme par l'agrégat **D.29C « Contributions des entreprises à la formation professionnelle et à l'apprentissage »**, qui ne distingue pas le légal du conventionnel. |
 | **Taxes affectées à des organismes de droit privé** *(tranché : REJET C2)* : une quinzaine de **taxes sur les biens** des filières industrielles (CTI et CPDE), taxes de formation sectorielle (AFT, ANFA, 3CABTP), **cotisation BTP intempéries**, **redevance sur les paris hippiques** (sociétés de courses), fraction « loto du patrimoine » (Fondation du patrimoine) | Ce sont des **impositions de toutes natures** votées par le Parlement et recouvrées par l'administration, mais versées à des organismes **hors liste ODAC**. Leur enregistrement en PO suppose un **réacheminement** (*rerouting*) du flux à travers l'État en comptabilité nationale. | **Maintenu en REJET sur C2**, mais pour une raison désormais explicite. Le MGDD § 28 établit que les prélèvements obligatoires versés à un organisme **hors** administration publique sont **réacheminés via l'État** et comptés en impôts — le réacheminement n'est donc plus une hypothèse. Mais le motif du § 27 ne transpose pas : il vaut pour les fonds qui rendent service « à la collectivité tout entière », alors que les taxes des CTI et CPDE financent la recherche collective **de la branche qui les acquitte**. C'est cette distinction, et non l'absence de doctrine, qui les maintient hors champ. Décrits au §4.10. |
 | **Obligations d'achat d'électricité renouvelable** | Aucun flux vers une APU, mais la NTL d'Eurostat les enregistre en **D.29H** pour la France (« achats d'énergies renouvelables à prix contractuels »). | **Divergence assumée** entre l'analyse juridique (pas de versement à une APU → §5.4) et le traitement statistique (impôt sur la production imputé). Le second fait foi pour le ratio de 42,7 %. |
-| **Contributions obligatoires à des organismes privés qui ne sont pas des fonds de protection** : **AGEFIPH** (≈ 507 M€) et **contribution patronale au dialogue social** (AGFPN, ≈ 100 M€) | Toutes deux sont **recouvrées par l'URSSAF** via la DSN, obligatoires et sans contrepartie individualisée ; le plan comptable les enregistre en compte 637800, « autres impôts, taxes et versements assimilés ». Mais leurs bénéficiaires ne figurent **ni** dans la liste des ODAC, **ni** dans le champ du MGDD § 28, qui ne vise que les **fonds de protection**. | **Non tranché — statut révisé.** Ces deux lignes étaient présentées comme des rejets fermes sur C2 ; elles ne le sont pas. Le réacheminement du § 28 ne leur est pas applicable de plein droit, mais le motif du § 27 leur convient (l'AGEFIPH finance l'emploi des travailleurs handicapés en général, pas un service aux cotisants). **Indice quantitatif renforcé** : la ligne résiduelle **D.29C « Autres taxes »** — la catégorie même de ces deux contributions — passe de 590 M€ en 2022 à **1 364 M€ en 2024**, soit **+774 M€**, quand l'AGEFIPH pèse 507 M€ et le dialogue social ≈ 100 M€. La compatibilité est frappante sans être démonstrative : la hausse pourrait venir d'un autre prélèvement sur les salaires. Le faisceau penche vers le réacheminement, il ne le prouve pas. |
+| ~~**Contributions obligatoires à des organismes privés qui ne sont pas des fonds de protection**~~ : **AGEFIPH** (≈ 507 M€) et **contribution patronale au dialogue social** (AGFPN, ≈ 100 M€) | *Cas tranché sur pièces.* Toutes deux sont **recouvrées par l'URSSAF** via la DSN, obligatoires et sans contrepartie individualisée ; le plan comptable les enregistre en compte 637800. Mais leurs bénéficiaires ne figurent **ni** dans la liste des ODAC, **ni** dans le champ du MGDD § 28, qui ne vise que les **fonds de protection**. | **REJET sur C2, confirmé.** Deux pièces closent le dossier. D'une part la **liste des ODAC de l'année 2024**, publiée en mai 2026 — la plus récente qui existe — **ne comporte toujours pas l'AGEFIPH** ; le réacheminement, s'il avait eu lieu, s'y lirait. D'autre part l'indice quantitatif invoqué dans la version précédente de ce document **tombe** : la hausse de +774 M€ du résidu D.29C entre 2022 et 2024 s'explique entièrement par la **contribution de 30 % sur les indemnités de rupture conventionnelle**, créée au 1ᵉʳ septembre 2023, dont les deux marches annuelles se déduisent l'une de l'autre (§1). Il ne reste donc **aucun** élément en faveur du réacheminement. |
 | **MACF / CBAM** | Achat obligatoire de certificats, premiers versements en 2027. | À surveiller (§4.11) : ressource propre de l'UE ou recette nationale. |
 | **Redevances sanitaires et de contrôle** | Certaines sont des impositions (abattage, découpage), d'autres facturent un contrôle individualisé à l'opérateur. | Traitées **au cas par cas** ; les impositions figurent au §4.10, les facturations au §5.2. |
 
@@ -1833,11 +1916,25 @@ sans être dans les données.
 - **INSEE — Taux de prélèvements obligatoires rapporté au PIB** :
   <https://www.insee.fr/fr/statistiques/2381412>
 - **INSEE — Liste des organismes divers d'administration centrale (ODAC)**,
-  édition mai 2025 (situation 2023) — instrument de tranchage du critère C2 (y
-  figurent Action Logement Services, le FIPHFP, l'AGS, le FGTI, le FGDR, la
-  CGLLS, l'AMF, la H2A, l'OFII, l'ART, l'EPSF, l'INAO, le CPSSP, les OPCO, le
-  CNM, l'ANSES ; n'y figure pas l'AGEFIPH) :
-  <https://www.insee.fr/fr/statistiques/fichier/8574832/Liste_ODAC_SD2023.pdf>
+  **édition mai 2026 (situation 2024)**, la plus récente publiée — instrument de
+  tranchage du critère C2 (y figurent Action Logement Services, le FIPHFP, l'AGS,
+  le FGTI, le **FGAO**, le FGDR, la CGLLS, l'AMF, la H2A, l'OFII, l'ART, l'EPSF,
+  l'INAO, le CPSSP, les OPCO, le CNM, l'ANSES, France Compétences ; **n'y figure
+  pas l'AGEFIPH**) :
+  <https://www.insee.fr/fr/statistiques/fichier/8988934/Liste_ODAC_SD2024.pdf>
+  — l'édition précédente (mai 2025, situation 2023) reste utile pour dater les
+  reclassements : <https://www.insee.fr/fr/statistiques/fichier/8574832/Liste_ODAC_SD2023.pdf>.
+  Le rapprochement des deux éditions établit qu'**aucun organisme percevant un
+  prélèvement obligatoire n'est entré ni sorti du champ en 2024** — les seules
+  différences sont des renommages d'universités et deux GIP. C'est ce qui
+  interdit d'expliquer par un reclassement les marches observées dans les lignes
+  résiduelles de la NTL (§1).
+- **INSEE — Liste des organismes divers d'administration locale (ODAL)**,
+  édition mai 2026 (situation 2024) — pendant local du précédent, décisif pour
+  les établissements publics fonciers (40), les centres de gestion de la fonction
+  publique territoriale (98), les agences et offices de l'eau (10) et les
+  sociétés de grands projets (2) :
+  <https://www.insee.fr/fr/statistiques/fichier/8988934/Liste_ODAL_SD2024.pdf>
 - **OCDE — Statistiques des recettes publiques (brochure 2025, 3 critères)** :
   <https://www.oecd.org/content/dam/oecd/fr/topics/policy-sub-issues/recettes-fiscales-mondiales/brochure-statistiques-des-recettes-publiques.pdf>
 - **Eurostat — National Tax List (NTL), onglet France** : la liste de référence
@@ -2057,8 +2154,11 @@ présent document et ses listes sources :
 | **Réexamen des rejets sur C2** à la lumière du réacheminement | 11 rejets confrontés | **2 requalifiés en cas limites** (AGEFIPH, dialogue social) ; les 9 autres tiennent, faute d'un prélèvement imposé et recouvré par l'État |
 | **Montants du socle de couverture** | 55 lignes, 12 sans valeur | **10 sourcés** dans la NTL, l'état A, le rapport du Sénat et la liste des taxes affectées ; 2 résistent pour des raisons identifiées (§8) |
 | **Double compte des cotisations sociales** | socle : 570 Md€ contre 430,1 Md€ à la NTL | **erreur de 140 Md€ corrigée** ; la couverture passe de 106,5 % à 95,4 % (§8) |
-| **Part de la fiscalité que personne ne nomme** | 99 lignes-feuilles NTL | résidus « autres… » = **38,0 Md€** (4,5 %) ; ce recensement en nomme 28,0 ; **10,0 Md€ restent anonymes**, montant qui coïncide avec l'écart résiduel du socle (§1) |
-| **Composition des résidus**, par leur évolution 2020-2024 | 16 séries | le résidu des bénéfices **valide** le rattachement des surtaxes ; celui de la masse salariale **double** (+774 M€), compatible avec l'AGEFIPH et le dialogue social (§6) |
+| **Part de la fiscalité que personne ne nomme** | 99 lignes-feuilles NTL | résidus « autres… » = **38,0 Md€** (4,5 %) ; ce recensement en nomme 28,0 ; **9,9 Md€ restaient anonymes**, montant qui coïncide avec l'écart résiduel du socle (§1) |
+| **Composition des résidus**, par leur évolution 2020-2024 | 16 séries | le résidu des bénéfices **valide** le rattachement des surtaxes ; celui de la masse salariale **double** (+774 M€) |
+| **Décomposition des 19 lignes résiduelles de la NTL** | 9,9 Md€ anonymes | **3,9 Md€ attribués sur pièces** (rupture conventionnelle, taxe de séjour, agences de l'eau, taxes spéciales d'équipement), 2,1 Md€ par hypothèse documentée, **3,9 Md€ encore en blanc** (§1) |
+| **Hypothèse AGEFIPH réexaminée** sur la liste des ODAC de l'année 2024 | 2 éditions comparées | **hypothèse abandonnée** : l'AGEFIPH reste hors du champ des APU et la marche du résidu D.29C s'explique entièrement par la contribution de 30 % sur les ruptures conventionnelles ; le rejet sur C2 est **confirmé sur pièces** (§6) |
+| **Rapprochement README ↔ `data/` par enregistrement** *(nouveau test)* | 355 libellés | **15 prélèvements absents** du jeu de données que le contrôle précédent laissait passer — dont la contribution de 30 % sur les ruptures conventionnelles, 774 M€ ; corrigés, et 11 variantes de libellé désormais déclarées nommément |
 | **Contrôle bloc par bloc** du socle contre les agrégats NTL *(désormais un test)* | 2 blocs | social **exact** ; bloc fiscal court de 77 Md€ → **16 familles valorisées** puis **3 sous-évaluations corrigées** (IS, prélèvement de solidarité, surtaxes sur les bénéfices), écart ramené à −9,9 Md€, couverture **100,8 %** |
 | Code général des impôts et ses 4 annexes (2 203 p.) | 331 intitulés nommant un prélèvement | **315 / 331** ; 1 imposition ajoutée, les autres écarts étant procéduraux |
 | **Balayage de 17 codes sectoriels** (22 363 p. : environnement, travail, énergie, rural, urbanisme, transports, monétaire et financier, santé publique, cinéma, douanes, construction, sport, patrimoine, minier, voirie, postes, tourisme) | 181 intitulés nommant un prélèvement | **aucun prélèvement nouveau** ; les 30 écarts sont des homonymes |
@@ -2165,11 +2265,24 @@ attendu :
   est donc le bon niveau de granularité ; un décompte national ne le serait pas.
 - **Les cas limites du §6.** Le manuel Eurostat (MGDD) en a tranché quatre —
   FGDR, Fonds de résolution unique, contributions conventionnelles aux OPCO, et
-  la correction des fonds de garantie d'assurance. Trois restent ouverts et
-  n'appellent plus une recherche documentaire mais une **prise de position de
-  l'INSEE** : la contribution **ACPR**, les contributions **AGEFIPH** et au
-  **dialogue social**, et le rattachement du **MACF** attendu avec ses premiers
-  versements en 2027.
+  la correction des fonds de garantie d'assurance. La liste des ODAC de l'année
+  2024 en a tranché un cinquième : **AGEFIPH et dialogue social restent hors
+  champ**, et l'indice quantitatif qui les soutenait a été réattribué (§1). Deux
+  restent ouverts : la contribution **ACPR**, et le rattachement du **MACF**
+  attendu avec ses premiers versements en 2027.
+- **Les 3,9 Md€ de résidus encore en blanc** (§1), qui sont désormais localisés
+  au lieu d'être une masse indistincte. Par ordre d'enjeu : **D.51M C01**
+  (1 127 M€, impôt sur le revenu des ménages — la CEHR, candidate évidente,
+  pèse 1,46 Md€, *trop* pour y tenir, ce qui suggère qu'elle est agrégée à la
+  ligne « impôt sur le revenu » et que ce résidu est autre chose) ; **D.214A C04**
+  (622 M€, énergie) ; **D.91B C01** (458 M€, prélèvements sur le capital) ;
+  **D.59F C01** (248 M€) ; **D.214L C01** (182 M€) ; **D.29B C01** (167 M€,
+  utilisation d'actifs fixes) ; **D.51E C01** (144 M€). S'y ajoutent les
+  compléments non attribués des lignes partiellement expliquées : 590 M€ sur la
+  masse salariale, 182 M€ sur les services, 132 M€ sur le foncier. Chacune de ces
+  lignes est un objectif précis : un prélèvement dont on connaît la catégorie
+  SEC, le montant à quelques millions près et la série depuis 1995, mais pas le
+  nom.
 - **Le suivi des reclassements sectoriels** : tout reclassement d'organisme par
   l'INSEE peut faire entrer ou sortir un prélèvement du champ **sans modification
   de la règle fiscale**. Le précédent d'Action Logement montre que ce risque n'est

@@ -26,6 +26,12 @@ CATEGORIES = {
     "taxe affectée",
     "recette fiscale (État)",
     "ressource UE",
+    # Catégories réservées aux REJET : elles disent *pourquoi* le candidat n'est
+    # pas un prélèvement obligatoire, ce que « indéterminée » perdrait.
+    "redevance",
+    "versement privé",
+    "obligation en nature",
+    "transfert",
     "indéterminée",
 }
 

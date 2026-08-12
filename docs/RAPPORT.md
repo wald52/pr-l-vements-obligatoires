@@ -1,19 +1,19 @@
 # Rapport — inventaire des prélèvements obligatoires en France
 
-> Généré le 2026-08-11 par le pipeline (`po-pipeline report`). Ne pas éditer à la main.
+> Généré le 2026-08-12 par le pipeline (`po-pipeline report`). Ne pas éditer à la main.
 
 ## Synthèse
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements retenus (PRIS) | 431 |
-| Candidats rejetés (REJET) | 65 |
+| Prélèvements retenus (PRIS) | 438 |
+| Candidats rejetés (REJET) | 75 |
 | Lignes à arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1263.9 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1500.8 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1501.6 Md€ |
 | Enveloppe INSEE (2024) | 1254.0 Md€ |
 | **Couverture (socle)** | **100.8 %** |
-| PRIS sans montant | 144 |
+| PRIS sans montant | 149 |
 
 > La couverture rapporte la somme des PRIS du **socle curé** (non chevauchant) à l'enveloppe INSEE. La somme « itemisée » ajoute les composantes fines de la NTL et des taxes affectées : indicative, elle mêle agrégats et composantes et n'est pas une mesure de couverture.
 
@@ -21,26 +21,26 @@
 
 | Categorie | Nombre | Montant (Md€) |
 |---|---:|---:|
-| impôt d'État | 55 | 494.4 |
+| impôt d'État | 58 | 494.4 |
 | cotisation sociale | 13 | 430.1 |
-| fiscalité sociale | 20 | 219.5 |
+| fiscalité sociale | 21 | 220.2 |
 | impôt sur la production/importation | 55 | 124.6 |
-| taxe affectée | 204 | 107.3 |
+| taxe affectée | 206 | 107.3 |
 | impôt local | 45 | 95.4 |
 | impôt courant sur le revenu/patrimoine | 19 | 22.3 |
-| ressource UE | 4 | 6.8 |
+| ressource UE | 5 | 6.8 |
 | recette fiscale (État) | 16 | 0.5 |
 
 ### Montants par secteur bénéficiaire
 
 | Secteur | Nombre | Montant (Md€) |
 |---|---:|---:|
-| ASSO | 39 | 651.3 |
-| APUC | 63 | 499.6 |
+| ASSO | 40 | 652.0 |
+| APUC | 66 | 499.6 |
 | (non renseigné) | 219 | 229.6 |
 | APUL | 56 | 96.8 |
-| ODAC | 50 | 16.7 |
-| UE | 4 | 6.8 |
+| ODAC | 52 | 16.7 |
+| UE | 5 | 6.8 |
 
 ## Prélèvements retenus (top 40 par montant)
 
@@ -107,6 +107,7 @@ Le rapprochement ne fusionne jamais deux lignes issues d'une même source : une 
 | 95 | non | Droits de consommation sur les tabacs | Droits de consommation sur les tabacs (DOM) | taxes_affectees |
 | 94 | non | Accises sur les énergies (ex-TICFE) | Accises sur les énergies (ex-TICGN) | vm_tome1 |
 | 92 | non | Accise sur les énergies (ex-TICPE) | Accises sur les énergies (ex-TICGN) | readme_seed, vm_tome1 |
+| 90 | non | Cotisation obligatoire au Centre national de la fonction publique territoriale | Cotisation obligatoire aux centres de gestion de la fonction publique territoriale | supplement_cure |
 
 ## Méthodologie
 

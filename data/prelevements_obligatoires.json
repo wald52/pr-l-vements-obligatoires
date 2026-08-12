@@ -2615,6 +2615,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contribution-sur-les-indemnites-de-rupture-conventionnelle-et-de",
+    "nom": "Contribution sur les indemnités de rupture conventionnelle et de mise à la retraite",
+    "sigle": null,
+    "categorie": "fiscalité sociale",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ASSO",
+    "base_legale": "CSS art. L. 137-12",
+    "montant_eur": 774000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Contribution patronale unique de 30 pour cent instituee par la loi du 14 avril 2023 art. 4, applicable aux ruptures a compter du 1er septembre 2023, affectee a la CNAV, portee a 40 pour cent par la LFSS 2026. Elle remplace le forfait social de 20 pour cent et la contribution de 50 pour cent. Montant reconstitue a partir des deux marches du residu D.29C de la National Tax List : 590 M EUR en 2022, 834 en 2023 (un tiers d'annee), 1364 en 2024 (annee pleine).",
+    "aliases": []
+  },
+  {
     "id": "ta-cotisation-speciale-sur-les-boissons-alcooliques",
     "nom": "Cotisation spéciale sur les boissons alcooliques",
     "sigle": null,
@@ -5677,6 +5700,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-cotisation-a-la-production-sur-les-sucres",
+    "nom": "Cotisation à la production sur les sucres",
+    "sigle": null,
+    "categorie": "ressource UE",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "UE",
+    "base_legale": "Règlement UE 1308/2013 art. 128",
+    "montant_eur": 9000000.0,
+    "annee": 2024,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Ressource propre traditionnelle versee au budget de l'Union. Correspond a la ligne residuelle D.2122C de la National Tax List, stable a 9 M EUR depuis 2019.",
+    "aliases": []
+  },
+  {
     "id": "ta-taxe-relative-a-la-mise-sur-le-marche-des-produits-phytopharmaceutiques-et-de",
     "nom": "Taxe relative à la mise sur le marché des produits phytopharmaceutiques et de leurs adjuvants, des matières fertilisantes et de leurs adjuvants et des supports de culture",
     "sigle": null,
@@ -6601,6 +6647,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-autres-impots-directs-percus-par-voie-d-emission-de-roles",
+    "nom": "Autres impôts directs perçus par voie d'émission de rôles",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "LF état A ligne 1201",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Ligne budgetaire residuelle qui recueille les impositions etablies par role hors bareme, 2414 M EUR au PLF 2026. Montant volontairement non renseigne : c'est un agregat de lignes deja recensees individuellement, le valoriser double-compterait.",
+    "aliases": []
+  },
+  {
     "id": "eurostat-avoir-fiscal-distribue-negatif",
     "nom": "Avoir fiscal distribué (négatif)",
     "sigle": null,
@@ -6781,7 +6850,7 @@
         "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
-    "notes": "Réacheminée via l'État en application du MGDD 28. Ligne D214G de la National Tax List.",
+    "notes": "Réacheminée via l'État en application du MGDD 28. Ligne D214G de la National Tax List. Le FGAO figure nommement dans la liste INSEE des ODAC de l'annee 2024 : le rattachement ne repose plus sur le seul reacheminement.",
     "aliases": []
   },
   {
@@ -7595,6 +7664,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-droit-de-securite-ferroviaire",
+    "nom": "Droit de sécurité ferroviaire",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code des transports art. L. 2221-6",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affecte a l'Etablissement public de securite ferroviaire, qui figure dans la liste INSEE des ODAC.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-droit-de-timbre-des-formules-de-cheques",
     "nom": "Droit de timbre des formules de chèques",
     "sigle": null,
@@ -7638,6 +7730,29 @@
       }
     ],
     "notes": "Rétabli en LFI 2024.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-droits-d-apport-des-societes",
+    "nom": "Droits d'apport des sociétés",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 810",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Droits d'enregistrement dus sur les apports en societe. Recouvres avec les droits d'enregistrement de la ligne 1711.",
     "aliases": []
   },
   {
@@ -8374,6 +8489,29 @@
       }
     ],
     "notes": "Imposition due à la construction, distincte de la taxe annuelle sur les bureaux.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevance-pour-delivrance-de-certificats-sanitaires-et-phytosani",
+    "nom": "Redevance pour délivrance de certificats sanitaires et phytosanitaires",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "ODAC",
+    "base_legale": "Code rural art. L. 251-17-2",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Affectee a FranceAgriMer (ODAC). Cas discutable au regard de C3 : la delivrance du certificat est une contrepartie individualisee.",
     "aliases": []
   },
   {
@@ -9803,6 +9941,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-taxe-sur-les-excedents-de-provisions-des-entreprises-d-assurance",
+    "nom": "Taxe sur les excédents de provisions des entreprises d'assurances de dommages",
+    "sigle": null,
+    "categorie": "impôt d'État",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUC",
+    "base_legale": "CGI art. 235 ter X",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "PRIS",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Assise sur les provisions pour sinistres a payer reprises au-dela du delai legal. A distinguer des prelevements sur les entreprises d'assurance de la ligne 1408.",
+    "aliases": []
+  },
+  {
     "id": "ta-taxe-sur-les-installations-de-production-d-electricite-utilisant-l-energie-me",
     "nom": "Taxe sur les installations de production d'électricité utilisant l'énergie mécanique du vent situées dans les eaux intérieures ou la mer territoriale",
     "sigle": null,
@@ -10872,6 +11033,52 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-certificats-d-economies-d-energie",
+    "nom": "Certificats d'économies d'énergie",
+    "sigle": "CEE",
+    "categorie": "obligation en nature",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code de l'énergie art. L. 221-1",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C1",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Obligation en nature (obtenir des certificats) et non versement monetaire a une administration publique, quoique le cout soit repercute sur les factures.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-contribution-ressource-rnb-de-la-france-au-budget-de-l-union-eur",
+    "nom": "Contribution ressource RNB de la France au budget de l'Union européenne",
+    "sigle": null,
+    "categorie": "transfert",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Décision UE 2020/2053 ressources propres",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Transfert entre administrations finance par les prelevements obligatoires nationaux, et non prelevement sur un redevable.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-contribution-speciale-due-par-les-employeurs-d-etrangers-sans-au",
     "nom": "Contribution spéciale due par les employeurs d'étrangers sans autorisation de travail",
     "sigle": null,
@@ -11033,6 +11240,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-contributions-volontaires-obligatoires-des-interprofessions-agri",
+    "nom": "Contributions volontaires obligatoires des interprofessions agricoles",
+    "sigle": "CVO",
+    "categorie": "versement privé",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code rural art. L. 632-6",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Versees a des interprofessions de droit prive. Le Conseil constitutionnel juge qu'elles ne constituent pas des impositions de toutes natures.",
+    "aliases": []
+  },
+  {
     "id": "supplement-cure-cotisation-obligatoire-au-centre-national-de-la-fonction-publiqu",
     "nom": "Cotisation obligatoire au Centre national de la fonction publique territoriale",
     "sigle": "CNFPT",
@@ -11052,7 +11282,7 @@
         "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
       }
     ],
-    "notes": "Transfert entre administrations publiques : payé par des APUL à une APUL, consolidé en comptabilité nationale.",
+    "notes": "Transfert entre administrations publiques : payé par des APUL à une APUL, consolidé en comptabilité nationale. C'est ce qui interdit de loger cette cotisation dans un residu de la National Tax List, qui est un compte consolide.",
     "aliases": []
   },
   {
@@ -11079,6 +11309,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-cotisation-obligatoire-aux-centres-de-gestion-de-la-fonction-pub",
+    "nom": "Cotisation obligatoire aux centres de gestion de la fonction publique territoriale",
+    "sigle": null,
+    "categorie": "taxe affectée",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": "APUL",
+    "base_legale": "Loi 84-53 art. 22",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Cotisation assise sur la masse salariale des collectivites affiliees. Les centres de gestion figurent dans la liste INSEE des ODAL de l'annee 2024 (98 organismes) : le flux va d'une APUL a une APUL et disparait a la consolidation, comme la cotisation au CNFPT.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-cotisations-aux-ordres-professionnels-et-syndicats",
     "nom": "Cotisations aux ordres professionnels et syndicats",
     "sigle": null,
@@ -11099,6 +11352,29 @@
       }
     ],
     "notes": "Bénéficiaire hors périmètre APU (organisme privé).",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-cotisations-aux-services-de-prevention-et-de-sante-au-travail",
+    "nom": "Cotisations aux services de prévention et de santé au travail",
+    "sigle": "SPSTI",
+    "categorie": "versement privé",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code du travail art. L. 4622-6",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Organisme prive, en contrepartie d'un service de suivi medical.",
     "aliases": []
   },
   {
@@ -11470,6 +11746,29 @@
     "aliases": []
   },
   {
+    "id": "supplement-cure-prelevements-sur-les-recettes-de-l-etat-au-profit-des-collectivi",
+    "nom": "Prélèvements sur les recettes de l'État au profit des collectivités territoriales",
+    "sigle": null,
+    "categorie": "transfert",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "LF état A titre 3",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": null,
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Dotations (DGF, FCTVA) : depense de l'Etat, pas prelevement sur un redevable.",
+    "aliases": []
+  },
+  {
     "id": "readme-seed-peages-autoroutiers-et-d-ouvrages-d-art",
     "nom": "Péages autoroutiers et d'ouvrages d'art",
     "sigle": null,
@@ -11582,6 +11881,98 @@
       }
     ],
     "notes": "Tarif d'utilisation d'un équipement communal.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevance-pour-copie-privee",
+    "nom": "Redevance pour copie privée",
+    "sigle": null,
+    "categorie": "versement privé",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CPI art. L. 311-1",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C2",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Perçue par des societes de gestion collective de droit prive et reversee aux ayants droit : c'est une remuneration, non un impot.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevance-pour-frais-d-envoi-des-certificats-d-immatriculation",
+    "nom": "Redevance pour frais d'envoi des certificats d'immatriculation",
+    "sigle": null,
+    "categorie": "redevance",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CGI art. 1628-0 bis",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Coût d'acheminement d'un titre.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevances-aeroportuaires-et-redevances-de-navigation-aerienne",
+    "nom": "Redevances aéroportuaires et redevances de navigation aérienne",
+    "sigle": null,
+    "categorie": "redevance",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "Code de l'aviation civile art. R. 224-1",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Service rendu : usage des installations et controle aerien. A distinguer de la taxe d'aeroport, qui est un prelevement obligatoire.",
+    "aliases": []
+  },
+  {
+    "id": "supplement-cure-redevances-d-utilisation-des-frequences-radioelectriques",
+    "nom": "Redevances d'utilisation des fréquences radioélectriques",
+    "sigle": null,
+    "categorie": "redevance",
+    "esa_code": null,
+    "beneficiaire": null,
+    "secteur": null,
+    "base_legale": "CPCE art. L. 42-1",
+    "montant_eur": null,
+    "annee": null,
+    "statut": "REJET",
+    "critere_echec": "C3",
+    "sources": [
+      {
+        "source_id": "supplement_cure",
+        "url": "",
+        "ref": "supplément curé (CGI/CIBS, V&M PLF 2026)"
+      }
+    ],
+    "notes": "Contrepartie : droit d'usage d'une ressource rare du domaine public.",
     "aliases": []
   },
   {

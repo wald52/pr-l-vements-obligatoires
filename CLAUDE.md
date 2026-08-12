@@ -36,7 +36,7 @@ Deux formats complémentaires, à tenir cohérents entre eux :
    sorties :
    ```bash
    cd pipeline && make install && make all   # ou make offline si le réseau bloque
-   PYTHONPATH=src python -m pytest tests -q  # 28 tests
+   PYTHONPATH=src python -m pytest tests -q  # 30 tests
    ```
 3. **Renseigner la colonne `alias`** quand le prélèvement existe déjà sous un
    autre libellé dans une source officielle (appellation CIBS moderne vs

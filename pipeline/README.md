@@ -42,7 +42,7 @@ make install           # dépendances (PyPI)
 make all               # fetch -> ... -> report (réseau requis)
 # ou, hors-ligne, sur le socle curé + cache éventuel :
 make offline
-make test              # 17 tests unitaires
+make test              # 30 tests unitaires
 ```
 
 Étapes individuelles : `make fetch|normalize|classify|reconcile|validate|report`.

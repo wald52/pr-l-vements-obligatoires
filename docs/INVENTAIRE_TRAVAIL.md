@@ -1,8 +1,8 @@
 # Inventaire des prélèvements obligatoires — document de travail
 
-> Généré le 2026-08-11 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
+> Généré le 2026-08-12 par le pipeline (`po-pipeline workdoc`). **Ne pas éditer à la main** : relancer `make all` régénère ce document depuis les sources.
 
-Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
+Ce document regroupe les **514 prélèvements** de l'inventaire réconcilié (année de référence 2024). Il est conçu comme un **plan de travail** pour poursuivre les recherches : chaque ligne porte sa **provenance**, et les candidats incertains sont isolés et pré-triés.
 
 **Comment l'utiliser.** Traiter en priorité le §4 (« à arbitrer ») : commencer par le §4.1 (doublons probables à fusionner), puis instruire les taxes affectées (§4.3) et les nouvelles impositions (§4.4). Le §5 liste les questions ouvertes.
 
@@ -19,12 +19,12 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 
 | Indicateur | Valeur |
 |---|---:|
-| Prélèvements au total | 497 |
-| Retenus (PRIS) | 431 |
-| Rejetés (REJET) | 65 |
+| Prélèvements au total | 514 |
+| Retenus (PRIS) | 438 |
+| Rejetés (REJET) | 75 |
 | À arbitrer | 1 |
 | Somme des PRIS (socle curé) | 1263.9 Md€ |
-| Somme des PRIS (itemisé, indicatif) | 1500.8 Md€ |
+| Somme des PRIS (itemisé, indicatif) | 1501.6 Md€ |
 | Enveloppe INSEE 2024 | 1254.0 Md€ |
 | Couverture (socle / INSEE) | 100.8 % |
 
@@ -32,24 +32,28 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 
 | Catégorie | Nombre |
 |---|---:|
-| taxe affectée | 238 |
-| impôt d'État | 61 |
+| taxe affectée | 241 |
+| impôt d'État | 64 |
 | impôt sur la production/importation | 56 |
 | impôt local | 51 |
-| fiscalité sociale | 22 |
+| fiscalité sociale | 23 |
 | impôt courant sur le revenu/patrimoine | 21 |
 | recette fiscale (État) | 16 |
 | cotisation sociale | 13 |
 | indéterminée | 13 |
-| ressource UE | 4 |
+| ressource UE | 5 |
+| versement privé | 3 |
+| redevance | 3 |
+| transfert | 2 |
 | impôt en capital | 1 |
+| obligation en nature | 1 |
 | cotisation sociale imputée | 1 |
 
 ### Présence par source (une ligne peut avoir plusieurs sources)
 
 | Source | Lignes |
 |---|---:|
-| supplement_cure | 186 |
+| supplement_cure | 203 |
 | taxes_affectees | 184 |
 | eurostat_ntl | 103 |
 | readme_seed | 86 |
@@ -57,9 +61,9 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 
 ## 2. Prélèvements retenus (PRIS)
 
-431 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
+438 prélèvements retenus, regroupés par secteur bénéficiaire et triés par montant décroissant.
 
-### Administrations de sécurité sociale (ASSO) — 39 lignes, 651.26 Md€
+### Administrations de sécurité sociale (ASSO) — 40 lignes, 652.04 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -77,6 +81,7 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Contribution des employeurs au régime de garantie des salaires | AGS | 1.47 | Code du travail art. L. 3253-6 | readme_seed (README §4-§5) |
 | Contributions patronales sur les stock-options et attributions gratuites d'actions |  | 1.03 | CSS art. L. 137-13 s. | readme_seed (README §4-§5) |
 | Contributions de l'industrie pharmaceutique (clause de sauvegarde M) |  | 0.96 | CSS | readme_seed (README §4-§5) |
+| Contribution sur les indemnités de rupture conventionnelle et de mise à la retraite |  | 0.77 | CSS art. L. 137-12 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution sur les indemnités de mise à la retraite |  | 0.03 | CSS art. L. 137-12 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Droits de plaidoirie |  | 0.00 | CSS art. L. 723-3 | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Clause de sauvegarde sur les dispositifs médicaux | clause Z | — | CSS art. L. 138-19-8 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -103,7 +108,7 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Taxe annuelle sur les émissions de polluants atmosphériques |  | — | CIBS art. L. 421-115 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les boissons prémix |  | — | CSS art. L. 245-7 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### État et administrations centrales (APUC) — 63 lignes, 499.61 Md€
+### État et administrations centrales (APUC) — 66 lignes, 499.61 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -141,6 +146,7 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Contributions additionnelles aux primes d'assurance au profit de la Caisse centrale de réassurance | surprime CatNat | 0.12 | CGI art. 1635 bis A | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les surfaces de stationnement |  | 0.01 | CGI | taxes_affectees; readme_seed (README §4-§5) |
 | Contribution forfaitaire annuelle à la charge des professionnels de santé |  | 0.01 | Code des assurances art. L. 426-1 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Autres impôts directs perçus par voie d'émission de rôles |  | — | LF état A ligne 1201 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution au Fonds de résolution unique | FRU / SRF | — | Règlement UE 806/2014 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution de la Caisse des dépôts et consignations représentative de l'impôt sur les sociétés |  | — | CGI art. 208 ter | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution des assurés au Fonds de garantie des assurances obligatoires de dommages | FGAO | — | Code des assurances art. L. 421-4 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -149,6 +155,7 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Droit de passeport des navires |  | — | CIBS | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Droit de timbre des formules de chèques |  | — | CGI art. 916 A | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Droit de timbre sur les procédures civiles en première instance et prud'homales |  | — | CGI | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Droits d'apport des sociétés |  | — | CGI art. 810 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Frais de gestion de la fiscalité directe locale |  | — | CGI art. 1641 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Garantie des matières d'or et d'argent |  | — | CGI art. 522 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Impôt minimum mondial à 15 % (pilier 2) | IMG | — | Directive UE 2022/2523 - CGI art. 223 VJ s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -169,9 +176,10 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Taxe sur les achats de viande |  | — | CGI | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les déchets incinérés |  | — | CIBS art. L. 433-73 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe sur les déchets mis en décharge |  | — | CIBS art. L. 433-44 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Taxe sur les excédents de provisions des entreprises d'assurances de dommages |  | — | CGI art. 235 ter X | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxes sur le transport guidé |  | — | CIBS livre IV titre II | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### Organismes divers d'administration centrale (ODAC) — 50 lignes, 16.74 Md€
+### Organismes divers d'administration centrale (ODAC) — 52 lignes, 16.74 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
@@ -201,10 +209,12 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Contributions conventionnelles de branche aux OPCO |  | — | Code du travail art. L. 6332-1-2 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contributions des commissaires aux comptes et des organismes tiers indépendants à la Haute autorité de l'audit | H2A | — | Code de commerce art. L. 821-6 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contributions des établissements de crédit au Fonds de garantie des dépôts et de résolution | FGDR | — | CMF art. L. 312-4 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Droit de sécurité ferroviaire |  | — | Code des transports art. L. 2221-6 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Indemnité de défrichement |  | — | Code forestier art. L. 341-6 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Participations au financement de la formation des professions non salariées |  | — | Code du travail art. L. 6331-48 s. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Prélèvement sur la participation des employeurs à l'effort de construction au profit de l'ANCOLS |  | — | CCH art. L. 313-3 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Prélèvement sur les contrats d'assurance de biens au profit du Fonds de garantie des victimes d'actes de terrorisme | FGTI | — | Code des assurances art. L. 422-1 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevance pour délivrance de certificats sanitaires et phytosanitaires |  | — | Code rural art. L. 251-17-2 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Redevance sur les produits biocides |  | — | Code de l'environnement art. L. 522-16 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Redevances cynégétiques et droit de validation du permis de chasse |  | — | Code de l'environnement art. L. 423-21-1 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Rémunération pour services rendus au Comité professionnel des stocks stratégiques pétroliers | CPSSP | — | Code de l'énergie art. L. 642-6 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -287,13 +297,14 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Taxe territoriale d'équipement de Saint-Martin |  | — | CGI de Saint-Martin | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe territoriale sur l'électricité de Saint-Martin |  | — | CGI de Saint-Martin | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
-### Union européenne — 4 lignes, 6.79 Md€
+### Union européenne — 5 lignes, 6.80 Md€
 
 | Prélèvement | Sigle | Montant (Md€) | Base légale | Sources |
 |---|---|---:|---|---|
 | Ressource propre fondée sur la TVA |  | 3.00 | Décision ressources propres UE | readme_seed (README §4-§5) |
 | Droits de douane |  | 2.59 | Code des douanes de l'Union | readme_seed (README §4-§5) |
 | Contribution sur les emballages plastiques non recyclés |  | 1.20 | Décision ressources propres UE | readme_seed (README §4-§5) |
+| Cotisation à la production sur les sucres |  | 0.01 | Règlement UE 1308/2013 art. 128 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Mécanisme d'ajustement carbone aux frontières | MACF / CBAM | — | Règlement UE 2023/956 | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 
 ### Secteur à préciser — 219 lignes, 229.58 Md€
@@ -522,14 +533,18 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 
 ## 3. Candidats rejetés (REJET)
 
-65 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
+75 candidats écartés, avec le critère en échec (C1 versement effectif, C2 bénéficiaire APU/UE, C3 obligatoire et sans contrepartie).
 
 | Candidat | Critère | Note | Sources |
 |---|---|---|---|
-| Cotisation obligatoire au Centre national de la fonction publique territoriale |  | Transfert entre administrations publiques : payé par des APUL à une APUL, consolidé en comptabilité nationale. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contribution ressource RNB de la France au budget de l'Union européenne |  | Transfert entre administrations finance par les prelevements obligatoires nationaux, et non prelevement sur un redevable. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisation obligatoire au Centre national de la fonction publique territoriale |  | Transfert entre administrations publiques : payé par des APUL à une APUL, consolidé en comptabilité nationale. C'est ce qui interdit de loger cette cotisation dans un residu de la National Tax List, qui est un compte consolide. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Cotisation obligatoire aux centres de gestion de la fonction publique territoriale |  | Cotisation assise sur la masse salariale des collectivites affiliees. Les centres de gestion figurent dans la liste INSEE des ODAL de l'annee 2024 (98 organismes) : le flux va d'une APUL a une APUL et disparait a la consolidation, comme la cotisation au CNFPT. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Crédits d'impôt restituables |  | Non un prélèvement : ils minorent les PO. Leur traitement explique l'écart de taux INSEE / Eurostat. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Franchises médicales et participation forfaitaire |  | Moindre remboursement, non un flux versé à une administration publique. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Prélèvements sur les recettes de l'État au profit des collectivités territoriales |  | Dotations (DGF, FCTVA) : depense de l'Etat, pas prelevement sur un redevable. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Quote-part des intérêts servis par la Caisse des dépôts sur les fonds déposés |  | Produit financier réaffecté au fonds de financement des dossiers impécunieux, sans redevable ni fait générateur. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Certificats d'économies d'énergie | C1 | Obligation en nature (obtenir des certificats) et non versement monetaire a une administration publique, quoique le cout soit repercute sur les factures. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations sociales imputées (fonctionnaires d'État) | C1 | Pas de versement effectif (employeur fictif). | readme_seed (README §4-§5) |
 | Obligations d'investissement dans la production audiovisuelle | C1 | Obligation de dépenser dans un secteur, sans versement à une administration publique. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution des employeurs à l'association pour la gestion du régime d'assurance des créances des salariés (AGS) | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
@@ -552,9 +567,12 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Taxe affectée au financement de l'institut des corps gras | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees; supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contribution spécifique à la formation professionnelle du bâtiment et des travaux publics | C2 | Affectée au 3CABTP. Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Contributions pour frais de contrôle de l'Autorité de contrôle prudentiel et de résolution | C2 | L'ACPR est adossée à la Banque de France, classée en sociétés financières et non en APU. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Contributions volontaires obligatoires des interprofessions agricoles | C2 | Versees a des interprofessions de droit prive. Le Conseil constitutionnel juge qu'elles ne constituent pas des impositions de toutes natures. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisation obligatoire au Comité de gestion des oeuvres sociales des personnels hospitaliers | C2 | Payée par des hôpitaux publics à une association de droit privé. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Cotisations aux ordres professionnels et syndicats | C2 | Bénéficiaire hors périmètre APU (organisme privé). | readme_seed (README §4-§5) |
+| Cotisations aux services de prévention et de santé au travail | C2 | Organisme prive, en contrepartie d'un service de suivi medical. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Fraction du produit des successions en déshérence | C2 | Bénéficiaire hors périmètre APU (organisme de droit privé) — échec C2 (README §5). | taxes_affectees |
+| Redevance pour copie privée | C2 | Perçue par des societes de gestion collective de droit prive et reversee aux ayants droit : c'est une remuneration, non un impot. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Taxe pour la protection des obtentions végétales | C2 | Bénéficiaire de droit privé absent de la liste INSEE des ODAC : échec C2. Qualification contestable, cf. README §6. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Émoluments et débours des notaires, huissiers et greffiers | C2 | Rémunération d'un officier ministériel. Seuls les DMTO compris dans les frais de notaire sont des PO. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Prélèvement sur les contrats d'assurance-vie en deshérence; 'Prélèvement sur les contrats participation et intéressement en déshérence | C3 | Versement non obligatoire (libre choix). | taxes_affectees |
@@ -570,6 +588,9 @@ Ce document regroupe les **497 prélèvements** de l'inventaire réconcilié (an
 | Redevance d'accès aux sites nordiques aménagés | C3 | Droit d'accès à un domaine skiable entretenu. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Redevance d'enlèvement des ordures ménagères | C3 | Tarifée selon le service rendu => contrepartie directe (README §5). | readme_seed (README §4-§5) |
 | Redevance d'usage des abattoirs publics | C3 | Tarif d'utilisation d'un équipement communal. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevance pour frais d'envoi des certificats d'immatriculation | C3 | Coût d'acheminement d'un titre. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevances aéroportuaires et redevances de navigation aérienne | C3 | Service rendu : usage des installations et controle aerien. A distinguer de la taxe d'aeroport, qui est un prelevement obligatoire. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
+| Redevances d'utilisation des fréquences radioélectriques | C3 | Contrepartie : droit d'usage d'une ressource rare du domaine public. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Redevances domaniales | C3 | Contrepartie : droit d'occupation du domaine public. | readme_seed (README §4-§5) |
 | Redevances perçues lors du lancement de certains matériels aéronautiques | C3 | Contrepartie d'une prestation de contrôle et d'homologation. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
 | Redevances perçues par l'Institut national de la propriété industrielle | C3 | Service rendu individualisé, malgré leur inscription parmi les taxes affectées plafonnées. | supplement_cure (supplément curé (CGI/CIBS, V&M PLF 2026)) |
@@ -630,7 +651,7 @@ Chantiers identifiés pour la suite des recherches :
 
 1. **Doublons** : les correspondances de même périmètre (« Foncier bâti » ↔ taxe foncière, « Mutations à titre gratuit » ↔ DMTG) sont désormais fusionnées via la colonne `alias` du socle. Les candidats résiduels du §4.1 sont des **composantes plus fines** (ex. accises ex-TICGN/TICFE) : à fusionner au cas par cas ou à conserver comme détail.
 2. **Classification ESA** : la correspondance par préfixe (D29→D2, D51→D5…) reclasse désormais automatiquement les lignes NTL ; les codes encore non couverts (cf. catégorie « indéterminée » au §1) restent à compléter dans `esa_defaults`.
-3. **Montants manquants** : 163 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
+3. **Montants manquants** : 168 PRIS sont sans montant ; les renseigner depuis la NTL fiabiliserait la couverture.
 4. **Base de mesure** : la couverture (100.8 %) dépasse 100 % car les montants NTL sont en base Eurostat (~45,3 % du PIB) alors que l'enveloppe de contrôle est INSEE (42,7 %). Décider d'une base de référence unique pour le suivi.
 5. **Exhaustivité de l'État A** : le volume narratif du V&M ne détaille que les ~24 principaux impôts d'État ; les lignes mineures (1101→1799) sont agrégées (« Autres taxes », « Recettes diverses »). Si besoin, parser la table récapitulative formelle (État A) pour les ~300 lignes complètes.
 6. **Taxes affectées** (§4.3) : confirmer le périmètre PO de chacune (certaines redevances pour service rendu sont à exclure au titre de C3).
